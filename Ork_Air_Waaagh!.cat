@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="0743-d0bd-bfee-c92a" name="Ork Air Waaagh!" revision="25" battleScribeVersion="2.03" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="96a0-75b0-6b4a-645f" name="&apos;Eavy Flak Kannon" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d62c-ae51-b57e-d32f" name="&apos;Eavy Flak Kannon" hidden="false" typeId="f0d7-0c84-fbe0-fc3f" typeName="Ground Asset">
+          <characteristics>
+            <characteristic name="Structure" typeId="6308-84d8-bb4b-c0f8">2</characteristic>
+            <characteristic name="FPR" typeId="0aab-6b79-44c7-f913">2-2-1</characteristic>
+            <characteristic name="Damage" typeId="ba3d-54b5-9dbe-39ea">4+</characteristic>
+            <characteristic name="Special" typeId="c3d9-609b-cc54-f9e6">Effective Altitude (4), Ground-to-Air Fire, Extra Damage (6+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5627-278a-e334-1683" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
+        <infoLink id="7027-21ad-c9f3-9ae9" name="Effective Altitude (2)" hidden="false" targetId="5bcf-3c73-e59a-e68a" type="profile"/>
+        <infoLink id="c59e-9f1a-92a5-a2a4" name="Ground-to-Air Fire" hidden="false" targetId="297a-5ea8-7f8e-4621" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e85f-24c2-c56c-79f8" name="Ground Asset" hidden="false" targetId="4ccd-3c3f-80d3-f2fb" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a5a-d4e5-f815-0cf1" name="Big Burna" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6445-b7b9-0e97-3980" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e090-3571-3885-914c" name="Big Burna" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+          <characteristics>
+            <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">3</characteristic>
+            <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">-</characteristic>
+            <characteristic name="Fuel" typeId="e194-183f-9e70-f04d">-</characteristic>
+            <characteristic name="Throttle" typeId="92ef-efe6-13ea-3792">2</characteristic>
+            <characteristic name="Ace Maneuvers" typeId="3225-9212-fdab-50f0">1-4</characteristic>
+            <characteristic name="Handling" typeId="951a-93cf-2cc5-78d8">4+</characteristic>
+            <characteristic name="Min Speed" typeId="8234-9f67-e172-880a">3</characteristic>
+            <characteristic name="Max Speed" typeId="db83-4ff1-b0cb-a312">7</characteristic>
+            <characteristic name="Max Altitude" typeId="8a75-2b8f-5077-06cd">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3b57-67f6-fb0f-42be" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3569-c6c8-b469-cfc4" name="Additional Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f292-e8e2-cc40-8304" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7ae7-517e-cb9e-6532" name="Pair of Big Bombs" hidden="false" collective="false" import="true" targetId="8d46-35c2-ee18-4cee" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="4aae-5cb5-6227-5008" name="Pair of Wing Bombs" hidden="false" collective="false" import="true" targetId="7e34-8f72-472e-0520" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2c77-5819-d740-d378" name="Pair of Rokkits" hidden="false" collective="false" import="true" targetId="e324-ab13-d146-b6db" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f930-1e16-9a88-c378" name="Kustom Big Shootas" hidden="false" collective="false" import="true" targetId="e42d-efe2-ca5c-532b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e420-c722-4da4-5a6a" name="Quad Big Shootas" hidden="false" collective="false" import="true" targetId="f6cb-4ac3-2c7c-ee01" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1dd-9efc-0086-a326" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f928-ead6-dc10-e52f" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="ce93-bb13-4e3c-12f6" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="1cff-62cb-5314-8259" name="Turret Big Shootas" hidden="false" collective="false" import="true" targetId="65d8-6c0b-06df-abc3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0192-27c1-33fc-9b10" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1c7-ac93-b0a7-3d7f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="fcff-d303-68ff-719f" name="Tail Gun" hidden="false" collective="false" import="true" targetId="5e29-c17a-07a1-14b7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f27-ee5b-e9a4-e2b2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c74-770b-d9b5-2a17" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d028-bace-7f48-a1f9" name="Toofkraker" hidden="false" collective="false" import="true" targetId="888f-809f-0ff6-0003" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a6a-25c0-fb26-f035" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8461-0045-4691-9c19" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="eeda-2954-b3b1-8e00" name="Crew" hidden="false" collective="false" import="true" targetId="ea21-b91d-7237-b2b0" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="22.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="81bf-c6f6-1b19-575a" name="Dakkajet" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="f142-8ad2-cd30-034f" name="Dakkajet" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+          <modifiers>
+            <modifier type="increment" field="db83-4ff1-b0cb-a312" value="1">
+              <conditions>
+                <condition field="selections" scope="81bf-c6f6-1b19-575a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="12fa-38c1-5723-750c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="db83-4ff1-b0cb-a312" value="1">
+              <conditions>
+                <condition field="selections" scope="81bf-c6f6-1b19-575a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e1f-9540-97ad-5c0a" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="8234-9f67-e172-880a" value="1">
+              <conditions>
+                <condition field="selections" scope="81bf-c6f6-1b19-575a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="12fa-38c1-5723-750c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">2</characteristic>
+            <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">-</characteristic>
+            <characteristic name="Fuel" typeId="e194-183f-9e70-f04d">-</characteristic>
+            <characteristic name="Throttle" typeId="92ef-efe6-13ea-3792">2</characteristic>
+            <characteristic name="Ace Maneuvers" typeId="3225-9212-fdab-50f0">1-5</characteristic>
+            <characteristic name="Handling" typeId="951a-93cf-2cc5-78d8">4+</characteristic>
+            <characteristic name="Min Speed" typeId="8234-9f67-e172-880a">4</characteristic>
+            <characteristic name="Max Speed" typeId="db83-4ff1-b0cb-a312">8</characteristic>
+            <characteristic name="Max Altitude" typeId="8a75-2b8f-5077-06cd">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="572a-dcc1-1e8e-6f1f" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f0b1-6538-5850-fe03" name="Additional Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="890d-34e5-8473-bc0b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="7ad9-ff42-5012-1249" name="Pair of Wing Bombs" hidden="false" collective="false" import="true" targetId="7e34-8f72-472e-0520" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="41ca-1c83-e2be-141e" name="Pair of Rokkits" hidden="false" collective="false" import="true" targetId="e324-ab13-d146-b6db" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="eed7-d058-cca3-2726" name="Kustom Big Shootas" hidden="false" collective="false" import="true" targetId="e42d-efe2-ca5c-532b" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c9d7-3b0d-3b07-b978" name="Quad Big Shootas" hidden="false" collective="false" import="true" targetId="f6cb-4ac3-2c7c-ee01" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ba4-d38f-5617-4085" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1910-dbb1-dad5-62d1" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a05b-49b7-24b4-bcad" name="Aircraft upgrade" hidden="false" collective="false" import="true" targetId="54a6-483f-3fbb-cf60" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4d9a-d54a-a578-435f" name="Eavy Bommer" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9d86-855c-a981-b266" name="Eavy Bomber" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+          <modifiers>
+            <modifier type="decrement" field="db83-4ff1-b0cb-a312" value="1">
+              <conditions>
+                <condition field="selections" scope="4d9a-d54a-a578-435f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e1f-9540-97ad-5c0a" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="db83-4ff1-b0cb-a312" value="1">
+              <conditions>
+                <condition field="selections" scope="4d9a-d54a-a578-435f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="12fa-38c1-5723-750c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="8234-9f67-e172-880a" value="1">
+              <conditions>
+                <condition field="selections" scope="4d9a-d54a-a578-435f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="12fa-38c1-5723-750c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">6</characteristic>
+            <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">2</characteristic>
+            <characteristic name="Fuel" typeId="e194-183f-9e70-f04d">-</characteristic>
+            <characteristic name="Throttle" typeId="92ef-efe6-13ea-3792">1</characteristic>
+            <characteristic name="Ace Maneuvers" typeId="3225-9212-fdab-50f0">1-3</characteristic>
+            <characteristic name="Handling" typeId="951a-93cf-2cc5-78d8">5+</characteristic>
+            <characteristic name="Min Speed" typeId="8234-9f67-e172-880a">2</characteristic>
+            <characteristic name="Max Speed" typeId="db83-4ff1-b0cb-a312">4</characteristic>
+            <characteristic name="Max Altitude" typeId="8a75-2b8f-5077-06cd">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="08b5-da9e-f278-7105" name="Aerial Attack" hidden="false" targetId="0d22-4d01-ff7f-b254" type="profile"/>
+        <infoLink id="51d2-2159-ac4a-b6cb" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cf18-c302-25ed-7dc4" name="Bomber" hidden="false" targetId="8cfa-dfb7-e996-3c7d" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="487e-908c-dad4-db35" name="Additional Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="604e-aa26-17dc-622c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="fcd8-dd0a-9df0-48a5" name="Big Bombs" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c22f-d3bc-a28b-b932" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="ebe7-8202-19d6-7ec5" name="Pair of Big Bombs" hidden="false" collective="false" import="true" targetId="8d46-35c2-ee18-4cee" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aee2-5dbe-5c78-6e97" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7fe5-a0e2-37e4-86a9" name="Rokkits and Wing Bombs" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="180b-5882-28d4-30af" name="Rokkits and Wing Bombs" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cba7-f714-5967-0cee" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="6523-b136-de53-ee68" name="Pair of Rokkits" hidden="false" collective="false" import="true" targetId="e324-ab13-d146-b6db" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2c8-1941-9d1f-cb55" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="2.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="f089-6d22-00b6-941b" name="Pair of Wing Bombs" hidden="false" collective="false" import="true" targetId="7e34-8f72-472e-0520" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2639-66c4-3d35-cdae" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="2.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="cc7f-41f4-e87e-a53e" name="Dornal Turret" hidden="false" collective="false" import="true" targetId="f918-5f25-5a1b-67d9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eecf-b8bb-2dbc-5e4a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5970-f4a6-69c8-02cc" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4829-cd1e-51d1-c8ef" name="Nose Turret" hidden="false" collective="false" import="true" targetId="eef9-2bcd-e578-7f86" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f896-85e4-fb42-f676" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ce1-fd50-49a4-1c4c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ead0-1e64-c184-3c92" name="Port Big Shoota" hidden="false" collective="false" import="true" targetId="f362-90f7-33e9-a6df" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f75-5d62-4f2e-ea9b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92e7-14c7-1339-a868" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="687d-0e50-0a16-6e14" name="Starboard Big Shoota" hidden="false" collective="false" import="true" targetId="3284-0b89-f5d5-5fb6" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c93-7983-a7b0-40d9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e406-749e-48b1-57f1" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="17ad-d64c-bf02-0d91" name="Bombs" hidden="false" collective="false" import="true" targetId="52bd-78fd-b228-8c3a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fadc-7cf4-3f67-cfd7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e0c-23ed-156d-46cd" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8ddb-6a39-69e2-c99a" name="Aircraft upgrade" hidden="false" collective="false" import="true" targetId="54a6-483f-3fbb-cf60" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="28.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a442-62a5-28a0-2ac0" name="Fighta Bommer" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4992-51c7-7f34-8d2e" name="Fighta Bommer" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+          <modifiers>
+            <modifier type="decrement" field="db83-4ff1-b0cb-a312" value="1">
+              <conditions>
+                <condition field="selections" scope="a442-62a5-28a0-2ac0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e1f-9540-97ad-5c0a" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="db83-4ff1-b0cb-a312" value="1">
+              <conditions>
+                <condition field="selections" scope="a442-62a5-28a0-2ac0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="12fa-38c1-5723-750c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="8234-9f67-e172-880a" value="1">
+              <conditions>
+                <condition field="selections" scope="a442-62a5-28a0-2ac0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="12fa-38c1-5723-750c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">3</characteristic>
+            <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">-</characteristic>
+            <characteristic name="Fuel" typeId="e194-183f-9e70-f04d">-</characteristic>
+            <characteristic name="Throttle" typeId="92ef-efe6-13ea-3792">1</characteristic>
+            <characteristic name="Ace Maneuvers" typeId="3225-9212-fdab-50f0">1-4</characteristic>
+            <characteristic name="Handling" typeId="951a-93cf-2cc5-78d8">4+</characteristic>
+            <characteristic name="Min Speed" typeId="8234-9f67-e172-880a">3</characteristic>
+            <characteristic name="Max Speed" typeId="db83-4ff1-b0cb-a312">7</characteristic>
+            <characteristic name="Max Altitude" typeId="8a75-2b8f-5077-06cd">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c299-afab-49e2-40ba" name="Aerial Attack" hidden="false" targetId="0d22-4d01-ff7f-b254" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="46e9-6659-5436-1d29" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="dd88-5264-d653-1b1c" name="Additional Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e912-6bdb-7d6b-9485" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="fac2-ed33-0335-f8a8" name="Big Bombs" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="bb6f-66cc-3034-157b" name="Pair of Big Bombs" hidden="false" collective="false" import="true" targetId="8d46-35c2-ee18-4cee" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9c1-1ed9-febc-c8f2" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="4.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="9c13-c976-618c-ccf8" name="3 small weapons" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="8913-2427-881d-19fc" name="Pair of Rokkits" hidden="false" collective="false" import="true" targetId="e324-ab13-d146-b6db" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0f3-8b24-ecb0-bdaf" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="2.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3321-c4d1-aeee-951c" name="Quad Big Shootas" hidden="false" collective="false" import="true" targetId="f6cb-4ac3-2c7c-ee01" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad08-804f-5f88-5fad" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9476-219a-71b7-3ba2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5e8b-6b54-ebee-55c2" name="Turret Big Shootas" hidden="false" collective="false" import="true" targetId="65d8-6c0b-06df-abc3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8058-be1d-f858-fc7a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee80-5e17-8ee3-29fe" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5134-ff6c-3010-d867" name="Tail Gun" hidden="false" collective="false" import="true" targetId="5e29-c17a-07a1-14b7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="505e-8866-2d9a-c99d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d6e-06f7-7432-9a61" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="95b0-7d7f-7fe8-4ef9" name="Aircraft upgrade" hidden="false" collective="false" import="true" targetId="54a6-483f-3fbb-cf60" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9125-c1ab-8abf-5bc9" name="Flak Platform" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="d465-2495-9cf3-f9f5" name="Flak Plaform" hidden="false" typeId="f0d7-0c84-fbe0-fc3f" typeName="Ground Asset">
+          <characteristics>
+            <characteristic name="Structure" typeId="6308-84d8-bb4b-c0f8">2</characteristic>
+            <characteristic name="FPR" typeId="0aab-6b79-44c7-f913">8-4-2</characteristic>
+            <characteristic name="Damage" typeId="ba3d-54b5-9dbe-39ea">5+</characteristic>
+            <characteristic name="Special" typeId="c3d9-609b-cc54-f9e6">Effective Altitude (2), Ground-to-Air Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1399-b37e-8309-3487" name="Effective Altitude (2)" hidden="false" targetId="5bcf-3c73-e59a-e68a" type="profile"/>
+        <infoLink id="dfdc-56a6-e861-4b47" name="Ground-to-Air Fire" hidden="false" targetId="297a-5ea8-7f8e-4621" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fff6-bcfc-820d-4415" name="Ground Asset" hidden="false" targetId="4ccd-3c3f-80d3-f2fb" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8db8-8c06-939d-4614" name="Grot Bommer" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e09b-2125-1631-9d01" name="Grot Bomms" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <modifiers>
+            <modifier type="set" field="a495-a55a-5d79-5b94" value="4">
+              <conditions>
+                <condition field="selections" scope="8db8-8c06-939d-4614" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f0d3-a101-5526-f7d1" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Left Side-Front, Front, Right Side-Front</characteristic>
+            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">-</characteristic>
+            <characteristic name="DMG" typeId="3666-196d-11fd-c067">2+</characteristic>
+            <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">2</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Autonomous Weapon, Extra Damage (4+)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="45c9-dc48-91f6-d889" name="Grot Bommer" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+          <modifiers>
+            <modifier type="increment" field="8234-9f67-e172-880a" value="1">
+              <conditions>
+                <condition field="selections" scope="8db8-8c06-939d-4614" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="12fa-38c1-5723-750c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="db83-4ff1-b0cb-a312" value="1">
+              <conditions>
+                <condition field="selections" scope="8db8-8c06-939d-4614" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="12fa-38c1-5723-750c" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="db83-4ff1-b0cb-a312" value="1">
+              <conditions>
+                <condition field="selections" scope="8db8-8c06-939d-4614" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5e1f-9540-97ad-5c0a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">6</characteristic>
+            <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">3</characteristic>
+            <characteristic name="Fuel" typeId="e194-183f-9e70-f04d">-</characteristic>
+            <characteristic name="Throttle" typeId="92ef-efe6-13ea-3792">1</characteristic>
+            <characteristic name="Ace Maneuvers" typeId="3225-9212-fdab-50f0">1-3</characteristic>
+            <characteristic name="Handling" typeId="951a-93cf-2cc5-78d8">5+</characteristic>
+            <characteristic name="Min Speed" typeId="8234-9f67-e172-880a">2</characteristic>
+            <characteristic name="Max Speed" typeId="db83-4ff1-b0cb-a312">4</characteristic>
+            <characteristic name="Max Altitude" typeId="8a75-2b8f-5077-06cd">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="80ad-f617-e7d2-5368" name="Bomber" hidden="false" targetId="8cfa-dfb7-e996-3c7d" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2a83-262f-2a10-a9a8" name="Grot Bomms" hidden="false" collective="false" import="true" defaultSelectionEntryId="a63a-f2b7-32ae-62be">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68fb-6144-90ab-c1a9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0161-c2d2-df94-ca08" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a63a-f2b7-32ae-62be" name="2 Bomms" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f0d3-a101-5526-f7d1" name="4 Bomms" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="points" value="3.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b70a-a569-188b-68cb" name="Quad Big Shootas" hidden="false" collective="false" import="true" targetId="f6cb-4ac3-2c7c-ee01" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a26-fb02-b6e2-9105" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="837a-241f-bf66-6eac" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f91a-f581-97ea-5c8f" name="Port Turret" hidden="false" collective="false" import="true" targetId="b31f-ec6a-ea66-c556" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbd9-38d3-02a4-4074" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b784-3722-6132-e07f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6542-32d0-da48-28f9" name="Starboard Turret" hidden="false" collective="false" import="true" targetId="c8eb-766d-8df1-7a83" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e394-eb04-1c7d-b1b9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dbe-a6bb-941d-5a2b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bf6a-bef9-9846-dbf3" name="Aircraft upgrade" hidden="false" collective="false" import="true" targetId="54a6-483f-3fbb-cf60" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="28.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d3eb-3c4f-dc23-39cc" name="Vulture" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7305-b7c0-0d10-ef1d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ece3-f0f8-2c9e-4f6a" name="Vulture" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+          <characteristics>
+            <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">2</characteristic>
+            <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">-</characteristic>
+            <characteristic name="Fuel" typeId="e194-183f-9e70-f04d">-</characteristic>
+            <characteristic name="Throttle" typeId="92ef-efe6-13ea-3792">2</characteristic>
+            <characteristic name="Ace Maneuvers" typeId="3225-9212-fdab-50f0">1-5</characteristic>
+            <characteristic name="Handling" typeId="951a-93cf-2cc5-78d8">3+</characteristic>
+            <characteristic name="Min Speed" typeId="8234-9f67-e172-880a">3</characteristic>
+            <characteristic name="Max Speed" typeId="db83-4ff1-b0cb-a312">8</characteristic>
+            <characteristic name="Max Altitude" typeId="8a75-2b8f-5077-06cd">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="0986-e190-79ab-bd5d" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bad4-ad33-fa8f-0abf" name="Additional Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="869c-c6bb-f761-b2bd" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b1ac-3a2a-574d-25a3" name="Pair of Wing Bombs" hidden="false" collective="false" import="true" targetId="7e34-8f72-472e-0520" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cf1-9810-667a-e218" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="fd2b-c00d-9581-af75" name="Pair of Rokkits" hidden="false" collective="false" import="true" targetId="e324-ab13-d146-b6db" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c416-3734-a80f-bd99" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6700-c3c3-ae5a-3987" name="Quad Big Shootas" hidden="false" collective="false" import="true" targetId="f6cb-4ac3-2c7c-ee01" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dce4-add0-c808-8860" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cb9-681b-5c84-65c3" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="ce25-72f4-6cf2-8c90" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="1400-47d6-0295-1037" name="Da Black Barun" hidden="false" collective="false" import="true" targetId="ef28-6135-23c7-2c6f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42da-c170-0cf0-b94e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6524-f9e5-eabc-72ba" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="23.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="c9a8-fb34-ccd4-01da" name="[Reference] Autonomous Weapons" hidden="false" collective="false" import="true" targetId="09d0-9614-622c-a12d" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="eef9-2bcd-e578-7f86" name="Nose Turret" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c9c0-49fd-3c13-7f30" name="Nose Turret" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">4-2-0</characteristic>
+            <characteristic name="DMG" typeId="3666-196d-11fd-c067">5+</characteristic>
+            <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f918-5f25-5a1b-67d9" name="Dorsal Turret" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f618-32c8-1960-34c4" name="Dorsal Turret" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">All around, Up</characteristic>
+            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">3-2-0</characteristic>
+            <characteristic name="DMG" typeId="3666-196d-11fd-c067">5+</characteristic>
+            <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Aerial Attack</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e7f0-1303-cf33-ac51" name="Aerial Attack" hidden="false" targetId="0d22-4d01-ff7f-b254" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f362-90f7-33e9-a6df" name="Port Big Shootas" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8365-df0d-d86c-af91" name="Port Big Shootas" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Left Side, Down</characteristic>
+            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">6-3-0</characteristic>
+            <characteristic name="DMG" typeId="3666-196d-11fd-c067">5+</characteristic>
+            <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3284-0b89-f5d5-5fb6" name="Starboard Big Shootas" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="aa71-5b3a-2d28-f72b" name="Starboard Big Shootas" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Left Side, Down</characteristic>
+            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">6-3-0</characteristic>
+            <characteristic name="DMG" typeId="3666-196d-11fd-c067">5+</characteristic>
+            <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="52bd-78fd-b228-8c3a" name="Bombs" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d1b2-d476-9e96-9e24" name="Bombs" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Rear</characteristic>
+            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">4-0-0</characteristic>
+            <characteristic name="DMG" typeId="3666-196d-11fd-c067">2+</characteristic>
+            <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">1</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (5+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e36b-522b-814d-41a2" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
+        <infoLink id="a2bc-4e0e-4654-cce7" name="Extra Damage (5+)" hidden="false" targetId="6cd3-39d8-bedc-56e6" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f6cb-4ac3-2c7c-ee01" name="Quad Big Shootas" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="304a-5be8-e5df-3932" name="Quad Big Shootas" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">8-4-0</characteristic>
+            <characteristic name="DMG" typeId="3666-196d-11fd-c067">5+</characteristic>
+            <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b31f-ec6a-ea66-c556" name="Port Turret" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="52da-536d-b0da-6b79" name="Port Turret" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Left Side, Up</characteristic>
+            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-1-0</characteristic>
+            <characteristic name="DMG" typeId="3666-196d-11fd-c067">5+</characteristic>
+            <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c8eb-766d-8df1-7a83" name="Starboard Turret" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="3bd6-8a8d-3686-d6b2" name="Starboard Turret" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Right Side, Up</characteristic>
+            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-1-0</characteristic>
+            <characteristic name="DMG" typeId="3666-196d-11fd-c067">5+</characteristic>
+            <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="65d8-6c0b-06df-abc3" name="Turret Big Shootas" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0905-c455-a771-102e" name="Turret Big Shootas" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Rear, Right Side, Left Side, Up</characteristic>
+            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">3-1-0</characteristic>
+            <characteristic name="DMG" typeId="3666-196d-11fd-c067">5+</characteristic>
+            <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Tail Gunner, Aerial Attack</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d828-c164-90ef-eed2" name="Tail Gunner" hidden="false" targetId="ec08-cc37-d171-9f2d" type="profile"/>
+        <infoLink id="7f46-673d-7230-d0bc" name="Aerial Attack" hidden="false" targetId="0d22-4d01-ff7f-b254" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5e29-c17a-07a1-14b7" name="Tail Gun" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="964f-d776-fc86-f191" name="Tail Gun" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Rear</characteristic>
+            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">1-0-0</characteristic>
+            <characteristic name="DMG" typeId="3666-196d-11fd-c067">6+</characteristic>
+            <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Tail Gunner, Aerial Attack</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9630-605c-9c68-7e11" name="Aerial Attack" hidden="false" targetId="0d22-4d01-ff7f-b254" type="profile"/>
+        <infoLink id="aead-9364-fe47-7988" name="Tail Gunner" hidden="false" targetId="ec08-cc37-d171-9f2d" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="888f-809f-0ff6-0003" name="Toofkraker" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b39e-e3de-477f-f06d" name="Strategic Bomber" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
+          <characteristics>
+            <characteristic name="Ability" typeId="65ee-9496-8377-0d24">Once per game, when making a Bombing Run, you may add a +1 modifier to each of the Firepower dice when rolling to hit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ef28-6135-23c7-2c6f" name="Da Black Barun" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="dabd-1b9f-a6d6-65ac" name="Fighter Ace" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
+          <characteristics>
+            <characteristic name="Ability" typeId="65ee-9496-8377-0d24">When targeting an enemy aircraft with Air-to-Aire fire, this aircraft may re-roll any of the Firepower dice that roll a 1 to hit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e324-ab13-d146-b6db" name="Pair of Rokkits" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="82db-c97b-a3bd-6888" name="Pair of Rokkits" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">3-2-1</characteristic>
+            <characteristic name="DMG" typeId="3666-196d-11fd-c067">3+</characteristic>
+            <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">1</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e42d-efe2-ca5c-532b" name="Kustom Big Shootas" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4f5e-49ad-2389-83d6" name="Kustom Big Shootas" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-2-0</characteristic>
+            <characteristic name="DMG" typeId="3666-196d-11fd-c067">5+</characteristic>
+            <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8d46-35c2-ee18-4cee" name="Pair of Big Bombs" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6463-8345-534e-df06" name="Pair of Big Bombs" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Rear</characteristic>
+            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">6-0-0</characteristic>
+            <characteristic name="DMG" typeId="3666-196d-11fd-c067">2+</characteristic>
+            <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">1</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (4+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4fa5-9afa-d1f3-4b0d" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e34-8f72-472e-0520" name="Pair of Wing Bombs" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d582-f7df-878b-a95c" name="Pair of Wing Bombs" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Rear</characteristic>
+            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">4-0-0</characteristic>
+            <characteristic name="DMG" typeId="3666-196d-11fd-c067">2+</characteristic>
+            <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">1</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (5+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f8c1-5dad-81da-9954" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4130-d747-574e-8f51" name="Belching Smoke" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1905-0ce5-2e98-c923" name="Belching Smoke" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+          <characteristics>
+            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, if the aircraft is hit by a weapon with an Ammo characteristic of 1, 2 or 3, roll a D6. On a 6, the hit becomes a miss.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8747-3089-7d21-882d" name="Fly Boss" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2fc-659e-3650-5d95" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7beb-b177-33e9-8092" name="Fly Boss" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+          <characteristics>
+            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft may choose to reroll a dice roll. However, all of the dice rolled must be re-rolled and the player must accept the result of the second roll, even if it is worse.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="12fa-38c1-5723-750c" name="Wazmek Speshul" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6837-40da-48d0-7aaf" name="Wazmek Speshul" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+          <characteristics>
+            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Increase both the Max Speed and Min Speed characteristics of this aircraft by 1, up to a maximum of 9.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5e1f-9540-97ad-5c0a" name="Extra Armor" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4eab-3a77-878c-003a" name="Extra Armour" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+          <characteristics>
+            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">When this aircraft suffers a damaging hit from enemy fire, roll a D6. On a 6, the damage is ignored and the Structure points that would have been lost as a resultof the Damage dice are not lost. However, as a result of the extra armour bolted on, the aircraft’s Max Speed
+characteristic is reduced by 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="09d0-9614-622c-a12d" name="[Reference] Autonomous Weapons" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="72e3-39ee-5320-80ef" name="[Reference] Autonomous Weapons" hidden="false">
+          <description>These are self-propelled guided missiles or bombs, capable of controlling their own flight path towards a target. They are deployed from an aircraft during the Firing phase when they are ‘fired’. When fired, place a model representing the Autonomous weapon in a hex immediately adjacent to one of the Fire Arcs listed, as shown on the diagram. When fired, an Autonomous Weapon may choose its facing, as shown by the arrows in the diagram below. The firing aircraft may place a maximum of two Autonomous weapons in this way during a single Firing phase. Firing an Autonomous weapon does not require a target.
+
+Once deployed, the Autonomous weapon moves up to six hexes in a straight line directly away from the firing aircraft. From the next turn onwards, the Autonomous weapon will travel D3+3 hexes in the same direction at the end of each Movement phase, after all other aircraft have moved. During this movement, the Autonomous weapon may turn once to the left or right, as shown in the diagram below. Should the Autonomous weapon move beyond the edge of the Area of Engagement, it is removed from play.
+
+If at the end of any Firing phase the Autonomous weapon occupies a hex adjacent to any other aircraft, roll a D6. If the result is a 2 or higher, the Autonomous weapon has hit the aircraft. Roll one Damage dice against the hit aircraft, as described on page 23, after which the Autonomous Weapon is removed from play. If the result of this hit roll is a 1, the Autonomous weapon misses and will continue to fly in the next turn. Note that Autonomous weapons are able to climb and dive extremely rapidly. Therefore, Autonomous aircraft ignore the Altitude of other aircraft when making this roll..</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="54a6-483f-3fbb-cf60" name="Aircraft upgrade" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="5e93-1023-3093-7841" name="Belching Smoke" hidden="false" collective="false" import="true" targetId="4130-d747-574e-8f51" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6859-ec3d-2abf-a3da" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6847-d43d-667f-c1d3" name="Fly Boss" hidden="false" collective="false" import="true" targetId="8747-3089-7d21-882d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57ca-174d-d161-f714" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="2b19-de35-4fb0-90f1" name="Extra Armor" hidden="false" collective="false" import="true" targetId="5e1f-9540-97ad-5c0a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29e4-1b62-7429-149d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="727d-a2f5-5b22-b681" name="Wazmek Speshul" hidden="false" collective="false" import="true" targetId="12fa-38c1-5723-750c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57f0-ae88-1d01-7aae" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ea21-b91d-7237-b2b0" name="Crew" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="f228-5d58-3147-2c51" name="Lightning Reactions" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46ce-857e-bd03-e83a" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="255d-4d41-315e-e894" name="Lightning Reactions" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, when this aircraft is activated, you may discard the Ace Manoeuvre that was chosen for it during the Choose Manoeuvers phase and immediately choose another Ace Manoeuvre. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="10b2-292b-0d97-32f4" name="Ace Gunna" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f28-90de-915e-28b5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a272-8034-df99-789d" name="Ace Gunna" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, when targeting an enemy aircraft with Air-to-Air fire, this aircraft may re-roll any of the Firepower dice that roll a 1 to hit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0ace-8d61-9169-f46b" name="Strategic Bommer" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cecb-f6a7-b12f-3a7d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="182e-60d7-3152-d42b" name="Strategic Bommer" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, when making a Bombing Run, you may add a +1 modifier to each of the Firepower dice when rolling to hit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
