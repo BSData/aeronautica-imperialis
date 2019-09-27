@@ -721,6 +721,10 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8194-919b-7266-0b5a" name="Dagor-Jarni" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cejy-pdle-2hdn-ky9i" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ypru-2uxl-fq42-6wjc" type="min"/>
+      </constraints>
       <profiles>
         <profile id="f237-f6c3-45cb-85ea" name="Aerial Hunter" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
           <characteristics>
@@ -733,6 +737,10 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8089-3d60-2af8-a931" name="Gallus Barret" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="thql-oldh-p772-9x9s" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1faf-nnw5-mmr5-w51w" type="min"/>
+      </constraints>
       <profiles>
         <profile id="e8b4-5303-c737-fe40" name="Ground Attack" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
           <characteristics>
