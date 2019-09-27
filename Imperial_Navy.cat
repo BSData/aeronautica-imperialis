@@ -278,14 +278,45 @@
       <categoryLinks>
         <categoryLink id="16bd-6256-111c-a9b1" name="Bomber" hidden="false" targetId="8cfa-dfb7-e996-3c7d" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2b38-60db-a0ee-9d0f" name="Additional Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7446-2c8d-f762-a67c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="048c-6eef-72d1-72db" name="Pair of Hellstrike Missiles" hidden="false" collective="false" import="true" targetId="52b7-4190-c139-9aee" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe09-6829-5bfa-3963" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="42b5-c248-1794-cc82" name="Pair of Skystrike Missiles" hidden="false" collective="false" import="true" targetId="7d98-bf4d-18da-f3b3" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0027-8648-8006-a6eb" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ef47-b14a-30e9-c89d" name="Pair of Wing Bombs" hidden="false" collective="false" import="true" targetId="0bfd-2e21-0cef-c937" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="289c-d2d0-e23f-4b84" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="aecb-4f1b-78b1-04ff" name="Bomb Bay" hidden="false" collective="false" import="true" targetId="582e-18ed-2f8a-c695" type="selectionEntry"/>
         <entryLink id="29ff-a934-982b-3a36" name="Dorsal Turret" hidden="false" collective="false" import="true" targetId="bf14-339c-69e9-8246" type="selectionEntry"/>
         <entryLink id="7c6d-3fc4-b24a-a76c" name="Lascannon" hidden="false" collective="false" import="true" targetId="d5c2-83ae-b843-d952" type="selectionEntry"/>
         <entryLink id="254c-1a0c-4a43-24f4" name="Rear Turret" hidden="false" collective="false" import="true" targetId="2bb3-7dab-76d8-f4a3" type="selectionEntry"/>
-        <entryLink id="e5ae-8d4c-547b-84cb" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="b890-18e0-99ff-65b2" type="selectionEntryGroup"/>
         <entryLink id="7d7c-aed9-6e6c-65e6" name="Gallus Barret" hidden="false" collective="false" import="true" targetId="8089-3d60-2af8-a931" type="selectionEntry"/>
-        <entryLink id="3582-4a89-1a45-e6a6" name="Crew" hidden="false" collective="false" import="true" targetId="ea59-501a-a451-ec37" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="27.0"/>
