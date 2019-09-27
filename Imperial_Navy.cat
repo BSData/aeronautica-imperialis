@@ -318,7 +318,6 @@
         <entryLink id="9f98-3042-1f10-efa6" name="Twin Lascannons" hidden="false" collective="false" import="true" targetId="1102-e259-d834-514b" type="selectionEntry"/>
         <entryLink id="b6f2-d9c3-bc02-439e" name="Aircraft Weapon" hidden="false" collective="false" import="true" targetId="1360-3667-585f-043a" type="selectionEntryGroup"/>
         <entryLink id="bc94-0ed9-067b-8150" name="Dagor-Jarni" hidden="false" collective="false" import="true" targetId="8194-919b-7266-0b5a" type="selectionEntry"/>
-        <entryLink id="947b-e4a5-6b41-8da7" name="Crew" hidden="false" collective="false" import="true" targetId="ea59-501a-a451-ec37" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="23.0"/>
