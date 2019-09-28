@@ -376,6 +376,14 @@
                     <cost name="pts" typeId="points" value="2.0"/>
                   </costs>
                 </entryLink>
+                <entryLink id="3wr3-82jl-uxjr-h2f7" name="Pair of Wing Bombs" hidden="false" collective="false" import="true" targetId="7e34-8f72-472e-0520" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c6t-qmd2-9qwj-ohcj" type="max"/>
+                  </constraints>
+                  <costs>
+                     <cost name="pts" typeId="points" value="2.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
