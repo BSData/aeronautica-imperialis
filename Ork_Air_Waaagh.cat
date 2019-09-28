@@ -387,6 +387,14 @@
                      <cost name="pts" typeId="points" value="2.0"/>
                   </costs>
                 </entryLink>
+                <entryLink id="60ph-y3fr-pbzj-50ua" name="Kustom Big Shootas" hidden="false" collective="false" import="true" targetId="e42d-efe2-ca5c-532b" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="opuj-swch-hddw-ug0r" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="3.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
