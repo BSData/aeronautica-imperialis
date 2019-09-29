@@ -144,22 +144,28 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="f0b1-6538-5850-fe03" name="Additional Weapons" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="890d-34e5-8473-bc0b" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="890d-34e5-8473-bc0b" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="7ad9-ff42-5012-1249" name="Pair of Wing Bombs" hidden="false" collective="false" import="true" targetId="7e34-8f72-472e-0520" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="104d-da3c-cf8d-500d" type="max"/>
+              </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="2.0"/>
               </costs>
             </entryLink>
             <entryLink id="41ca-1c83-e2be-141e" name="Pair of Rokkits" hidden="false" collective="false" import="true" targetId="e324-ab13-d146-b6db" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a91d-aa0b-5f48-6450" type="max"/>
+              </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="2.0"/>
               </costs>
             </entryLink>
             <entryLink id="eed7-d058-cca3-2726" name="Kustom Big Shootas" hidden="false" collective="false" import="true" targetId="e42d-efe2-ca5c-532b" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="vqsb-404h-sv0w-02wa" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="vqsb-404h-sv0w-02wa" type="max"/>
               </constraints>
               <costs>
                 <cost name="pts" typeId="points" value="3.0"/>
@@ -375,6 +381,9 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="4f4a-2b5f-b8da-b812" name="3 Small Weapons Choice" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
@@ -410,6 +419,9 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
