@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0743-d0bd-bfee-c92a" name="Ork Air Waaagh!" revision="25" battleScribeVersion="2.03" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0743-d0bd-bfee-c92a" name="Ork Air Waaagh!" revision="26" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="96a0-75b0-6b4a-645f" name="&apos;Eavy Flak Kannon" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -374,6 +374,13 @@
             <selectionEntry id="de7a-b5ab-8065-6036" name="Big Bomb Choice" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
                 <selectionEntryGroup id="dd99-edb8-6813-3acd" name="Big Bomb Choice" hidden="false" collective="false" import="true">
+                  <modifiers>
+                    <modifier type="set" field="5c84-4dae-95f8-fd18" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="a442-62a5-28a0-2ac0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e42d-efe2-ca5c-532b" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c84-4dae-95f8-fd18" type="max"/>
                   </constraints>
@@ -652,6 +659,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6524-f9e5-eabc-72ba" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="c24b-1549-07a1-4717" name="Crew" hidden="false" collective="false" import="true" targetId="ea21-b91d-7237-b2b0" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="23.0"/>
