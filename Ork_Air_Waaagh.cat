@@ -67,6 +67,7 @@
                 <cost name="pts" typeId="points" value="2.0"/>
               </costs>
             </entryLink>
+            <entryLink id="f930-1e16-9a88-c378" name="Kustom Big Shootas" hidden="false" collective="false" import="true" targetId="e42d-efe2-ca5c-532b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -438,6 +439,7 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
