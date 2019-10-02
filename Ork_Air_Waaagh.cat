@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0743-d0bd-bfee-c92a" name="Ork Air Waaagh!" revision="26" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0743-d0bd-bfee-c92a" name="Ork Air Waaagh!" revision="27" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="96a0-75b0-6b4a-645f" name="&apos;Eavy Flak Kannon" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -439,7 +439,6 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
-
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -555,18 +554,11 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="f0d3-a101-5526-f7d1" name="4 Bomms" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="a75a-6f56-7b1c-1864" value="0.0">
-                  <conditions>
-                    <condition field="selections" scope="8db8-8c06-939d-4614" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e42d-efe2-ca5c-532b" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a75a-6f56-7b1c-1864" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="3.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -884,7 +876,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e42d-efe2-ca5c-532b" name="Kustom Big Shootas" hidden="false" collective="false" import="true" type="upgrade">
@@ -938,7 +930,7 @@
         <infoLink id="f8c1-5dad-81da-9954" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4130-d747-574e-8f51" name="Belching Smoke" hidden="false" collective="false" import="true" type="upgrade">
@@ -965,7 +957,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="12fa-38c1-5723-750c" name="Wazmek Speshul" hidden="false" collective="false" import="true" type="upgrade">
@@ -1016,14 +1008,6 @@ If at the end of any Firing phase the Autonomous weapon occupies a hex adjacent 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6859-ec3d-2abf-a3da" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="6847-d43d-667f-c1d3" name="Fly Boss" hidden="false" collective="false" import="true" targetId="8747-3089-7d21-882d" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57ca-174d-d161-f714" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
-          </costs>
-        </entryLink>
         <entryLink id="2b19-de35-4fb0-90f1" name="Extra Armor" hidden="false" collective="false" import="true" targetId="5e1f-9540-97ad-5c0a" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29e4-1b62-7429-149d" type="max"/>
@@ -1037,6 +1021,11 @@ If at the end of any Firing phase the Autonomous weapon occupies a hex adjacent 
         <entryLink id="7280-a609-777c-3c51" name="Kustom Big Shootas" hidden="false" collective="false" import="true" targetId="e42d-efe2-ca5c-532b" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a151-2e1f-0caf-1e42" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5993-78ec-b867-6eaa" name="Fly Boss" hidden="false" collective="false" import="true" targetId="8747-3089-7d21-882d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4acf-5830-8fff-6a74" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
