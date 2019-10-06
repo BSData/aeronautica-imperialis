@@ -792,8 +792,11 @@
         <entryLink id="c62d-f006-a2de-8390" name="Infra-red Targeting" hidden="false" collective="false" import="true" targetId="77fa-3981-f5ba-b21e" type="selectionEntry"/>
         <entryLink id="6961-c990-9f5a-cde0" name="Armoured Cockpit" hidden="false" collective="false" import="true" targetId="fbf4-5133-fb74-ab4e" type="selectionEntry"/>
         <entryLink id="483c-a7df-976b-612c" name="Imperial Ace" hidden="false" collective="false" import="true" targetId="104b-4ecf-c9e1-5688" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="3440-4044-7fda-fe24" value="0.0"/>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b012-2103-5c7c-fc09" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b012-2103-5c7c-fc09" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
