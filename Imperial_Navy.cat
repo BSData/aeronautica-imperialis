@@ -810,6 +810,9 @@
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="b890-18e0-99ff-65b2" name="Aircraft Upgrades" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b9a-0086-7bc0-feeb" type="max"/>
+      </constraints>
       <entryLinks>
         <entryLink id="0c9a-b286-0e1c-8955" name="Ejector Seats" hidden="false" collective="false" import="true" targetId="8678-00c1-4744-b174" type="selectionEntry"/>
         <entryLink id="9f92-1d11-0646-180d" name="Flares or Chaff Launcher" hidden="false" collective="false" import="true" targetId="05aa-0df1-2e49-916c" type="selectionEntry"/>
