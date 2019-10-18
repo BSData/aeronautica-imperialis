@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5745-5a5f-07b9-7f4f" name="Imperial Navy" revision="14" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5745-5a5f-07b9-7f4f" name="Imperial Navy" revision="16" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="c4eb-077e-014a-c3c3" name="Thunderbolt Fury" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -247,10 +247,10 @@
       <entryLinks>
         <entryLink id="3555-2f49-5198-2d63" name="Autocannon" hidden="false" collective="false" import="true" targetId="f985-b481-f62e-c3b3" type="selectionEntry"/>
         <entryLink id="1c7c-c7f3-d05b-9fe6" name="Dorsal Turret" hidden="false" collective="false" import="true" targetId="bf14-339c-69e9-8246" type="selectionEntry"/>
-        <entryLink id="bc30-9682-d2b5-68bf" name="Rear Turret" hidden="false" collective="false" import="true" targetId="2bb3-7dab-76d8-f4a3" type="selectionEntry"/>
         <entryLink id="e1af-2fef-076f-01e9" name="Bomb Bay" hidden="false" collective="false" import="true" targetId="582e-18ed-2f8a-c695" type="selectionEntry"/>
         <entryLink id="b7c0-e4bb-08a8-fa99" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="b890-18e0-99ff-65b2" type="selectionEntryGroup"/>
         <entryLink id="e4cd-90d4-2d78-b13e" name="Crew" hidden="false" collective="false" import="true" targetId="ea59-501a-a451-ec37" type="selectionEntryGroup"/>
+        <entryLink id="277b-18a3-c155-a213" name="Rear Turret" hidden="false" collective="false" import="true" targetId="2999-92ad-5e6c-c912" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="27.0"/>
@@ -533,7 +533,7 @@
             <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-6-0</characteristic>
             <characteristic name="DMG" typeId="3666-196d-11fd-c067">4+</characteristic>
             <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
-            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Extra Damage(6+)</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132"/>
           </characteristics>
         </profile>
       </profiles>
@@ -573,13 +573,10 @@
             <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">3-7-0</characteristic>
             <characteristic name="DMG" typeId="3666-196d-11fd-c067">4+</characteristic>
             <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
-            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Extra Damage (6+)</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132"></characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="57dd-f6ad-2061-053c" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
-      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -752,6 +749,30 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2999-92ad-5e6c-c912" name="Rear Turret" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da57-61cb-2e3e-9b69" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6223-5914-28d8-2c8d" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="e799-82bc-ae0e-2411" name="Rear Turret" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Rear</characteristic>
+            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">6-3-0</characteristic>
+            <characteristic name="DMG" typeId="3666-196d-11fd-c067">5+</characteristic>
+            <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Tail Gunner, Aerial Attack</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3db5-5f15-c060-d538" name="Aerial Attack" hidden="false" targetId="0d22-4d01-ff7f-b254" type="profile"/>
+        <infoLink id="0112-b19f-5f0f-1480" name="Tail Gunner" hidden="false" targetId="ec08-cc37-d171-9f2d" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="1360-3667-585f-043a" name="Additional Weapons" hidden="false" collective="false" import="true">
@@ -786,14 +807,20 @@
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="b890-18e0-99ff-65b2" name="Aircraft Upgrades" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b9a-0086-7bc0-feeb" type="max"/>
+      </constraints>
       <entryLinks>
         <entryLink id="0c9a-b286-0e1c-8955" name="Ejector Seats" hidden="false" collective="false" import="true" targetId="8678-00c1-4744-b174" type="selectionEntry"/>
         <entryLink id="9f92-1d11-0646-180d" name="Flares or Chaff Launcher" hidden="false" collective="false" import="true" targetId="05aa-0df1-2e49-916c" type="selectionEntry"/>
         <entryLink id="c62d-f006-a2de-8390" name="Infra-red Targeting" hidden="false" collective="false" import="true" targetId="77fa-3981-f5ba-b21e" type="selectionEntry"/>
         <entryLink id="6961-c990-9f5a-cde0" name="Armoured Cockpit" hidden="false" collective="false" import="true" targetId="fbf4-5133-fb74-ab4e" type="selectionEntry"/>
         <entryLink id="483c-a7df-976b-612c" name="Imperial Ace" hidden="false" collective="false" import="true" targetId="104b-4ecf-c9e1-5688" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="3440-4044-7fda-fe24" value="0.0"/>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b012-2103-5c7c-fc09" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b012-2103-5c7c-fc09" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
