@@ -1002,6 +1002,9 @@ If at the end of any Firing phase the Autonomous weapon occupies a hex adjacent 
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="54a6-483f-3fbb-cf60" name="Aircraft upgrade" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79a6-2f3a-f1d1-636f" type="max"/>
+      </constraints>
       <entryLinks>
         <entryLink id="5e93-1023-3093-7841" name="Belching Smoke" hidden="false" collective="false" import="true" targetId="4130-d747-574e-8f51" type="selectionEntry">
           <constraints>
