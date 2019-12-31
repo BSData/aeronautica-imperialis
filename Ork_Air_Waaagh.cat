@@ -659,6 +659,74 @@
         <cost name="pts" typeId="points" value="23.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="3ec4-cfd5-1e4d-e946" name="Killa Eagul" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1403-80d6-5113-3171" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="975d-94ea-715c-fd98" name="Killa Eagul" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+          <characteristics>
+            <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">2</characteristic>
+            <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">-</characteristic>
+            <characteristic name="Fuel" typeId="e194-183f-9e70-f04d">-</characteristic>
+            <characteristic name="Throttle" typeId="92ef-efe6-13ea-3792">2</characteristic>
+            <characteristic name="Ace Maneuvers" typeId="3225-9212-fdab-50f0">1-5</characteristic>
+            <characteristic name="Handling" typeId="951a-93cf-2cc5-78d8">4+</characteristic>
+            <characteristic name="Min Speed" typeId="8234-9f67-e172-880a">4</characteristic>
+            <characteristic name="Max Speed" typeId="db83-4ff1-b0cb-a312">8</characteristic>
+            <characteristic name="Max Altitude" typeId="8a75-2b8f-5077-06cd">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="88a0-357c-63ac-3d08" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="63de-2cf8-cbac-b988" name="Additional Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed8d-ae59-802a-796a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1e15-3bd9-3b19-2c6c" name="Pair of Wing Bombs" hidden="false" collective="false" import="true" targetId="7e34-8f72-472e-0520" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbad-0b60-8ec9-903a" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e2c0-d47f-b988-aa14" name="Pair of Rokkits" hidden="false" collective="false" import="true" targetId="e324-ab13-d146-b6db" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e5a-6f42-4079-f960" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="bb7f-0878-5b7f-a7f4" name="Quad Big Shootas" hidden="false" collective="false" import="true" targetId="f6cb-4ac3-2c7c-ee01" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fbf-d63e-2523-9224" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd76-41fe-4c8e-770f" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="3afb-fb04-332e-fab8" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="cdd5-994f-0de9-7461" name="Da Skymuncha" hidden="false" collective="false" import="true" targetId="0ced-7358-ff4e-b6e9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8432-9ad6-d8b6-f598" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d75-0127-d5d3-06b2" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="18.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="c9a8-fb34-ccd4-01da" name="[Reference] Autonomous Weapons" hidden="false" collective="false" import="true" targetId="09d0-9614-622c-a12d" type="selectionEntry"/>
@@ -995,6 +1063,18 @@ Once deployed, the Autonomous weapon moves up to six hexes in a straight line di
 If at the end of any Firing phase the Autonomous weapon occupies a hex adjacent to any other aircraft, roll a D6. If the result is a 2 or higher, the Autonomous weapon has hit the aircraft. Roll one Damage dice against the hit aircraft, as described on page 23, after which the Autonomous Weapon is removed from play. If the result of this hit roll is a 1, the Autonomous weapon misses and will continue to fly in the next turn. Note that Autonomous weapons are able to climb and dive extremely rapidly. Therefore, Autonomous aircraft ignore the Altitude of other aircraft when making this roll..</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ced-7358-ff4e-b6e9" name="Da Skymuncha" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0b15-67d7-24be-a537" name="Oversized Engines" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
+          <characteristics>
+            <characteristic name="Ability" typeId="65ee-9496-8377-0d24">Once per game, at the start of its Movement, this aircraft can increase its Throttle value to 4 until the end of the turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
