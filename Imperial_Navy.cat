@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5745-5a5f-07b9-7f4f" name="Imperial Navy" revision="16" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5745-5a5f-07b9-7f4f" name="Imperial Navy" revision="17" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="583d-7042-2316-f8b5" name="White Dwarf October 2019"/>
+  </publications>
   <selectionEntries>
     <selectionEntry id="c4eb-077e-014a-c3c3" name="Thunderbolt Fury" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -399,7 +402,7 @@
         <cost name="pts" typeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="52cd-b988-0050-ded9" name="Wings Of Courage" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="52cd-b988-0050-ded9" name="Wings Of Courage" publicationId="583d-7042-2316-f8b5" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe7d-39aa-010e-ba0e" type="max"/>
       </constraints>
@@ -808,7 +811,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="31eb-c562-2a27-109b" name="Leoz Answith" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="31eb-c562-2a27-109b" name="Leoz Answith" publicationId="583d-7042-2316-f8b5" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c040-7794-450c-7432" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b74d-49c6-5334-e08a" type="min"/>
