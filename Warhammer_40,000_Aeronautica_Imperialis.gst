@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="df04-c447-f12b-fae8" name="Warhammer 40,000: Aeronautica Imperialis" revision="10" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="df04-c447-f12b-fae8" name="Warhammer 40,000: Aeronautica Imperialis" revision="11" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="-1.0"/>
   </costTypes>
@@ -54,6 +54,7 @@
     <categoryEntry id="eea0-ed0b-e00c-b07c" name="Fighter" hidden="false"/>
     <categoryEntry id="8cfa-dfb7-e996-3c7d" name="Bomber" hidden="false"/>
     <categoryEntry id="4ccd-3c3f-80d3-f2fb" name="Ground Asset" page="" hidden="false"/>
+    <categoryEntry id="29c7-0381-72cf-daf9" name="Scout" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="ffc7-fa84-7076-f008" name="Squadron" hidden="false">
@@ -61,12 +62,22 @@
         <categoryLink id="3534-258f-a6c9-063b" name="Bomber" hidden="false" targetId="8cfa-dfb7-e996-3c7d" primary="false"/>
         <categoryLink id="daeb-ec17-6e80-6f8c" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="false"/>
         <categoryLink id="e79e-afec-10b2-990d" name="Ground Asset" hidden="false" targetId="4ccd-3c3f-80d3-f2fb" primary="false"/>
+        <categoryLink id="e065-9c7c-9062-0d8d" name="Scout" hidden="false" targetId="29c7-0381-72cf-daf9" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
   <sharedRules>
     <rule id="7406-f5b9-a751-1291" name="Jump troops" hidden="false">
-      <description>No idea what is it</description>
+      <description>Instead of landing in a landing zone, a transport aircraft with Jump Troops can drop them from altitude as it passes over. To drop its Jump Troops, the aircraft must pass directly over the landing zone during the Move and Manoeuvre step of the Movement phase. Once the aircraft has completed its movement, before adjusting Altitude roll a D6 for each point of transport capacity being dropped. If the result of the roll is higher than the aircraft’s current Altitude and Speed added together, the Jump Troops land safely within the landing zone and Victory points are scored. If however the result of the roll is equal to or lower than the aircraft’s current Speed and Altitude added together, the troops are scattered, injured or killed and no Victory points are scored.</description>
+    </rule>
+    <rule id="8058-5c8a-b572-48bc" name="Rocket Boosters" hidden="false">
+      <description>An aircraft with rocket boosters can choose to disengage from the Area of Engagement from any point, rather than just the table edge. To do so, the aircraft must be travelling at altitude 5. Once it has completes its Ace Manouvre during the Move and Manouvre step of the Movement phase, declare that the aircraft is using its rocket boosters to climb once more and disengage.</description>
+    </rule>
+    <rule id="f383-4351-9a79-e26b" name="Valuable Cargo" hidden="false">
+      <description>Once this aircraft had deployed its cargo, it may Voluntarily Disengage in any turn as if it were the Disengagement turn.</description>
+    </rule>
+    <rule id="e966-31c6-4527-8a39" name="Jink" hidden="false">
+      <description>When this aircraft is chosen to fire during the Firing phase, before step 1: Targeting, it may immediately move one hex in any direction. Note, however, that the aircraft may not changeits facing, Altitude or Speed after making this move. Nor may this movement take the aircraft into an occupied hex.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -113,6 +124,11 @@
     <profile id="ad23-adf7-45e0-b4b9" name="Effective Altitude (5)" hidden="false" typeId="302c-4e4d-9d55-97d8" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="e427-214b-8e1e-8539">Later</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1ae5-3c77-7b94-7b5e" name="Stealth (-1)" hidden="false" typeId="302c-4e4d-9d55-97d8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="e427-214b-8e1e-8539">Any weapon with the Ground-to-Air fire special rule targeting an aircraft with this special rule must reduce its Effective Altitude (X) by 1.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
