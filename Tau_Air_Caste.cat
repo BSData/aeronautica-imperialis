@@ -434,7 +434,7 @@
     <selectionEntry id="a037-b305-2bd1-c472" name="Kor&apos;El" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53d4-dae6-f8e2-b864" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e445-f1d6-6927-bed8" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e445-f1d6-6927-bed8" type="max"/>
       </constraints>
       <profiles>
         <profile id="dedb-7a1c-e839-03f6" name="Kor&apos;El" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
@@ -771,6 +771,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c2a7-4cb3-cbcc-eb73" name="Dor&apos;n O&apos;ka" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -784,6 +787,24 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f0d2-e628-f788-5408" name="Armoured Cockpit" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a442-5c9e-db6d-0602" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="740b-f275-f7a6-e03e" name="Armoured Cockpit" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+          <characteristics>
+            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">For each damaging hit this aircraft suffers from enemy fire, roll a D6. On each roll of a 6, one damaging hit is ignored and the Structure point(s) that would have been lost as a result of the Damage dice are not lost.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="3.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -804,6 +825,7 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8804-92cc-1fbf-d16f" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="2583-0c44-38a0-0e3e" name="Armoured Cockpit" hidden="false" collective="false" import="true" targetId="f0d2-e628-f788-5408" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="56a2-e25b-7af2-469c" name="Drones" hidden="false" collective="false" import="true">

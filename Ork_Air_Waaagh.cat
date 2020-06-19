@@ -50,28 +50,64 @@
         <categoryLink id="3b57-67f6-fb0f-42be" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="3569-c6c8-b469-cfc4" name="Additional Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5633-6dff-2f21-7f5f" name="Additional Weapons" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f292-e8e2-cc40-8304" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2da-83ff-7194-a137" type="max"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="7ae7-517e-cb9e-6532" name="Pair of Big Bombs" hidden="false" collective="false" import="true" targetId="8d46-35c2-ee18-4cee" type="selectionEntry">
+          <selectionEntries>
+            <selectionEntry id="ce0f-3cd0-31bf-3eb7" name="Big Bomb Choice" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="3ffa-ef3e-002f-a613" name="Big Bomb Choice" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5583-edcf-a1f0-6430" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="f12f-a934-5739-55b3" name="Pair of Big Bombs" hidden="false" collective="false" import="true" targetId="8d46-35c2-ee18-4cee" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c128-eec2-c3be-a401" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="4.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="points" value="2.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
-            </entryLink>
-            <entryLink id="4aae-5cb5-6227-5008" name="Pair of Wing Bombs" hidden="false" collective="false" import="true" targetId="7e34-8f72-472e-0520" type="selectionEntry">
+            </selectionEntry>
+            <selectionEntry id="8feb-f120-c4f2-4c99" name="3 Small Weapons Choice" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="976f-1875-7972-68c5" name="3 Small Weapons Choice" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9325-b313-c6e8-b3c9" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="16aa-3d14-74d1-9dcd" name="Pair of Rokkits" hidden="false" collective="true" import="true" targetId="e324-ab13-d146-b6db" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9311-de08-ab65-9d46" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="2.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="be36-0cb6-4254-e635" name="Pair of Wing Bombs" hidden="false" collective="true" import="true" targetId="7e34-8f72-472e-0520" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6c13-b37f-c3ac-6a50" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="2.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
-                <cost name="pts" typeId="points" value="2.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
-            </entryLink>
-            <entryLink id="2c77-5819-d740-d378" name="Pair of Rokkits" hidden="false" collective="false" import="true" targetId="e324-ab13-d146-b6db" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="points" value="2.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="f930-1e16-9a88-c378" name="Kustom Big Shootas" hidden="false" collective="false" import="true" targetId="e42d-efe2-ca5c-532b" type="selectionEntry"/>
-          </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -102,7 +138,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8461-0045-4691-9c19" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="eeda-2954-b3b1-8e00" name="Crew" hidden="false" collective="false" import="true" targetId="ea21-b91d-7237-b2b0" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="22.0"/>
@@ -370,28 +405,35 @@
         <categoryLink id="46e9-6659-5436-1d29" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="dd88-5264-d653-1b1c" name="Additional Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="528e-444f-3d23-59ad" name="Additional Weapons" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e912-6bdb-7d6b-9485" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83bb-b5a0-592c-c337" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="de7a-b5ab-8065-6036" name="Big Bomb Choice" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="0e5e-a5ea-7b10-13a4" name="Big Bomb Choice" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="dd99-edb8-6813-3acd" name="Big Bomb Choice" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="6947-c4ca-6b17-0675" name="Big Bomb Choice" hidden="false" collective="false" import="true">
                   <modifiers>
-                    <modifier type="set" field="5c84-4dae-95f8-fd18" value="1.0">
+                    <modifier type="decrement" field="662c-d3a1-2c9f-9d6e" value="1.0">
                       <conditions>
                         <condition field="selections" scope="a442-62a5-28a0-2ac0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e42d-efe2-ca5c-532b" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c84-4dae-95f8-fd18" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="662c-d3a1-2c9f-9d6e" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="dc84-8161-dac3-1645" name="Pair of Big Bombs" hidden="false" collective="false" import="true" targetId="8d46-35c2-ee18-4cee" type="selectionEntry">
+                    <entryLink id="029a-0903-3f98-b4f1" name="Pair of Big Bombs" hidden="false" collective="false" import="true" targetId="8d46-35c2-ee18-4cee" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="decrement" field="a20f-a812-8bb8-3a6c" value="1.0">
+                          <conditions>
+                            <condition field="selections" scope="a442-62a5-28a0-2ac0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e42d-efe2-ca5c-532b" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                       <constraints>
-                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b8d-3974-ed72-3d1d" type="max"/>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a20f-a812-8bb8-3a6c" type="max"/>
                       </constraints>
                       <costs>
                         <cost name="pts" typeId="points" value="4.0"/>
@@ -404,31 +446,45 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4f4a-2b5f-b8da-b812" name="3 Small Weapons Choice" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="85a7-830f-f0f4-6830" name="3 Small Weapons Choice" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="3211-b27c-da3d-cfe5" name="3 Small Weapons Choice" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="22f3-d6aa-4bdd-e0dc" name="3 Small Weapons Choice" hidden="false" collective="false" import="true">
                   <modifiers>
-                    <modifier type="set" field="1a7a-f5f6-a575-8048" value="2.0">
+                    <modifier type="decrement" field="5f58-b8f7-5af7-3ac2" value="1.0">
                       <conditions>
                         <condition field="selections" scope="a442-62a5-28a0-2ac0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e42d-efe2-ca5c-532b" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1a7a-f5f6-a575-8048" type="max"/>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5f58-b8f7-5af7-3ac2" type="max"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="bf99-f3fc-1ff5-60ba" name="Pair of Rokkits" hidden="false" collective="true" import="true" targetId="e324-ab13-d146-b6db" type="selectionEntry">
+                    <entryLink id="ba9b-1898-1057-c01c" name="Pair of Rokkits" hidden="false" collective="true" import="true" targetId="e324-ab13-d146-b6db" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="decrement" field="87a0-6ff3-3131-cf41" value="1.0">
+                          <conditions>
+                            <condition field="selections" scope="a442-62a5-28a0-2ac0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e42d-efe2-ca5c-532b" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                       <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f24f-14fe-d120-2fab" type="max"/>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="87a0-6ff3-3131-cf41" type="max"/>
                       </constraints>
                       <costs>
                         <cost name="pts" typeId="points" value="2.0"/>
                       </costs>
                     </entryLink>
-                    <entryLink id="563b-c2d9-7867-e5e0" name="Pair of Wing Bombs" hidden="false" collective="true" import="true" targetId="7e34-8f72-472e-0520" type="selectionEntry">
+                    <entryLink id="8893-224f-af85-452a" name="Pair of Wing Bombs" hidden="false" collective="true" import="true" targetId="7e34-8f72-472e-0520" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="decrement" field="91b7-4efb-6924-d02a" value="1.0">
+                          <conditions>
+                            <condition field="selections" scope="a442-62a5-28a0-2ac0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e42d-efe2-ca5c-532b" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                       <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e90-6e87-8b00-46a6" type="max"/>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="91b7-4efb-6924-d02a" type="max"/>
                       </constraints>
                       <costs>
                         <cost name="pts" typeId="points" value="2.0"/>
@@ -656,7 +712,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6524-f9e5-eabc-72ba" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="c24b-1549-07a1-4717" name="Crew" hidden="false" collective="false" import="true" targetId="ea21-b91d-7237-b2b0" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="23.0"/>
@@ -1047,8 +1102,7 @@
       <profiles>
         <profile id="4eab-3a77-878c-003a" name="Extra Armour" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
           <characteristics>
-            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">When this aircraft suffers a damaging hit from enemy fire, roll a D6. On a 6, the damage is ignored and the Structure points that would have been lost as a resultof the Damage dice are not lost. However, as a result of the extra armour bolted on, the aircraft’s Max Speed
-characteristic is reduced by 1.</characteristic>
+            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">When this aircraft suffers a damaging hit from enemy fire, roll a D6. On a 6, the damage is ignored and the Structure points that would have been lost as a resultof the Damage dice are not lost. However, as a result of the extra armour bolted on, the aircraft’s Max Speed characteristic is reduced by 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>

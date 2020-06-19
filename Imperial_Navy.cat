@@ -322,7 +322,7 @@
         <entryLink id="7d7c-aed9-6e6c-65e6" name="Gallus Barret" hidden="false" collective="false" import="true" targetId="8089-3d60-2af8-a931" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="27.0"/>
+        <cost name="pts" typeId="points" value="26.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8a9e-ad7d-ee8f-f044" name="Executioner" hidden="false" collective="false" import="true" type="upgrade">
@@ -462,7 +462,6 @@
           </constraints>
           <profiles>
             <profile id="fd9f-20f2-f841-902c" name="Avenger Bolt Cannon" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
-              <comment></comment>
               <characteristics>
                 <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
                 <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-5-0</characteristic>

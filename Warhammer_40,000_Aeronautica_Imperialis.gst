@@ -111,22 +111,22 @@
     </profile>
     <profile id="409c-b89b-b2e2-15ba" name="Effective Altitude (4)" hidden="false" typeId="302c-4e4d-9d55-97d8" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="e427-214b-8e1e-8539">Later</characteristic>
+        <characteristic name="Description" typeId="e427-214b-8e1e-8539">The number in the brackets represents the highest Altitude at which such weapons are accurate. If an aircraft is travelling at an Altitude higher than the number shown, the chance of hitting is reduced (see Ground-To-Air Fire rules).</characteristic>
       </characteristics>
     </profile>
     <profile id="297a-5ea8-7f8e-4621" name="Ground-to-Air Fire" hidden="false" typeId="302c-4e4d-9d55-97d8" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="e427-214b-8e1e-8539"/>
+        <characteristic name="Description" typeId="e427-214b-8e1e-8539">Weapons with this special rule  can only be used at Altitude 0 and may only target Aircraft at altitude 1 or above. They cannot be used to target anything at altitude 0 (see Ground-To-Air Fire rules).</characteristic>
       </characteristics>
     </profile>
     <profile id="5bcf-3c73-e59a-e68a" name="Effective Altitude (2)" hidden="false" typeId="302c-4e4d-9d55-97d8" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="e427-214b-8e1e-8539">Later</characteristic>
+        <characteristic name="Description" typeId="e427-214b-8e1e-8539">The number in the brackets represents the highest Altitude at which such weapons are accurate. If an aircraft is travelling at an Altitude higher than the number shown, the chance of hitting is reduced (see Ground-To-Air Fire rules).</characteristic>
       </characteristics>
     </profile>
     <profile id="ad23-adf7-45e0-b4b9" name="Effective Altitude (5)" hidden="false" typeId="302c-4e4d-9d55-97d8" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="e427-214b-8e1e-8539">Later</characteristic>
+        <characteristic name="Description" typeId="e427-214b-8e1e-8539">The number in the brackets represents the highest Altitude at which such weapons are accurate. If an aircraft is travelling at an Altitude higher than the number shown, the chance of hitting is reduced (see Ground-To-Air Fire rules).</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

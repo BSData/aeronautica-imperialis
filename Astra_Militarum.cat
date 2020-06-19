@@ -156,19 +156,14 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="d481-fe63-bc12-e036" name="Punisher Cannon Choice" hidden="false" collective="false" import="true" type="upgrade">
-              <entryLinks>
-                <entryLink id="140b-f0a8-3721-c0ec" name="Punisher Cannon" hidden="false" collective="false" import="true" targetId="3aab-4e0d-2171-476e" type="selectionEntry">
-                  <costs>
-                    <cost name="pts" typeId="points" value="4.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
           </selectionEntries>
+          <entryLinks>
+            <entryLink id="928d-a0cb-dc40-712e" name="Punisher Cannon" hidden="false" collective="false" import="true" targetId="3aab-4e0d-2171-476e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="4.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
