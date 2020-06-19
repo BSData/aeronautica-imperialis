@@ -370,9 +370,10 @@
       </constraints>
       <profiles>
         <profile id="3334-a82d-1641-10bc" name="Lascannon" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <comment>The lascannon profile here is different to that of the Imperial Navy and the last campaign book. It is likely the Marauder Bomber should have a Twin Lascannon in line with the model and the weapons stats.</comment>
           <characteristics>
             <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
-            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">0-2-1</characteristic>
+            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">0-1-1</characteristic>
             <characteristic name="DMG" typeId="3666-196d-11fd-c067">2+</characteristic>
             <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
             <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Extra Damage (6+)</characteristic>

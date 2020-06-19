@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0743-d0bd-bfee-c92a" name="Ork Air Waaagh!" revision="27" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0743-d0bd-bfee-c92a" name="Ork Air Waaagh!" revision="28" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="583d-7042-2316-f8b5" name="White Dwarf October 2019"/>
+  </publications>
   <selectionEntries>
     <selectionEntry id="96a0-75b0-6b4a-645f" name="&apos;Eavy Flak Kannon" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -659,6 +662,74 @@
         <cost name="pts" typeId="points" value="23.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c538-e1db-be7c-e544" name="Killa Eagul" publicationId="583d-7042-2316-f8b5" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14ef-8d52-c1f4-0565" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5393-43ec-51ac-e397" name="Killa Eagul" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+          <characteristics>
+            <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">2</characteristic>
+            <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">-</characteristic>
+            <characteristic name="Fuel" typeId="e194-183f-9e70-f04d">-</characteristic>
+            <characteristic name="Throttle" typeId="92ef-efe6-13ea-3792">2</characteristic>
+            <characteristic name="Ace Maneuvers" typeId="3225-9212-fdab-50f0">1-5</characteristic>
+            <characteristic name="Handling" typeId="951a-93cf-2cc5-78d8">4+</characteristic>
+            <characteristic name="Min Speed" typeId="8234-9f67-e172-880a">4</characteristic>
+            <characteristic name="Max Speed" typeId="db83-4ff1-b0cb-a312">8</characteristic>
+            <characteristic name="Max Altitude" typeId="8a75-2b8f-5077-06cd">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="17cd-9dbd-8fdc-ddcc" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d807-0cdc-5803-997f" name="Additional Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1878-8e0b-2780-6336" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0c32-f3a4-fa05-29b8" name="Pair of Wing Bombs" hidden="false" collective="false" import="true" targetId="7e34-8f72-472e-0520" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f158-8ca1-7d37-0cb4" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="65ef-28a1-3e09-6b49" name="Pair of Rokkits" hidden="false" collective="false" import="true" targetId="e324-ab13-d146-b6db" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="473e-94f7-6029-a058" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6528-88e3-e177-7578" name="Quad Big Shootas" hidden="false" collective="false" import="true" targetId="f6cb-4ac3-2c7c-ee01" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6415-55c7-4a5d-99bb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be7a-7e4c-34a3-ab9e" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="9224-e2a6-175b-3da4" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="17d8-6b46-eb8e-877f" name="Da Skymuncha" hidden="false" collective="false" import="true" targetId="0ced-7358-ff4e-b6e9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9597-dc0e-3d43-92af" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7a0-bb4f-22fa-c51e" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="18.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="c9a8-fb34-ccd4-01da" name="[Reference] Autonomous Weapons" hidden="false" collective="false" import="true" targetId="09d0-9614-622c-a12d" type="selectionEntry"/>
@@ -995,6 +1066,18 @@ Once deployed, the Autonomous weapon moves up to six hexes in a straight line di
 If at the end of any Firing phase the Autonomous weapon occupies a hex adjacent to any other aircraft, roll a D6. If the result is a 2 or higher, the Autonomous weapon has hit the aircraft. Roll one Damage dice against the hit aircraft, as described on page 23, after which the Autonomous Weapon is removed from play. If the result of this hit roll is a 1, the Autonomous weapon misses and will continue to fly in the next turn. Note that Autonomous weapons are able to climb and dive extremely rapidly. Therefore, Autonomous aircraft ignore the Altitude of other aircraft when making this roll..</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ced-7358-ff4e-b6e9" name="Da Skymuncha" publicationId="583d-7042-2316-f8b5" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0b15-67d7-24be-a537" name="Oversized Engines" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
+          <characteristics>
+            <characteristic name="Ability" typeId="65ee-9496-8377-0d24">Once per game, at the start of its Movement, this aircraft can increase its Throttle value to 4 until the end of the turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>

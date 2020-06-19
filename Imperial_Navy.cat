@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="5745-5a5f-07b9-7f4f" name="Imperial Navy" revision="19" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="583d-7042-2316-f8b5" name="White Dwarf October 2019"/>
+  </publications>
   <selectionEntries>
     <selectionEntry id="c4eb-077e-014a-c3c3" name="Thunderbolt Fury" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -399,6 +402,38 @@
         <cost name="pts" typeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="52cd-b988-0050-ded9" name="Wings Of Courage" publicationId="583d-7042-2316-f8b5" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe7d-39aa-010e-ba0e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0efa-4ac6-93fc-4da6" name="Wings Of Courage" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+          <characteristics>
+            <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">3</characteristic>
+            <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">-</characteristic>
+            <characteristic name="Fuel" typeId="e194-183f-9e70-f04d">-</characteristic>
+            <characteristic name="Throttle" typeId="92ef-efe6-13ea-3792">2</characteristic>
+            <characteristic name="Ace Maneuvers" typeId="3225-9212-fdab-50f0">1-6</characteristic>
+            <characteristic name="Handling" typeId="951a-93cf-2cc5-78d8">3+</characteristic>
+            <characteristic name="Min Speed" typeId="8234-9f67-e172-880a">2</characteristic>
+            <characteristic name="Max Speed" typeId="db83-4ff1-b0cb-a312">6</characteristic>
+            <characteristic name="Max Altitude" typeId="8a75-2b8f-5077-06cd">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="6caa-85b7-8aa4-7dd2" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a98f-012b-f0e8-1857" name="Avenger Bolt Cannon" hidden="false" collective="false" import="true" targetId="9543-aa37-4ab4-90ad" type="selectionEntry"/>
+        <entryLink id="a330-a120-af21-e6bf" name="Twin Lascannons" hidden="false" collective="false" import="true" targetId="1102-e259-d834-514b" type="selectionEntry"/>
+        <entryLink id="de3b-7a71-8ecb-1b20" name="Additional Weapons" hidden="false" collective="false" import="true" targetId="1360-3667-585f-043a" type="selectionEntryGroup"/>
+        <entryLink id="a818-9b29-e270-525a" name="Leoz Answith" hidden="false" collective="false" import="true" targetId="31eb-c562-2a27-109b" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="c22b-93fe-8f63-e96c" name="Avenger Strike" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="562d-437b-0c82-b748" name="Avenger Strike" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
@@ -419,13 +454,15 @@
         <categoryLink id="e23e-9f70-24c9-98a1" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="576b-6f16-7e27-868b" name="Avenger Bolt Cannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0980-55ef-8248-e5ae" name="Avenger Bolt Cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <comment>This profile is defferent to the one in the previous book. Likely the Thunderbolt Fury is supposed to have Twin Avenger Bolt Cannons in line with the model, giving it more shots.</comment>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5348-d109-1e40-bf65" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="610a-9ca1-dc37-5126" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de1e-1b1a-020f-1aab" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a20f-9d6a-dd7c-65ce" type="min"/>
           </constraints>
           <profiles>
-            <profile id="a9ca-baed-f5f2-b965" name="Avenger Bolt Cannon" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+            <profile id="fd9f-20f2-f841-902c" name="Avenger Bolt Cannon" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+              <comment></comment>
               <characteristics>
                 <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
                 <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-5-0</characteristic>
@@ -665,6 +702,7 @@
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="d5c2-83ae-b843-d952" name="Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+      <comment>This is probably supposed to be twin lascannons, it has the same profile as them. No FAQ yet so we&apos;ll stick with this for now.</comment>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e51-7e91-4dff-7ddc" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22b1-3316-0916-d799" type="min"/>
@@ -730,6 +768,22 @@
         <infoLink id="c8fe-ed23-e600-4799" name="Aerial Attack" hidden="false" targetId="0d22-4d01-ff7f-b254" type="profile"/>
         <infoLink id="f680-cc20-daa8-7e8f" name="Tail Gunner" hidden="false" targetId="ec08-cc37-d171-9f2d" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="31eb-c562-2a27-109b" name="Leoz Answith" publicationId="583d-7042-2316-f8b5" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c040-7794-450c-7432" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b74d-49c6-5334-e08a" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="c53a-369e-3dc6-6cd1" name="Natural Leader" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
+          <characteristics>
+            <characteristic name="Ability" typeId="65ee-9496-8377-0d24">Once per game, during the Initiative phase, the player controlling this aircraft may choose to win initiative, this ability must be used before any dice are rolled. This aircraft must be operational within the Area of Engagement to use this ability.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
@@ -812,7 +866,7 @@
             <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-2-2</characteristic>
             <characteristic name="DMG" typeId="3666-196d-11fd-c067">3+</characteristic>
             <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">1</characteristic>
-            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (6+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
