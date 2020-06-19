@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="63fd-f1bb-e3ca-e39f" name="Astra_Militarum" revision="2" battleScribeVersion="2.03" authorName="Valkyrie Assault Craft" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="63fd-f1bb-e3ca-e39f" name="Astra Militarum" revision="2" battleScribeVersion="2.03" authorName="Valkyrie Assault Craft" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9474-faac-1eb5-889b" name="Valkyrie Assault Craft" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -137,6 +137,9 @@
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9b90-cd6f-273d-16e2" name="Rocket Pod Choice" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
@@ -149,6 +152,9 @@
                   </costs>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d481-fe63-bc12-e036" name="Punisher Cannon Choice" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
@@ -158,6 +164,9 @@
                   </costs>
                 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>

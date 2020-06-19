@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="df04-c447-f12b-fae8" name="Warhammer 40,000: Aeronautica Imperialis" revision="11" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
-    <costType id="points" name="pts" defaultCostLimit="-1.0"/>
+    <costType id="points" name="pts" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
   <profileTypes>
     <profileType id="302c-4e4d-9d55-97d8" name="Abilities">
@@ -79,6 +79,9 @@
     <rule id="e966-31c6-4527-8a39" name="Jink" hidden="false">
       <description>When this aircraft is chosen to fire during the Firing phase, before step 1: Targeting, it may immediately move one hex in any direction. Note, however, that the aircraft may not changeits facing, Altitude or Speed after making this move. Nor may this movement take the aircraft into an occupied hex.</description>
     </rule>
+    <rule id="b340-7f0b-16d2-170b" name="Stealth (-1)" hidden="false">
+      <description>Any weapon with the Ground-to-Air fire special rule targeting an aircraft with this special rule must reduce its Effective Altitude (X) by 1.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="2e4d-1b50-12f0-759f" name="Extra Damage (6+)" hidden="false" typeId="302c-4e4d-9d55-97d8" typeName="Abilities">
@@ -124,11 +127,6 @@
     <profile id="ad23-adf7-45e0-b4b9" name="Effective Altitude (5)" hidden="false" typeId="302c-4e4d-9d55-97d8" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="e427-214b-8e1e-8539">Later</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="1ae5-3c77-7b94-7b5e" name="Stealth (-1)" hidden="false" typeId="302c-4e4d-9d55-97d8" typeName="Abilities">
-      <characteristics>
-        <characteristic name="Description" typeId="e427-214b-8e1e-8539">Any weapon with the Ground-to-Air fire special rule targeting an aircraft with this special rule must reduce its Effective Altitude (X) by 1.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

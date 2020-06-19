@@ -596,6 +596,9 @@
       <categoryLinks>
         <categoryLink id="f1b9-ee48-415b-42d5" name="New CategoryLink" hidden="false" targetId="29c7-0381-72cf-daf9" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="60a3-2ebb-1a8a-bfcf" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="b890-18e0-99ff-65b2" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="10.0"/>
       </costs>
