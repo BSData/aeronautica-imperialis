@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0743-d0bd-bfee-c92a" name="Ork Air Waaagh!" revision="28" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0743-d0bd-bfee-c92a" name="Ork Air Waaagh!" revision="29" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="583d-7042-2316-f8b5" name="White Dwarf October 2019"/>
+    <publication id="22c5-f0a4-5370-5716" name="White Dwarf December 2019"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="96a0-75b0-6b4a-645f" name="&apos;Eavy Flak Kannon" hidden="false" collective="false" import="true" type="model">
@@ -643,7 +644,11 @@
           </constraints>
         </entryLink>
         <entryLink id="bf6a-bef9-9846-dbf3" name="Aircraft upgrade" hidden="false" collective="false" import="true" targetId="54a6-483f-3fbb-cf60" type="selectionEntryGroup"/>
-        <entryLink id="8d36-bd66-77b7-86aa" name="Crew" hidden="false" collective="false" import="true" targetId="ea21-b91d-7237-b2b0" type="selectionEntryGroup"/>
+        <entryLink id="8d36-bd66-77b7-86aa" name="Crew" hidden="false" collective="false" import="true" targetId="ea21-b91d-7237-b2b0" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="d4de-f5f3-c0c2-a5e7" name="Rudok Redz" hidden="false" collective="false" import="true" targetId="f7a5-fc3d-2b2a-0fb3" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="28.0"/>
@@ -1134,6 +1139,22 @@ If at the end of any Firing phase the Autonomous weapon occupies a hex adjacent 
       </profiles>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f7a5-fc3d-2b2a-0fb3" name="Rudok Redz" publicationId="22c5-f0a4-5370-5716" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b129-fff9-7c7e-f731" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9855-0f80-2b21-41d4" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d24f-329f-c95e-4322" name="Grot Bomb Ace" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
+          <characteristics>
+            <characteristic name="Ability" typeId="65ee-9496-8377-0d24">A single Grot Bomm fired by this aircraft may be piloted by Rudok Reddz. When moving, Rudok Redz may make up to two turns with his Grot Bomb rather than the usual one.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
