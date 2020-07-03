@@ -51,64 +51,40 @@
         <categoryLink id="3b57-67f6-fb0f-42be" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5633-6dff-2f21-7f5f" name="Additional Weapons" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="fe73-0f67-b29f-a755" name="Additional Weapons" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="decrement" field="e1d1-f3b5-3e68-3565" value="1.0">
+              <conditions>
+                <condition field="selections" scope="0a5a-d4e5-f815-0cf1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e42d-efe2-ca5c-532b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2da-83ff-7194-a137" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1d1-f3b5-3e68-3565" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="ce0f-3cd0-31bf-3eb7" name="Big Bomb Choice" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="3ffa-ef3e-002f-a613" name="Big Bomb Choice" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5583-edcf-a1f0-6430" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="f12f-a934-5739-55b3" name="Pair of Big Bombs" hidden="false" collective="false" import="true" targetId="8d46-35c2-ee18-4cee" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c128-eec2-c3be-a401" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="points" value="4.0"/>
-                      </costs>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="2882-2b18-9521-cda6" name="Pair of Rokkits" hidden="false" collective="false" import="true" targetId="e324-ab13-d146-b6db" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0853-6d04-f719-782c" type="max"/>
+              </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="2.0"/>
               </costs>
-            </selectionEntry>
-            <selectionEntry id="8feb-f120-c4f2-4c99" name="3 Small Weapons Choice" hidden="false" collective="false" import="true" type="upgrade">
-              <selectionEntryGroups>
-                <selectionEntryGroup id="976f-1875-7972-68c5" name="3 Small Weapons Choice" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9325-b313-c6e8-b3c9" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="16aa-3d14-74d1-9dcd" name="Pair of Rokkits" hidden="false" collective="true" import="true" targetId="e324-ab13-d146-b6db" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9311-de08-ab65-9d46" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="points" value="2.0"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink id="be36-0cb6-4254-e635" name="Pair of Wing Bombs" hidden="false" collective="true" import="true" targetId="7e34-8f72-472e-0520" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6c13-b37f-c3ac-6a50" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="pts" typeId="points" value="2.0"/>
-                      </costs>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+            </entryLink>
+            <entryLink id="e2cb-d895-519b-d736" name="Pair of Wing Bombs" hidden="false" collective="false" import="true" targetId="7e34-8f72-472e-0520" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba0c-19c6-a396-2231" type="max"/>
+              </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="2.0"/>
               </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </entryLink>
+            <entryLink id="5e07-df07-66e2-a5a6" name="Pair of Big Bombs" hidden="false" collective="false" import="true" targetId="8d46-35c2-ee18-4cee" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b70-2900-3f16-8665" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
