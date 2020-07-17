@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5745-5a5f-07b9-7f4f" name="Imperial Navy" revision="20" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5745-5a5f-07b9-7f4f" name="Imperial Navy" revision="21" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="583d-7042-2316-f8b5" name="White Dwarf October 2019"/>
   </publications>
@@ -453,29 +453,6 @@
       <categoryLinks>
         <categoryLink id="e23e-9f70-24c9-98a1" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="0980-55ef-8248-e5ae" name="Avenger Bolt Cannon" hidden="false" collective="false" import="true" type="upgrade">
-          <comment>This profile is defferent to the one in the previous book. Likely the Thunderbolt Fury is supposed to have Twin Avenger Bolt Cannons in line with the model, giving it more shots.</comment>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de1e-1b1a-020f-1aab" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a20f-9d6a-dd7c-65ce" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="fd9f-20f2-f841-902c" name="Avenger Bolt Cannon" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
-              <characteristics>
-                <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
-                <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-5-0</characteristic>
-                <characteristic name="DMG" typeId="3666-196d-11fd-c067">4+</characteristic>
-                <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
-                <characteristic name="SPECIAL" typeId="847c-0816-0714-4132"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="14a3-5ef1-8f6d-0a53" name="Additional Gun" hidden="false" collective="false" import="true">
           <constraints>
@@ -533,6 +510,7 @@
         <entryLink id="ba30-222a-5ae0-ac9e" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="b890-18e0-99ff-65b2" type="selectionEntryGroup"/>
         <entryLink id="6f06-e3fd-ee1f-bca5" name="Crew" hidden="false" collective="false" import="true" targetId="ea59-501a-a451-ec37" type="selectionEntryGroup"/>
         <entryLink id="0c59-ad35-ccba-d1de" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="b392-0a36-755e-8ac4" type="selectionEntry"/>
+        <entryLink id="c487-1d86-ca05-2d39" name="Avenger Bolt Cannon" hidden="false" collective="false" import="true" targetId="9543-aa37-4ab4-90ad" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
@@ -889,10 +867,13 @@
             <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">3-7-0</characteristic>
             <characteristic name="DMG" typeId="3666-196d-11fd-c067">4+</characteristic>
             <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
-            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132"/>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Extra Damage (6+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="4876-ce4a-cc27-5bb1" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
