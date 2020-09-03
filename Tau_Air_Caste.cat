@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6088-0c35-9d44-ed62" name="T&apos;au Air Caste" revision="1" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6088-0c35-9d44-ed62" name="T&apos;au Air Caste" revision="2" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="f87d-a6d4-b556-37f4" name="Barracuda AX-5-2" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -701,7 +701,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9299-53bf-49f8-2687" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7de8-6214-e100-3157" name="Swiftstrike Railgun" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+        <profile id="7de8-6214-e100-3157" name="Paired Swiftstrike Railgun" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
           <characteristics>
             <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
             <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">0-3-2</characteristic>
@@ -723,7 +723,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38bb-b4bf-5e16-4207" type="max"/>
       </constraints>
       <profiles>
-        <profile id="69be-5ede-7536-f83f" name="Swiftstrike Burst Cannon" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+        <profile id="69be-5ede-7536-f83f" name="Paired Swiftstrike Burst Cannon" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
           <characteristics>
             <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
             <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">4-9-4</characteristic>
@@ -742,7 +742,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da45-7928-f8c4-d7e1" type="max"/>
       </constraints>
       <profiles>
-        <profile id="689e-49fd-a400-7809" name="Ion Cannon" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+        <profile id="689e-49fd-a400-7809" name="Paired Ion Cannon" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
           <characteristics>
             <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
             <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-4-2</characteristic>
