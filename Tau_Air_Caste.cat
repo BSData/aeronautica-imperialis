@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6088-0c35-9d44-ed62" name="T&apos;au Air Caste" revision="2" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6088-0c35-9d44-ed62" name="T&apos;au Air Caste" revision="3" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="f87d-a6d4-b556-37f4" name="Barracuda AX-5-2" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -58,7 +58,11 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="2016-dabe-7965-ced2" name="Missile Pods" hidden="false" collective="false" import="true" targetId="3dc4-721f-c76d-a8cd" type="selectionEntry"/>
-        <entryLink id="59dd-e3a8-e4ff-268b" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="6f30-104f-c5f0-970b" type="selectionEntryGroup"/>
+        <entryLink id="59dd-e3a8-e4ff-268b" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="6f30-104f-c5f0-970b" type="selectionEntryGroup">
+          <entryLinks>
+            <entryLink id="242c-6025-e6c3-2cc7" name="Ionic Afterburners" hidden="false" collective="false" import="true" targetId="0eb4-c63b-dcab-5c51" type="selectionEntry"/>
+          </entryLinks>
+        </entryLink>
         <entryLink id="1f00-83aa-7108-bc84" name="Drones" hidden="false" collective="false" import="true" targetId="56a2-e25b-7af2-469c" type="selectionEntryGroup"/>
         <entryLink id="3f54-e9ac-0c7c-2e48" name="Seeker Missile Bay" hidden="false" collective="false" import="true" targetId="5bd7-8d88-1989-d530" type="selectionEntry">
           <costs>
@@ -816,7 +820,6 @@
         <entryLink id="0e49-efdb-dfcd-8133" name="Decoy Drones" hidden="false" collective="false" import="true" targetId="2fcd-4af2-8ccf-89ec" type="selectionEntry"/>
         <entryLink id="85a2-d749-a42b-5c86" name="Defensive Drones" hidden="false" collective="false" import="true" targetId="9cdf-73ec-52f3-287f" type="selectionEntry"/>
         <entryLink id="7288-16da-c6b2-c006" name="Infra-red Targeting" hidden="false" collective="false" import="true" targetId="536a-41a5-fa1f-7a70" type="selectionEntry"/>
-        <entryLink id="1e64-97b8-c002-7b65" name="Ionic Afterburners" hidden="false" collective="false" import="true" targetId="0eb4-c63b-dcab-5c51" type="selectionEntry"/>
         <entryLink id="d260-80d8-987e-6352" name="Kor&apos;El" hidden="false" collective="false" import="true" targetId="a037-b305-2bd1-c472" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="53d4-dae6-f8e2-b864" value="0.0"/>
