@@ -321,7 +321,7 @@
       <profiles>
         <profile id="ba0a-90db-6fe7-32ac" name="Flares or Chaff Launcher" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
           <characteristics>
-            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, if the aircraft is hit by a weapons with an Ammor chracteristic of 1,2, or 3, roll a D6. On a 6, the hit becomes a miss.</characteristic>
+            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, if the aircraft is hit by a weapons with an armor characteristic of 1, 2, or 3, roll a D6. On a 6, the hit becomes a miss.</characteristic>
           </characteristics>
         </profile>
       </profiles>
