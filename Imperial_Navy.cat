@@ -678,7 +678,7 @@
     </selectionEntry>
     <selectionEntry id="f8ab-25f5-4f41-69ba" name="Marauder Colossus" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="c3da-1389-722e-251f" name="Marauder" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+        <profile id="c3da-1389-722e-251f" name="Marauder Colossus" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
           <characteristics>
             <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">5</characteristic>
             <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">-</characteristic>
