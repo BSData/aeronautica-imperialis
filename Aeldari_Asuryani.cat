@@ -6,21 +6,175 @@
   <selectionEntries>
     <selectionEntry id="1c41-0047-a4e1-2e8a" name="Nightwing" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
-        <selectionEntryGroup id="c7b0-566c-8229-2e89" name="Additional Weaponary" hidden="false" collective="false" import="true"/>
+        <selectionEntryGroup id="c7b0-566c-8229-2e89" name="Additional Weaponary" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="977a-dfd7-0902-f351" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f9d-e85e-1cc9-81d3" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="49ff-35d4-b6b3-4e42" name="Twin Bright Lances" hidden="false" collective="false" import="true" targetId="e8d3-53fc-341c-b8dc" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ea08-bf9f-36fc-5fca" name="Twin Scatter Lasers" hidden="false" collective="false" import="true" targetId="51cc-1911-c018-e8b4" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="bf15-191f-b0b8-7897" name="Twin Starcannon" hidden="false" collective="false" import="true" targetId="3a96-7a04-f0bc-0774" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7473-1597-cd19-3e28" name="Twin Missile Launchers" hidden="false" collective="false" import="true" targetId="3783-5af5-dfe5-2ac7" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="3.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="77c6-5cee-1389-e2e8" name="Shuriken Cannon" hidden="false" collective="false" import="true" targetId="568b-196b-ebf8-89ff" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c414-9cbc-fc21-1f2f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a25e-ce2b-eaf8-5ae9" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7ed4-00d1-0fcc-896c" name="Pheonix Bomber" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntryGroups>
-        <selectionEntryGroup id="06d1-81c5-9086-cfe7" name="Additional Weaponary" hidden="false" collective="false" import="true"/>
+        <selectionEntryGroup id="52ac-b3e9-3bb4-e5ae" name="Additional Weaponary" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7da-0202-3cd0-d67e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5d9-707b-5f6d-e611" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5f1a-fba3-5ba9-fbf8" name="Twin Bright Lances" hidden="false" collective="false" import="true" targetId="e8d3-53fc-341c-b8dc" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2b3e-1414-7787-f941" name="Twin Starcannon" hidden="false" collective="false" import="true" targetId="3a96-7a04-f0bc-0774" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="5e2a-246e-3cac-0e8b" name="Twin Pulse Lasers" hidden="false" collective="false" import="true" targetId="fa8b-eadb-cd42-1c8e" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="3.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="307d-35a2-b79d-01d1" name="Missile Array" hidden="false" collective="false" import="true" defaultSelectionEntryId="c909-2c8f-f678-0573">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2699-37ff-8710-9024" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69d8-5b3f-303a-147c" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c909-2c8f-f678-0573" name="Missile Array" hidden="false" collective="false" import="true" targetId="7999-95b6-7a36-bf4c" type="selectionEntry"/>
+            <entryLink id="71e9-40b4-16ce-a5c7" name="Nightfire Plasma Missile Array" hidden="false" collective="false" import="true" targetId="653b-c03d-8d61-2c43" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="62c5-d05c-b70d-ca37" name="Nightfire Krak Missile Array" hidden="false" collective="false" import="true" targetId="4d14-308e-6805-8ba9" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4dac-033e-9d00-fde0" name="Shuriken Cannon" hidden="false" collective="false" import="true" targetId="568b-196b-ebf8-89ff" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b85-73aa-5680-dab5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="013e-0d2d-e1c0-fdf0" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8b94-a4a9-d077-e33a" name="Bomb Rack" hidden="false" collective="false" import="true" targetId="a7ef-276c-29a4-a845" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d04-cd51-efaf-6784" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fa4-5b08-6e8b-71e9" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="23.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="568b-196b-ebf8-89ff" name="Shuriken Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="cdbc-c45e-84b6-4033" name="Shuriken Cannon" hidden="false" targetId="d7e7-8de1-8bfa-bf0e" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="e8d3-53fc-341c-b8dc" name="Twin Bright Lances" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f672-d2c1-db72-8c5d" name="Twin Bright Lances" hidden="false" targetId="a82d-01f0-2b53-9f47" type="profile"/>
+        <infoLink id="9f84-b3b5-cef8-8798" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="51cc-1911-c018-e8b4" name="Twin Scatter Lasers" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8c67-1a6b-615e-3e54" name="Twin Scatter Lasers" hidden="false" targetId="fe1a-352b-f3bb-33ff" type="profile"/>
+        <infoLink id="bcc7-c853-459c-3ca1" name="Aerial Attack" hidden="false" targetId="0d22-4d01-ff7f-b254" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="3783-5af5-dfe5-2ac7" name="Twin Missile Launchers" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1722-adcf-ee24-939d" name="Twin Missile Launchers" hidden="false" targetId="45e2-0de4-eaa9-84fe" type="profile"/>
+        <infoLink id="495f-1756-9b9e-7886" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
+        <infoLink id="1591-e890-4540-9c71" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="3a96-7a04-f0bc-0774" name="Twin Starcannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8b42-58f1-9db5-acac" name="Twin Starcannon" hidden="false" targetId="1636-07a9-290e-0eb2" type="profile"/>
+        <infoLink id="4791-24d3-e9a3-6576" name="Aerial Attack" hidden="false" targetId="0d22-4d01-ff7f-b254" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="fa8b-eadb-cd42-1c8e" name="Twin Pulse Lasers" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2c03-71c6-20d6-9704" name="Twin Pulse Lasers" hidden="false" targetId="ea31-5452-86e9-bc88" type="profile"/>
+        <infoLink id="78b1-d8cd-2ac8-4042" name="Aerial Attack" hidden="false" targetId="0d22-4d01-ff7f-b254" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="7999-95b6-7a36-bf4c" name="Missile Array" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4a87-5e5e-74ae-f883" name="Missile Arrary" hidden="false" targetId="aeba-c921-1090-9fd8" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="a7ef-276c-29a4-a845" name="Bomb Rack" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a84a-5d14-46f7-5cd0" name="Bomb Rack" hidden="false" targetId="93d5-ca9c-9181-18f9" type="profile"/>
+        <infoLink id="e66c-70a6-9fbe-e7a2" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
+        <infoLink id="ad6f-7101-e91e-0bf7" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="4d14-308e-6805-8ba9" name="Nightfire Krak Missile Array" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="bee9-14d5-ca52-e676" name="Nightfire Krak Missile Array" hidden="false" targetId="3c3a-32f5-3657-a78a" type="profile"/>
+        <infoLink id="e0da-18bb-3f46-a2f3" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
+        <infoLink id="bac4-5ccc-148a-d182" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="653b-c03d-8d61-2c43" name="Nightfire Plasma Missile Array" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a50d-1e23-2e5c-6bd0" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
+        <infoLink id="5e30-0b1e-5c53-4763" name="Aerial Attack" hidden="false" targetId="0d22-4d01-ff7f-b254" type="profile"/>
+        <infoLink id="d0ec-f797-c382-fc6e" name="Nightfire Plasma Missile Array" hidden="false" targetId="ed21-5de6-260b-0c77" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="d04a-60cb-9037-6636" name="Aircraft Upgrades" hidden="false" collective="false" import="true">
       <constraints>
@@ -162,7 +316,7 @@ However, all of the dice rolled must be re-rolled and the player must accept the
         <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Aerial Attack</characteristic>
       </characteristics>
     </profile>
-    <profile id="45e2-0de4-eaa9-84fe" name="Twin Missile Launcher" publicationId="1d81-06ef-f102-6d15" page="33" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+    <profile id="45e2-0de4-eaa9-84fe" name="Twin Missile Launchers" publicationId="1d81-06ef-f102-6d15" page="33" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
       <characteristics>
         <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
         <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-2-2</characteristic>
@@ -180,7 +334,7 @@ However, all of the dice rolled must be re-rolled and the player must accept the
         <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Aerial Attack</characteristic>
       </characteristics>
     </profile>
-    <profile id="ea31-5452-86e9-bc88" name="Twin Pulse Cannon" publicationId="1d81-06ef-f102-6d15" page="34" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+    <profile id="ea31-5452-86e9-bc88" name="Twin Pulse Lasers" publicationId="1d81-06ef-f102-6d15" page="34" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
       <characteristics>
         <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
         <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-3-2</characteristic>
@@ -204,6 +358,24 @@ However, all of the dice rolled must be re-rolled and the player must accept the
         <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-2-2</characteristic>
         <characteristic name="DMG" typeId="3666-196d-11fd-c067">3+</characteristic>
         <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">2</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="aeba-c921-1090-9fd8" name="Missile Arrary" publicationId="1d81-06ef-f102-6d15" page="34" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">3-2-0</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">5+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="93d5-ca9c-9181-18f9" name="Bomb Rack" publicationId="1d81-06ef-f102-6d15" page="34" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">4-0-0</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">2+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">3</characteristic>
         <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (6+)</characteristic>
       </characteristics>
     </profile>
