@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9826-b91b-6a9d-ca70" name="Adeptus Astartes" revision="2" battleScribeVersion="2.03" authorName="" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9826-b91b-6a9d-ca70" name="Adeptus Astartes" revision="1" battleScribeVersion="2.03" authorName="" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="25d1-4c56-7d01-fd5b" name="Wrath of Angels" publicationDate="2021"/>
   </publications>
@@ -104,7 +104,10 @@
         <cost name="pts" typeId="points" value="29.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="564a-00c1-78a5-5f50" name="Dark Fire" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="564a-00c1-78a5-5f50" name="Dark Fire" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23fd-e5e8-1336-147f" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="004d-d6b1-9609-1198" name="Dark Fire" hidden="false" targetId="292e-77e8-8f77-d090" type="profile"/>
         <infoLink id="5f23-0fd0-0cf3-4bcb" name="Argan Fal&apos;Shan" hidden="false" targetId="37bc-3ece-fc0b-4a28" type="profile"/>
@@ -142,6 +145,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7ab2-ebf5-7028-82d2" name="The Unkillable Phantom" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f5a-7a3f-fa26-b3d2" type="max"/>
+      </constraints>
       <profiles>
         <profile id="8976-4ca5-59f4-08f2" name="Athor Vae" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
           <characteristics>
@@ -265,6 +271,10 @@
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="01c3-dd32-bfac-3aac" name="Wing Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="f4e3-71d4-0bc0-29d6">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2875-2ea6-99dc-1277" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f55-a701-c92e-f9ff" type="min"/>
+          </constraints>
           <entryLinks>
             <entryLink id="f4e3-71d4-0bc0-29d6" name="Pair of Wing Heavy Bolters" hidden="false" collective="false" import="true" targetId="0ae2-d1d0-2a4a-b950" type="selectionEntry"/>
           </entryLinks>
@@ -279,6 +289,10 @@
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="4611-4f60-b873-bbf0" name="Front Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="e710-d978-28d3-7e66">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eee0-a3b2-9d3f-8a81" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf01-6e78-cf63-ebe0" type="min"/>
+          </constraints>
           <entryLinks>
             <entryLink id="e710-d978-28d3-7e66" name="Twin Lascannon" hidden="false" collective="false" import="true" targetId="6961-d358-1e91-21f0" type="selectionEntry"/>
           </entryLinks>
