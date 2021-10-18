@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5745-5a5f-07b9-7f4f" name="Imperial Navy" revision="23" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="13" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5745-5a5f-07b9-7f4f" name="Imperial Navy" revision="23" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="583d-7042-2316-f8b5" name="White Dwarf October 2019"/>
+    <publication id="39ba-445a-a65f-2bd6" name="White Dwarf November 2020"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="c4eb-077e-014a-c3c3" name="Thunderbolt Fury" hidden="false" collective="false" import="true" type="model">
@@ -790,6 +791,38 @@
         <cost name="pts" typeId="points" value="33.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="daf4-ed1e-e0da-b3ba" name="Ghost" publicationId="39ba-445a-a65f-2bd6" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2be4-8242-ab57-6f36" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d79b-6465-50be-e0cf" name="Ghost" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+          <characteristics>
+            <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">2</characteristic>
+            <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">-</characteristic>
+            <characteristic name="Fuel" typeId="e194-183f-9e70-f04d">-</characteristic>
+            <characteristic name="Throttle" typeId="92ef-efe6-13ea-3792">2</characteristic>
+            <characteristic name="Ace Maneuvers" typeId="3225-9212-fdab-50f0">1-6</characteristic>
+            <characteristic name="Handling" typeId="951a-93cf-2cc5-78d8">2+</characteristic>
+            <characteristic name="Min Speed" typeId="8234-9f67-e172-880a">1</characteristic>
+            <characteristic name="Max Speed" typeId="db83-4ff1-b0cb-a312">6</characteristic>
+            <characteristic name="Max Altitude" typeId="8a75-2b8f-5077-06cd">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="94e1-c07b-8486-437c" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1a5e-666a-61bc-c4c4" name="Avenger Bolt Cannon" hidden="false" collective="false" import="true" targetId="9543-aa37-4ab4-90ad" type="selectionEntry"/>
+        <entryLink id="e279-eba0-ea03-762d" name="Twin Lascannons" hidden="false" collective="false" import="true" targetId="1102-e259-d834-514b" type="selectionEntry"/>
+        <entryLink id="2040-4bf8-e2ac-f723" name="Additional Weapons" hidden="false" collective="false" import="true" targetId="1360-3667-585f-043a" type="selectionEntryGroup"/>
+        <entryLink id="adae-bef3-0a03-efb2" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="b392-0a36-755e-8ac4" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="24.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="d5c2-83ae-b843-d952" name="Lascannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -976,6 +1009,13 @@
       </constraints>
       <profiles>
         <profile id="91c7-9d24-8df6-1322" name="Avenger Bolt Cannon" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <modifiers>
+            <modifier type="set" field="a5ae-d9ef-f1b4-e838" value="2-5-0">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daf4-ed1e-e0da-b3ba" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
             <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">3-7-0</characteristic>
@@ -1191,6 +1231,13 @@
       </constraints>
       <profiles>
         <profile id="f5e6-3605-1a50-1289" name="Heavy Stubber" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <modifiers>
+            <modifier type="set" field="a5ae-d9ef-f1b4-e838" value="1-1-0">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daf4-ed1e-e0da-b3ba" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Rear, Up</characteristic>
             <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-5-0</characteristic>
