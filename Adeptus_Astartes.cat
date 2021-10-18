@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9826-b91b-6a9d-ca70" name="Adeptus Astartes" revision="2" battleScribeVersion="2.03" authorName="" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="25d1-4c56-7d01-fd5b" name="Wrath of Angels" publicationDate="2021"/>
+  </publications>
+  <selectionEntries>
+    <selectionEntry id="d60f-6e76-fb25-6ee0" name="Xiphon Interceptor" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6141-2602-fe32-1a6e" name="Xiphon Interceptor" hidden="false" targetId="0c6c-374d-2a08-5d38" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="066f-bdb2-6601-e29e" name="Weaponary" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="7f57-1ff1-a9df-1171" value="1.0">
+              <conditions>
+                <condition field="selections" scope="d60f-6e76-fb25-6ee0" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9afb-80ce-dcde-b960" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f57-1ff1-a9df-1171" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f90f-c677-7789-0f0f" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1e63-ea32-ccd0-16ae" name="Rotary Frag Missile Launcher" hidden="false" collective="false" import="true" targetId="9afb-80ce-dcde-b960" type="selectionEntry"/>
+            <entryLink id="6fb3-ee36-5c55-a54c" name="Hunter-Killer Missiles" hidden="false" collective="false" import="true" targetId="ce0c-61c9-83e9-5bf1" type="selectionEntry"/>
+            <entryLink id="8bf2-5b33-de4b-4d10" name="Krak Missiles" hidden="false" collective="false" import="true" targetId="2ad8-e084-80aa-13b1" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d1af-6807-5c21-a705" name="Quad Lascannons" hidden="false" collective="false" import="true" targetId="8b95-c96b-c8fc-68e3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f2d-8611-4f80-4a37" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ad6-e2ff-94f1-1929" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="04c4-4e4b-7d18-f4e7" name="Krak Missiles" hidden="false" collective="false" import="true" targetId="2ad8-e084-80aa-13b1" type="selectionEntry"/>
+        <entryLink id="520b-1557-d9fd-80d0" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="323a-9cee-3091-0308" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="55f0-97af-64ac-7391" name="Storm Eagle Assualt Craft" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3465-dc65-864c-8acd" name="Storm Eagle Assault Craft" hidden="false" targetId="3f65-62f3-b0eb-652d" type="profile"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c47f-a806-c895-2fab" name="Weaponary" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="7ea8-79d5-ed17-1675" value="1.0">
+              <conditions>
+                <condition field="selections" scope="55f0-97af-64ac-7391" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="06bb-9244-161f-c710" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="2f22-582f-4680-f645" value="1.0">
+              <conditions>
+                <condition field="selections" scope="55f0-97af-64ac-7391" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="06bb-9244-161f-c710" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ea8-79d5-ed17-1675" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f22-582f-4680-f645" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="62a3-bad3-3c7b-0bd9" name="Dual Frag Missile Pods" hidden="false" collective="false" import="true" targetId="06bb-9244-161f-c710" type="selectionEntry"/>
+            <entryLink id="4b23-92f2-1aa2-75a4" name="Dual Krak Missiles" hidden="false" collective="false" import="true" targetId="fad5-569c-a5df-4bf4" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2bca-d7ad-9b88-ecca" name="Hunter-Killer Missiles" hidden="false" collective="false" import="true" targetId="ce0c-61c9-83e9-5bf1" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="3.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="53a9-bca8-9692-bc1e" name="Quad Lascannons" hidden="false" collective="false" import="true" targetId="8b95-c96b-c8fc-68e3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04be-7ae8-0f5f-4560" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cebe-ea7f-4b67-c2ba" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9e1d-bc2c-94c4-b172" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="323a-9cee-3091-0308" type="selectionEntryGroup"/>
+        <entryLink id="4c56-0506-ea34-dbcd" name="Twin Heavy Bolters" hidden="false" collective="false" import="true" targetId="6223-ad23-c9a1-2054" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5404-791d-36f7-7799" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="859e-a7c0-4f8f-c445" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="29.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="564a-00c1-78a5-5f50" name="Fire Raptor Gunship" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="004d-d6b1-9609-1198" name="Fire Raptor Gunship" hidden="false" targetId="1ff7-ff7e-3a7f-4ee7" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="7974-7489-52ce-17cc" name="Avenger Bolt Cannon" hidden="false" collective="false" import="true" targetId="2754-d0c5-ce3c-00e3" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be29-f038-f653-3a19" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c689-4514-379b-5bac" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bf2e-b048-074b-4833" name="Hellstrike Missile Launchers" hidden="false" collective="false" import="true" targetId="c6af-72c5-add2-cf10" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e32-dc7b-c0be-7d29" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eff8-ce58-0c92-48b2" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="31.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="30a7-fad7-104d-28ad" name="Tactical Targetting Array" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9353-a1c1-1ee7-2311" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5fef-ea56-beaa-0b43" name="Tactical Targetting Array" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+          <characteristics>
+            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, when targetting an enemy aircraft with Air-to-Air fire, this aircraft may re-roll any of the Firepower dice that roll a 1 to hit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="80ae-73f9-6462-7f02" name="Infra-red Targeting" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e71-32ab-7ef8-703f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d58e-00bd-b05c-b461" name="Infra-red Targeting" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+          <characteristics>
+            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">If the Night Fighting or Bad Weather rule are in use, this aircraft may fire at Medium range without reducing the number of Firepower dice rolled.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="11e7-d3e4-5b6d-2360" name="Armoured Cockpit" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a63-720c-f871-0d0d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9fd8-66be-432e-1f1b" name="Armored Cockpit" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+          <characteristics>
+            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">When this aircraft suffers a damaging hit from enemy fire, roll a D6. On a 6, the damage is ignored and the Structure points(s) that would have been lost as a result of the damage dice are not lost.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b95-c96b-c8fc-68e3" name="Quad Lascannons" publicationId="25d1-4c56-7d01-fd5b" page="29" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ac3-5d64-df67-796b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2a6c-d6c2-677a-91f8" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
+        <infoLink id="f1cd-be62-d50e-37e0" name="Quad Lascannon" hidden="false" targetId="3700-622a-e4af-9dd7" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3aab-4e0d-2171-476e" name="Punisher Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41a2-7804-99f6-406f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="3c7b-aa44-69ef-ebe4" name="Punisher Cannon" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+          <characteristics>
+            <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">6-10-0</characteristic>
+            <characteristic name="DMG" typeId="3666-196d-11fd-c067">5+</characteristic>
+            <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9afb-80ce-dcde-b960" name="Rotary Frag Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f849-83de-ebb7-3225" name="Rotary Frag Missile Launcher" hidden="false" targetId="07da-3e76-9d8f-db42" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2ad8-e084-80aa-13b1" name="Krak Missiles" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="712e-49b4-7eef-6ed0" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
+        <infoLink id="ead3-434d-a879-a3be" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
+        <infoLink id="5331-ba84-711b-bd26" name="Krak Missiles" hidden="false" targetId="181f-23de-0b8d-0e21" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce0c-61c9-83e9-5bf1" name="Hunter-Killer Missiles" publicationId="25d1-4c56-7d01-fd5b" page="29" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="478a-2bd8-1773-86fb" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
+        <infoLink id="a6fa-6958-d675-9d6f" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
+        <infoLink id="8675-0abc-ba56-e69a" name="Hunter-Killer Missiles" hidden="false" targetId="097b-686a-3611-5ddd" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6a1c-028d-cbbc-2796" name="Ceramite Plating" publicationId="25d1-4c56-7d01-fd5b" page="28" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28ca-d84f-96bf-2380" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b0a5-5c0e-eb24-7b07" name="Ceramite Plating" hidden="false" targetId="540b-636f-034a-7e73" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6d5d-cd4e-4dd2-310f" name="Veteran" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a11a-7207-3dd4-9a5a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="99a5-03e6-c76d-d389" name="Veteran" hidden="false" targetId="bcd9-25af-3619-9110" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d347-61e4-538e-9c87" name="Techmarine" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2cb-e9da-8470-ebbe" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5e54-917c-0463-4390" name="Techmarine" hidden="false" targetId="73b1-6bba-8042-90e0" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="679d-30b1-dfa1-ed30" name="Infernum Halo Launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fc3-c9b1-7ee1-f29e" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="95c7-bcf1-59c4-d60d" name="Infernum Halo Launcher" hidden="false" targetId="675c-cf66-558d-03ab" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="6223-ad23-c9a1-2054" name="Twin Heavy Bolters" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c591-1774-5c5a-6384" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e1fb-4149-f790-0867" name="Twin Heavy Bolters" hidden="false" targetId="cc74-8324-822c-09db" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="06bb-9244-161f-c710" name="Dual Frag Missile Pods" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51d7-4fcf-0ded-a48f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="283f-047e-f5be-5222" name="Dual Frag Missile Pods" hidden="false" targetId="5293-ae41-aeac-c3b3" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="fad5-569c-a5df-4bf4" name="Dual Krak Missiles" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="eabf-4af5-9d42-91d8" name="Dual Krak Missiles" hidden="false" targetId="e9c4-3d6e-4950-07c3" type="profile"/>
+        <infoLink id="a24e-a162-113c-98e7" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
+        <infoLink id="9396-f52f-de1e-afe1" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2754-d0c5-ce3c-00e3" name="Avenger Bolt Cannon" publicationId="25d1-4c56-7d01-fd5b" page="31" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7b50-2f75-c77b-32aa" name="Avenger Bolt Cannon" hidden="false" targetId="8c68-a789-c35c-089c" type="profile"/>
+        <infoLink id="8c9e-73d9-2353-89c6" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="c6af-72c5-add2-cf10" name="Hellstrike Missile Launchers" publicationId="25d1-4c56-7d01-fd5b" page="31" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="297d-ce95-9f2c-062c" name="Hellstrike Missile Launchers" hidden="false" targetId="b5cb-5e64-4a40-15eb" type="profile"/>
+        <infoLink id="c3f7-bcf8-c987-47d0" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
+        <infoLink id="250a-6b82-e500-8ddc" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="323a-9cee-3091-0308" name="Aircraft Upgrades" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58bc-2675-8c6a-dfc5" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="f2d1-0cdb-3c92-efed" name="Armoured Cockpit" hidden="false" collective="false" import="true" targetId="11e7-d3e4-5b6d-2360" type="selectionEntry"/>
+        <entryLink id="ccf0-364a-1c19-a3e9" name="Infra-red Targeting" hidden="false" collective="false" import="true" targetId="80ae-73f9-6462-7f02" type="selectionEntry"/>
+        <entryLink id="8dd8-c2fd-15d8-822e" name="Ceramite Plating" hidden="false" collective="false" import="true" targetId="6a1c-028d-cbbc-2796" type="selectionEntry"/>
+        <entryLink id="931b-4faa-9ade-3087" name="Veteran" hidden="false" collective="false" import="true" targetId="6d5d-cd4e-4dd2-310f" type="selectionEntry"/>
+        <entryLink id="a3a1-528d-6ac5-322c" name="Techmarine" hidden="false" collective="false" import="true" targetId="d347-61e4-538e-9c87" type="selectionEntry"/>
+        <entryLink id="d675-c27a-f478-f6dd" name="Infernum Halo Launcher" hidden="false" collective="false" import="true" targetId="679d-30b1-dfa1-ed30" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile id="0c6c-374d-2a08-5d38" name="Xiphon Interceptor" publicationId="25d1-4c56-7d01-fd5b" page="29" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+      <characteristics>
+        <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">3</characteristic>
+        <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">-</characteristic>
+        <characteristic name="Fuel" typeId="e194-183f-9e70-f04d">-</characteristic>
+        <characteristic name="Throttle" typeId="92ef-efe6-13ea-3792">2</characteristic>
+        <characteristic name="Ace Maneuvers" typeId="3225-9212-fdab-50f0">1-7</characteristic>
+        <characteristic name="Handling" typeId="951a-93cf-2cc5-78d8">4+</characteristic>
+        <characteristic name="Min Speed" typeId="8234-9f67-e172-880a">2</characteristic>
+        <characteristic name="Max Speed" typeId="db83-4ff1-b0cb-a312">6</characteristic>
+        <characteristic name="Max Altitude" typeId="8a75-2b8f-5077-06cd">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="07da-3e76-9d8f-db42" name="Rotary Frag Missile Launcher" publicationId="25d1-4c56-7d01-fd5b" page="29" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-2-1</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">5+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3700-622a-e4af-9dd7" name="Quad Lascannon" publicationId="25d1-4c56-7d01-fd5b" page="29" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">0-4-2</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">2+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Extra Damage (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="181f-23de-0b8d-0e21" name="Krak Missiles" publicationId="25d1-4c56-7d01-fd5b" page="29" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-2-2</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">3+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">3</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="097b-686a-3611-5ddd" name="Hunter-Killer Missiles" publicationId="25d1-4c56-7d01-fd5b" page="29" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+      <characteristics>
+        <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Aerial Attack, Extra Damage (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="540b-636f-034a-7e73" name="Ceramite Plating" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+      <characteristics>
+        <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">When this aircraft is damaged by a weapon that has the Extra Damage (X+) special rule, the X+ value is reduced by 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bcd9-25af-3619-9110" name="Veteran" publicationId="25d1-4c56-7d01-fd5b" page="28" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+      <characteristics>
+        <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft may choose to re-roll a dice roll. However, all dice rilled must be re-rolled and the player must accept the result of the second roll, even if it is worse.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="73b1-6bba-8042-90e0" name="Techmarine" publicationId="25d1-4c56-7d01-fd5b" page="28" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+      <characteristics>
+        <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft may attempt a repair. During the End Phase, roll a D6 for each lost point of Structure. For each roll of a 5+, repair a single point of Structure.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="675c-cf66-558d-03ab" name="Infernum Halo Launcher" publicationId="25d1-4c56-7d01-fd5b" page="28" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+      <characteristics>
+        <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, roll a D6 for each hit the aircraft suffers from a weapon with an Ammo characteristic of 1, 2 or 3. For each roll of a 6, that hit becomes a miss.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1ff7-ff7e-3a7f-4ee7" name="Fire Raptor Gunship" publicationId="25d1-4c56-7d01-fd5b" page="30" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+      <characteristics>
+        <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">4</characteristic>
+        <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">-</characteristic>
+        <characteristic name="Fuel" typeId="e194-183f-9e70-f04d">-</characteristic>
+        <characteristic name="Throttle" typeId="92ef-efe6-13ea-3792">2</characteristic>
+        <characteristic name="Ace Maneuvers" typeId="3225-9212-fdab-50f0">1-5</characteristic>
+        <characteristic name="Handling" typeId="951a-93cf-2cc5-78d8">3+</characteristic>
+        <characteristic name="Min Speed" typeId="8234-9f67-e172-880a">0</characteristic>
+        <characteristic name="Max Speed" typeId="db83-4ff1-b0cb-a312">5</characteristic>
+        <characteristic name="Max Altitude" typeId="8a75-2b8f-5077-06cd">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cc74-8324-822c-09db" name="Twin Heavy Bolters" publicationId="25d1-4c56-7d01-fd5b" page="30" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">3-1-0</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">5+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5293-ae41-aeac-c3b3" name="Dual Frag Missile Pods" publicationId="25d1-4c56-7d01-fd5b" page="30" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">3-3-1</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">5+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e9c4-3d6e-4950-07c3" name="Dual Krak Missiles" publicationId="25d1-4c56-7d01-fd5b" page="30" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">3-3-3</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">3+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">3</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3f65-62f3-b0eb-652d" name="Storm Eagle Assault Craft" publicationId="25d1-4c56-7d01-fd5b" page="30" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+      <characteristics>
+        <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">4</characteristic>
+        <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">2</characteristic>
+        <characteristic name="Fuel" typeId="e194-183f-9e70-f04d">-</characteristic>
+        <characteristic name="Throttle" typeId="92ef-efe6-13ea-3792">2</characteristic>
+        <characteristic name="Ace Maneuvers" typeId="3225-9212-fdab-50f0">1-5</characteristic>
+        <characteristic name="Handling" typeId="951a-93cf-2cc5-78d8">3+</characteristic>
+        <characteristic name="Min Speed" typeId="8234-9f67-e172-880a">0</characteristic>
+        <characteristic name="Max Speed" typeId="db83-4ff1-b0cb-a312">5</characteristic>
+        <characteristic name="Max Altitude" typeId="8a75-2b8f-5077-06cd">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8c68-a789-c35c-089c" name="Avenger Bolt Cannon" publicationId="25d1-4c56-7d01-fd5b" page="31" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">3-7-0</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">4+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Extra Damage (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b5cb-5e64-4a40-15eb" name="Hellstrike Missile Launchers" publicationId="25d1-4c56-7d01-fd5b" page="31" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-2-2</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">3+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">3</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (6+)</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
