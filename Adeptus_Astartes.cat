@@ -98,7 +98,7 @@
         <cost name="pts" typeId="points" value="29.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="564a-00c1-78a5-5f50" name="Dark Fire" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="564a-00c1-78a5-5f50" name="Dark Fire" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="004d-d6b1-9609-1198" name="Dark Fire" hidden="false" targetId="292e-77e8-8f77-d090" type="profile"/>
         <infoLink id="5f23-0fd0-0cf3-4bcb" name="Argan Fal&apos;Shan" hidden="false" targetId="37bc-3ece-fc0b-4a28" type="profile"/>
@@ -129,7 +129,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="31.0"/>
+        <cost name="pts" typeId="points" value="36.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7ab2-ebf5-7028-82d2" name="The Unkillable Phantom" hidden="false" collective="false" import="true" type="upgrade">
@@ -203,6 +203,16 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="31.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2580-457d-648b-7834" name="Icarus Stormcannon Array" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="59c9-2769-a3bf-18f1" name="Icarus Stormcannon Array" hidden="false" targetId="837b-6562-a2bb-fc2b" type="profile"/>
+        <infoLink id="49bf-1862-4acc-4b75" name="Ground-to-Air Fire" hidden="false" targetId="297a-5ea8-7f8e-4621" type="profile"/>
+        <infoLink id="4116-85bd-b48e-0155" name="Effective Altitude (3)" hidden="false" targetId="db8e-cfe1-901e-c0b3" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="9.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -351,6 +361,9 @@
       <infoLinks>
         <infoLink id="95c7-bcf1-59c4-d60d" name="Infernum Halo Launcher" hidden="false" targetId="675c-cf66-558d-03ab" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6223-ad23-c9a1-2054" name="Twin Heavy Bolters" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -359,6 +372,9 @@
       <infoLinks>
         <infoLink id="e1fb-4149-f790-0867" name="Twin Heavy Bolters" hidden="false" targetId="cc74-8324-822c-09db" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="06bb-9244-161f-c710" name="Dual Frag Missile Pods" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -367,6 +383,9 @@
       <infoLinks>
         <infoLink id="283f-047e-f5be-5222" name="Dual Frag Missile Pods" hidden="false" targetId="5293-ae41-aeac-c3b3" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fad5-569c-a5df-4bf4" name="Dual Krak Missiles" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -374,12 +393,18 @@
         <infoLink id="a24e-a162-113c-98e7" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
         <infoLink id="9396-f52f-de1e-afe1" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2754-d0c5-ce3c-00e3" name="Avenger Bolt Cannon" publicationId="25d1-4c56-7d01-fd5b" page="31" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="7b50-2f75-c77b-32aa" name="Avenger Bolt Cannon" hidden="false" targetId="8c68-a789-c35c-089c" type="profile"/>
         <infoLink id="8c9e-73d9-2353-89c6" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c6af-72c5-add2-cf10" name="Hellstrike Missile Launchers" publicationId="25d1-4c56-7d01-fd5b" page="31" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -387,12 +412,18 @@
         <infoLink id="c3f7-bcf8-c987-47d0" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
         <infoLink id="250a-6b82-e500-8ddc" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="13ec-6932-219b-7379" name="Pair of Twin Heavy Bolter Turret" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="3718-1bd7-673c-24ec" name="Port Twin Heavy Bolters" hidden="false" targetId="413a-591e-9b83-59f1" type="profile"/>
         <infoLink id="5421-8a1d-43fc-e4cc" name="Starboard Twin Heavy Bolters" hidden="false" targetId="e7eb-ae31-cf68-bf0d" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fdf6-cd6e-5be8-754b" name="Pair of Twin Lascannon Turrets" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -400,12 +431,18 @@
         <infoLink id="9bab-fd91-30ae-4d26" name="Starboard Lascannon Turret" hidden="false" targetId="44fe-84d1-affc-7a17" type="profile"/>
         <infoLink id="1d50-dcf6-6568-3ed4" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="aa4c-cc08-d5c0-ca8b" name="Pair of Twin Autocannon Turrets" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="2946-9424-68ae-5cbd" name="Starboard Twin Autocannon Turret" hidden="false" targetId="efdb-c8d4-ad3a-0f49" type="profile"/>
         <infoLink id="90e2-8d23-c007-4416" name="Port Twin Autocannon Turret" hidden="false" targetId="bc58-5207-0531-ef74" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -657,6 +694,14 @@
     <profile id="37bc-3ece-fc0b-4a28" name="Argan Fal&apos;Shan" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
       <characteristics>
         <characteristic name="Ability" typeId="65ee-9496-8377-0d24">Once per game, Argan Fal&apos;Shan may attempt a repair. During the End Phase, roll a D6 for each lost point of Structure. For each roll of a 6, repair a single point of Structure.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="837b-6562-a2bb-fc2b" name="Icarus Stormcannon Array" hidden="false" typeId="f0d7-0c84-fbe0-fc3f" typeName="Ground Asset">
+      <characteristics>
+        <characteristic name="Structure" typeId="6308-84d8-bb4b-c0f8">2</characteristic>
+        <characteristic name="FPR" typeId="0aab-6b79-44c7-f913">5-5-2</characteristic>
+        <characteristic name="Damage" typeId="ba3d-54b5-9dbe-39ea">5+</characteristic>
+        <characteristic name="Special" typeId="c3d9-609b-cc54-f9e6">Effective Altitude (3), Ground-to-Air Fire</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
