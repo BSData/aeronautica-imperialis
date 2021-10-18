@@ -5,6 +5,9 @@
   </publications>
   <selectionEntries>
     <selectionEntry id="1c41-0047-a4e1-2e8a" name="Nightwing" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="660b-e960-1be4-7c1d" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c7b0-566c-8229-2e89" name="Additional Weaponary" hidden="false" collective="false" import="true">
           <constraints>
@@ -48,6 +51,10 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7ed4-00d1-0fcc-896c" name="Pheonix Bomber" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="35aa-b38f-9278-382c" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="false"/>
+        <categoryLink id="289b-89dc-5be5-be9e" name="New CategoryLink" hidden="false" targetId="8cfa-dfb7-e996-3c7d" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="52ac-b3e9-3bb4-e5ae" name="Additional Weaponary" hidden="false" collective="false" import="true">
           <constraints>
