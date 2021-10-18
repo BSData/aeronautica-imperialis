@@ -3,11 +3,56 @@
   <publications>
     <publication id="1d81-06ef-f102-6d15" name="Warth of Angels"/>
   </publications>
+  <selectionEntries>
+    <selectionEntry id="1c41-0047-a4e1-2e8a" name="Nightwing" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c7b0-566c-8229-2e89" name="Additional Weaponary" hidden="false" collective="false" import="true"/>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7ed4-00d1-0fcc-896c" name="Pheonix Bomber" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="06d1-81c5-9086-cfe7" name="Additional Weaponary" hidden="false" collective="false" import="true"/>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="23.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="d04a-60cb-9037-6636" name="Aircraft Upgrades" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1fb-400c-9d21-3b81" type="max"/>
       </constraints>
+      <selectionEntries>
+        <selectionEntry id="9471-8bc1-2482-e93a" name="Asuryani Ace" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb1b-58e4-7fd6-4719" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="3dd1-5587-9746-6d13" name="Holo-field" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d230-7f4c-1fb1-2d95" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="708f-2355-9572-8f1a" name="Mindsight" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4a8-4eda-7dbe-9da4" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="3d7e-2b3c-0752-d38a" name="Spirit Stone" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f58-d315-148d-fcb8" type="max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry id="dbf3-83f9-6603-4de2" name="Star Engines" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c504-df9a-3588-0f45" type="max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedProfiles>
@@ -20,7 +65,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
     </profile>
     <profile id="d3f8-9e35-c69a-697e" name="Asuryani Ace" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
       <characteristics>
-        <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">May only be tank by one aircraft within a force.
+        <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">May only be taken by one aircraft within a force.
 Once per game, this aircraft may choose to discard a dice roll and re-roll the dice.
 However, all of the dice rolled must be re-rolled and the player must accept the result of the second rolle, even if it is worse.</characteristic>
       </characteristics>
@@ -38,6 +83,128 @@ However, all of the dice rolled must be re-rolled and the player must accept the
     <profile id="9caf-2877-5649-5407" name="Star Engines" publicationId="1d81-06ef-f102-6d15" page="31" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
       <characteristics>
         <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Max Speed and Min Speed characteristics of this aircraft are increased by 1, up to a max of 9.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0033-0837-f174-95ec" name="Nightwing" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+      <modifiers>
+        <modifier type="increment" field="db83-4ff1-b0cb-a312" value="1">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dbf3-83f9-6603-4de2" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="8234-9f67-e172-880a" value="1">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dbf3-83f9-6603-4de2" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">2</characteristic>
+        <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">-</characteristic>
+        <characteristic name="Fuel" typeId="e194-183f-9e70-f04d">-</characteristic>
+        <characteristic name="Throttle" typeId="92ef-efe6-13ea-3792">3</characteristic>
+        <characteristic name="Ace Maneuvers" typeId="3225-9212-fdab-50f0">1-8</characteristic>
+        <characteristic name="Handling" typeId="951a-93cf-2cc5-78d8">2+</characteristic>
+        <characteristic name="Min Speed" typeId="8234-9f67-e172-880a">2</characteristic>
+        <characteristic name="Max Speed" typeId="db83-4ff1-b0cb-a312">8</characteristic>
+        <characteristic name="Max Altitude" typeId="8a75-2b8f-5077-06cd">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d526-02d5-5dcb-d757" name="Phoenix Bomber" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+      <modifiers>
+        <modifier type="increment" field="db83-4ff1-b0cb-a312" value="1">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dbf3-83f9-6603-4de2" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="8234-9f67-e172-880a" value="1">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="dbf3-83f9-6603-4de2" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <characteristics>
+        <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">2</characteristic>
+        <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">-</characteristic>
+        <characteristic name="Fuel" typeId="e194-183f-9e70-f04d">-</characteristic>
+        <characteristic name="Throttle" typeId="92ef-efe6-13ea-3792">2</characteristic>
+        <characteristic name="Ace Maneuvers" typeId="3225-9212-fdab-50f0">1-7</characteristic>
+        <characteristic name="Handling" typeId="951a-93cf-2cc5-78d8">2+</characteristic>
+        <characteristic name="Min Speed" typeId="8234-9f67-e172-880a">2</characteristic>
+        <characteristic name="Max Speed" typeId="db83-4ff1-b0cb-a312">6</characteristic>
+        <characteristic name="Max Altitude" typeId="8a75-2b8f-5077-06cd">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d7e7-8de1-8bfa-bf0e" name="Shuriken Cannon" publicationId="1d81-06ef-f102-6d15" page="33" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">8-4-0</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">5+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a82d-01f0-2b53-9f47" name="Twin Bright Lances" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">1-2-2</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">2+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Extra Damage (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fe1a-352b-f3bb-33ff" name="Twin Scatter Lasers" publicationId="1d81-06ef-f102-6d15" page="33" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">6-4-0</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">5+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Aerial Attack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="45e2-0de4-eaa9-84fe" name="Twin Missile Launcher" publicationId="1d81-06ef-f102-6d15" page="33" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-2-2</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">3+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">2</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1636-07a9-290e-0eb2" name="Twin Starcannon" publicationId="1d81-06ef-f102-6d15" page="33" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">3-2-0</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">3+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Aerial Attack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ea31-5452-86e9-bc88" name="Twin Pulse Cannon" publicationId="1d81-06ef-f102-6d15" page="34" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-3-2</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">3+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Aerial Attack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ed21-5de6-260b-0c77" name="Nightfire Plasma Missile Array" publicationId="1d81-06ef-f102-6d15" page="34" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-2-2</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">3+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">2</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Aerial Attack, Extra Damage (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3c3a-32f5-3657-a78a" name="Nightfire Krak Missile Array" publicationId="1d81-06ef-f102-6d15" page="34" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-2-2</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">3+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">2</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (6+)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
