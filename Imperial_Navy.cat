@@ -1269,13 +1269,6 @@
       </constraints>
       <profiles>
         <profile id="cd0a-7027-62e2-4cb0" name="Colossus Bomb" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
-          <modifiers>
-            <modifier type="set" field="a5ae-d9ef-f1b4-e838" value="4-0-0">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f8ab-25f5-4f41-69ba" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Rear</characteristic>
             <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">7-0-0</characteristic>
