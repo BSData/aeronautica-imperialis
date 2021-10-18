@@ -8,6 +8,9 @@
       <infoLinks>
         <infoLink id="6141-2602-fe32-1a6e" name="Xiphon Interceptor" hidden="false" targetId="0c6c-374d-2a08-5d38" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="03ff-7841-2d07-1a3e" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="066f-bdb2-6601-e29e" name="Weaponary" hidden="false" collective="false" import="true">
           <modifiers>
@@ -46,6 +49,9 @@
       <infoLinks>
         <infoLink id="3465-dc65-864c-8acd" name="Storm Eagle Assault Craft" hidden="false" targetId="3f65-62f3-b0eb-652d" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5291-7447-5fb2-7e8c" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="c47f-a806-c895-2fab" name="Weaponary" hidden="false" collective="false" import="true">
           <modifiers>
@@ -103,6 +109,9 @@
         <infoLink id="004d-d6b1-9609-1198" name="Dark Fire" hidden="false" targetId="292e-77e8-8f77-d090" type="profile"/>
         <infoLink id="5f23-0fd0-0cf3-4bcb" name="Argan Fal&apos;Shan" hidden="false" targetId="37bc-3ece-fc0b-4a28" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0cfb-40b6-c3c4-aa30" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="68f6-ab32-a6da-fe75" name="Turrets" hidden="false" collective="false" import="true" defaultSelectionEntryId="9570-1c7b-50ca-00f2">
           <constraints>
@@ -143,6 +152,9 @@
       <infoLinks>
         <infoLink id="8fd1-bf5c-8d5c-5a75" name="The Unkillable Phantom" hidden="false" targetId="5fde-c5ee-bcd1-34fa" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6a57-a844-8950-4f12" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="3d41-2e2e-ea15-55cf" name="Quad Lascannons" hidden="false" collective="false" import="true" targetId="8b95-c96b-c8fc-68e3" type="selectionEntry">
           <constraints>
@@ -166,6 +178,9 @@
       <infoLinks>
         <infoLink id="5c5e-8028-f4c6-921d" name="Fire Raptor Gunship" hidden="false" targetId="4664-de8f-040b-4393" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="46f3-ce0b-403e-f7e2" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="791d-26b3-74dd-71ca" name="Turrets" hidden="false" collective="false" import="true">
           <constraints>
@@ -211,6 +226,23 @@
         <infoLink id="49bf-1862-4acc-4b75" name="Ground-to-Air Fire" hidden="false" targetId="297a-5ea8-7f8e-4621" type="profile"/>
         <infoLink id="4116-85bd-b48e-0155" name="Effective Altitude (3)" hidden="false" targetId="db8e-cfe1-901e-c0b3" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8631-e086-43cb-2a92" name="New CategoryLink" hidden="false" targetId="4ccd-3c3f-80d3-f2fb" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0440-4e66-c73d-82ac" name="Skysear Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4eed-c5d5-5506-081f" name="Skyspear Missile Launcher" hidden="false" targetId="efcc-b50c-6428-936d" type="profile"/>
+        <infoLink id="37e5-3548-cd87-86aa" name="Effective Altitude (4)" hidden="false" targetId="409c-b89b-b2e2-15ba" type="profile"/>
+        <infoLink id="81c0-64a6-85ef-de66" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
+        <infoLink id="cd09-cf61-4c39-3e67" name="Ground-to-Air Fire" hidden="false" targetId="297a-5ea8-7f8e-4621" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="96af-89e1-d36a-48a0" name="New CategoryLink" hidden="false" targetId="4ccd-3c3f-80d3-f2fb" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="9.0"/>
       </costs>
@@ -702,6 +734,14 @@
         <characteristic name="FPR" typeId="0aab-6b79-44c7-f913">5-5-2</characteristic>
         <characteristic name="Damage" typeId="ba3d-54b5-9dbe-39ea">5+</characteristic>
         <characteristic name="Special" typeId="c3d9-609b-cc54-f9e6">Effective Altitude (3), Ground-to-Air Fire</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="efcc-b50c-6428-936d" name="Skyspear Missile Launcher" hidden="false" typeId="f0d7-0c84-fbe0-fc3f" typeName="Ground Asset">
+      <characteristics>
+        <characteristic name="Structure" typeId="6308-84d8-bb4b-c0f8">2</characteristic>
+        <characteristic name="FPR" typeId="0aab-6b79-44c7-f913">2-2-1</characteristic>
+        <characteristic name="Damage" typeId="ba3d-54b5-9dbe-39ea">4+</characteristic>
+        <characteristic name="Special" typeId="c3d9-609b-cc54-f9e6">Effective Altitude (4), Ground-to-Air Fire, Extra Damage (6+)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
