@@ -1378,7 +1378,7 @@
           <profiles>
             <profile id="476c-fc04-c841-49e5" name="Lightning Reactions" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
               <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once Per game, when this aicrafts is activated, you may discard Ace Manoeuver that was chosen for it during the Choose</characteristic>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once Per game, when this aicrafts is activated, you may discard Ace Manoeuver that was chosen for it during the Choose Manoeuvre phase and immediately choose another Ace Manoeuver.</characteristic>
               </characteristics>
             </profile>
           </profiles>
