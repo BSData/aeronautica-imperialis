@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="63fd-f1bb-e3ca-e39f" name="Astra Militarum" revision="3" battleScribeVersion="2.03" authorName="Valkyrie Assault Craft" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="63fd-f1bb-e3ca-e39f" name="Astra Militarum" revision="2" battleScribeVersion="2.03" authorName="Valkyrie Assault Craft" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9474-faac-1eb5-889b" name="Valkyrie Assault Craft" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -99,57 +99,66 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f1a2-4045-80a3-f166" name="Additional Weapons" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="decrement" field="f583-490d-3917-9624" value="2.0">
-              <conditions>
-                <condition field="selections" scope="b5fa-dd65-adcc-37f3" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3aab-4e0d-2171-476e" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f583-490d-3917-9624" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f583-490d-3917-9624" type="max"/>
           </constraints>
+          <selectionEntries>
+            <selectionEntry id="dbfa-c786-8032-61e6" name="Missile/Bomb Cradle Choice" hidden="false" collective="false" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="d62d-7d4b-42c0-efe3" name="Missile/Bomb Cradle Choice" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b48-8040-e5ff-fa57" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="38f1-5258-fa59-a7a9" name="Hellstrike Missile Cradle" hidden="false" collective="false" import="true" targetId="ea85-5e57-eec2-b4c4" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3270-a2e8-d083-a417" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="3.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="f4c3-1ff0-428f-f428" name="Skystrike Missile Cradle" hidden="false" collective="false" import="true" targetId="1748-dd81-7b88-938a" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1f6-e5a7-4e65-f1e2" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="3.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="19c5-fc93-39e6-41dc" name="Wing Bombs Cradle" hidden="false" collective="false" import="true" targetId="cd25-028d-c2c3-4318" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f3c-1a46-3e38-118c" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="3.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9b90-cd6f-273d-16e2" name="Rocket Pod Choice" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="60a2-c761-727b-cc9f" name="Twin Rocket Pods" hidden="false" collective="false" import="true" targetId="283b-b5bf-a415-b9e5" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7029-d8e5-3224-d34a" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="2.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
           <entryLinks>
-            <entryLink id="57ba-20eb-0f24-5d3a" name="Hellstrike Missile Cradle" hidden="false" collective="false" import="true" targetId="ea85-5e57-eec2-b4c4" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7faf-3d7e-dc6a-f023" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="3.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="3fab-8c38-f35e-8396" name="Wing Bombs Cradle" hidden="false" collective="false" import="true" targetId="cd25-028d-c2c3-4318" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f38c-065d-fc09-5ba6" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="3.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="2043-331b-7cc0-b414" name="Twin Rocket Pods" hidden="false" collective="false" import="true" targetId="283b-b5bf-a415-b9e5" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffa6-bcc4-47ae-3f17" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="2.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="3393-0fb4-9642-29cc" name="Skystrike Missile Cradle" hidden="false" collective="false" import="true" targetId="1748-dd81-7b88-938a" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22d6-82a7-12fb-5071" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="points" value="3.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="8af1-6b12-774e-4df5" name="Additional Weapons" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="549f-32a9-1c69-bb53" name="Punisher Cannon" hidden="false" collective="false" import="true" targetId="3aab-4e0d-2171-476e" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9aff-f3e3-28a5-effb" type="max"/>
-              </constraints>
+            <entryLink id="928d-a0cb-dc40-712e" name="Punisher Cannon" hidden="false" collective="false" import="true" targetId="3aab-4e0d-2171-476e" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="points" value="4.0"/>
               </costs>
