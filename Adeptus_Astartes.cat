@@ -694,6 +694,13 @@
         <infoLink id="a6a9-4707-3e43-9ce2" name="Extra Damage (5+)" hidden="false" targetId="45d7-50d9-b6d9-290c" type="profile"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry id="3542-be32-6955-4e11" name="Pair of Hellstrike Missiles" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c3d8-8010-898d-f7fd" name="Pair of Hellstrike Missiles" hidden="false" targetId="2cb8-1d19-ddb0-9757" type="profile"/>
+        <infoLink id="2654-5d12-5577-e65d" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
+        <infoLink id="1369-9b38-d3c7-d647" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="323a-9cee-3091-0308" name="Aircraft Upgrades" hidden="false" collective="false" import="true">
@@ -1040,6 +1047,15 @@
         <characteristic name="DMG" typeId="3666-196d-11fd-c067">2+</characteristic>
         <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">1</characteristic>
         <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (5+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2cb8-1d19-ddb0-9757" name="Pair of Hellstrike Missiles" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-2-2</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">3+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">1</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (6+)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
