@@ -139,5 +139,10 @@
         <characteristic name="Description" typeId="e427-214b-8e1e-8539">When rolling the Damage dice, any rolls that equal or exceed the Extra Damage number, 3, will cause 2 Structure points to be lost by the target rather than the usual 1 Structure point</characteristic>
       </characteristics>
     </profile>
+    <profile id="db8e-cfe1-901e-c0b3" name="Effective Altitude (3)" hidden="false" typeId="302c-4e4d-9d55-97d8" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="e427-214b-8e1e-8539">The number in the brackets represents the highest Altitude at which such weapons are accurate. If an aircraft is travelling at an Altitude higher than the number shown, the chance of hitting is reduced (see Ground-To-Air Fire rules).</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
 </gameSystem>
