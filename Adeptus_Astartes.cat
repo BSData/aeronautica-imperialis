@@ -488,8 +488,8 @@
     <selectionEntry id="ce0c-61c9-83e9-5bf1" name="Hunter-Killer Missiles" publicationId="25d1-4c56-7d01-fd5b" page="29" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="478a-2bd8-1773-86fb" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
-        <infoLink id="a6fa-6958-d675-9d6f" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
         <infoLink id="8675-0abc-ba56-e69a" name="Hunter-Killer Missiles" hidden="false" targetId="097b-686a-3611-5ddd" type="profile"/>
+        <infoLink id="8afc-8ddc-4b2f-90e5" name="Aerial Attack" hidden="false" targetId="0d22-4d01-ff7f-b254" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="2.0"/>
