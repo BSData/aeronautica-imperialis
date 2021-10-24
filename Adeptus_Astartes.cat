@@ -12,22 +12,40 @@
         <categoryLink id="03ff-7841-2d07-1a3e" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="066f-bdb2-6601-e29e" name="Weaponary" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="set" field="7f57-1ff1-a9df-1171" value="1.0">
-              <conditions>
-                <condition field="selections" scope="d60f-6e76-fb25-6ee0" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9afb-80ce-dcde-b960" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
+        <selectionEntryGroup id="066f-bdb2-6601-e29e" name="Missiles" hidden="false" collective="false" import="true" defaultSelectionEntryId="1e63-ea32-ccd0-16ae">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f57-1ff1-a9df-1171" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f57-1ff1-a9df-1171" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f90f-c677-7789-0f0f" type="min"/>
           </constraints>
+          <selectionEntries>
+            <selectionEntry id="0501-5491-a6df-caad" name="Limited Missiles" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc5f-2b91-c3a2-28b7" type="max"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="f126-53a2-5ff8-e402" name="Limited Missiles" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="892c-b3d0-5b1f-b642" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01ed-e5fc-5f1b-6836" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="f7ce-58ca-f48f-ebe1" name="Hunter-Killer Missiles" hidden="false" collective="false" import="true" targetId="ce0c-61c9-83e9-5bf1" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16c6-8413-adff-b439" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="856e-f596-1c9d-c599" name="Krak Missiles" hidden="false" collective="false" import="true" targetId="2ad8-e084-80aa-13b1" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c83-db84-881f-8998" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
           <entryLinks>
             <entryLink id="1e63-ea32-ccd0-16ae" name="Rotary Frag Missile Launcher" hidden="false" collective="false" import="true" targetId="9afb-80ce-dcde-b960" type="selectionEntry"/>
-            <entryLink id="6fb3-ee36-5c55-a54c" name="Hunter-Killer Missiles" hidden="false" collective="false" import="true" targetId="ce0c-61c9-83e9-5bf1" type="selectionEntry"/>
-            <entryLink id="8bf2-5b33-de4b-4d10" name="Krak Missiles" hidden="false" collective="false" import="true" targetId="2ad8-e084-80aa-13b1" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -38,7 +56,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ad6-e2ff-94f1-1929" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="04c4-4e4b-7d18-f4e7" name="Krak Missiles" hidden="false" collective="false" import="true" targetId="2ad8-e084-80aa-13b1" type="selectionEntry"/>
         <entryLink id="520b-1557-d9fd-80d0" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="323a-9cee-3091-0308" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -53,35 +70,46 @@
         <categoryLink id="5291-7447-5fb2-7e8c" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c47f-a806-c895-2fab" name="Weaponary" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="set" field="7ea8-79d5-ed17-1675" value="1.0">
-              <conditions>
-                <condition field="selections" scope="55f0-97af-64ac-7391" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="06bb-9244-161f-c710" type="greaterThan"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="2f22-582f-4680-f645" value="1.0">
-              <conditions>
-                <condition field="selections" scope="55f0-97af-64ac-7391" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="06bb-9244-161f-c710" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
+        <selectionEntryGroup id="c47f-a806-c895-2fab" name="Missiles" hidden="false" collective="false" import="true" defaultSelectionEntryId="62a3-bad3-3c7b-0bd9">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ea8-79d5-ed17-1675" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f22-582f-4680-f645" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ea8-79d5-ed17-1675" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f22-582f-4680-f645" type="min"/>
           </constraints>
+          <selectionEntries>
+            <selectionEntry id="f4b7-1956-ddc5-1a4f" name="Limited Missiles" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8553-af85-0b28-3a41" type="max"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="556a-04a6-a447-664f" name="Limited Missiles" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2153-7223-7507-caac" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dae-0376-aef6-5f2c" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="b629-67e6-671b-5c59" name="Dual Krak Missiles" hidden="false" collective="false" import="true" targetId="fad5-569c-a5df-4bf4" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec05-9547-1315-1362" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="3.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="4212-4b87-5903-786d" name="Hunter-Killer Missiles" hidden="false" collective="false" import="true" targetId="ce0c-61c9-83e9-5bf1" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3461-fa46-70d7-718e" type="max"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="3.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
           <entryLinks>
             <entryLink id="62a3-bad3-3c7b-0bd9" name="Dual Frag Missile Pods" hidden="false" collective="false" import="true" targetId="06bb-9244-161f-c710" type="selectionEntry"/>
-            <entryLink id="4b23-92f2-1aa2-75a4" name="Dual Krak Missiles" hidden="false" collective="false" import="true" targetId="fad5-569c-a5df-4bf4" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="points" value="3.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="2bca-d7ad-9b88-ecca" name="Hunter-Killer Missiles" hidden="false" collective="false" import="true" targetId="ce0c-61c9-83e9-5bf1" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="points" value="3.0"/>
-              </costs>
-            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -110,19 +138,28 @@
       </constraints>
       <infoLinks>
         <infoLink id="004d-d6b1-9609-1198" name="Dark Fire" hidden="false" targetId="292e-77e8-8f77-d090" type="profile"/>
-        <infoLink id="5f23-0fd0-0cf3-4bcb" name="Argan Fal&apos;Shan" hidden="false" targetId="37bc-3ece-fc0b-4a28" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0cfb-40b6-c3c4-aa30" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="68f6-ab32-a6da-fe75" name="Turrets" hidden="false" collective="false" import="true" defaultSelectionEntryId="9570-1c7b-50ca-00f2">
+        <selectionEntryGroup id="cabd-fb3f-df91-da71" name="Turrets" hidden="false" collective="false" import="true" defaultSelectionEntryId="1f31-8916-a728-bd4a">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d99-a274-ac6e-11bc" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dc2-9cb3-42e9-fa31" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb1c-f223-a88c-a470" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94e3-a11b-755c-b97a" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="9570-1c7b-50ca-00f2" name="Pair of Twin Heavy Bolter Turret" hidden="false" collective="false" import="true" targetId="13ec-6932-219b-7379" type="selectionEntry"/>
+            <entryLink id="1f31-8916-a728-bd4a" name="Pair of Twin Heavy Bolter Turrets" hidden="false" collective="false" import="true" targetId="13ec-6932-219b-7379" type="selectionEntry"/>
+            <entryLink id="efc9-7d44-5ad2-2bac" name="Pair of Twin Lascannon Turrets" hidden="false" collective="false" import="true" targetId="fdf6-cd6e-5be8-754b" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="cd42-f959-7818-54cb" name="Pair of Twin Autocannon Turrets" hidden="false" collective="false" import="true" targetId="aa4c-cc08-d5c0-ca8b" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="2.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -139,6 +176,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eff8-ce58-0c92-48b2" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="3c61-6034-704d-9503" name="Argan Fal&apos;Shan" hidden="false" collective="false" import="true" targetId="0546-bd45-0336-60ad" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23cd-6205-5388-e502" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="057c-c574-e1f7-1bd8" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="36.0"/>
@@ -148,19 +191,50 @@
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f5a-7a3f-fa26-b3d2" type="max"/>
       </constraints>
-      <profiles>
-        <profile id="8976-4ca5-59f4-08f2" name="Athor Vae" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
-          <characteristics>
-            <characteristic name="Ability" typeId="65ee-9496-8377-0d24">At the end of the game, your opponent scores no Vicotry Points for the Unkillable Phantom if it is damaged and still operating within the Area of Engagement.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <infoLinks>
         <infoLink id="8fd1-bf5c-8d5c-5a75" name="The Unkillable Phantom" hidden="false" targetId="5fde-c5ee-bcd1-34fa" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6a57-a844-8950-4f12" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ff92-1109-7f5e-be83" name="Missiles" hidden="false" collective="false" import="true" defaultSelectionEntryId="a885-2480-b001-7605">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f15-1524-b1d2-e059" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="252f-c893-4e39-8023" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0cc1-da7a-4934-ee5a" name="Limited Missiles" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc4e-638d-8d96-2d6a" type="max"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="5e5e-2ee2-4f73-3cce" name="Limited Missiles" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e633-7b03-e6a6-8236" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ddf-bac0-8229-b5e7" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="d75c-4e49-90d6-0702" name="Hunter-Killer Missiles" hidden="false" collective="false" import="true" targetId="ce0c-61c9-83e9-5bf1" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c299-9935-248c-fde5" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="3ef3-a8fe-bded-393f" name="Krak Missiles" hidden="false" collective="false" import="true" targetId="2ad8-e084-80aa-13b1" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c529-7db6-b015-a3b1" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="a885-2480-b001-7605" name="Rotary Frag Missile Launcher" hidden="false" collective="false" import="true" targetId="9afb-80ce-dcde-b960" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="3d41-2e2e-ea15-55cf" name="Quad Lascannons" hidden="false" collective="false" import="true" targetId="8b95-c96b-c8fc-68e3" type="selectionEntry">
           <constraints>
@@ -169,10 +243,10 @@
           </constraints>
         </entryLink>
         <entryLink id="de33-4247-d105-eae4" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="323a-9cee-3091-0308" type="selectionEntryGroup"/>
-        <entryLink id="aeed-d4a7-ae17-7f2a" name="Rotary Frag Missile Launcher" hidden="false" collective="false" import="true" targetId="9afb-80ce-dcde-b960" type="selectionEntry">
+        <entryLink id="a7d4-e138-509f-b034" name="Athor Vae" hidden="false" collective="false" import="true" targetId="6271-83c3-4209-b813" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2b8-2fa8-3979-1a50" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db3a-489b-b09a-c5aa" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67b6-24db-aa2a-f402" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a986-3f56-d566-a105" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -188,13 +262,13 @@
         <categoryLink id="46f3-ce0b-403e-f7e2" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="791d-26b3-74dd-71ca" name="Turrets" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="791d-26b3-74dd-71ca" name="Turrets" hidden="false" collective="false" import="true" defaultSelectionEntryId="c4ca-1aa2-68ca-435b">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="831d-a80c-a4a4-436d" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6cb-d6d0-646d-3f9a" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="c4ca-1aa2-68ca-435b" name="Pair of Twin Heavy Bolter Turret" hidden="false" collective="false" import="true" targetId="13ec-6932-219b-7379" type="selectionEntry"/>
+            <entryLink id="c4ca-1aa2-68ca-435b" name="Pair of Twin Heavy Bolter Turrets" hidden="false" collective="false" import="true" targetId="13ec-6932-219b-7379" type="selectionEntry"/>
             <entryLink id="5809-07d0-4497-29a2" name="Pair of Twin Lascannon Turrets" hidden="false" collective="false" import="true" targetId="fdf6-cd6e-5be8-754b" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="points" value="2.0"/>
@@ -221,6 +295,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7222-a8e2-3711-0905" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="7972-a241-0089-a6e2" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="323a-9cee-3091-0308" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="31.0"/>
@@ -298,6 +373,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3736-5dff-a152-a992" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="323a-9cee-3091-0308" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="44.0"/>
       </costs>
@@ -503,7 +581,7 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="13ec-6932-219b-7379" name="Pair of Twin Heavy Bolter Turret" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="13ec-6932-219b-7379" name="Pair of Twin Heavy Bolter Turrets" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="3718-1bd7-673c-24ec" name="Port Twin Heavy Bolters" hidden="false" targetId="413a-591e-9b83-59f1" type="profile"/>
         <infoLink id="5421-8a1d-43fc-e4cc" name="Starboard Twin Heavy Bolters" hidden="false" targetId="e7eb-ae31-cf68-bf0d" type="profile"/>
@@ -514,8 +592,8 @@
     </selectionEntry>
     <selectionEntry id="fdf6-cd6e-5be8-754b" name="Pair of Twin Lascannon Turrets" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="6e93-bfb7-3794-eeb8" name="Port Lascannon Turret" hidden="false" targetId="ea17-f6d5-a844-1c8a" type="profile"/>
-        <infoLink id="9bab-fd91-30ae-4d26" name="Starboard Lascannon Turret" hidden="false" targetId="44fe-84d1-affc-7a17" type="profile"/>
+        <infoLink id="6e93-bfb7-3794-eeb8" name="Port Twin Lascannon Turret" hidden="false" targetId="ea17-f6d5-a844-1c8a" type="profile"/>
+        <infoLink id="9bab-fd91-30ae-4d26" name="Starboard Twin Lascannon Turret" hidden="false" targetId="44fe-84d1-affc-7a17" type="profile"/>
         <infoLink id="1d50-dcf6-6568-3ed4" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
       </infoLinks>
       <costs>
@@ -536,6 +614,9 @@
         <infoLink id="326b-c745-dae4-3798" name="Turbo Laser Destrutor" hidden="false" targetId="5e41-1153-66dc-cf95" type="profile"/>
         <infoLink id="29d1-dbfd-e970-4562" name="Extra Damage (4+)" hidden="false" targetId="6cd3-39d8-bedc-56e6" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4cb1-fc34-e91c-b517" name="Pair of Heavy Bolter Turrets" hidden="false" collective="false" import="true" type="upgrade">
       <comment>For Thunderhawk</comment>
@@ -543,6 +624,9 @@
         <infoLink id="6462-51ea-7039-86b6" name="Port Heavy Bolter Turret" hidden="false" targetId="97cb-78f5-19e3-0159" type="profile"/>
         <infoLink id="4dbd-afe8-a749-7226" name="Starboard Heavy Bolter Turret" hidden="false" targetId="1bfd-cda5-d7b0-d87d" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0ae2-d1d0-2a4a-b950" name="Pair of Wing Heavy Bolters" hidden="false" collective="false" import="true" type="upgrade">
       <comment>For Thunderhawk</comment>
@@ -550,12 +634,36 @@
         <infoLink id="26c8-8b3d-c17f-c0f1" name="Port Wing Heavy Bolters" hidden="false" targetId="f04c-4295-f9a1-140c" type="profile"/>
         <infoLink id="dbca-e6a2-452a-30ca" name="Starboard Wing Heavy Bolters" hidden="false" targetId="a0dd-4b01-42a9-c964" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6961-d358-1e91-21f0" name="Twin Lascannon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="9b56-ac71-40d4-9ee7" name="Twin Lascannon" hidden="false" targetId="be96-1ae8-d743-e857" type="profile"/>
         <infoLink id="740a-fd31-0ec0-3afa" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0546-bd45-0336-60ad" name="Argan Fal&apos;Shan" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="db57-07a6-8ce8-697f" name="Argan Fal&apos;Shan" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
+          <characteristics>
+            <characteristic name="Ability" typeId="65ee-9496-8377-0d24">Once per game, Argan Fal&apos;Shan may attempt a repair. During the End Phase, roll a D6 for each lost point of Structure. For each roll of a 6, repair a single point of Structure.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="6271-83c3-4209-b813" name="Athor Vae" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f0ab-4b06-e9e7-2bb5" name="Athor Vae" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
+          <characteristics>
+            <characteristic name="Ability" typeId="65ee-9496-8377-0d24">At the end of the game, your opponent scores no Vicotry Points for the Unkillable Phantom if it is damaged and still operating within the Area of Engagement.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -802,11 +910,6 @@
         <characteristic name="Min Speed" typeId="8234-9f67-e172-880a">0</characteristic>
         <characteristic name="Max Speed" typeId="db83-4ff1-b0cb-a312">5</characteristic>
         <characteristic name="Max Altitude" typeId="8a75-2b8f-5077-06cd">5</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="37bc-3ece-fc0b-4a28" name="Argan Fal&apos;Shan" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
-      <characteristics>
-        <characteristic name="Ability" typeId="65ee-9496-8377-0d24">Once per game, Argan Fal&apos;Shan may attempt a repair. During the End Phase, roll a D6 for each lost point of Structure. For each roll of a 6, repair a single point of Structure.</characteristic>
       </characteristics>
     </profile>
     <profile id="837b-6562-a2bb-fc2b" name="Icarus Stormcannon Array" hidden="false" typeId="f0d7-0c84-fbe0-fc3f" typeName="Ground Asset">
