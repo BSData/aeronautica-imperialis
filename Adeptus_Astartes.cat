@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9826-b91b-6a9d-ca70" name="Adeptus Astartes" revision="1" battleScribeVersion="2.03" authorName="" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9826-b91b-6a9d-ca70" name="Adeptus Astartes" revision="1" battleScribeVersion="2.03" authorName="Fire Raptor" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="25d1-4c56-7d01-fd5b" name="Wrath of Angels" publicationDate="2021"/>
   </publications>
@@ -686,6 +686,9 @@
         <infoLink id="13ee-213e-2367-5e3a" name="Aerial Attack" hidden="false" targetId="0d22-4d01-ff7f-b254" type="profile"/>
         <infoLink id="0b12-ac44-e037-9a69" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9df5-dc2b-aaa6-3bdd" name="Pair of Wing Bombs" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -693,6 +696,9 @@
         <infoLink id="3d3f-472a-0123-1110" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
         <infoLink id="a6a9-4707-3e43-9ce2" name="Extra Damage (5+)" hidden="false" targetId="45d7-50d9-b6d9-290c" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3542-be32-6955-4e11" name="Pair of Hellstrike Missiles" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -700,6 +706,9 @@
         <infoLink id="2654-5d12-5577-e65d" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
         <infoLink id="1369-9b38-d3c7-d647" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
