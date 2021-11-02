@@ -58,9 +58,6 @@ __The Battlescribe data editor can cause problems when merging updates. Because 
  
   _Otherwise, the easiest way is through issues mentioned above. We are a community and that's the only place we all have access to. We don't have any group e-mail. So if you want to stay anonymous, contact us by reporting bug on Appspot (point 1 above)._
 
-1. [Report it on AppSpot][] - it's anonymous and no account is needed - on downside, you'll need to manually check on the progress of your issue.
-
-2. [Open issue directly][] (green `New Issue` in upper-right, GitHub account required) - you can track the progress, get notifications, help us by answering possibly follow-up questions and help us better!
 
 ## Links ##
 [Links]: #links
