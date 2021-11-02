@@ -7,33 +7,57 @@ Aeronautica Imperialis
 [![GitHub contributors](https://img.shields.io/github/contributors/BSData/aeronautica-imperialis.svg?style=flat-square)](https://github.com/BSData/aeronautica-imperialis/graphs/contributors)
 ![GitHub commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/aeronautica-imperialis.svg?style=flat-square)
 
-[![Chat on Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://discord.gg/KqPVhds)
+[![Chat on Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://www.bsdata.net/contact)
+
+## Important ##
+[Important]: #important
+
+__The Battlescribe data editor can cause problems when merging updates. Because of this, and also to avoid duplicated effort where multiple people are working on the same files, please join us on Discord before you commit changes to the files.__
+
 
 #### Contents ####
+[Contents]: #contents
 
+* [Important][]
 * [Overview][]
+* [Reporting bugs & contact us][]
 * [Links][]
+
+[Important]: #important
+[Overview]: #overview
+[Reporting bugs & contact us]: #reporting-bugs--contact-us
+[Links]: #links
+
 
 ## Overview ##
 [Overview]: #overview
 
-__What's this?__
+* __What's this?__
 
-BSData organisation created this project. It's a GitHub repository of datafiles.
-Maintained by community, in no way endorsed by BattleScribe or any other company/publisher. If you want
-to develop - cool! We need you! Take a look at [Getting Started wiki][]
+  _BSData organisation created this project. It's a GitHub repository of datafiles. Maintained by the community, in no way endorsed by BattleScribe. If you want to develop - cool! We need you! Take a look at [Getting Started wiki][]_
 
-__Okay, nice project. Is it actually working?__ _I just want those files..._
+* __Okay, nice project. Is it actually working?__ _I just want those files..._
+ 
+  _Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]_
 
-Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
 
-__I found a bug!__ / *I have another request*
+## Reporting bugs & contact us ##
 
-Great, thank you! Now, you have some options:
+* __I found a bug!__
+ 
+  _Great, thank you! Now you have two options:_
 
-1. [Report it on AppSpot][] - it's anonymous and no account is needed - on downside, you'll need to manually check on the progress of your issue.
+  1. [Report it on Appspot][] - it's anonymous and no account is needed - one downside, you will need to manually check the progress of your issue.
+  2. [Open Issue directly][] (green ```New Issue``` in upper-right) - you need a GitHub account and then can track progress (get notifications on it!), comment (i.e. answer our questions) and help us better!
 
-2. [Open issue directly][] (green `New Issue` in upper-right, GitHub account required) - you can track the progress, get notifications, help us by answering possibly follow-up questions and help us better!
+* __I'd just like to contact you.__
+
+  Then join us on Discord!
+  
+  [![Chat on Discord](https://img.shields.io/discord/558412685981777922?style=popout-square)](https://www.bsdata.net/contact)
+ 
+  _Otherwise, the easiest way is through issues mentioned above. We are a community and that's the only place we all have access to. We don't have any group e-mail. So if you want to stay anonymous, contact us by reporting bug on Appspot (point 1 above)._
+
 
 ## Links ##
 [Links]: #links
