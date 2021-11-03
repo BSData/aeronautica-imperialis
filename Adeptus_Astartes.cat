@@ -381,24 +381,6 @@
             <entryLink id="e710-d978-28d3-7e66" name="Twin Lascannon" hidden="false" collective="false" import="true" targetId="6961-d358-1e91-21f0" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="518b-def7-2b6a-7ec3" name="Additional Weaponary" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d992-9c0b-7dc8-b6f6" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b908-c5a9-9453-1779" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="7721-4c2d-8506-7de4" name="Pair of Wing Bombs" hidden="false" collective="false" import="true" targetId="9df5-dc2b-aaa6-3bdd" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="points" value="2.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="aedf-4344-243a-6469" name="Pair of Hellstrike Missiles" hidden="false" collective="false" import="true" targetId="3542-be32-6955-4e11" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="points" value="2.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="3736-5dff-a152-a992" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="323a-9cee-3091-0308" type="selectionEntryGroup"/>
