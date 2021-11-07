@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9826-b91b-6a9d-ca70" name="Adeptus Astartes" revision="2" battleScribeVersion="2.03" authorName="Fire Raptor" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9826-b91b-6a9d-ca70" name="Adeptus Astartes" revision="3" battleScribeVersion="2.03" authorName="Fire Raptor" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="25d1-4c56-7d01-fd5b" name="Wrath of Angels" publicationDate="2021"/>
   </publications>
@@ -740,7 +740,11 @@
         <entryLink id="8dd8-c2fd-15d8-822e" name="Ceramite Plating" hidden="false" collective="false" import="true" targetId="6a1c-028d-cbbc-2796" type="selectionEntry"/>
         <entryLink id="931b-4faa-9ade-3087" name="Veteran" hidden="false" collective="false" import="true" targetId="6d5d-cd4e-4dd2-310f" type="selectionEntry"/>
         <entryLink id="a3a1-528d-6ac5-322c" name="Techmarine" hidden="false" collective="false" import="true" targetId="d347-61e4-538e-9c87" type="selectionEntry"/>
-        <entryLink id="d675-c27a-f478-f6dd" name="Infernum Halo Launcher" hidden="false" collective="false" import="true" targetId="679d-30b1-dfa1-ed30" type="selectionEntry"/>
+        <entryLink id="d675-c27a-f478-f6dd" name="Infernum Halo Launcher" hidden="false" collective="false" import="true" targetId="679d-30b1-dfa1-ed30" type="selectionEntry">
+          <costs>
+            <cost name="pts" typeId="points" value="1.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
