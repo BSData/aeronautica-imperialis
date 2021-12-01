@@ -335,7 +335,7 @@
         <categoryLink id="96af-89e1-d36a-48a0" name="New CategoryLink" hidden="false" targetId="4ccd-3c3f-80d3-f2fb" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="9.0"/>
+        <cost name="pts" typeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8362-c302-dd47-1cbf" name="Thunderhawk Gunship" hidden="false" collective="false" import="true" type="upgrade">
