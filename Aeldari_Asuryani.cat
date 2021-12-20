@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="80cf-6e69-8bf6-d62e" name="Asuryani" revision="1" battleScribeVersion="2.03" authorName="Pheonix Bomber" authorContact="@zopha" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="80cf-6e69-8bf6-d62e" name="Asuryani" revision="2" battleScribeVersion="2.03" authorName="Pheonix Bomber" authorContact="@zopha" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="1d81-06ef-f102-6d15" name="Warth of Angels"/>
   </publications>
@@ -7,6 +7,18 @@
     <selectionEntry id="1c41-0047-a4e1-2e8a" name="Crimson Warrior" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="10f3-5355-4701-2ea4" name="Crimson Warrior" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+          <modifiers>
+            <modifier type="increment" field="db83-4ff1-b0cb-a312" value="1">
+              <conditions>
+                <condition field="selections" scope="1c41-0047-a4e1-2e8a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb99-ad2b-6965-3f6e" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="8234-9f67-e172-880a" value="1">
+              <conditions>
+                <condition field="selections" scope="1c41-0047-a4e1-2e8a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb99-ad2b-6965-3f6e" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">2</characteristic>
             <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">-</characteristic>
@@ -35,7 +47,7 @@
           <profiles>
             <profile id="fc7c-6c94-5f89-3139" name="Jin Lyaia" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
               <characteristics>
-                <characteristic name="Ability" typeId="65ee-9496-8377-0d24">Once per game, you may re-roll all hit rolls of a natural 1 made by this aaircraft when targetting an enemy aircraft at one Altitude level below it.</characteristic>
+                <characteristic name="Ability" typeId="65ee-9496-8377-0d24">Once per game, you may re-roll all hit rolls of a natural 1 made by this aircraft when targetting an enemy aircraft at one Altitude level below it.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -92,12 +104,12 @@
           <modifiers>
             <modifier type="increment" field="db83-4ff1-b0cb-a312" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb99-ad2b-6965-3f6e" type="atLeast"/>
+                <condition field="selections" scope="7ed4-00d1-0fcc-896c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb99-ad2b-6965-3f6e" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="8234-9f67-e172-880a" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb99-ad2b-6965-3f6e" type="atLeast"/>
+                <condition field="selections" scope="7ed4-00d1-0fcc-896c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb99-ad2b-6965-3f6e" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -188,12 +200,12 @@
           <modifiers>
             <modifier type="increment" field="db83-4ff1-b0cb-a312" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb99-ad2b-6965-3f6e" type="atLeast"/>
+                <condition field="selections" scope="df0f-4e1b-4097-2903" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb99-ad2b-6965-3f6e" type="equalTo"/>
               </conditions>
             </modifier>
             <modifier type="increment" field="8234-9f67-e172-880a" value="1">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb99-ad2b-6965-3f6e" type="atLeast"/>
+                <condition field="selections" scope="df0f-4e1b-4097-2903" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb99-ad2b-6965-3f6e" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -261,6 +273,18 @@
     <selectionEntry id="966d-dc72-851b-5798" name="Shadow Reaver" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="9f7f-42aa-0166-0f10" name="Shadow Reaver" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+          <modifiers>
+            <modifier type="increment" field="8234-9f67-e172-880a" value="1">
+              <conditions>
+                <condition field="selections" scope="966d-dc72-851b-5798" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb99-ad2b-6965-3f6e" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="db83-4ff1-b0cb-a312" value="1">
+              <conditions>
+                <condition field="selections" scope="966d-dc72-851b-5798" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb99-ad2b-6965-3f6e" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">2</characteristic>
             <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">-</characteristic>
@@ -501,10 +525,11 @@
     </selectionEntry>
     <selectionEntry id="5c17-6043-565e-e6c2" name="Asuryani Ace" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dbe-2436-3387-0ff0" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0dbe-2436-3387-0ff0" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afff-f849-f646-0dc6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="fd40-e347-9dcd-4c15" name="Asuryani Ace" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="fd40-e347-9dcd-4c15" name="Asuryani Ace" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">May only be taken by one aircraft within a force.
 Once per game, this aircraft may choose to discard a dice roll and re-roll the dice.
@@ -521,7 +546,7 @@ However, all of the dice rolled must be re-rolled and the player must accept the
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b437-cf8f-f0bf-7281" type="max"/>
       </constraints>
       <profiles>
-        <profile id="55d7-ef12-1089-29b2" name="Holo-field" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="55d7-ef12-1089-29b2" name="Holo-field" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Whan an enemy aircraft fires at this aircraft from Long range, it must re-roll any successufl hit rolls of a natural 6.
 In addition, when an enemy aircraft fires at this aircraft from Medium range, it must re-roll one successful hit roll of a natural 6.
@@ -538,7 +563,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6305-7703-6375-d514" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5675-7240-c338-1388" name="Mindsight" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="5675-7240-c338-1388" name="Mindsight" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">If the Night Fighting or Bad Weather rules are in use, this aircraft may fire at Medium range without reducing the number of Firepower dice rolled.</characteristic>
           </characteristics>
@@ -553,7 +578,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f7f-06a1-0a6c-a84e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="43ac-0ad7-9e77-d3ac" name="Spirit Stone" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="43ac-0ad7-9e77-d3ac" name="Spirit Stone" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This aircraft may re-roll the D6 when rolling to avoid crashnig or breaking up, or when attempting to recover from a Spin.</characteristic>
           </characteristics>
@@ -568,7 +593,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a710-1072-2a8e-56a3" type="max"/>
       </constraints>
       <profiles>
-        <profile id="00fa-d355-7e04-8faf" name="Star Engines" publicationId="1d81-06ef-f102-6d15" page="31" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="00fa-d355-7e04-8faf" name="Star Engines" publicationId="1d81-06ef-f102-6d15" page="31" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Max Speed and Min Speed characteristics of this aircraft are increased by 1, up to a max of 9.</characteristic>
           </characteristics>
@@ -677,7 +702,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
     </profile>
     <profile id="93d5-ca9c-9181-18f9" name="Bomb Rack" publicationId="1d81-06ef-f102-6d15" page="34" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
       <characteristics>
-        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Rear</characteristic>
         <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">4-0-0</characteristic>
         <characteristic name="DMG" typeId="3666-196d-11fd-c067">2+</characteristic>
         <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">3</characteristic>

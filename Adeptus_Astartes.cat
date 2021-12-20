@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9826-b91b-6a9d-ca70" name="Adeptus Astartes" revision="5" battleScribeVersion="2.03" authorName="Fire Raptor" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9826-b91b-6a9d-ca70" name="Adeptus Astartes" revision="6" battleScribeVersion="2.03" authorName="Fire Raptor" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="25d1-4c56-7d01-fd5b" name="Wrath of Angels" publicationDate="2021"/>
   </publications>
   <selectionEntries>
-    <selectionEntry id="d60f-6e76-fb25-6ee0" name="Xiphon Interceptor" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d60f-6e76-fb25-6ee0" name="Xiphon Interceptor" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="6141-2602-fe32-1a6e" name="Xiphon Interceptor" hidden="false" targetId="0c6c-374d-2a08-5d38" type="profile"/>
       </infoLinks>
@@ -65,7 +65,7 @@
         <cost name="pts" typeId="points" value="24.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="55f0-97af-64ac-7391" name="Storm Eagle Assualt Craft" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="55f0-97af-64ac-7391" name="Storm Eagle Assualt Craft" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="3465-dc65-864c-8acd" name="Storm Eagle Assault Craft" hidden="false" targetId="3f65-62f3-b0eb-652d" type="profile"/>
         <infoLink id="5df8-e810-8ff3-fe15" name="Jump troops" hidden="false" targetId="7406-f5b9-a751-1291" type="rule"/>
@@ -139,7 +139,7 @@
         <cost name="pts" typeId="points" value="29.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="564a-00c1-78a5-5f50" name="Dark Fire" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="564a-00c1-78a5-5f50" name="Dark Fire" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23fd-e5e8-1336-147f" type="max"/>
       </constraints>
@@ -194,7 +194,7 @@
         <cost name="pts" typeId="points" value="36.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7ab2-ebf5-7028-82d2" name="The Unkillable Phantom" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7ab2-ebf5-7028-82d2" name="The Unkillable Phantom" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f5a-7a3f-fa26-b3d2" type="max"/>
       </constraints>
@@ -264,7 +264,7 @@
         <cost name="pts" typeId="points" value="29.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6d38-32e2-3c6e-b8ef" name="Fire Raptor Gunship" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6d38-32e2-3c6e-b8ef" name="Fire Raptor Gunship" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="5c5e-8028-f4c6-921d" name="Fire Raptor Gunship" hidden="false" targetId="4664-de8f-040b-4393" type="profile"/>
       </infoLinks>
@@ -311,7 +311,7 @@
         <cost name="pts" typeId="points" value="31.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2580-457d-648b-7834" name="Icarus Stormcannon Array" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2580-457d-648b-7834" name="Icarus Stormcannon Array" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="59c9-2769-a3bf-18f1" name="Icarus Stormcannon Array" hidden="false" targetId="837b-6562-a2bb-fc2b" type="profile"/>
         <infoLink id="49bf-1862-4acc-4b75" name="Ground-to-Air Fire" hidden="false" targetId="297a-5ea8-7f8e-4621" type="profile"/>
@@ -324,7 +324,7 @@
         <cost name="pts" typeId="points" value="9.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0440-4e66-c73d-82ac" name="Skysear Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0440-4e66-c73d-82ac" name="Skysear Missile Launcher" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="4eed-c5d5-5506-081f" name="Skyspear Missile Launcher" hidden="false" targetId="efcc-b50c-6428-936d" type="profile"/>
         <infoLink id="37e5-3548-cd87-86aa" name="Effective Altitude (4)" hidden="false" targetId="409c-b89b-b2e2-15ba" type="profile"/>
@@ -338,7 +338,7 @@
         <cost name="pts" typeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8362-c302-dd47-1cbf" name="Thunderhawk Gunship" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8362-c302-dd47-1cbf" name="Thunderhawk Gunship" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="db36-530f-9899-491e" name="Thunderhawk Gunship" hidden="false" targetId="b770-6121-dd6a-edbb" type="profile"/>
       </infoLinks>
@@ -415,7 +415,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9353-a1c1-1ee7-2311" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5fef-ea56-beaa-0b43" name="Tactical Targetting Array" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="5fef-ea56-beaa-0b43" name="Tactical Targetting Array" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, when targetting an enemy aircraft with Air-to-Air fire, this aircraft may re-roll any of the Firepower dice that roll a 1 to hit.</characteristic>
           </characteristics>
@@ -430,7 +430,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e71-32ab-7ef8-703f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d58e-00bd-b05c-b461" name="Infra-red Targeting" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="d58e-00bd-b05c-b461" name="Infra-red Targeting" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">If the Night Fighting or Bad Weather rule are in use, this aircraft may fire at Medium range without reducing the number of Firepower dice rolled.</characteristic>
           </characteristics>
@@ -445,7 +445,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a63-720c-f871-0d0d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="9fd8-66be-432e-1f1b" name="Armored Cockpit" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="9fd8-66be-432e-1f1b" name="Armored Cockpit" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">When this aircraft suffers a damaging hit from enemy fire, roll a D6. On a 6, the damage is ignored and the Structure points(s) that would have been lost as a result of the damage dice are not lost.</characteristic>
           </characteristics>
@@ -790,27 +790,27 @@
         <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (6+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="097b-686a-3611-5ddd" name="Hunter-Killer Missiles" publicationId="25d1-4c56-7d01-fd5b" page="29" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+    <profile id="097b-686a-3611-5ddd" name="Hunter-Killer Missiles" publicationId="25d1-4c56-7d01-fd5b" page="29" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
       <characteristics>
         <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Aerial Attack, Extra Damage (6+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="540b-636f-034a-7e73" name="Ceramite Plating" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+    <profile id="540b-636f-034a-7e73" name="Ceramite Plating" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
       <characteristics>
         <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">When this aircraft is damaged by a weapon that has the Extra Damage (X+) special rule, the X+ value is reduced by 1.</characteristic>
       </characteristics>
     </profile>
-    <profile id="bcd9-25af-3619-9110" name="Veteran" publicationId="25d1-4c56-7d01-fd5b" page="28" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+    <profile id="bcd9-25af-3619-9110" name="Veteran" publicationId="25d1-4c56-7d01-fd5b" page="28" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
       <characteristics>
         <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft may choose to re-roll a dice roll. However, all dice rilled must be re-rolled and the player must accept the result of the second roll, even if it is worse.</characteristic>
       </characteristics>
     </profile>
-    <profile id="73b1-6bba-8042-90e0" name="Techmarine" publicationId="25d1-4c56-7d01-fd5b" page="28" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+    <profile id="73b1-6bba-8042-90e0" name="Techmarine" publicationId="25d1-4c56-7d01-fd5b" page="28" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
       <characteristics>
         <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft may attempt a repair. During the End Phase, roll a D6 for each lost point of Structure. For each roll of a 5+, repair a single point of Structure.</characteristic>
       </characteristics>
     </profile>
-    <profile id="675c-cf66-558d-03ab" name="Infernum Halo Launcher" publicationId="25d1-4c56-7d01-fd5b" page="28" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+    <profile id="675c-cf66-558d-03ab" name="Infernum Halo Launcher" publicationId="25d1-4c56-7d01-fd5b" page="28" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
       <characteristics>
         <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, roll a D6 for each hit the aircraft suffers from a weapon with an Ammo characteristic of 1, 2 or 3. For each roll of a 6, that hit becomes a miss.</characteristic>
       </characteristics>
