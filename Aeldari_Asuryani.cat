@@ -7,6 +7,18 @@
     <selectionEntry id="1c41-0047-a4e1-2e8a" name="Crimson Warrior" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="10f3-5355-4701-2ea4" name="Crimson Warrior" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+          <modifiers>
+            <modifier type="increment" field="db83-4ff1-b0cb-a312" value="1">
+              <conditions>
+                <condition field="selections" scope="1c41-0047-a4e1-2e8a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb99-ad2b-6965-3f6e" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="8234-9f67-e172-880a" value="1">
+              <conditions>
+                <condition field="selections" scope="1c41-0047-a4e1-2e8a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb99-ad2b-6965-3f6e" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">2</characteristic>
             <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">-</characteristic>
@@ -261,6 +273,18 @@
     <selectionEntry id="966d-dc72-851b-5798" name="Shadow Reaver" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="9f7f-42aa-0166-0f10" name="Shadow Reaver" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+          <modifiers>
+            <modifier type="increment" field="8234-9f67-e172-880a" value="1">
+              <conditions>
+                <condition field="selections" scope="966d-dc72-851b-5798" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb99-ad2b-6965-3f6e" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="db83-4ff1-b0cb-a312" value="1">
+              <conditions>
+                <condition field="selections" scope="966d-dc72-851b-5798" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb99-ad2b-6965-3f6e" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">2</characteristic>
             <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">-</characteristic>
