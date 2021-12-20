@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="df04-c447-f12b-fae8" name="Warhammer 40,000: Aeronautica Imperialis" revision="14" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="df04-c447-f12b-fae8" name="Warhammer 40,000: Aeronautica Imperialis" revision="15" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="7ca4-c4f1-d97e-2820" name="Taros Air War"/>
   </publications>
@@ -47,7 +47,7 @@
         <characteristicType id="65ee-9496-8377-0d24" name="Ability"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="9f87-657f-61ed-3e6b" name="Aircarft Upgrade">
+    <profileType id="9f87-657f-61ed-3e6b" name="Aircraft Upgrade">
       <characteristicTypes>
         <characteristicType id="f27e-c1a3-3770-bf93" name="Ability"/>
       </characteristicTypes>
@@ -80,7 +80,7 @@
       <description>Once this aircraft had deployed its cargo, it may Voluntarily Disengage in any turn as if it were the Disengagement turn.</description>
     </rule>
     <rule id="e966-31c6-4527-8a39" name="Jink" hidden="false">
-      <description>When this aircraft is chosen to fire during the Firing phase, before step 1: Targeting, it may immediately move one hex in any direction. Note, however, that the aircraft may not changeits facing, Altitude or Speed after making this move. Nor may this movement take the aircraft into an occupied hex.</description>
+      <description>When this aircraft is chosen to fire during the Firing phase, before step 1: Targeting, it may immediately move one hex in any direction. Note, however, that the aircraft may not change its facing, Altitude or Speed after making this move. Nor may this movement take the aircraft into an occupied hex.</description>
     </rule>
     <rule id="b340-7f0b-16d2-170b" name="Stealth (-1)" hidden="false">
       <description>Any weapon with the Ground-to-Air fire special rule targeting an aircraft with this special rule must reduce its Effective Altitude (X) by 1.</description>

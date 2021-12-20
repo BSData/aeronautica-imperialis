@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="80cf-6e69-8bf6-d62e" name="Asuryani" revision="1" battleScribeVersion="2.03" authorName="Pheonix Bomber" authorContact="@zopha" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="80cf-6e69-8bf6-d62e" name="Asuryani" revision="2" battleScribeVersion="2.03" authorName="Pheonix Bomber" authorContact="@zopha" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="1d81-06ef-f102-6d15" name="Warth of Angels"/>
   </publications>
@@ -529,7 +529,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afff-f849-f646-0dc6" type="max"/>
       </constraints>
       <profiles>
-        <profile id="fd40-e347-9dcd-4c15" name="Asuryani Ace" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="fd40-e347-9dcd-4c15" name="Asuryani Ace" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">May only be taken by one aircraft within a force.
 Once per game, this aircraft may choose to discard a dice roll and re-roll the dice.
@@ -546,7 +546,7 @@ However, all of the dice rolled must be re-rolled and the player must accept the
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b437-cf8f-f0bf-7281" type="max"/>
       </constraints>
       <profiles>
-        <profile id="55d7-ef12-1089-29b2" name="Holo-field" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="55d7-ef12-1089-29b2" name="Holo-field" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Whan an enemy aircraft fires at this aircraft from Long range, it must re-roll any successufl hit rolls of a natural 6.
 In addition, when an enemy aircraft fires at this aircraft from Medium range, it must re-roll one successful hit roll of a natural 6.
@@ -563,7 +563,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6305-7703-6375-d514" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5675-7240-c338-1388" name="Mindsight" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="5675-7240-c338-1388" name="Mindsight" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">If the Night Fighting or Bad Weather rules are in use, this aircraft may fire at Medium range without reducing the number of Firepower dice rolled.</characteristic>
           </characteristics>
@@ -578,7 +578,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f7f-06a1-0a6c-a84e" type="max"/>
       </constraints>
       <profiles>
-        <profile id="43ac-0ad7-9e77-d3ac" name="Spirit Stone" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="43ac-0ad7-9e77-d3ac" name="Spirit Stone" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This aircraft may re-roll the D6 when rolling to avoid crashnig or breaking up, or when attempting to recover from a Spin.</characteristic>
           </characteristics>
@@ -593,7 +593,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a710-1072-2a8e-56a3" type="max"/>
       </constraints>
       <profiles>
-        <profile id="00fa-d355-7e04-8faf" name="Star Engines" publicationId="1d81-06ef-f102-6d15" page="31" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="00fa-d355-7e04-8faf" name="Star Engines" publicationId="1d81-06ef-f102-6d15" page="31" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Max Speed and Min Speed characteristics of this aircraft are increased by 1, up to a max of 9.</characteristic>
           </characteristics>
