@@ -47,7 +47,7 @@
           <profiles>
             <profile id="fc7c-6c94-5f89-3139" name="Jin Lyaia" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
               <characteristics>
-                <characteristic name="Ability" typeId="65ee-9496-8377-0d24">Once per game, you may re-roll all hit rolls of a natural 1 made by this aaircraft when targetting an enemy aircraft at one Altitude level below it.</characteristic>
+                <characteristic name="Ability" typeId="65ee-9496-8377-0d24">Once per game, you may re-roll all hit rolls of a natural 1 made by this aircraft when targetting an enemy aircraft at one Altitude level below it.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -525,7 +525,8 @@
     </selectionEntry>
     <selectionEntry id="5c17-6043-565e-e6c2" name="Asuryani Ace" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dbe-2436-3387-0ff0" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0dbe-2436-3387-0ff0" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afff-f849-f646-0dc6" type="max"/>
       </constraints>
       <profiles>
         <profile id="fd40-e347-9dcd-4c15" name="Asuryani Ace" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
