@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9826-b91b-6a9d-ca70" name="Adeptus Astartes" revision="6" battleScribeVersion="2.03" authorName="Fire Raptor" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9826-b91b-6a9d-ca70" name="Adeptus Astartes" revision="7" battleScribeVersion="2.03" authorName="Fire Raptor" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="25d1-4c56-7d01-fd5b" name="Wrath of Angels" publicationDate="2021"/>
   </publications>
@@ -790,9 +790,13 @@
         <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (6+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="097b-686a-3611-5ddd" name="Hunter-Killer Missiles" publicationId="25d1-4c56-7d01-fd5b" page="29" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+    <profile id="097b-686a-3611-5ddd" name="Hunter-Killer Missiles" publicationId="25d1-4c56-7d01-fd5b" page="29" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
       <characteristics>
-        <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Aerial Attack, Extra Damage (6+)</characteristic>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">0-2-2</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">3+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">3</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Aerial Attack, Extra Damage (6+)</characteristic>
       </characteristics>
     </profile>
     <profile id="540b-636f-034a-7e73" name="Ceramite Plating" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5745-5a5f-07b9-7f4f" name="Imperial Navy" revision="23" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="14" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5745-5a5f-07b9-7f4f" name="Imperial Navy" revision="24" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="583d-7042-2316-f8b5" name="White Dwarf October 2019"/>
     <publication id="39ba-445a-a65f-2bd6" name="White Dwarf November 2020"/>
@@ -1011,9 +1011,14 @@
         <profile id="91c7-9d24-8df6-1322" name="Avenger Bolt Cannon" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
           <modifiers>
             <modifier type="set" field="a5ae-d9ef-f1b4-e838" value="2-5-0">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daf4-ed1e-e0da-b3ba" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daf4-ed1e-e0da-b3ba" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c22b-93fe-8f63-e96c" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -1097,7 +1102,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06a4-6ef0-2f7b-5c88" type="max"/>
       </constraints>
       <profiles>
-        <profile id="cf14-79dc-863f-915a" name="Ejector Seats" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="cf14-79dc-863f-915a" name="Ejector Seats" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">If the aircraft is reduced to 0 Structure points and destroyed for any reason, roll a D6. On a 5+ the crew safely escape and the aicraft is only worth 75% of the total points cost in Victory points,  rather than the usual 100%.</characteristic>
           </characteristics>
@@ -1112,7 +1117,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d527-c242-4d8e-2603" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5581-9b93-ddf4-2fed" name="Flares or Chaff Launcher" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="5581-9b93-ddf4-2fed" name="Flares or Chaff Launcher" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, if the aircraft is hit by a weapons with an ammo characteristic	 of 1, 2, or 3, roll a D6. On a 6, the hit becomes a miss.</characteristic>
           </characteristics>
@@ -1127,7 +1132,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cb0-9510-7e15-368f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="2c54-4424-4a48-d7c8" name="Infra-red Targeting" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="2c54-4424-4a48-d7c8" name="Infra-red Targeting" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">If the Night Fighting or Bad Weather rule are in use, this aircraft may fire at Medium range without reducing the number of Firepower dice rolled.</characteristic>
           </characteristics>
@@ -1143,7 +1148,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d2b-8b93-0d49-5b07" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d4fc-e8a1-da5c-1a01" name="Imperial Ace" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="d4fc-e8a1-da5c-1a01" name="Imperial Ace" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Ths upgrade may only be taken by one aicraft within a force. Once per game, this aircraft may choose to re-roll a dice roll. However, all of the dice rolled must be re-rolled an the player must accept the result of the second roll, even if it is worse.</characteristic>
           </characteristics>
@@ -1158,7 +1163,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5934-0e96-f9d9-233f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="0fd6-a545-a6bb-f810" name="Armored Cockpit" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="0fd6-a545-a6bb-f810" name="Armored Cockpit" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">When this aircraft suffers a damaging hit from enemy fire, roll a D6. On a 6, the damage is ignored and the Structure points(s) that would have been lost as a result of the damage dice are not lost.</characteristic>
           </characteristics>
@@ -1233,9 +1238,14 @@
         <profile id="f5e6-3605-1a50-1289" name="Heavy Stubber" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
           <modifiers>
             <modifier type="set" field="a5ae-d9ef-f1b4-e838" value="1-1-0">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daf4-ed1e-e0da-b3ba" type="instanceOf"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="daf4-ed1e-e0da-b3ba" type="instanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c22b-93fe-8f63-e96c" type="instanceOf"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <characteristics>
@@ -1416,7 +1426,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="029b-74b9-615a-7181" type="max"/>
           </constraints>
           <profiles>
-            <profile id="476c-fc04-c841-49e5" name="Lightning Reactions" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+            <profile id="476c-fc04-c841-49e5" name="Lightning Reactions" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
               <characteristics>
                 <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once Per game, when this aicrafts is activated, you may discard Ace Manoeuver that was chosen for it during the Choose Manoeuvre phase and immediately choose another Ace Manoeuver.</characteristic>
               </characteristics>
@@ -1431,7 +1441,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9eb-2b00-5bec-4975" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5e32-0cb3-d373-c87c" name="Expert Gunner" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+            <profile id="5e32-0cb3-d373-c87c" name="Expert Gunner" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
               <characteristics>
                 <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, when making a Strafing Run, you may add a +1 modifier for each of the Firepowerdice when rolling to hit.</characteristic>
               </characteristics>
@@ -1446,7 +1456,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b73-11e2-41cc-2c28" type="max"/>
           </constraints>
           <profiles>
-            <profile id="bf9c-6e29-a281-6f43" name="Master Navigator" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+            <profile id="bf9c-6e29-a281-6f43" name="Master Navigator" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
               <characteristics>
                 <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, after completing its movement, you may move this aircarft  one hex in any direction, effectively allowing you to adjust its final position (but not its facing).</characteristic>
               </characteristics>
