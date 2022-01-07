@@ -548,7 +548,7 @@ However, all of the dice rolled must be re-rolled and the player must accept the
       <profiles>
         <profile id="55d7-ef12-1089-29b2" name="Holo-field" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
-            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Whan an enemy aircraft fires at this aircraft from Long range, it must re-roll any successufl hit rolls of a natural 6.
+            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Whan an enemy aircraft fires at this aircraft from Long range, it must re-roll any successful hit rolls of a natural 6.
 In addition, when an enemy aircraft fires at this aircraft from Medium range, it must re-roll one successful hit roll of a natural 6.
 Note: should this aircraft Stall or fall in to a Spin, this upgrade does not apply.</characteristic>
           </characteristics>
