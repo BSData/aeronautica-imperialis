@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="80cf-6e69-8bf6-d62e" name="Asuryani" revision="2" battleScribeVersion="2.03" authorName="Pheonix Bomber" authorContact="@zopha" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="1d81-06ef-f102-6d15" name="Warth of Angels"/>
+    <publication id="1d81-06ef-f102-6d15" name="Wrath of Angels"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="1c41-0047-a4e1-2e8a" name="Crimson Warrior" hidden="false" collective="false" import="true" type="model">
