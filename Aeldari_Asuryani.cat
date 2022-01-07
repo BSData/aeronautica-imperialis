@@ -580,7 +580,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
       <profiles>
         <profile id="43ac-0ad7-9e77-d3ac" name="Spirit Stone" publicationId="1d81-06ef-f102-6d15" page="32" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
-            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This aircraft may re-roll the D6 when rolling to avoid crashnig or breaking up, or when attempting to recover from a Spin.</characteristic>
+            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This aircraft may re-roll the D6 when rolling to avoid crashing or breaking up, or when attempting to recover from a Spin.</characteristic>
           </characteristics>
         </profile>
       </profiles>
