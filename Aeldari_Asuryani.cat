@@ -487,7 +487,7 @@
     </selectionEntry>
     <selectionEntry id="7999-95b6-7a36-bf4c" name="Missile Array" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="4a87-5e5e-74ae-f883" name="Missile Arrary" hidden="false" targetId="aeba-c921-1090-9fd8" type="profile"/>
+        <infoLink id="4a87-5e5e-74ae-f883" name="Missile Array" hidden="false" targetId="aeba-c921-1090-9fd8" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
