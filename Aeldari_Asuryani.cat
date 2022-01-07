@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="80cf-6e69-8bf6-d62e" name="Asuryani" revision="2" battleScribeVersion="2.03" authorName="Pheonix Bomber" authorContact="@zopha" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="80cf-6e69-8bf6-d62e" name="Asuryani" revision="3" battleScribeVersion="2.03" authorName="Pheonix Bomber" authorContact="@zopha" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="1d81-06ef-f102-6d15" name="Wrath of Angels"/>
   </publications>
@@ -47,7 +47,7 @@
           <profiles>
             <profile id="fc7c-6c94-5f89-3139" name="Jin Lyaia" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
               <characteristics>
-                <characteristic name="Ability" typeId="65ee-9496-8377-0d24">Once per game, you may re-roll all hit rolls of a natural 1 made by this aircraft when targetting an enemy aircraft at one Altitude level below it.</characteristic>
+                <characteristic name="Ability" typeId="65ee-9496-8377-0d24">Once per game, you may re-roll all hit rolls of a natural 1 made by this aircraft when targeting an enemy aircraft at one Altitude level below it.</characteristic>
               </characteristics>
             </profile>
           </profiles>
