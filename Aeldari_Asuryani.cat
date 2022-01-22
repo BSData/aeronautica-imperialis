@@ -487,6 +487,7 @@
       <infoLinks>
         <infoLink id="f672-d2c1-db72-8c5d" name="Twin Bright Lances" hidden="false" targetId="a82d-01f0-2b53-9f47" type="profile"/>
         <infoLink id="9f84-b3b5-cef8-8798" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
+        <infoLink id="fc7e-cc94-a1aa-e524" name="Aerial Attack" hidden="false" targetId="0d22-4d01-ff7f-b254" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -678,7 +679,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
         <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">1-2-2</characteristic>
         <characteristic name="DMG" typeId="3666-196d-11fd-c067">2+</characteristic>
         <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
-        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Extra Damage (6+)</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Extra Damage (6+), Aerial Attack</characteristic>
       </characteristics>
     </profile>
     <profile id="fe1a-352b-f3bb-33ff" name="Twin Scatter Lasers" publicationId="1d81-06ef-f102-6d15" page="33" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
