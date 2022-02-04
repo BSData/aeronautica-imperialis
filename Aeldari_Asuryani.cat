@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="80cf-6e69-8bf6-d62e" name="Asuryani" revision="4" battleScribeVersion="2.03" authorName="Pheonix Bomber" authorContact="@zopha" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="80cf-6e69-8bf6-d62e" name="Asuryani" revision="5" battleScribeVersion="2.03" authorName="Updated Companion Stats" authorContact="@evanh" authorUrl="" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="1d81-06ef-f102-6d15" name="Wrath of Angels"/>
+    <publication id="1ef7-1236-3c3d-7e72" name="Aeronautica Imperialis – Companion" shortName="Companion" publisher="Aeronautica Imperialis – Companion" publicationDate="2022" publisherUrl="https://www.games-workshop.com/en-CA/aeronautica-imperialis-companion-eng-2022"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="1c41-0047-a4e1-2e8a" name="Crimson Warrior" hidden="false" collective="false" import="true" type="model">
@@ -92,7 +93,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a25e-ce2b-eaf8-5ae9" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="78ca-21bf-cd5d-95a6" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="d04a-60cb-9037-6636" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="24.0"/>
@@ -100,7 +100,7 @@
     </selectionEntry>
     <selectionEntry id="7ed4-00d1-0fcc-896c" name="Phoenix Bomber" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="517a-03a1-2d4d-49c1" name="Phoenix Bomber" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+        <profile id="517a-03a1-2d4d-49c1" name="Phoenix Bomber" publicationId="1ef7-1236-3c3d-7e72" page="28" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
           <modifiers>
             <modifier type="increment" field="db83-4ff1-b0cb-a312" value="1">
               <conditions>
@@ -194,7 +194,7 @@
         <cost name="pts" typeId="points" value="23.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="df0f-4e1b-4097-2903" name="Nightwing" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="df0f-4e1b-4097-2903" name="Nightwing" publicationId="1ef7-1236-3c3d-7e72" page="27" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="26af-e515-7b18-500b" name="Nightwing" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
           <modifiers>
@@ -429,9 +429,9 @@
         <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f9e9-ad86-532e-0705" name="Nightshade Interceptor" publicationId="41a0-328f-4c30-b6fa" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="f9e9-ad86-532e-0705" name="Nightshade Interceptor" publicationId="1ef7-1236-3c3d-7e72" page="32" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="b5f1-a5e8-4d8e-02c9" name="Nightshade Interceptor" publicationId="41a0-328f-4c30-b6fa" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+        <profile id="b5f1-a5e8-4d8e-02c9" name="Nightshade Interceptor" publicationId="1ef7-1236-3c3d-7e72" page="32" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
           <modifiers>
             <modifier type="increment" field="db83-4ff1-b0cb-a312" value="1">
               <conditions>
@@ -473,7 +473,7 @@
         <cost name="pts" typeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b2e5-fea9-cc66-25f4" name="Hemlock Wraithfighter" publicationId="41a0-328f-4c30-b6fa" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="b2e5-fea9-cc66-25f4" name="Hemlock Wraithfighter" publicationId="1ef7-1236-3c3d-7e72" page="31" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="131d-a76d-afb9-13d2" name="Hemlock Wraithfighter" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
           <modifiers>
@@ -506,7 +506,7 @@
       </infoLinks>
       <entryLinks>
         <entryLink id="0f01-06ed-e964-ad6e" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="d04a-60cb-9037-6636" type="selectionEntryGroup"/>
-        <entryLink id="0ca3-5fd5-5cac-35ec" name="D-Scythe" hidden="false" collective="false" import="true" targetId="aa80-f5f5-9e4d-9bd3" type="selectionEntry">
+        <entryLink id="0ca3-5fd5-5cac-35ec" name="Heavy D-Scythe" hidden="false" collective="false" import="true" targetId="aa80-f5f5-9e4d-9bd3" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21be-baf0-73a5-4a41" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b1b-182a-d995-9ae0" type="min"/>
@@ -515,6 +515,122 @@
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cda9-19bc-724a-5463" name="Vampire Raider" publicationId="1ef7-1236-3c3d-7e72" page="29" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5e86-dcb7-4973-4061" name="Vampire Raider" publicationId="1ef7-1236-3c3d-7e72" page="29" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+          <modifiers>
+            <modifier type="increment" field="db83-4ff1-b0cb-a312" value="1">
+              <conditions>
+                <condition field="selections" scope="cda9-19bc-724a-5463" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb99-ad2b-6965-3f6e" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="8234-9f67-e172-880a" value="1">
+              <conditions>
+                <condition field="selections" scope="cda9-19bc-724a-5463" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cb99-ad2b-6965-3f6e" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" field="8ee3-89b8-cd9f-58ba" value="2">
+              <conditions>
+                <condition field="selections" scope="cda9-19bc-724a-5463" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="458f-4599-e7ee-4669" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">5</characteristic>
+            <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">3</characteristic>
+            <characteristic name="Fuel" typeId="e194-183f-9e70-f04d">-</characteristic>
+            <characteristic name="Throttle" typeId="92ef-efe6-13ea-3792">3</characteristic>
+            <characteristic name="Ace Maneuvers" typeId="3225-9212-fdab-50f0">1-6</characteristic>
+            <characteristic name="Handling" typeId="951a-93cf-2cc5-78d8">3+</characteristic>
+            <characteristic name="Min Speed" typeId="8234-9f67-e172-880a">2</characteristic>
+            <characteristic name="Max Speed" typeId="db83-4ff1-b0cb-a312">7</characteristic>
+            <characteristic name="Max Altitude" typeId="8a75-2b8f-5077-06cd">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6b70-cb6d-34e8-2d39" name="Jump troops" hidden="false" targetId="7406-f5b9-a751-1291" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b621-25c6-354f-2e7b" name="New CategoryLink" hidden="false" targetId="8cfa-dfb7-e996-3c7d" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a816-9303-14b1-0acd" name="Additional Weaponry" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff85-065a-86b5-9d0b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="852e-ac7a-a334-31b7" name="Phoenix Missile Launchers" hidden="false" collective="false" import="true" targetId="458f-4599-e7ee-4669" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8ada-8f08-4844-f193" name="Twin Linked Weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b348-75a6-2a63-e874" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd01-9d02-6ea1-2f55" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="10d5-2f99-5b29-0e33" name="Twin Linked Pulse Lasers" hidden="false" collective="false" import="true" targetId="41ee-13d4-4985-881a" type="selectionEntry"/>
+            <entryLink id="83e9-ed74-9585-47aa" name="Twin Linked Shuriken Cannon" hidden="false" collective="false" import="true" targetId="fbdb-6921-5c49-5cc4" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7091-9531-744b-430a" name="Nose-mounted Scatter Laser" hidden="false" collective="false" import="true" targetId="a4ec-3a36-a270-3568" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0249-4fcd-5df7-92ec" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36cf-d712-0bce-f733" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4493-2b67-4f9e-6db9" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="d04a-60cb-9037-6636" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="33.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c791-72a8-996b-5480" name="Vampire Hunter" publicationId="1ef7-1236-3c3d-7e72" page="30" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="900e-cf1f-dfff-2745" name="Vampire Hunter" publicationId="1ef7-1236-3c3d-7e72" page="30" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+          <characteristics>
+            <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">5</characteristic>
+            <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">-</characteristic>
+            <characteristic name="Fuel" typeId="e194-183f-9e70-f04d">-</characteristic>
+            <characteristic name="Throttle" typeId="92ef-efe6-13ea-3792">3</characteristic>
+            <characteristic name="Ace Maneuvers" typeId="3225-9212-fdab-50f0">1-6</characteristic>
+            <characteristic name="Handling" typeId="951a-93cf-2cc5-78d8">3+</characteristic>
+            <characteristic name="Min Speed" typeId="8234-9f67-e172-880a">2</characteristic>
+            <characteristic name="Max Speed" typeId="db83-4ff1-b0cb-a312">7</characteristic>
+            <characteristic name="Max Altitude" typeId="8a75-2b8f-5077-06cd">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="6221-87a4-9edf-351e" name="New CategoryLink" hidden="false" targetId="8cfa-dfb7-e996-3c7d" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5c44-7925-3dc7-0d99" name="Nose-mounted Scatter Laser" hidden="false" collective="false" import="true" targetId="a4ec-3a36-a270-3568" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d88-03c1-8746-2b85" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5afc-d099-8007-d42e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="75f4-fb50-eca4-bf75" name="Twin Linked Pulsar" hidden="false" collective="false" import="true" targetId="3eb2-c3d4-b87b-d71f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c1f-8839-59af-acc1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7728-71bb-7d9c-c016" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8e59-22af-f995-dd17" name="Phoenix Missile Launchers" hidden="false" collective="false" import="true" targetId="458f-4599-e7ee-4669" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40a0-72ea-1990-a341" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa36-703f-bb58-1c30" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5c83-57c9-3634-5d74" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="d04a-60cb-9037-6636" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="36.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -692,11 +808,61 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
         <cost name="pts" typeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aa80-f5f5-9e4d-9bd3" name="D-Scythe" publicationId="41a0-328f-4c30-b6fa" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="aa80-f5f5-9e4d-9bd3" name="Heavy D-Scythe" publicationId="1ef7-1236-3c3d-7e72" page="31" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="5bfc-1786-9c1a-18e1" name="D-Scythe" hidden="false" targetId="01f7-7ee9-b553-bffe" type="profile"/>
+        <infoLink id="5bfc-1786-9c1a-18e1" name="Heavy D-Scythe" hidden="false" targetId="01f7-7ee9-b553-bffe" type="profile"/>
         <infoLink id="4aa4-6ae8-e14d-1cd0" name="Extra Damage (3+)" hidden="false" targetId="63c2-3940-975e-3318" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="458f-4599-e7ee-4669" name="Phoenix Missile Launchers" publicationId="1ef7-1236-3c3d-7e72" page="29" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a6a9-d756-dbbb-22de" name="Phoenix Missile Launchers" hidden="false" targetId="f1f6-254a-5dee-0c2d" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="41ee-13d4-4985-881a" name="Twin Linked Pulse Lasers" publicationId="1ef7-1236-3c3d-7e72" page="29" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e0d7-9ba6-a9b0-ff5d" name="Aerial Attack" hidden="false" targetId="0d22-4d01-ff7f-b254" type="profile"/>
+        <infoLink id="c73c-eaf6-7c20-8ad2" name="Twin Linked Pulse Lasers" hidden="false" targetId="8d90-2317-236a-b4c1" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fbdb-6921-5c49-5cc4" name="Twin Linked Shuriken Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c01b-46e5-9136-45c4" name="Twin Linked Shuriken Cannon" hidden="false" targetId="a1a8-0989-5103-259e" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="a4ec-3a36-a270-3568" name="Nose-mounted Scatter Laser" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="95dc-a066-359e-1f6f" name="Nose-mounted Scatter Laser" hidden="false" targetId="236f-e340-df2e-b27b" type="profile"/>
+        <infoLink id="b464-6ef1-f8c3-2bb5" name="Aerial Attack" hidden="false" targetId="0d22-4d01-ff7f-b254" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="3eb2-c3d4-b87b-d71f" name="Twin Linked Pulsar" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="afef-98be-31a1-43c5" name="Twin Linked Pulsar" hidden="false" targetId="4073-e0ad-bc28-9cad" type="profile"/>
+        <infoLink id="3bbb-e95c-2180-ace1" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="5b0b-0775-624e-25c8" name="Aleth Neth" publicationId="1ef7-1236-3c3d-7e72" page="34" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f81-bf07-67b8-db8e" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c58f-0ed6-b53c-eccd" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c8f5-a18f-04e9-44f4" name="Intangible" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
+          <characteristics>
+            <characteristic name="Ability" typeId="65ee-9496-8377-0d24">Once per game, when an enemy aircraft fires at this aircraft from Long range, it must re-roll any successful hit rolls of a natural 5 or 6. Note that, should this aircraft Stall or fall into a Spin, this upgrade does not apply.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -804,13 +970,58 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
         <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (6+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="01f7-7ee9-b553-bffe" name="D-Scythe" publicationId="41a0-328f-4c30-b6fa" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+    <profile id="01f7-7ee9-b553-bffe" name="Heavy D-Scythe" publicationId="1ef7-1236-3c3d-7e72" page="31" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
       <characteristics>
         <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
         <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">3-3-0</characteristic>
         <characteristic name="DMG" typeId="3666-196d-11fd-c067">2+</characteristic>
         <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
         <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Extra Damage (3+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f1f6-254a-5dee-0c2d" name="Phoenix Missile Launchers" publicationId="1ef7-1236-3c3d-7e72" page="29" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">3-2-0</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">4+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">2</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8d90-2317-236a-b4c1" name="Twin Linked Pulse Lasers" publicationId="1ef7-1236-3c3d-7e72" page="29" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">4-6-2</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">3+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Aerial Attack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a1a8-0989-5103-259e" name="Twin Linked Shuriken Cannon" publicationId="1ef7-1236-3c3d-7e72" page="29" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">10-6-0</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">5+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="236f-e340-df2e-b27b" name="Nose-mounted Scatter Laser" publicationId="1ef7-1236-3c3d-7e72" page="29" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">4-2-0</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">5+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Aerial Attack</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4073-e0ad-bc28-9cad" name="Twin Linked Pulsar" publicationId="1ef7-1236-3c3d-7e72" page="30" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+      <characteristics>
+        <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+        <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-4-4</characteristic>
+        <characteristic name="DMG" typeId="3666-196d-11fd-c067">2+</characteristic>
+        <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+        <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Extra Damage (6+)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
