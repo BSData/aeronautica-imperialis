@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="80cf-6e69-8bf6-d62e" name="Asuryani" revision="5" battleScribeVersion="2.03" authorName="Updated Companion Stats" authorContact="@evanh" authorUrl="" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="80cf-6e69-8bf6-d62e" name="Asuryani" revision="4" battleScribeVersion="2.03" authorName="Updated Companion Stats" authorContact="@evanh" authorUrl="" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="1d81-06ef-f102-6d15" name="Wrath of Angels"/>
     <publication id="1ef7-1236-3c3d-7e72" name="Aeronautica Imperialis – Companion" shortName="Companion" publisher="Aeronautica Imperialis – Companion" publicationDate="2022" publisherUrl="https://www.games-workshop.com/en-CA/aeronautica-imperialis-companion-eng-2022"/>
@@ -831,6 +831,9 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
       <infoLinks>
         <infoLink id="a6a9-d756-dbbb-22de" name="Phoenix Missile Launchers" hidden="false" targetId="f1f6-254a-5dee-0c2d" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="41ee-13d4-4985-881a" name="Twin Linked Pulse Lasers" publicationId="1ef7-1236-3c3d-7e72" page="29" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
