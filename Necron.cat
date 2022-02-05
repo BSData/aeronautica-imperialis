@@ -193,7 +193,7 @@
       <profiles>
         <profile id="0001-6ccf-0fc3-b378" name="Galvanised Nanoswarms" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
-            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">The dynasty&apos;s Crypteks have modified this aircraft&apos;s nanoswarms to facilitate quicker repair. Once per game, this aircraft may attempt a repair. During the End phase, roll a D6 for each lost point of Structure. For each roll of a 5+, repair a single point of structure.</characteristic>
+            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft may attempt a repair. During the End phase, roll a D6 for each lost point of Structure. For each roll of a 5+, repair a single point of structure.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -223,7 +223,7 @@
       <profiles>
         <profile id="65f4-70e7-60a4-8333" name="Phase Shift" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
-            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Some Necron aircraft can temporarily become incorporeal, causing munitions to pass through them. Once per game, roll a D6 for each hit the aircraft suffers from a weapon with an Ammo characteristic of 1, 2 or 3. For each roll of a 6, that hit becomes a miss.</characteristic>
+            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, roll a D6 for each hit the aircraft suffers from a weapon with an Ammo characteristic of 1, 2 or 3. For each roll of a 6, that hit becomes a miss.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -239,7 +239,7 @@
       <profiles>
         <profile id="982b-b343-87ae-f815" name="Adaptive Cognition" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
-            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">The aircraft holds specially designed mnemetic crystals that rapidly assimilate data and alter the tactical opportunities of the pilot. This upgrade may only be taken by one aircraft within a force. Once per game, this aircraft may choose to discard a dice roll and re-roll the dice. However, all of the dice must be re-rolled and the player must accept the result of the second roll even if it is worse.</characteristic>
+            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This upgrade may only be taken by one aircraft within a force. Once per game, this aircraft may choose to discard a dice roll and re-roll the dice. However, all of the dice must be re-rolled and the player must accept the result of the second roll even if it is worse.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -254,7 +254,7 @@
       <profiles>
         <profile id="7303-9d1d-3fb7-c1ff" name="Reinforced Necrodermis" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
-            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">The aircraft&apos;s necrodermis has undergone substantial hardening to allow it to withstand powerful munitions. When this aircraft is damaged by a weapon that has the Extra Damage (X+) special rule, the X+ value is reduced by one, to a minimum of 6+ (i.e., when firing at an aircraft with this upgrade, a weapon with the Extra Damage (5+) special rule would instead have the Extra Damage (6+) special rule).</characteristic>
+            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">When this aircraft is damaged by a weapon that has the Extra Damage (X+) special rule, the X+ value is reduced by one, to a minimum of 6+ (i.e., when firing at an aircraft with this upgrade, a weapon with the Extra Damage (5+) special rule would instead have the Extra Damage (6+) special rule).</characteristic>
           </characteristics>
         </profile>
       </profiles>
