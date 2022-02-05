@@ -460,6 +460,9 @@
       <infoLinks>
         <infoLink id="5810-2b32-1f80-ade5" name="Jink" hidden="false" targetId="e966-31c6-4527-8a39" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="97d1-4c36-b1cf-8aee" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="5109-231a-d442-7292" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="d04a-60cb-9037-6636" type="selectionEntryGroup"/>
         <entryLink id="c820-ab9a-747f-7060" name="Twin Bright Lances" hidden="false" collective="false" import="true" targetId="e8d3-53fc-341c-b8dc" type="selectionEntry">
