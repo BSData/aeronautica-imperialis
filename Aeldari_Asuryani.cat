@@ -5,9 +5,9 @@
     <publication id="1ef7-1236-3c3d-7e72" name="Aeronautica Imperialis – Companion" shortName="Companion" publisher="Aeronautica Imperialis – Companion" publicationDate="2022" publisherUrl="https://www.games-workshop.com/en-CA/aeronautica-imperialis-companion-eng-2022"/>
   </publications>
   <selectionEntries>
-    <selectionEntry id="1c41-0047-a4e1-2e8a" name="Crimson Warrior" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="1c41-0047-a4e1-2e8a" name="Crimson Warrior" publicationId="1ef7-1236-3c3d-7e72" page="35" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="10f3-5355-4701-2ea4" name="Crimson Warrior" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+        <profile id="10f3-5355-4701-2ea4" name="Crimson Warrior" publicationId="1ef7-1236-3c3d-7e72" page="35" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
           <modifiers>
             <modifier type="increment" field="db83-4ff1-b0cb-a312" value="1">
               <conditions>
@@ -46,7 +46,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d60-d53f-e430-203c" type="min"/>
           </constraints>
           <profiles>
-            <profile id="fc7c-6c94-5f89-3139" name="Jin Lyaia" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
+            <profile id="fc7c-6c94-5f89-3139" name="Jin Lyaia" publicationId="1ef7-1236-3c3d-7e72" page="35" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
               <characteristics>
                 <characteristic name="Ability" typeId="65ee-9496-8377-0d24">Once per game, you may re-roll all hit rolls of a natural 1 made by this aircraft when targeting an enemy aircraft at one Altitude level below it.</characteristic>
               </characteristics>
@@ -196,7 +196,7 @@
     </selectionEntry>
     <selectionEntry id="df0f-4e1b-4097-2903" name="Nightwing" publicationId="1ef7-1236-3c3d-7e72" page="27" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="26af-e515-7b18-500b" name="Nightwing" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+        <profile id="26af-e515-7b18-500b" name="Nightwing" publicationId="1ef7-1236-3c3d-7e72" page="27" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
           <modifiers>
             <modifier type="increment" field="db83-4ff1-b0cb-a312" value="1">
               <conditions>
@@ -270,9 +270,9 @@
         <cost name="pts" typeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="966d-dc72-851b-5798" name="Shadow Reaver" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="966d-dc72-851b-5798" name="Shadow Reaver" publicationId="1ef7-1236-3c3d-7e72" page="34" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="9f7f-42aa-0166-0f10" name="Shadow Reaver" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+        <profile id="9f7f-42aa-0166-0f10" name="Shadow Reaver" publicationId="1ef7-1236-3c3d-7e72" page="34" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
           <modifiers>
             <modifier type="increment" field="8234-9f67-e172-880a" value="1">
               <conditions>
@@ -311,7 +311,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="854b-9804-e95b-610e" type="min"/>
           </constraints>
           <profiles>
-            <profile id="e455-09d8-2808-db5c" name="Aleth Neth" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
+            <profile id="e455-09d8-2808-db5c" name="Aleth Neth" publicationId="1ef7-1236-3c3d-7e72" page="34" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
               <characteristics>
                 <characteristic name="Ability" typeId="65ee-9496-8377-0d24">Once per game, when an enemy aircraft fires at this aircraft from Long range, it must re-roll any successful hit rolls of a natural 5 or 6. Note that, should this aircraft Stall or fall into a Spin, this upgrade does not apply.</characteristic>
               </characteristics>
@@ -385,7 +385,7 @@
     </selectionEntry>
     <selectionEntry id="235c-d6b3-f63e-df87" name="Night Spinner Platform" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="b4f6-42e9-0e4b-253f" name="Night Spinner Platform" hidden="false" typeId="f0d7-0c84-fbe0-fc3f" typeName="Ground Asset">
+        <profile id="b4f6-42e9-0e4b-253f" name="Night Spinner Platform" publicationId="1ef7-1236-3c3d-7e72" page="33" hidden="false" typeId="f0d7-0c84-fbe0-fc3f" typeName="Ground Asset">
           <characteristics>
             <characteristic name="Structure" typeId="6308-84d8-bb4b-c0f8">2</characteristic>
             <characteristic name="FPR" typeId="0aab-6b79-44c7-f913">5-5-2</characteristic>
@@ -408,7 +408,7 @@
     </selectionEntry>
     <selectionEntry id="7c54-731c-0189-89b7" name="Pulsar Platform" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="ffcb-6a4a-90f4-ae3f" name="Pulsar Platform" hidden="false" typeId="f0d7-0c84-fbe0-fc3f" typeName="Ground Asset">
+        <profile id="ffcb-6a4a-90f4-ae3f" name="Pulsar Platform" publicationId="1ef7-1236-3c3d-7e72" page="33" hidden="false" typeId="f0d7-0c84-fbe0-fc3f" typeName="Ground Asset">
           <characteristics>
             <characteristic name="Structure" typeId="6308-84d8-bb4b-c0f8">2</characteristic>
             <characteristic name="FPR" typeId="0aab-6b79-44c7-f913">1-2-2</characteristic>
@@ -478,7 +478,7 @@
     </selectionEntry>
     <selectionEntry id="b2e5-fea9-cc66-25f4" name="Hemlock Wraithfighter" publicationId="1ef7-1236-3c3d-7e72" page="31" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="131d-a76d-afb9-13d2" name="Hemlock Wraithfighter" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+        <profile id="131d-a76d-afb9-13d2" name="Hemlock Wraithfighter" publicationId="1ef7-1236-3c3d-7e72" page="31" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
           <modifiers>
             <modifier type="increment" field="db83-4ff1-b0cb-a312" value="1">
               <conditions>
@@ -902,7 +902,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedProfiles>
-    <profile id="d7e7-8de1-8bfa-bf0e" name="Shuriken Cannon" publicationId="1d81-06ef-f102-6d15" page="33" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+    <profile id="d7e7-8de1-8bfa-bf0e" name="Shuriken Cannon" publicationId="1ef7-1236-3c3d-7e72" page="27" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
       <characteristics>
         <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
         <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">8-4-0</characteristic>
@@ -911,7 +911,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
         <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="a82d-01f0-2b53-9f47" name="Twin Bright Lances" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+    <profile id="a82d-01f0-2b53-9f47" name="Twin Bright Lances" publicationId="1ef7-1236-3c3d-7e72" page="27" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
       <characteristics>
         <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
         <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">1-2-2</characteristic>
@@ -920,7 +920,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
         <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Extra Damage (6+), Aerial Attack</characteristic>
       </characteristics>
     </profile>
-    <profile id="fe1a-352b-f3bb-33ff" name="Twin Scatter Lasers" publicationId="1d81-06ef-f102-6d15" page="33" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+    <profile id="fe1a-352b-f3bb-33ff" name="Twin Scatter Lasers" publicationId="1ef7-1236-3c3d-7e72" page="27" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
       <characteristics>
         <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
         <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">6-4-0</characteristic>
@@ -929,7 +929,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
         <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Aerial Attack</characteristic>
       </characteristics>
     </profile>
-    <profile id="45e2-0de4-eaa9-84fe" name="Twin Missile Launchers" publicationId="1d81-06ef-f102-6d15" page="33" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+    <profile id="45e2-0de4-eaa9-84fe" name="Twin Missile Launchers" publicationId="1ef7-1236-3c3d-7e72" page="27" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
       <characteristics>
         <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
         <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-2-2</characteristic>
@@ -938,7 +938,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
         <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (6+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="1636-07a9-290e-0eb2" name="Twin Starcannon" publicationId="1d81-06ef-f102-6d15" page="33" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+    <profile id="1636-07a9-290e-0eb2" name="Twin Starcannon" publicationId="1ef7-1236-3c3d-7e72" page="27" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
       <characteristics>
         <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
         <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">3-2-0</characteristic>
@@ -947,7 +947,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
         <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Aerial Attack</characteristic>
       </characteristics>
     </profile>
-    <profile id="ea31-5452-86e9-bc88" name="Twin Pulse Lasers" publicationId="1d81-06ef-f102-6d15" page="34" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+    <profile id="ea31-5452-86e9-bc88" name="Twin Pulse Lasers" publicationId="1ef7-1236-3c3d-7e72" page="27" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
       <characteristics>
         <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
         <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-3-2</characteristic>
@@ -956,7 +956,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
         <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Aerial Attack</characteristic>
       </characteristics>
     </profile>
-    <profile id="ed21-5de6-260b-0c77" name="Nightfire Plasma Missile Array" publicationId="1d81-06ef-f102-6d15" page="34" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+    <profile id="ed21-5de6-260b-0c77" name="Nightfire Plasma Missile Array" publicationId="1ef7-1236-3c3d-7e72" page="28" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
       <characteristics>
         <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
         <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-2-2</characteristic>
@@ -965,7 +965,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
         <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Aerial Attack, Extra Damage (6+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="3c3a-32f5-3657-a78a" name="Nightfire Krak Missile Array" publicationId="1d81-06ef-f102-6d15" page="34" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+    <profile id="3c3a-32f5-3657-a78a" name="Nightfire Krak Missile Array" publicationId="1ef7-1236-3c3d-7e72" page="28" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
       <characteristics>
         <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
         <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">2-2-2</characteristic>
@@ -974,7 +974,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
         <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (6+)</characteristic>
       </characteristics>
     </profile>
-    <profile id="aeba-c921-1090-9fd8" name="Missile Arrary" publicationId="1d81-06ef-f102-6d15" page="34" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+    <profile id="aeba-c921-1090-9fd8" name="Missile Arrary" publicationId="1ef7-1236-3c3d-7e72" page="28" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
       <characteristics>
         <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
         <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">3-2-0</characteristic>
@@ -983,7 +983,7 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
         <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="93d5-ca9c-9181-18f9" name="Bomb Rack" publicationId="1d81-06ef-f102-6d15" page="34" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+    <profile id="93d5-ca9c-9181-18f9" name="Bomb Rack" publicationId="1ef7-1236-3c3d-7e72" page="28" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
       <characteristics>
         <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Rear</characteristic>
         <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">4-0-0</characteristic>
