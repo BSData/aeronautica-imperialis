@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="80cf-6e69-8bf6-d62e" name="Asuryani" revision="5" battleScribeVersion="2.03" authorName="Updated Companion Stats" authorContact="@evanh" authorUrl="" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="80cf-6e69-8bf6-d62e" name="Asuryani" revision="5" battleScribeVersion="2.03" authorName="Updated Companion Stats" authorContact="@evanh" authorUrl="" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="1d81-06ef-f102-6d15" name="Wrath of Angels"/>
     <publication id="1ef7-1236-3c3d-7e72" name="Aeronautica Imperialis – Companion" shortName="Companion" publisher="Aeronautica Imperialis – Companion" publicationDate="2022" publisherUrl="https://www.games-workshop.com/en-CA/aeronautica-imperialis-companion-eng-2022"/>
@@ -565,7 +565,7 @@
             <entryLink id="852e-ac7a-a334-31b7" name="Phoenix Missile Launchers" hidden="false" collective="false" import="true" targetId="458f-4599-e7ee-4669" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8ada-8f08-4844-f193" name="Twin Linked Weapon" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="8ada-8f08-4844-f193" name="Twin Linked Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="83e9-ed74-9585-47aa">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b348-75a6-2a63-e874" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd01-9d02-6ea1-2f55" type="min"/>
@@ -838,18 +838,27 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
       <infoLinks>
         <infoLink id="c01b-46e5-9136-45c4" name="Twin Linked Shuriken Cannon" hidden="false" targetId="a1a8-0989-5103-259e" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a4ec-3a36-a270-3568" name="Nose-mounted Scatter Laser" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="95dc-a066-359e-1f6f" name="Nose-mounted Scatter Laser" hidden="false" targetId="236f-e340-df2e-b27b" type="profile"/>
         <infoLink id="b464-6ef1-f8c3-2bb5" name="Aerial Attack" hidden="false" targetId="0d22-4d01-ff7f-b254" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3eb2-c3d4-b87b-d71f" name="Twin Linked Pulsar" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="afef-98be-31a1-43c5" name="Twin Linked Pulsar" hidden="false" targetId="4073-e0ad-bc28-9cad" type="profile"/>
         <infoLink id="3bbb-e95c-2180-ace1" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5b0b-0775-624e-25c8" name="Aleth Neth" publicationId="1ef7-1236-3c3d-7e72" page="34" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -863,6 +872,9 @@ Note: should this aircraft Stall or fall in to a Spin, this upgrade does not app
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
