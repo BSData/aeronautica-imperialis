@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="6088-0c35-9d44-ed62" name="T&apos;au Air Caste" revision="6" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="8fd6-64b7-db74-8a38" name="Tau" hidden="true"/>
+    <categoryEntry id="8b49-06f2-7beb-4695" name="Auxiliary" hidden="true">
+      <modifiers>
+        <modifier type="increment" field="0c7b-c3fc-eede-4ae7" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8fd6-64b7-db74-8a38" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0c7b-c3fc-eede-4ae7" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
   <selectionEntries>
     <selectionEntry id="f87d-a6d4-b556-37f4" name="Barracuda AX-5-2" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -34,6 +49,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="01be-9c19-8fcf-0d84" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+        <categoryLink id="dc8f-a2b5-52c8-fb7c" name="Tau" hidden="false" targetId="8fd6-64b7-db74-8a38" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9a11-626c-e41b-7dd9" name="Main Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8592-482c-6c95-28d8">
@@ -107,6 +123,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e945-bf44-62f6-9cd8" name="New CategoryLink" hidden="false" targetId="8cfa-dfb7-e996-3c7d" primary="true"/>
+        <categoryLink id="3d40-52ef-b8e3-23e1" name="Tau" hidden="false" targetId="8fd6-64b7-db74-8a38" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f6d3-208a-0f66-85df" name="Main Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="7069-cfeb-2e89-47ee">
@@ -176,6 +193,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9792-4f48-9839-d39e" name="New CategoryLink" hidden="false" targetId="8cfa-dfb7-e996-3c7d" primary="true"/>
+        <categoryLink id="4d0f-5900-6df8-3942" name="Tau" hidden="false" targetId="8fd6-64b7-db74-8a38" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7473-d985-1599-4165" name="Main Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="e89f-2821-e2a8-eca5">
@@ -236,6 +254,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2a5b-fad8-530c-06cb" name="New CategoryLink" hidden="false" targetId="29c7-0381-72cf-daf9" primary="true"/>
+        <categoryLink id="5c88-5adc-4289-aad2" name="Tau" hidden="false" targetId="8fd6-64b7-db74-8a38" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="79cc-25a8-8336-846b" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="6f30-104f-c5f0-970b" type="selectionEntryGroup"/>
@@ -316,6 +335,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="be9c-e10c-7335-8007" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+        <categoryLink id="5a8b-2d42-e296-db7e" name="Tau" hidden="false" targetId="8fd6-64b7-db74-8a38" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="8b97-5500-a9e5-a3e2" name="Missile Pods" hidden="false" collective="false" import="true" targetId="3dc4-721f-c76d-a8cd" type="selectionEntry"/>
@@ -360,6 +380,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="af5c-1ba5-5c1e-49e6" name="New CategoryLink" hidden="false" targetId="8cfa-dfb7-e996-3c7d" primary="true"/>
+        <categoryLink id="e87f-db11-a053-c002" name="Tau" hidden="false" targetId="8fd6-64b7-db74-8a38" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="2992-74ae-bfd5-e32d" name="Missile Pods" hidden="false" collective="false" import="true" targetId="3dc4-721f-c76d-a8cd" type="selectionEntry"/>
@@ -402,6 +423,7 @@
       <categoryLinks>
         <categoryLink id="8e46-18a8-2268-f87b" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="false"/>
         <categoryLink id="060c-e114-c030-9a16" name="New CategoryLink" hidden="false" targetId="ca86-3f97-bc4b-1302" primary="true"/>
+        <categoryLink id="16f7-df5b-0201-135b" name="Aux2" hidden="false" targetId="8b49-06f2-7beb-4695" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7f56-eb31-17f3-3d90" name="Additional Weapons" hidden="false" collective="false" import="true">
@@ -468,6 +490,7 @@
       <categoryLinks>
         <categoryLink id="f286-58e8-8a1d-9ee3" name="Bomber" hidden="false" targetId="8cfa-dfb7-e996-3c7d" primary="false"/>
         <categoryLink id="3037-6537-32c4-c9b7" name="New CategoryLink" hidden="false" targetId="ca86-3f97-bc4b-1302" primary="true"/>
+        <categoryLink id="3153-2986-c27a-0439" name="Aux2" hidden="false" targetId="8b49-06f2-7beb-4695" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="4668-5056-e7e2-abd7" name="Additional Weapons" hidden="false" collective="false" import="true">
@@ -536,6 +559,7 @@
       <categoryLinks>
         <categoryLink id="67e5-f8a4-bc45-7068" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="false"/>
         <categoryLink id="87a6-bbf2-091c-86e7" name="New CategoryLink" hidden="false" targetId="ca86-3f97-bc4b-1302" primary="true"/>
+        <categoryLink id="8178-bff4-9da7-a5aa" name="Aux2" hidden="false" targetId="8b49-06f2-7beb-4695" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="8894-1011-91ba-9f84" name="Additional Weapons" hidden="false" collective="false" import="true">
@@ -593,6 +617,7 @@
       <categoryLinks>
         <categoryLink id="f935-437c-fb05-f787" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="false"/>
         <categoryLink id="128f-9976-78c5-71e0" name="New CategoryLink" hidden="false" targetId="ca86-3f97-bc4b-1302" primary="true"/>
+        <categoryLink id="f964-5976-f9d8-fcfa" name="New CategoryLink" hidden="false" targetId="8b49-06f2-7beb-4695" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="d013-3f3a-0ed6-a4d1" name="Additional Gun" hidden="false" collective="false" import="true">
@@ -682,6 +707,7 @@
       <categoryLinks>
         <categoryLink id="6dac-0317-efed-c648" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="false"/>
         <categoryLink id="9542-acfe-7510-d90a" name="New CategoryLink" hidden="false" targetId="ca86-3f97-bc4b-1302" primary="true"/>
+        <categoryLink id="2acc-65ee-c7a8-bce5" name="Aux2" hidden="false" targetId="8b49-06f2-7beb-4695" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="98a0-24ad-de8a-2eba" name="Main Weapon" hidden="false" collective="false" import="true">
