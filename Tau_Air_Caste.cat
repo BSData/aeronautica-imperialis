@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6088-0c35-9d44-ed62" name="T&apos;au Air Caste" revision="6" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6088-0c35-9d44-ed62" name="T&apos;au Air Caste" revision="7" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="8fd6-64b7-db74-8a38" name="Tau" hidden="true"/>
     <categoryEntry id="8b49-06f2-7beb-4695" name="Auxiliary" hidden="true">
@@ -85,6 +85,7 @@
             <cost name="pts" typeId="points" value="2.0"/>
           </costs>
         </entryLink>
+        <entryLink id="482f-29af-7520-0e10" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="22.0"/>
@@ -155,6 +156,7 @@
             <cost name="pts" typeId="points" value="2.0"/>
           </costs>
         </entryLink>
+        <entryLink id="ce36-de89-b709-3ba9" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="24.0"/>
@@ -215,6 +217,7 @@
         <entryLink id="7d50-29cb-fcb1-b3cb" name="Missile Pods" hidden="false" collective="false" import="true" targetId="3dc4-721f-c76d-a8cd" type="selectionEntry"/>
         <entryLink id="1d31-46f4-fc68-f61f" name="Drones" hidden="false" collective="false" import="true" targetId="56a2-e25b-7af2-469c" type="selectionEntryGroup"/>
         <entryLink id="42cf-0fb3-322e-ee75" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="6f30-104f-c5f0-970b" type="selectionEntryGroup"/>
+        <entryLink id="cc61-9d4b-806b-842e" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="28.0"/>
@@ -260,6 +263,7 @@
         <entryLink id="79cc-25a8-8336-846b" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="6f30-104f-c5f0-970b" type="selectionEntryGroup"/>
         <entryLink id="f428-8d40-74e4-48c4" name="Seeker Missiles" hidden="false" collective="false" import="true" targetId="5800-b91e-1d0f-3c83" type="selectionEntry"/>
         <entryLink id="bed4-25f7-a545-bb12" name="Burst Cannon" hidden="false" collective="false" import="true" targetId="9a4b-5dab-27d5-c6f6" type="selectionEntry"/>
+        <entryLink id="aecf-0800-5663-5e4c" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="14.0"/>
@@ -463,6 +467,7 @@
         <entryLink id="627e-1a55-a369-63e0" name="Quad Autocannons" hidden="false" collective="false" import="true" targetId="e972-d469-bca9-3ef2" type="selectionEntry"/>
         <entryLink id="66c4-4149-5d1e-0e48" name="Aircraft Upgrades (Aux)" hidden="false" collective="false" import="true" targetId="ccb0-29d4-9aaf-b8d5" type="selectionEntryGroup"/>
         <entryLink id="8815-1dc9-41e3-b8f2" name="Human Auxiliary Crew" hidden="false" collective="false" import="true" targetId="bdc5-b41f-7fdb-9ce9" type="selectionEntryGroup"/>
+        <entryLink id="caa5-2340-7d43-e00f" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="23.0"/>
@@ -532,6 +537,7 @@
         <entryLink id="9ba4-15c3-21fd-0e05" name="Rear Turret" hidden="false" collective="false" import="true" targetId="a225-dae4-ec77-979a" type="selectionEntry"/>
         <entryLink id="8fba-fd0e-f462-3a0a" name="Human Auxiliary Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="ccb0-29d4-9aaf-b8d5" type="selectionEntryGroup"/>
         <entryLink id="8720-456f-7f2a-07a0" name="Human Auxiliary Crew" hidden="false" collective="false" import="true" targetId="bdc5-b41f-7fdb-9ce9" type="selectionEntryGroup"/>
+        <entryLink id="8edc-6648-debd-9f7e" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="23.0"/>
@@ -590,6 +596,7 @@
         <entryLink id="d0e8-11f6-4741-fcab" name="Human Auxiliary Crew" hidden="false" collective="false" import="true" targetId="bdc5-b41f-7fdb-9ce9" type="selectionEntryGroup"/>
         <entryLink id="c541-381b-1314-ce28" name="Human Auxiliary Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="ccb0-29d4-9aaf-b8d5" type="selectionEntryGroup"/>
         <entryLink id="707b-aecc-053d-e0b1" name="Twin Lascannons" hidden="false" collective="false" import="true" targetId="ba94-bb2f-2e9c-b955" type="selectionEntry"/>
+        <entryLink id="06fa-385f-7ccc-2686" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="22.0"/>
@@ -677,6 +684,7 @@
         <entryLink id="52da-e0c0-78bf-7804" name="Human Auxiliary Crew" hidden="false" collective="false" import="true" targetId="bdc5-b41f-7fdb-9ce9" type="selectionEntryGroup"/>
         <entryLink id="8f57-3af5-4908-8f3b" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="9360-91dd-0f97-9175" type="selectionEntry"/>
         <entryLink id="2880-0be8-33b7-b516" name="Avenger Bolt Cannon" hidden="false" collective="false" import="true" targetId="6782-9d65-0c1c-0ab9" type="selectionEntry"/>
+        <entryLink id="68cc-b9cd-b86c-a16a" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
@@ -771,6 +779,9 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="46bc-8370-1d66-2d07" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="16.0"/>
       </costs>

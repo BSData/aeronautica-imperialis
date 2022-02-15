@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5745-5a5f-07b9-7f4f" name="Imperial Navy" revision="24" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5745-5a5f-07b9-7f4f" name="Imperial Navy" revision="25" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="583d-7042-2316-f8b5" name="White Dwarf October 2019"/>
     <publication id="39ba-445a-a65f-2bd6" name="White Dwarf November 2020"/>
@@ -62,6 +62,7 @@
         <entryLink id="ee65-22dd-e12f-3250" name="Avenger Bolt Cannon" hidden="false" collective="false" import="true" targetId="9543-aa37-4ab4-90ad" type="selectionEntry"/>
         <entryLink id="febc-5893-2bad-93a1" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="b890-18e0-99ff-65b2" type="selectionEntryGroup"/>
         <entryLink id="2f34-5a54-3085-8855" name="Crew" hidden="false" collective="false" import="true" targetId="ea59-501a-a451-ec37" type="selectionEntryGroup"/>
+        <entryLink id="804b-835e-7125-e869" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="25.0"/>
@@ -124,6 +125,7 @@
         <entryLink id="ff1c-2239-9a19-a11a" name="Quad Autocannons" hidden="false" collective="false" import="true" targetId="34c9-9e57-7b5b-bb1c" type="selectionEntry"/>
         <entryLink id="dca6-d7e1-c904-2e50" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="b890-18e0-99ff-65b2" type="selectionEntryGroup"/>
         <entryLink id="d5fd-4934-7cf9-07bc" name="Crew" hidden="false" collective="false" import="true" targetId="ea59-501a-a451-ec37" type="selectionEntryGroup"/>
+        <entryLink id="0003-a8cd-ed9d-69b8" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="23.0"/>
@@ -188,6 +190,7 @@
         <entryLink id="c97d-6c28-71e2-a5cc" name="Rear Turret" hidden="false" collective="false" import="true" targetId="2bb3-7dab-76d8-f4a3" type="selectionEntry"/>
         <entryLink id="7868-bd41-6a69-93ff" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="b890-18e0-99ff-65b2" type="selectionEntryGroup"/>
         <entryLink id="5f8f-6c40-0768-a20d" name="Crew" hidden="false" collective="false" import="true" targetId="ea59-501a-a451-ec37" type="selectionEntryGroup"/>
+        <entryLink id="a19e-a3c6-eeb9-7f4f" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="23.0"/>
@@ -255,6 +258,7 @@
         <entryLink id="b7c0-e4bb-08a8-fa99" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="b890-18e0-99ff-65b2" type="selectionEntryGroup"/>
         <entryLink id="e4cd-90d4-2d78-b13e" name="Crew" hidden="false" collective="false" import="true" targetId="ea59-501a-a451-ec37" type="selectionEntryGroup"/>
         <entryLink id="277b-18a3-c155-a213" name="Rear Turret" hidden="false" collective="false" import="true" targetId="2999-92ad-5e6c-c912" type="selectionEntry"/>
+        <entryLink id="f19e-ca4e-54f4-b678" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="27.0"/>
@@ -512,6 +516,7 @@
         <entryLink id="6f06-e3fd-ee1f-bca5" name="Crew" hidden="false" collective="false" import="true" targetId="ea59-501a-a451-ec37" type="selectionEntryGroup"/>
         <entryLink id="0c59-ad35-ccba-d1de" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="b392-0a36-755e-8ac4" type="selectionEntry"/>
         <entryLink id="c487-1d86-ca05-2d39" name="Avenger Bolt Cannon" hidden="false" collective="false" import="true" targetId="9543-aa37-4ab4-90ad" type="selectionEntry"/>
+        <entryLink id="0376-61b7-f7bc-24b5" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
@@ -582,6 +587,7 @@
       <entryLinks>
         <entryLink id="4181-cb50-f402-47a1" name="Crew" hidden="false" collective="false" import="true" targetId="ea59-501a-a451-ec37" type="selectionEntryGroup"/>
         <entryLink id="7e06-d2b4-0a5d-8035" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="b890-18e0-99ff-65b2" type="selectionEntryGroup"/>
+        <entryLink id="3f33-5b82-00d3-9134" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="19.0"/>
@@ -613,6 +619,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="60a3-2ebb-1a8a-bfcf" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="b890-18e0-99ff-65b2" type="selectionEntryGroup"/>
+        <entryLink id="9473-df52-deed-d37f" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="10.0"/>
@@ -735,6 +742,7 @@
         <entryLink id="a81b-2c56-63f7-8ea5" name="Crew" hidden="false" collective="false" import="true" targetId="ea59-501a-a451-ec37" type="selectionEntryGroup"/>
         <entryLink id="6842-a7b6-d615-db67" name="Colossus Bomb" hidden="false" collective="false" import="true" targetId="dc57-74a4-973b-d9cf" type="selectionEntry"/>
         <entryLink id="b815-d515-35e6-9daf" name="Heavy Bolter Array" hidden="false" collective="false" import="true" targetId="c35c-4da1-1099-b325" type="selectionEntry"/>
+        <entryLink id="234d-2f97-3ecb-3d20" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="26.0"/>
@@ -786,6 +794,7 @@
         <entryLink id="62e8-a751-f0f0-647c" name="Rear Turret" hidden="false" collective="false" import="true" targetId="2bb3-7dab-76d8-f4a3" type="selectionEntry"/>
         <entryLink id="5301-87d4-abc7-8924" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="b890-18e0-99ff-65b2" type="selectionEntryGroup"/>
         <entryLink id="be3e-e330-38d7-e2a5" name="Crew" hidden="false" collective="false" import="true" targetId="ea59-501a-a451-ec37" type="selectionEntryGroup"/>
+        <entryLink id="9811-fcc3-a179-50e3" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="33.0"/>

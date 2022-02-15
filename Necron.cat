@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a13a-71d9-db49-a498" name="Necrons" revision="2" battleScribeVersion="2.03" authorName="Necron aircraft upgrades" authorContact="@evanh" authorUrl="" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a13a-71d9-db49-a498" name="Necrons" revision="3" battleScribeVersion="2.03" authorName="Necron aircraft upgrades" authorContact="@evanh" authorUrl="" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="41a0-328f-4c30-b6fa" name="Aeronautica Imperialis – Companion" shortName="Companion" publisher="Aeronautica Imperialis – Companion" publicationDate="2022" publisherUrl="https://www.games-workshop.com/en-CA/aeronautica-imperialis-companion-eng-2022"/>
   </publications>
@@ -42,6 +42,7 @@
           </constraints>
         </entryLink>
         <entryLink id="97f2-1a9c-e7ea-2771" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="7e3a-2d3d-4c63-9157" type="selectionEntryGroup"/>
+        <entryLink id="8663-2df7-c685-d3dd" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="38.0"/>
@@ -84,6 +85,7 @@
           </constraints>
         </entryLink>
         <entryLink id="2136-0bd3-ca46-7e7c" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="7e3a-2d3d-4c63-9157" type="selectionEntryGroup"/>
+        <entryLink id="0b92-0352-6eae-694a" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="39.0"/>
@@ -121,6 +123,7 @@
           </constraints>
         </entryLink>
         <entryLink id="a3ac-35f6-6f8b-ea4f" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="7e3a-2d3d-4c63-9157" type="selectionEntryGroup"/>
+        <entryLink id="d662-855c-3354-a88a" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="35.0"/>
