@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="df04-c447-f12b-fae8" name="Warhammer 40,000: Aeronautica Imperialis" revision="17" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="df04-c447-f12b-fae8" name="Warhammer 40,000: Aeronautica Imperialis" revision="18" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="7ca4-c4f1-d97e-2820" name="Taros Air War"/>
     <publication id="41a0-328f-4c30-b6fa" name="Aeronautica Imperialis – Companion" publicationDate="2022"/>
@@ -59,6 +59,7 @@
     <categoryEntry id="8cfa-dfb7-e996-3c7d" name="Bomber" hidden="false"/>
     <categoryEntry id="4ccd-3c3f-80d3-f2fb" name="Ground Asset" page="" hidden="false"/>
     <categoryEntry id="29c7-0381-72cf-daf9" name="Scout" hidden="false"/>
+    <categoryEntry id="ca86-3f97-bc4b-1302" name="Auxiliary" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="ffc7-fa84-7076-f008" name="Squadron" hidden="false">
@@ -67,6 +68,7 @@
         <categoryLink id="daeb-ec17-6e80-6f8c" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="false"/>
         <categoryLink id="e79e-afec-10b2-990d" name="Ground Asset" hidden="false" targetId="4ccd-3c3f-80d3-f2fb" primary="false"/>
         <categoryLink id="e065-9c7c-9062-0d8d" name="Scout" hidden="false" targetId="29c7-0381-72cf-daf9" primary="false"/>
+        <categoryLink id="b9f7-be3b-941a-09b6" name="Auxiliary" hidden="false" targetId="ca86-3f97-bc4b-1302" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
