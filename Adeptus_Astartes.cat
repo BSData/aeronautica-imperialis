@@ -65,7 +65,7 @@
         <cost name="pts" typeId="points" value="24.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="55f0-97af-64ac-7391" name="Storm Eagle Assualt Craft" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="55f0-97af-64ac-7391" name="Storm Eagle Assault Craft" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="3465-dc65-864c-8acd" name="Storm Eagle Assault Craft" hidden="false" targetId="3f65-62f3-b0eb-652d" type="profile"/>
         <infoLink id="5df8-e810-8ff3-fe15" name="Jump troops" hidden="false" targetId="7406-f5b9-a751-1291" type="rule"/>
