@@ -748,7 +748,7 @@
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">May only be taken by one aircraft within a force.
 Once per game, this aircraft may choose to discard a dice roll and re-roll the dice.
-However, all of the dice rolled must be re-rolled and the player must accept the result of the second rolle, even if it is worse.</characteristic>
+However, all of the dice rolled must be re-rolled and the player must accept the result of the second roll, even if it is worse.</characteristic>
           </characteristics>
         </profile>
       </profiles>
