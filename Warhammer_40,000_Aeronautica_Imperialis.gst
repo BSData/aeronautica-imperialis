@@ -79,6 +79,9 @@
   </forceEntries>
   <sharedSelectionEntries>
     <selectionEntry id="9212-4467-e7a2-ed52" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0be3-47af-a64c-dba0" type="max"/>
+      </constraints>
       <selectionEntries>
         <selectionEntry id="05ff-c1dc-6058-b39b" name="Aerial Predator" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
