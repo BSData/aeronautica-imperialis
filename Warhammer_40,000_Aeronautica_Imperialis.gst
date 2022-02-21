@@ -78,319 +78,284 @@
     </forceEntry>
   </forceEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="2b40-fac7-feda-7c95" name="Aerial Predator" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="ee90-e85b-e6cb-6e0f" name="Aerial Predator" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-          <characteristics>
-            <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add +1 to all hit rolls made by this aircraft when targeting enemy aircraft at one Altitude level below it.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
+    <selectionEntry id="9212-4467-e7a2-ed52" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntries>
+        <selectionEntry id="05ff-c1dc-6058-b39b" name="Aerial Predator" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aa1-8a97-3aec-5a10" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a82f-1dcc-30a0-cf21" name="Aerial Predator" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add +1 to all hit rolls made by this aircraft when targeting enemy aircraft at one Altitude level below it.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9e96-1b38-f13b-bb7e" name="Cool-headed" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b341-2ad9-3b51-f61d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9a7c-2707-1303-3652" name="Cool-headed" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add 1 to the dice roll when testing to recover from a Stall with this aircraft.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="070d-b61b-5c88-4fd7" name="Crack Shot" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4787-0136-cf74-439f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a334-c989-a1c6-feab" name="Crack Shot" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per game, after rolling the Firepower dice but before rolling the Damage dice, this aircraft may choose to improve the Damage characteristic of one of its weapons by 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="06fd-7fc4-5a27-27a3" name="Dead-eye" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2971-7861-20d5-a1ce" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a370-4d47-c723-bb20" name="Dead-eye" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">This aircraft may roll one extra dice when firing at Short range.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="60b2-a21d-19a0-1a1f" name="Deadly Hunter" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="776c-8690-9361-2293" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8d33-f683-32c0-e27c" name="Deadly Hunter" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">This aircraft may roll one extra dice when resolving Tailing Fire.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c046-ed20-176c-8b27" name="Defensive Manoeuvre" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad9c-0068-c760-edc3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3e6b-0842-2205-a3a4" name="Defensive Manoeuvre" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per turn, one enemy aircraft must discard one successful hit dice roll when targeting this aircraft.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6514-5659-2c10-dd50" name="Eagle-eyed" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78f1-3cf0-9d71-aeec" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="698c-1bd4-e83a-4db1" name="Eagle-eyed" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">This aircraft may roll one extra dice when firing at Long range.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="02de-62fa-1c6d-2702" name="Enhanced Targeting" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c89-82ea-a143-28e8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="53bc-2810-598f-cc51" name="Enhanced Targeting" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add +1 to all hit rolls made by this aircraft when targeting enemy aircraft travelling at a ghigher Speed than it.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f71c-9f5a-c3de-0029" name="Fly By" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="402f-7864-3bdc-75cd" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="83a5-8525-e11e-9522" name="Fly By" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add +1 to all Short range hit rolls made by this aircraft when targeting enemy aircraft travelling at a lower Speed than it.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3656-1cc1-a9f0-9e51" name="Ground Attack Specialist" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7a6-10f6-d388-b18d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f76e-3420-1786-86f0" name="Ground Attack Specialist" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per game, when firing a weapon with the Ground Attack special rule, this aircraft may re-roll any of the Firepower dice that roll a 1 to hit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="447f-4ce3-76db-9d3d" name="Large Calibre" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60e9-90a5-1415-0d30" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1b6f-b396-24bf-a816" name="Large Calibre" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per game, this aircraft may improve the Damage characteristic of one of its weapons by 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="22a4-7874-4318-c249" name="No Fear" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82fb-5e8a-9642-50fb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="86a0-b4f8-1528-656b" name="No Fear" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Should this aircraft suffer any damaging hits as a result of ending its movement in a hex occupied by another aircraft, roll a D6 for each hit. For each roll of a 5+, a single damaging hit is ignored and the Structure point(s) that would have been lost as a result of the Damage dice are not lost.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5b7e-7caa-2f9c-c12e" name="Out of the Sun" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3aa2-edda-ef16-28fd" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="74d9-1898-8f16-ef6e" name="Out of the Sun" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add 1 to the Initiative roll if this aircraft is at a higher Altitude level than all enemy aircraft during the Initiative phase. A maximum of 1 can be added to the roll no matter how many pilots have this ability.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3f9e-7199-0dae-88f5" name="Precision Bombing" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d69-b3b6-5826-c168" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="125a-b05d-034a-97a5" name="Precision Bombing" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">When making a Bombing Run, this aircraft adds +2 to the hit roll if there is only one level of Altitude difference between it and its target rather than the usual +1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f15c-59c3-1e52-e82c" name="Punch It!" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f13b-5699-f5f6-039c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ef3d-6ba3-8814-9c60" name="Punch It!" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">This aircraft may add +1 to it Throttle characteristic when increasing Speed during the Throttle step of the Movement phase.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="17ab-0150-1ac2-67b2" name="Stealthy Hunter" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e89-478d-aac4-81a7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="5cc9-b8db-0c1e-a550" name="Stealthy Hunter" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add +1 to all hit rolls made by this aircraft when targeting enemy aircraft at one Altitude level above it.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ee86-c1a9-c874-13ae" name="Superior Reactions" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e811-2fd7-1fcc-e07e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="09b9-1bce-730b-4fac" name="Superior Reactions" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per game, when this aircraft is activated during the Movement phase, it may discard its Manoeuvre token and immediately choose another Ace Manoeuvre.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f2a0-f494-549d-8a73" name="Survival Instinct" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64ab-dda0-8df4-721b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="edfd-31af-7b7c-8cc8" name="Survival Instinct" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add 1 to the dice roll when testing to recover from a Spin with this aircraft.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="4.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0acb-a7ca-1a8b-ff7e" name="Out of the Sun" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="6493-5acd-04a2-9d52" name="Out of the Sun" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-          <characteristics>
-            <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add 1 to the Initiative roll if this aircraft is at a higher Altitude level than all enemy aircraft during the Initiative phase. A maximum of 1 can be added to the roll no matter how many pilots have this ability.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="3.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="df3e-9e42-f02f-5518" name="Precision Bombing" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="656c-cf3d-29a9-cd09" name="Precision Bombing" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-          <characteristics>
-            <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">When making a Bombing Run, this aircraft adds +2 to the hit roll if there is only one level of Altitude difference between it and its target rather than the usual +1.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="2.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d3f4-5a43-9f57-59ab" name="Cool-headed" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="5ad0-ecb9-6179-3912" name="Cool-headed" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-          <characteristics>
-            <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add 1 to the dice roll when testing to recover from a Stall with this aircraft.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="1.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="4cb1-1c8e-3c68-98b2" name="Deadly Hunter" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="f47d-6e27-42ad-55ba" name="Deadly Hunter" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-          <characteristics>
-            <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">This aircraft may roll one extra dice when resolving Tailing Fire.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="2.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d80e-84a9-9d98-71c8" name="Dead-eye" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="7c33-0fb9-bc07-8412" name="Dead-eye" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-          <characteristics>
-            <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">This aircraft may roll one extra dice when firing at Short range.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="2.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="fc94-5fe4-d040-2839" name="Punch It!" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="638f-a0cd-8a10-da8e" name="Punch It!" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-          <characteristics>
-            <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">This aircraft may add +1 to it Throttle characteristic when increasing Speed during the Throttle step of the Movement phase.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="1.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c02c-819b-9938-830c" name="Defensive Manoeuvre" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="33c0-89ce-f8b6-77e5" name="Defensive Manoeuvre" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-          <characteristics>
-            <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per turn, one enemy aircraft must discard one successful hit dice roll when targeting this aircraft.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="3.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1b27-b64a-74ed-33a2" name="Superior Reactions" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="a9e8-00e0-a84d-b453" name="Superior Reactions" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-          <characteristics>
-            <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per game, when this aircraft is activated during the Movement phase, it may discard its Manoeuvre token and immediately choose another Ace Manoeuvre.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="3.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b55e-a77c-9b57-3713" name="Enhanced Targeting" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="8c3e-f078-d099-2799" name="Enhanced Targeting" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-          <characteristics>
-            <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add +1 to all hit rolls made by this aircraft when targeting enemy aircraft travelling at a ghigher Speed than it.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="3.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="e111-92b7-42fb-ecdd" name="No Fear" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="6d52-2324-67d8-2464" name="No Fear" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-          <characteristics>
-            <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Should this aircraft suffer any damaging hits as a result of ending its movement in a hex occupied by another aircraft, roll a D6 for each hit. For each roll of a 5+, a single damaging hit is ignored and the Structure point(s) that would have been lost as a result of the Damage dice are not lost.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="2.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="c493-09e6-bd9b-ab94" name="Survival Instinct" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="2409-a017-a6e8-fbf5" name="Survival Instinct" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-          <characteristics>
-            <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add 1 to the dice roll when testing to recover from a Spin with this aircraft.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="1.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="08f0-8fe5-1051-32b2" name="Large Calibre" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="382e-4456-9ef8-1736" name="Large Calibre" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-          <characteristics>
-            <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per game, this aircraft may improve the Damage characteristic of one of its weapons by 1.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="2.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3109-c829-5826-76a5" name="Ground Attack Specialist" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="e4ab-8c89-f874-b494" name="Ground Attack Specialist" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-          <characteristics>
-            <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per game, when firing a weapon with the Ground Attack special rule, this aircraft may re-roll any of the Firepower dice that roll a 1 to hit.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="2.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="f1ec-1cb5-a366-eac0" name="Fly By" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="99d4-33d0-7e0d-e448" name="Fly By" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-          <characteristics>
-            <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add +1 to all Short range hit rolls made by this aircraft when targeting enemy aircraft travelling at a lower Speed than it.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="3.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="824b-31cb-e74a-9ab3" name="Stealthy Hunter" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="1b4a-c41c-ca0c-2eeb" name="Stealthy Hunter" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-          <characteristics>
-            <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add +1 to all hit rolls made by this aircraft when targeting enemy aircraft at one Altitude level above it.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="4.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="dc67-3b0e-60ac-1ba3" name="Crack Shot" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="6e58-74f7-4755-2c7b" name="Crack Shot" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-          <characteristics>
-            <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per game, after rolling the Firepower dice but before rolling the Damage dice, this aircraft may choose to improve the Damage characteristic of one of its weapons by 1.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="4.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="5acf-4a09-fdea-9b16" name="Eagle-eyed" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="cef1-bdb3-bad2-3430" name="Eagle-eyed" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-          <characteristics>
-            <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">This aircraft may roll one extra dice when firing at Long range.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="4.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
-  <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="513e-d0ec-52f3-de73" name="Expanded Ace Abilities" publicationId="41a0-328f-4c30-b6fa" page="52-53" hidden="false" collective="false" import="true">
-      <entryLinks>
-        <entryLink id="414f-ac52-3539-9865" name="Aerial Predator" hidden="false" collective="false" import="true" targetId="2b40-fac7-feda-7c95" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec8e-fdd0-fcb4-34dd" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="edc2-fa42-672b-183a" name="Cool-headed" hidden="false" collective="false" import="true" targetId="d3f4-5a43-9f57-59ab" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab8c-da25-cb38-e93b" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="ca90-d067-b51a-37c8" name="Crack Shot" hidden="false" collective="false" import="true" targetId="dc67-3b0e-60ac-1ba3" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0501-f36b-e18b-943c" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="641e-735f-d999-224a" name="Dead-eye" hidden="false" collective="false" import="true" targetId="d80e-84a9-9d98-71c8" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8029-05da-8418-8f3f" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="71a9-cb3a-9f90-cf24" name="Deadly Hunter" hidden="false" collective="false" import="true" targetId="4cb1-1c8e-3c68-98b2" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="138e-561a-0918-06d0" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="e82a-95f7-515b-4d12" name="Defensive Manoeuvre" hidden="false" collective="false" import="true" targetId="c02c-819b-9938-830c" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0b7-d384-45c2-23d3" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="497c-cde4-935e-7360" name="Eagle-eyed" hidden="false" collective="false" import="true" targetId="5acf-4a09-fdea-9b16" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="981b-0b0b-7b0f-99e8" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="dd97-4c16-6d5d-ead0" name="Enhanced Targeting" hidden="false" collective="false" import="true" targetId="b55e-a77c-9b57-3713" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00b8-08cc-01f4-fe8d" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="4963-495a-cbf2-eac3" name="Fly By" hidden="false" collective="false" import="true" targetId="f1ec-1cb5-a366-eac0" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a43f-0944-d17e-43df" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="c38e-6298-0f21-80fb" name="Ground Attack Specialist" hidden="false" collective="false" import="true" targetId="3109-c829-5826-76a5" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1c4-cfad-e64f-8631" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="b7fa-d015-51f1-f12a" name="Large Calibre" hidden="false" collective="false" import="true" targetId="08f0-8fe5-1051-32b2" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f1c-ecb1-3c9f-773c" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="9abd-04d2-f836-dbae" name="No Fear" hidden="false" collective="false" import="true" targetId="e111-92b7-42fb-ecdd" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9b5-4c7d-94b4-e27c" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="2db8-6570-6ebf-3ad5" name="Out of the Sun" hidden="false" collective="false" import="true" targetId="0acb-a7ca-1a8b-ff7e" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93c0-1cb6-6f8c-7eca" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="9491-f041-8e10-99b8" name="Precision Bombing" hidden="false" collective="false" import="true" targetId="df3e-9e42-f02f-5518" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f88-dee2-5ece-d7c2" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="5bd3-cafb-9408-09ab" name="Punch It!" hidden="false" collective="false" import="true" targetId="fc94-5fe4-d040-2839" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91d0-2a26-e243-07e9" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="7e28-ba24-7c52-8995" name="Stealthy Hunter" hidden="false" collective="false" import="true" targetId="824b-31cb-e74a-9ab3" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa7c-dc9f-0dd5-219e" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="7784-92ce-a601-af68" name="Superior Reactions" hidden="false" collective="false" import="true" targetId="1b27-b64a-74ed-33a2" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a41f-c173-16d0-482d" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="6ea5-0d3b-24d5-35d6" name="Survival Instinct" hidden="false" collective="false" import="true" targetId="c493-09e6-bd9b-ab94" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89a5-f094-389c-0259" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-    </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="7406-f5b9-a751-1291" name="Jump troops" hidden="false">
       <description>Instead of landing in a landing zone, a transport aircraft with Jump Troops can drop them from altitude as it passes over. To drop its Jump Troops, the aircraft must pass directly over the landing zone during the Move and Manoeuvre step of the Movement phase. Once the aircraft has completed its movement, before adjusting Altitude roll a D6 for each point of transport capacity being dropped. If the result of the roll is higher than the aircraft’s current Altitude and Speed added together, the Jump Troops land safely within the landing zone and Victory points are scored. If however the result of the roll is equal to or lower than the aircraft’s current Speed and Altitude added together, the troops are scattered, injured or killed and no Victory points are scored.</description>

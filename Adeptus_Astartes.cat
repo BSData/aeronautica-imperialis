@@ -60,7 +60,7 @@
           </constraints>
         </entryLink>
         <entryLink id="520b-1557-d9fd-80d0" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="323a-9cee-3091-0308" type="selectionEntryGroup"/>
-        <entryLink id="4c53-b640-d569-2e7a" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
+        <entryLink id="b975-4454-ddff-314f" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="24.0"/>
@@ -135,7 +135,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="859e-a7c0-4f8f-c445" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="2874-e26b-98c6-071c" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
+        <entryLink id="cd14-c68c-8da5-6a2a" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="29.0"/>
@@ -308,7 +308,7 @@
           </constraints>
         </entryLink>
         <entryLink id="7972-a241-0089-a6e2" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="323a-9cee-3091-0308" type="selectionEntryGroup"/>
-        <entryLink id="6c7e-9b42-7bc8-9347" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
+        <entryLink id="5d69-f642-6c22-4276" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="31.0"/>
@@ -406,7 +406,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="3736-5dff-a152-a992" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="323a-9cee-3091-0308" type="selectionEntryGroup"/>
-        <entryLink id="453c-f05a-8933-6f71" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
+        <entryLink id="94d7-f35a-3822-9f8e" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="44.0"/>

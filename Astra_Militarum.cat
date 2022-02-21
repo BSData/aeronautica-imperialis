@@ -68,7 +68,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="b7b2-4a5f-829b-9f91" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="5c80-073d-0f8c-8dc6" type="selectionEntryGroup"/>
-        <entryLink id="4c0e-19ea-a2dd-f376" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
+        <entryLink id="4c0e-19ea-a2dd-f376" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="16.0"/>
@@ -170,7 +170,7 @@
       <entryLinks>
         <entryLink id="4aff-27bb-a50b-192f" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="5c80-073d-0f8c-8dc6" type="selectionEntryGroup"/>
         <entryLink id="ed71-33d8-66aa-b3b2" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="d466-fb90-0a26-33f8" type="selectionEntry"/>
-        <entryLink id="5a5e-d33a-79b3-4e2a" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
+        <entryLink id="5a5e-d33a-79b3-4e2a" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>

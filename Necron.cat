@@ -42,7 +42,7 @@
           </constraints>
         </entryLink>
         <entryLink id="97f2-1a9c-e7ea-2771" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="7e3a-2d3d-4c63-9157" type="selectionEntryGroup"/>
-        <entryLink id="8663-2df7-c685-d3dd" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
+        <entryLink id="6693-6551-76de-399c" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="38.0"/>
@@ -85,7 +85,7 @@
           </constraints>
         </entryLink>
         <entryLink id="2136-0bd3-ca46-7e7c" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="7e3a-2d3d-4c63-9157" type="selectionEntryGroup"/>
-        <entryLink id="0b92-0352-6eae-694a" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
+        <entryLink id="b880-20b6-5d0f-c3b3" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="39.0"/>
@@ -123,7 +123,7 @@
           </constraints>
         </entryLink>
         <entryLink id="a3ac-35f6-6f8b-ea4f" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="7e3a-2d3d-4c63-9157" type="selectionEntryGroup"/>
-        <entryLink id="d662-855c-3354-a88a" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="513e-d0ec-52f3-de73" type="selectionEntryGroup"/>
+        <entryLink id="6ac5-6326-0d73-3829" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="35.0"/>
