@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6088-0c35-9d44-ed62" name="T&apos;au Air Caste" revision="6" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6088-0c35-9d44-ed62" name="T&apos;au Air Caste" revision="7" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="8fd6-64b7-db74-8a38" name="Tau" hidden="true"/>
     <categoryEntry id="8b49-06f2-7beb-4695" name="Auxiliary" hidden="true">
@@ -532,6 +532,7 @@
         <entryLink id="9ba4-15c3-21fd-0e05" name="Rear Turret" hidden="false" collective="false" import="true" targetId="a225-dae4-ec77-979a" type="selectionEntry"/>
         <entryLink id="8fba-fd0e-f462-3a0a" name="Human Auxiliary Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="ccb0-29d4-9aaf-b8d5" type="selectionEntryGroup"/>
         <entryLink id="8720-456f-7f2a-07a0" name="Human Auxiliary Crew" hidden="false" collective="false" import="true" targetId="bdc5-b41f-7fdb-9ce9" type="selectionEntryGroup"/>
+        <entryLink id="e33a-47e3-1074-5026" name="Emperor&apos;s Blessing" hidden="false" collective="false" import="true" targetId="0ef3-5124-3223-07b0" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="23.0"/>
@@ -1591,6 +1592,22 @@
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ef3-5124-3223-07b0" name="Emperor&apos;s Blessing" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c942-3aa9-df14-05b4" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e923-a45e-ee0d-1825" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="45e8-0ca1-bfb7-f0eb" name="Emperor&apos;s Blessing" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+          <characteristics>
+            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, when firing its Bomb Bay weapon, the aircraft may add 4 to the FPR characteristic.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="4.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
