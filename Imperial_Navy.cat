@@ -191,6 +191,7 @@
         <entryLink id="7868-bd41-6a69-93ff" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="b890-18e0-99ff-65b2" type="selectionEntryGroup"/>
         <entryLink id="5f8f-6c40-0768-a20d" name="Crew" hidden="false" collective="false" import="true" targetId="ea59-501a-a451-ec37" type="selectionEntryGroup"/>
         <entryLink id="a19e-a3c6-eeb9-7f4f" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
+        <entryLink id="99f4-f322-2e40-8cca" name="Emperor&apos;s Blessing" hidden="false" collective="false" import="true" targetId="f1c0-2a50-662b-f1b4" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="23.0"/>
@@ -259,6 +260,7 @@
         <entryLink id="e4cd-90d4-2d78-b13e" name="Crew" hidden="false" collective="false" import="true" targetId="ea59-501a-a451-ec37" type="selectionEntryGroup"/>
         <entryLink id="277b-18a3-c155-a213" name="Rear Turret" hidden="false" collective="false" import="true" targetId="2999-92ad-5e6c-c912" type="selectionEntry"/>
         <entryLink id="f19e-ca4e-54f4-b678" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
+        <entryLink id="3932-5571-c9ac-f8a6" name="Emperor&apos;s Blessing" hidden="false" collective="false" import="true" targetId="f1c0-2a50-662b-f1b4" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="27.0"/>
@@ -1374,6 +1376,22 @@
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f1c0-2a50-662b-f1b4" name="Emperor&apos;s Blessing" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5739-7cae-ffbd-aef0" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9f1-bdf1-5243-9009" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="5f4f-919f-5f46-29d6" name="Emperor&apos;s Blessing" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+          <characteristics>
+            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, when firing its Bomb Bay weapon, the aircraft may add 4 to the FPR characteristic.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="4.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
