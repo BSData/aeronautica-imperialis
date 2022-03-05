@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0743-d0bd-bfee-c92a" name="Ork Air Waaagh!" revision="33" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0743-d0bd-bfee-c92a" name="Ork Air Waaagh!" revision="34" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="583d-7042-2316-f8b5" name="White Dwarf October 2019"/>
     <publication id="22c5-f0a4-5370-5716" name="White Dwarf December 2019"/>
@@ -213,6 +213,7 @@
         </entryLink>
         <entryLink id="a05b-49b7-24b4-bcad" name="Aircraft upgrade" hidden="false" collective="false" import="true" targetId="54a6-483f-3fbb-cf60" type="selectionEntryGroup"/>
         <entryLink id="bdc3-540a-c180-2afb" name="Crew" hidden="false" collective="false" import="true" targetId="ea21-b91d-7237-b2b0" type="selectionEntryGroup"/>
+        <entryLink id="cf70-b292-660a-f695" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="16.0"/>
@@ -334,6 +335,7 @@
         </entryLink>
         <entryLink id="8ddb-6a39-69e2-c99a" name="Aircraft upgrade" hidden="false" collective="false" import="true" targetId="54a6-483f-3fbb-cf60" type="selectionEntryGroup"/>
         <entryLink id="fc09-69c3-0013-2f3f" name="Crew" hidden="false" collective="false" import="true" targetId="ea21-b91d-7237-b2b0" type="selectionEntryGroup"/>
+        <entryLink id="93b3-3d68-5b28-5e63" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="28.0"/>
@@ -442,6 +444,7 @@
         </entryLink>
         <entryLink id="95b0-7d7f-7fe8-4ef9" name="Aircraft upgrade" hidden="false" collective="false" import="true" targetId="54a6-483f-3fbb-cf60" type="selectionEntryGroup"/>
         <entryLink id="2e38-d153-3519-07cc" name="Crew" hidden="false" collective="false" import="true" targetId="ea21-b91d-7237-b2b0" type="selectionEntryGroup"/>
+        <entryLink id="6eb6-5b04-19f7-4a11" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
@@ -570,6 +573,7 @@
             <entryLink id="d4de-f5f3-c0c2-a5e7" name="Rudok Redz" hidden="false" collective="false" import="true" targetId="f7a5-fc3d-2b2a-0fb3" type="selectionEntry"/>
           </entryLinks>
         </entryLink>
+        <entryLink id="639b-ace7-b219-4b4b" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="28.0"/>
@@ -776,6 +780,7 @@
         <entryLink id="82f8-9b3e-14d3-666f" name="Tail Big Shoota" hidden="false" collective="false" import="true" targetId="d452-8858-d29e-a43a" type="selectionEntry"/>
         <entryLink id="519f-5511-7ff0-36ee" name="Mega Bomb" hidden="false" collective="false" import="true" targetId="242a-7b89-4093-dce5" type="selectionEntry"/>
         <entryLink id="86a7-eda8-b83b-58b1" name="Aircraft upgrade" hidden="false" collective="false" import="true" targetId="54a6-483f-3fbb-cf60" type="selectionEntryGroup"/>
+        <entryLink id="1108-6e8b-c5b1-dddd" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="51.0"/>
@@ -842,6 +847,7 @@
         </entryLink>
         <entryLink id="8663-7831-5170-20b6" name="Aircraft upgrade" hidden="false" collective="false" import="true" targetId="54a6-483f-3fbb-cf60" type="selectionEntryGroup"/>
         <entryLink id="50cf-85b3-ea0a-8a7d" name="Crew" hidden="false" collective="false" import="true" targetId="ea21-b91d-7237-b2b0" type="selectionEntryGroup"/>
+        <entryLink id="1d4a-0f6d-f9e7-5d30" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="23.0"/>
@@ -932,6 +938,7 @@
         </entryLink>
         <entryLink id="5d2b-f8d0-dca6-01ca" name="Aircraft upgrade" hidden="false" collective="false" import="true" targetId="54a6-483f-3fbb-cf60" type="selectionEntryGroup"/>
         <entryLink id="e2f4-1edb-8425-4671" name="Crew" hidden="false" collective="false" import="true" targetId="ea21-b91d-7237-b2b0" type="selectionEntryGroup"/>
+        <entryLink id="6f8e-60f8-cbb5-2490" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="23.0"/>

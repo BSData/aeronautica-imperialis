@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="63fd-f1bb-e3ca-e39f" name="Astra Militarum" revision="2" battleScribeVersion="2.03" authorName="Valkyrie Assault Craft" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="63fd-f1bb-e3ca-e39f" name="Astra Militarum" revision="3" battleScribeVersion="2.03" authorName="Valkyrie Assault Craft" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9474-faac-1eb5-889b" name="Valkyrie Assault Craft" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -68,6 +68,7 @@
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="b7b2-4a5f-829b-9f91" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="5c80-073d-0f8c-8dc6" type="selectionEntryGroup"/>
+        <entryLink id="4c0e-19ea-a2dd-f376" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="16.0"/>
@@ -169,6 +170,7 @@
       <entryLinks>
         <entryLink id="4aff-27bb-a50b-192f" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="5c80-073d-0f8c-8dc6" type="selectionEntryGroup"/>
         <entryLink id="ed71-33d8-66aa-b3b2" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="d466-fb90-0a26-33f8" type="selectionEntry"/>
+        <entryLink id="5a5e-d33a-79b3-4e2a" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
@@ -289,7 +291,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3907-c681-e24e-ab92" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d06b-398d-dcc0-75fc" name="Armoured Transport Compartment" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="d06b-398d-dcc0-75fc" name="Armoured Transport Compartment" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">If the aircraft is reduced to 0 Structure oints and destroyed for any reason, roll a D6. On a 5+, the cargo of passengers safely escape and the aircraft is only worth 75% of its total points cost in Victory points, rather than the usual 100%</characteristic>
           </characteristics>
@@ -304,7 +306,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9353-a1c1-1ee7-2311" type="max"/>
       </constraints>
       <profiles>
-        <profile id="5fef-ea56-beaa-0b43" name="Tactical Targetting Array" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="5fef-ea56-beaa-0b43" name="Tactical Targetting Array" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, when targetting an enemy aircraft with Air-to-Air fire, this aircraft may re-roll any of the Firepower dice that roll a 1 to hit.</characteristic>
           </characteristics>
@@ -319,7 +321,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee25-3a3d-da8b-1734" type="max"/>
       </constraints>
       <profiles>
-        <profile id="ba0a-90db-6fe7-32ac" name="Flares or Chaff Launcher" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="ba0a-90db-6fe7-32ac" name="Flares or Chaff Launcher" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, if the aircraft is hit by a weapons with an armor characteristic of 1, 2, or 3, roll a D6. On a 6, the hit becomes a miss.</characteristic>
           </characteristics>
@@ -334,7 +336,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e71-32ab-7ef8-703f" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d58e-00bd-b05c-b461" name="Infra-red Targeting" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="d58e-00bd-b05c-b461" name="Infra-red Targeting" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">If the Night Fighting or Bad Weather rule are in use, this aircraft may fire at Medium range without reducing the number of Firepower dice rolled.</characteristic>
           </characteristics>
@@ -349,7 +351,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a63-720c-f871-0d0d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="9fd8-66be-432e-1f1b" name="Armored Cockpit" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="9fd8-66be-432e-1f1b" name="Armored Cockpit" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">When this aircraft suffers a damaging hit from enemy fire, roll a D6. On a 6, the damage is ignored and the Structure points(s) that would have been lost as a result of the damage dice are not lost.</characteristic>
           </characteristics>
@@ -433,7 +435,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57ee-cf7d-febb-80eb" type="max"/>
       </constraints>
       <profiles>
-        <profile id="7abd-80da-46df-28e6" name="Imperial Ace" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircarft Upgrade">
+        <profile id="7abd-80da-46df-28e6" name="Imperial Ace" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
           <characteristics>
             <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Ths upgrade may only be taken by one aicraft within a force. Once per game, this aircraft may choose to re-roll a dice roll. However, all of the dice rolled must be re-rolled an the player must accept the result of the second roll, even if it is worse.</characteristic>
           </characteristics>
