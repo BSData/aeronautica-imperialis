@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="df04-c447-f12b-fae8" name="Warhammer 40,000: Aeronautica Imperialis" revision="19" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="df04-c447-f12b-fae8" name="Warhammer 40,000: Aeronautica Imperialis" revision="20" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="7ca4-c4f1-d97e-2820" name="Taros Air War"/>
     <publication id="41a0-328f-4c30-b6fa" name="Aeronautica Imperialis – Companion" publicationDate="2022"/>
@@ -195,7 +195,7 @@
           <profiles>
             <profile id="53bc-2810-598f-cc51" name="Enhanced Targeting" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
               <characteristics>
-                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add +1 to all hit rolls made by this aircraft when targeting enemy aircraft travelling at a ghigher Speed than it.</characteristic>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add +1 to all hit rolls made by this aircraft when targeting enemy aircraft travelling at a higher Speed than it.</characteristic>
               </characteristics>
             </profile>
           </profiles>
