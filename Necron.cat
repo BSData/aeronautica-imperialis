@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a13a-71d9-db49-a498" name="Necrons" revision="3" battleScribeVersion="2.03" authorName="Necron aircraft upgrades" authorContact="@evanh" authorUrl="" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a13a-71d9-db49-a498" name="Necrons" revision="4" battleScribeVersion="2.03" authorName="Necron aircraft upgrades" authorContact="@evanh" authorUrl="" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="41a0-328f-4c30-b6fa" name="Aeronautica Imperialis – Companion" shortName="Companion" publisher="Aeronautica Imperialis – Companion" publicationDate="2022" publisherUrl="https://www.games-workshop.com/en-CA/aeronautica-imperialis-companion-eng-2022"/>
   </publications>
   <selectionEntries>
-    <selectionEntry id="be86-1781-f01a-b572" name="Doom Scythe" publicationId="41a0-328f-4c30-b6fa" page="13" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="be86-1781-f01a-b572" name="Doom Scythe" publicationId="41a0-328f-4c30-b6fa" page="13" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="0a5e-1614-b0ce-7cf1" name="Doom Scythe" publicationId="41a0-328f-4c30-b6fa" page="13" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
           <characteristics>
@@ -28,19 +28,33 @@
       <categoryLinks>
         <categoryLink id="9136-3c0f-a512-905d" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3e52-1027-9d6b-01fb" name="Heavy Death Ray" publicationId="41a0-328f-4c30-b6fa" page="13" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="388d-9788-d09e-5e36" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fdf-44f4-b1fa-9e6a" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="e737-4b4e-aa2d-6e66" name="Heavy Death Ray" publicationId="41a0-328f-4c30-b6fa" page="13" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+              <characteristics>
+                <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
+                <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">4-2-0</characteristic>
+                <characteristic name="DMG" typeId="3666-196d-11fd-c067">3+</characteristic>
+                <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
+                <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Extra Damage (4+)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5f68-144e-df87-595f" name="Extra Damage (4+)" hidden="false" targetId="6cd3-39d8-bedc-56e6" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
-        <entryLink id="e523-5928-a1c7-9ec9" name="Twin Tesla Destructor" hidden="false" collective="false" import="true" targetId="be47-6002-d8ee-105e" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a5a-36a5-c8ad-615a" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a32-7399-a1ba-6749" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="3760-0af1-edf1-6da5" name="Heavy Death Ray" hidden="false" collective="false" import="true" targetId="bf49-1682-7d06-7657" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b47-0a99-b451-0606" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75ba-f9e6-85ff-f3d1" type="min"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="e523-5928-a1c7-9ec9" name="Twin Tesla Destructor" hidden="false" collective="false" import="true" targetId="be47-6002-d8ee-105e" type="selectionEntry"/>
         <entryLink id="97f2-1a9c-e7ea-2771" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="7e3a-2d3d-4c63-9157" type="selectionEntryGroup"/>
         <entryLink id="6693-6551-76de-399c" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
@@ -48,7 +62,7 @@
         <cost name="pts" typeId="points" value="38.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5008-d571-4fc9-9ebf" name="Night Shroud" publicationId="41a0-328f-4c30-b6fa" page="14" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5008-d571-4fc9-9ebf" name="Night Shroud" publicationId="41a0-328f-4c30-b6fa" page="14" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="56c1-6fc4-f7e8-9f54" name="Night Shroud" publicationId="41a0-328f-4c30-b6fa" page="14" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
           <characteristics>
@@ -71,19 +85,34 @@
       <categoryLinks>
         <categoryLink id="b784-5f13-e881-ac30" name="Bomber" hidden="false" targetId="8cfa-dfb7-e996-3c7d" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6220-dad0-5e6c-b956" name="Death Spheres" publicationId="41a0-328f-4c30-b6fa" page="14" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2c1-f819-ae60-f079" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d604-461c-58a9-8b20" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="f351-2f43-f316-72b8" name="Death Spheres" publicationId="41a0-328f-4c30-b6fa" page="14" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
+              <characteristics>
+                <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Rear</characteristic>
+                <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">4-0-0</characteristic>
+                <characteristic name="DMG" typeId="3666-196d-11fd-c067">2+</characteristic>
+                <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">4</characteristic>
+                <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (4+)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1b28-ce43-6daf-7bf0" name="Extra Damage (4+)" hidden="false" targetId="6cd3-39d8-bedc-56e6" type="profile"/>
+            <infoLink id="9df4-38b9-3eb0-a702" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
-        <entryLink id="43eb-8810-7a21-3197" name="Death Spheres" hidden="false" collective="false" import="true" targetId="ab03-04b3-0e0d-f36c" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="043c-0db4-8e04-3449" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa63-c0ef-c694-6465" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="aa3b-f46f-9123-c64e" name="Twin Tesla Destructor" hidden="false" collective="false" import="true" targetId="be47-6002-d8ee-105e" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f28-78ee-de8b-984a" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44ee-742c-5c1f-e12b" type="min"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="aa3b-f46f-9123-c64e" name="Twin Tesla Destructor" hidden="false" collective="false" import="true" targetId="be47-6002-d8ee-105e" type="selectionEntry"/>
         <entryLink id="2136-0bd3-ca46-7e7c" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="7e3a-2d3d-4c63-9157" type="selectionEntryGroup"/>
         <entryLink id="b880-20b6-5d0f-c3b3" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
@@ -91,7 +120,7 @@
         <cost name="pts" typeId="points" value="39.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="25a6-d058-810d-660e" name="Night Scythe" publicationId="41a0-328f-4c30-b6fa" page="13" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="25a6-d058-810d-660e" name="Night Scythe" publicationId="41a0-328f-4c30-b6fa" page="13" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="3eee-ce7b-c48b-8014" name="Night Scythe" publicationId="41a0-328f-4c30-b6fa" page="13" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
           <characteristics>
@@ -116,12 +145,7 @@
         <categoryLink id="e760-f474-9077-8a60" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0d97-ecbe-ba9b-b00f" name="Twin Tesla Destructor" hidden="false" collective="false" import="true" targetId="be47-6002-d8ee-105e" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95f1-1726-4562-a3bd" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe57-a364-cb44-e27a" type="min"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="0d97-ecbe-ba9b-b00f" name="Twin Tesla Destructor" hidden="false" collective="false" import="true" targetId="be47-6002-d8ee-105e" type="selectionEntry"/>
         <entryLink id="a3ac-35f6-6f8b-ea4f" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="7e3a-2d3d-4c63-9157" type="selectionEntryGroup"/>
         <entryLink id="6ac5-6326-0d73-3829" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
       </entryLinks>
@@ -132,6 +156,10 @@
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="be47-6002-d8ee-105e" name="Twin Tesla Destructor" publicationId="41a0-328f-4c30-b6fa" page="13" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e73-946d-1df2-b8a5" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c45-d9c8-235c-2286" type="max"/>
+      </constraints>
       <profiles>
         <profile id="dc4b-134e-0ef7-8f79" name="Twin Tesla Destructor" publicationId="41a0-328f-4c30-b6fa" page="13" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
           <characteristics>
@@ -150,141 +178,90 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bf49-1682-7d06-7657" name="Heavy Death Ray" publicationId="41a0-328f-4c30-b6fa" page="13" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="d1cd-2fc4-176c-3f14" name="Heavy Death Ray" publicationId="41a0-328f-4c30-b6fa" page="13" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
-          <characteristics>
-            <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Front</characteristic>
-            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">4-2-0</characteristic>
-            <characteristic name="DMG" typeId="3666-196d-11fd-c067">3+</characteristic>
-            <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
-            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Extra Damage (4+)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="e765-799b-68c9-5d84" name="Extra Damage (4+)" hidden="false" targetId="6cd3-39d8-bedc-56e6" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ab03-04b3-0e0d-f36c" name="Death Spheres" publicationId="41a0-328f-4c30-b6fa" page="14" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="61b1-4912-6b72-32a7" name="Death Spheres" publicationId="41a0-328f-4c30-b6fa" page="14" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
-          <characteristics>
-            <characteristic name="FIRE ARC" typeId="3281-5ef2-68b5-0c24">Rear</characteristic>
-            <characteristic name="FPR" typeId="a5ae-d9ef-f1b4-e838">4-0-0</characteristic>
-            <characteristic name="DMG" typeId="3666-196d-11fd-c067">2+</characteristic>
-            <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">4</characteristic>
-            <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">Ground Attack, Extra Damage (4+)</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="2499-44fd-3ca3-a0c9" name="Extra Damage (4+)" hidden="false" targetId="6cd3-39d8-bedc-56e6" type="profile"/>
-        <infoLink id="470b-b2e6-0b21-362c" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="d551-c3c9-be95-5e1c" name="Galvanised Nanoswarms" publicationId="41a0-328f-4c30-b6fa" page="12" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ee0-ef63-7b67-0623" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="0001-6ccf-0fc3-b378" name="Galvanised Nanoswarms" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-          <characteristics>
-            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft may attempt a repair. During the End phase, roll a D6 for each lost point of Structure. For each roll of a 5+, repair a single point of structure.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="4.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3711-7fbe-612a-a747" name="Translocation Engines" publicationId="41a0-328f-4c30-b6fa" page="12" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3a9-fb5d-0a83-ab0e" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="0d3c-c728-9f84-5a0c" name="Translocation Engines" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-          <characteristics>
-            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, after this aircraft has finished moving during the Movement phase, it may immediately move up to two hexes in any direction. It must move in the same direction for both hexes and cannot end this movement in an occupied hex. In addition, the aircraft may not change its facing, Altitude or Speed during this additional movement.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="3.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="a520-68ea-581c-4d63" name="Phase Shift" publicationId="41a0-328f-4c30-b6fa" page="12" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d4-7bd3-8674-57dc" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="65f4-70e7-60a4-8333" name="Phase Shift" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-          <characteristics>
-            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, roll a D6 for each hit the aircraft suffers from a weapon with an Ammo characteristic of 1, 2 or 3. For each roll of a 6, that hit becomes a miss.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="1.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="22eb-f105-3747-9f73" name="Adaptive Cognition" publicationId="41a0-328f-4c30-b6fa" page="12" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc79-a305-2097-7dd4" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c3f-30b3-ad1a-e11d" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="982b-b343-87ae-f815" name="Adaptive Cognition" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-          <characteristics>
-            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This upgrade may only be taken by one aircraft within a force. Once per game, this aircraft may choose to discard a dice roll and re-roll the dice. However, all of the dice must be re-rolled and the player must accept the result of the second roll even if it is worse.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="5.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2a8f-bf1b-6cc8-dae4" name="Reinforced Necrodermis" publicationId="41a0-328f-4c30-b6fa" page="12" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="240e-21eb-f109-c855" type="max"/>
-      </constraints>
-      <profiles>
-        <profile id="7303-9d1d-3fb7-c1ff" name="Reinforced Necrodermis" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-          <characteristics>
-            <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">When this aircraft is damaged by a weapon that has the Extra Damage (X+) special rule, the X+ value is reduced by one, to a minimum of 6+ (i.e., when firing at an aircraft with this upgrade, a weapon with the Extra Damage (5+) special rule would instead have the Extra Damage (6+) special rule).</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="2.0"/>
-      </costs>
-    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="7e3a-2d3d-4c63-9157" name="Aircraft Upgrades" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0727-7da4-2fb3-6178" type="max"/>
       </constraints>
-      <entryLinks>
-        <entryLink id="593b-f7b8-c8f9-943c" name="Galvanised Nanoswarms" publicationId="41a0-328f-4c30-b6fa" page="12" hidden="false" collective="false" import="true" targetId="d551-c3c9-be95-5e1c" type="selectionEntry"/>
-        <entryLink id="e612-b8ce-ac32-9717" name="Translocation Engines" publicationId="41a0-328f-4c30-b6fa" page="12" hidden="false" collective="false" import="true" targetId="3711-7fbe-612a-a747" type="selectionEntry"/>
-        <entryLink id="c0ea-83b6-c301-07b5" name="Phase Shift" publicationId="41a0-328f-4c30-b6fa" page="12" hidden="false" collective="false" import="true" targetId="a520-68ea-581c-4d63" type="selectionEntry"/>
-        <entryLink id="3e76-cdd3-fa75-9920" name="Adaptive Cognition" publicationId="41a0-328f-4c30-b6fa" page="12" hidden="false" collective="false" import="true" targetId="22eb-f105-3747-9f73" type="selectionEntry">
-          <modifiers>
-            <modifier type="decrement" field="98c0-b54b-3066-ded9" value="0.0"/>
-          </modifiers>
+      <selectionEntries>
+        <selectionEntry id="35f8-6442-c74b-ae1b" name="Adaptive Cognition" publicationId="41a0-328f-4c30-b6fa" page="12" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98c0-b54b-3066-ded9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbee-2c86-4a0d-8192" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b508-c37b-613e-1315" type="max"/>
           </constraints>
-        </entryLink>
-        <entryLink id="58ff-3708-442a-893e" name="Reinforced Necrodermis" publicationId="41a0-328f-4c30-b6fa" page="12" hidden="false" collective="false" import="true" targetId="2a8f-bf1b-6cc8-dae4" type="selectionEntry"/>
-      </entryLinks>
+          <profiles>
+            <profile id="97cd-c56c-04b3-496a" name="Adaptive Cognition" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This upgrade may only be taken by one aircraft within a force. Once per game, this aircraft may choose to discard a dice roll and re-roll the dice. However, all of the dice must be re-rolled and the player must accept the result of the second roll even if it is worse.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7d8a-1857-302c-a5bf" name="Galvanised Nanoswarms" publicationId="41a0-328f-4c30-b6fa" page="12" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aee5-6820-032f-4b82" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="44a9-4359-1e36-307d" name="Galvanised Nanoswarms" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft may attempt a repair. During the End phase, roll a D6 for each lost point of Structure. For each roll of a 5+, repair a single point of structure.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e613-0e4a-6310-b758" name="Phase Shift" publicationId="41a0-328f-4c30-b6fa" page="12" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d3e-9d9b-e19e-4c7f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0fe1-51a8-c09f-b5b3" name="Phase Shift" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, roll a D6 for each hit the aircraft suffers from a weapon with an Ammo characteristic of 1, 2 or 3. For each roll of a 6, that hit becomes a miss.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="857e-1dde-bd89-8828" name="Reinforced Necrodermis" publicationId="41a0-328f-4c30-b6fa" page="12" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7ef-c631-a35f-d3b7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8ec1-6e83-2096-33ff" name="Reinforced Necrodermis" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">When this aircraft is damaged by a weapon that has the Extra Damage (X+) special rule, the X+ value is reduced by one, to a minimum of 6+ (i.e., when firing at an aircraft with this upgrade, a weapon with the Extra Damage (5+) special rule would instead have the Extra Damage (6+) special rule).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="74d6-26b1-4c86-963b" name="Translocation Engines" publicationId="41a0-328f-4c30-b6fa" page="12" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50e7-9823-26e5-94be" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="20a4-31c1-6ca7-0b26" name="Translocation Engines" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, after this aircraft has finished moving during the Movement phase, it may immediately move up to two hexes in any direction. It must move in the same direction for both hexes and cannot end this movement in an occupied hex. In addition, the aircraft may not change its facing, Altitude or Speed during this additional movement.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>
