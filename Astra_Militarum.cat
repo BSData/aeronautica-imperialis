@@ -331,7 +331,7 @@
         <cost name="pts" typeId="points" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="883d-cfc2-b9d0-0da2" name="Basilisk Anti-Aircraft Gun" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="883d-cfc2-b9d0-0da2" name="Basilisk Anti-Aircraft Gun" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="ec01-4f2f-f3ea-9cee" name="Basilisk Anti-Aircraft Gun" hidden="false" typeId="f0d7-0c84-fbe0-fc3f" typeName="Ground Asset">
           <characteristics>

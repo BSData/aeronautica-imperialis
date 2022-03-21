@@ -401,7 +401,7 @@
         <cost name="pts" typeId="points" value="26.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8a9e-ad7d-ee8f-f044" name="Executioner" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8a9e-ad7d-ee8f-f044" name="Executioner" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="97c7-c4be-ae6b-5b57" type="max"/>
       </constraints>
@@ -499,7 +499,7 @@
         <cost name="pts" typeId="points" value="7.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="52cd-b988-0050-ded9" name="Wings Of Courage" publicationId="583d-7042-2316-f8b5" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="52cd-b988-0050-ded9" name="Wings Of Courage" publicationId="583d-7042-2316-f8b5" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe7d-39aa-010e-ba0e" type="max"/>
       </constraints>
@@ -998,7 +998,7 @@
         <cost name="pts" typeId="points" value="33.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="daf4-ed1e-e0da-b3ba" name="Ghost" publicationId="39ba-445a-a65f-2bd6" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="daf4-ed1e-e0da-b3ba" name="Ghost" publicationId="39ba-445a-a65f-2bd6" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2be4-8242-ab57-6f36" type="max"/>
       </constraints>

@@ -4,7 +4,7 @@
     <publication id="41a0-328f-4c30-b6fa" name="Aeronautica Imperialis – Companion" shortName="Companion" publisher="Aeronautica Imperialis – Companion" publicationDate="2022" publisherUrl="https://www.games-workshop.com/en-CA/aeronautica-imperialis-companion-eng-2022"/>
   </publications>
   <selectionEntries>
-    <selectionEntry id="be86-1781-f01a-b572" name="Doom Scythe" publicationId="41a0-328f-4c30-b6fa" page="13" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="be86-1781-f01a-b572" name="Doom Scythe" publicationId="41a0-328f-4c30-b6fa" page="13" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="0a5e-1614-b0ce-7cf1" name="Doom Scythe" publicationId="41a0-328f-4c30-b6fa" page="13" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
           <characteristics>
@@ -62,7 +62,7 @@
         <cost name="pts" typeId="points" value="38.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5008-d571-4fc9-9ebf" name="Night Shroud" publicationId="41a0-328f-4c30-b6fa" page="14" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="5008-d571-4fc9-9ebf" name="Night Shroud" publicationId="41a0-328f-4c30-b6fa" page="14" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="56c1-6fc4-f7e8-9f54" name="Night Shroud" publicationId="41a0-328f-4c30-b6fa" page="14" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
           <characteristics>
@@ -120,7 +120,7 @@
         <cost name="pts" typeId="points" value="39.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="25a6-d058-810d-660e" name="Night Scythe" publicationId="41a0-328f-4c30-b6fa" page="13" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="25a6-d058-810d-660e" name="Night Scythe" publicationId="41a0-328f-4c30-b6fa" page="13" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="3eee-ce7b-c48b-8014" name="Night Scythe" publicationId="41a0-328f-4c30-b6fa" page="13" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
           <characteristics>

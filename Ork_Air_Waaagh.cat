@@ -698,7 +698,7 @@
         <cost name="pts" typeId="points" value="28.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d3eb-3c4f-dc23-39cc" name="Vulture" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d3eb-3c4f-dc23-39cc" name="Vulture" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7305-b7c0-0d10-ef1d" type="max"/>
       </constraints>
@@ -779,7 +779,7 @@
         <cost name="pts" typeId="points" value="23.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c538-e1db-be7c-e544" name="Killa Eagul" publicationId="583d-7042-2316-f8b5" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c538-e1db-be7c-e544" name="Killa Eagul" publicationId="583d-7042-2316-f8b5" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14ef-8d52-c1f4-0565" type="max"/>
       </constraints>
@@ -860,7 +860,7 @@
         <cost name="pts" typeId="points" value="18.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8303-efa8-8088-5a91" name="Mega Bommer" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="8303-efa8-8088-5a91" name="Mega Bommer" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="ed65-8936-8f72-7e3d" name="Mega Bommer" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
           <characteristics>
