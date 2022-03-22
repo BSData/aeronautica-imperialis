@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a13a-71d9-db49-a498" name="Necrons" revision="4" battleScribeVersion="2.03" authorName="Necron aircraft upgrades" authorContact="@evanh" authorUrl="" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a13a-71d9-db49-a498" name="Necrons" revision="5" battleScribeVersion="2.03" authorName="Necron aircraft upgrades" authorContact="@evanh" authorUrl="" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="41a0-328f-4c30-b6fa" name="Aeronautica Imperialis – Companion" shortName="Companion" publisher="Aeronautica Imperialis – Companion" publicationDate="2022" publisherUrl="https://www.games-workshop.com/en-CA/aeronautica-imperialis-companion-eng-2022"/>
   </publications>
@@ -158,7 +158,7 @@
         <profile id="6457-4e98-bd43-ad89" name="Ground Defences" hidden="false" typeId="f0d7-0c84-fbe0-fc3f" typeName="Ground Asset">
           <characteristics>
             <characteristic name="Structure" typeId="6308-84d8-bb4b-c0f8">2</characteristic>
-            <characteristic name="FPR" typeId="0aab-6b79-44c7-f913">8-4-2</characteristic>
+            <characteristic name="FPR" typeId="0aab-6b79-44c7-f913">4-2-0</characteristic>
             <characteristic name="Damage" typeId="ba3d-54b5-9dbe-39ea">4+</characteristic>
             <characteristic name="Special" typeId="c3d9-609b-cc54-f9e6">Effective Altitude (3), Ground-to-Air Fire, Extra Damage (6+)</characteristic>
           </characteristics>
@@ -169,6 +169,9 @@
         <infoLink id="4175-191f-5cba-05a6" name="Effective Altitude (3)" hidden="false" targetId="db8e-cfe1-901e-c0b3" type="profile"/>
         <infoLink id="679f-b7f8-3dc8-9a42" name="Ground-to-Air Fire" hidden="false" targetId="297a-5ea8-7f8e-4621" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="63c8-1c08-1098-853e" name="New CategoryLink" hidden="false" targetId="4ccd-3c3f-80d3-f2fb" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="8.0"/>
       </costs>
