@@ -153,6 +153,26 @@
         <cost name="pts" typeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e03a-7f64-e69c-f2e9" name="Ground Defences" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6457-4e98-bd43-ad89" name="Ground Defences" hidden="false" typeId="f0d7-0c84-fbe0-fc3f" typeName="Ground Asset">
+          <characteristics>
+            <characteristic name="Structure" typeId="6308-84d8-bb4b-c0f8">2</characteristic>
+            <characteristic name="FPR" typeId="0aab-6b79-44c7-f913">8-4-2</characteristic>
+            <characteristic name="Damage" typeId="ba3d-54b5-9dbe-39ea">4+</characteristic>
+            <characteristic name="Special" typeId="c3d9-609b-cc54-f9e6">Effective Altitude (3), Ground-to-Air Fire, Extra Damage (6+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="31f9-d8a7-d4d3-ec28" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
+        <infoLink id="4175-191f-5cba-05a6" name="Effective Altitude (3)" hidden="false" targetId="db8e-cfe1-901e-c0b3" type="profile"/>
+        <infoLink id="679f-b7f8-3dc8-9a42" name="Ground-to-Air Fire" hidden="false" targetId="297a-5ea8-7f8e-4621" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="8.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="be47-6002-d8ee-105e" name="Twin Tesla Destructor" publicationId="41a0-328f-4c30-b6fa" page="13" hidden="false" collective="false" import="true" type="upgrade">
