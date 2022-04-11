@@ -227,6 +227,24 @@
       <categoryLinks>
         <categoryLink id="0cfb-40b6-c3c4-aa30" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6409-7b4f-133a-d3a1" name="Argan Fal&apos;Shan" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bbe-532f-8edd-8514" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82b1-fb6c-34fc-df4c" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="183f-c6dc-4891-8611" name="Argan Fal&apos;Shan" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
+              <characteristics>
+                <characteristic name="Ability" typeId="65ee-9496-8377-0d24">Once per game, Argan Fal&apos;Shan may attempt a repair. During the End Phase, roll a D6 for each lost point of Structure. For each roll of a 6, repair a single point of Structure.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="cabd-fb3f-df91-da71" name="Turrets" hidden="false" collective="false" import="true" defaultSelectionEntryId="1f31-8916-a728-bd4a">
           <constraints>
@@ -261,12 +279,6 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eff8-ce58-0c92-48b2" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="3c61-6034-704d-9503" name="Argan Fal&apos;Shan" hidden="false" collective="false" import="true" targetId="0546-bd45-0336-60ad" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23cd-6205-5388-e502" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="057c-c574-e1f7-1bd8" type="min"/>
-          </constraints>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="36.0"/>
@@ -294,61 +306,60 @@
       <categoryLinks>
         <categoryLink id="6a57-a844-8950-4f12" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="ff92-1109-7f5e-be83" name="Missiles" hidden="false" collective="false" import="true" defaultSelectionEntryId="a885-2480-b001-7605">
+      <selectionEntries>
+        <selectionEntry id="aa61-1566-c470-72f3" name="Athor Vae" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f15-1524-b1d2-e059" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="252f-c893-4e39-8023" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df1e-407d-c0ac-6e08" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00f3-d350-b50a-b403" type="max"/>
           </constraints>
-          <selectionEntries>
-            <selectionEntry id="0cc1-da7a-4934-ee5a" name="Limited Missiles" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc4e-638d-8d96-2d6a" type="max"/>
-              </constraints>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="5e5e-2ee2-4f73-3cce" name="Limited Missiles" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e633-7b03-e6a6-8236" type="max"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ddf-bac0-8229-b5e7" type="min"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="d75c-4e49-90d6-0702" name="Hunter-Killer Missiles" hidden="false" collective="false" import="true" targetId="ce0c-61c9-83e9-5bf1" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c299-9935-248c-fde5" type="max"/>
-                      </constraints>
-                    </entryLink>
-                    <entryLink id="3ef3-a8fe-bded-393f" name="Krak Missiles" hidden="false" collective="false" import="true" targetId="2ad8-e084-80aa-13b1" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c529-7db6-b015-a3b1" type="max"/>
-                      </constraints>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <profiles>
+            <profile id="150e-f35b-695b-575f" name="Athor Vae" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
+              <characteristics>
+                <characteristic name="Ability" typeId="65ee-9496-8377-0d24">At the end of the game, your opponent scores no Victory Points for the Unkillable Phantom if it is damaged and still operating within the Area of Engagement.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="53a6-0fe0-fc97-ecd9" name="Missiles" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="cfe9-cd98-f09b-d0f2" value="2.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9afb-80ce-dcde-b960" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfe9-cd98-f09b-d0f2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4f0f-6b86-a9d4-2468" type="min"/>
+          </constraints>
           <entryLinks>
-            <entryLink id="a885-2480-b001-7605" name="Rotary Frag Missile Launcher" hidden="false" collective="false" import="true" targetId="9afb-80ce-dcde-b960" type="selectionEntry"/>
+            <entryLink id="f9f3-f2f9-c8ee-54ea" name="Rotary Frag Missile Launcher" hidden="false" collective="false" import="true" targetId="9afb-80ce-dcde-b960" type="selectionEntry"/>
+            <entryLink id="e689-985b-ec76-7958" name="Hunter-Killer Missiles" hidden="false" collective="false" import="true" targetId="ce0c-61c9-83e9-5bf1" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa85-a431-9729-dd30" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="3237-1685-2c92-9fd1" name="Krak Missiles" hidden="false" collective="false" import="true" targetId="2ad8-e084-80aa-13b1" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa37-cd96-48c2-48d9" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="3d41-2e2e-ea15-55cf" name="Quad Lascannons" hidden="false" collective="false" import="true" targetId="8b95-c96b-c8fc-68e3" type="selectionEntry">
+        <entryLink id="3d41-2e2e-ea15-55cf" name="Quad Lascannon" hidden="false" collective="false" import="true" targetId="8b95-c96b-c8fc-68e3" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2763-c32a-2cd1-0d07" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e66d-14d1-4520-1e36" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="de33-4247-d105-eae4" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="323a-9cee-3091-0308" type="selectionEntryGroup"/>
-        <entryLink id="a7d4-e138-509f-b034" name="Athor Vae" hidden="false" collective="false" import="true" targetId="6271-83c3-4209-b813" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67b6-24db-aa2a-f402" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a986-3f56-d566-a105" type="max"/>
-          </constraints>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="29.0"/>
@@ -854,30 +865,6 @@
             <characteristic name="DMG" typeId="3666-196d-11fd-c067">4+</characteristic>
             <characteristic name="AMMO" typeId="a495-a55a-5d79-5b94">UL</characteristic>
             <characteristic name="SPECIAL" typeId="847c-0816-0714-4132">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0546-bd45-0336-60ad" name="Argan Fal&apos;Shan" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="db57-07a6-8ce8-697f" name="Argan Fal&apos;Shan" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
-          <characteristics>
-            <characteristic name="Ability" typeId="65ee-9496-8377-0d24">Once per game, Argan Fal&apos;Shan may attempt a repair. During the End Phase, roll a D6 for each lost point of Structure. For each roll of a 6, repair a single point of Structure.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="6271-83c3-4209-b813" name="Athor Vae" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="f0ab-4b06-e9e7-2bb5" name="Athor Vae" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
-          <characteristics>
-            <characteristic name="Ability" typeId="65ee-9496-8377-0d24">At the end of the game, your opponent scores no Vicotry Points for the Unkillable Phantom if it is damaged and still operating within the Area of Engagement.</characteristic>
           </characteristics>
         </profile>
       </profiles>
