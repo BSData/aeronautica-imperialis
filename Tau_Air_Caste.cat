@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6088-0c35-9d44-ed62" name="T&apos;au Air Caste" revision="8" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6088-0c35-9d44-ed62" name="T&apos;au Air Caste" revision="9" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="8fd6-64b7-db74-8a38" name="Tau" hidden="true"/>
     <categoryEntry id="8b49-06f2-7beb-4695" name="Auxiliary" hidden="true">
@@ -1679,14 +1679,7 @@
         <entryLink id="79c5-b394-e95b-db8f" name="Flares or Chaff Launcher" hidden="false" collective="false" import="true" targetId="b365-ca8b-31fa-c5f8" type="selectionEntry"/>
         <entryLink id="ad6c-562e-4e03-a5d2" name="Infra-red Targeting" hidden="false" collective="false" import="true" targetId="536a-41a5-fa1f-7a70" type="selectionEntry"/>
         <entryLink id="ad7d-28ee-16bb-6a4b" name="Armoured Cockpit" hidden="false" collective="false" import="true" targetId="f0d2-e628-f788-5408" type="selectionEntry"/>
-        <entryLink id="0c4a-3c13-b96c-98b3" name="Imperial Ace" hidden="false" collective="false" import="true" targetId="dd52-4d7a-f8cb-0c5b" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="73ca-3cd3-d7b6-62ab" value="0.0"/>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="73ca-3cd3-d7b6-62ab" type="max"/>
-          </constraints>
-        </entryLink>
+        <entryLink id="0c4a-3c13-b96c-98b3" name="Imperial Ace" hidden="false" collective="false" import="true" targetId="dd52-4d7a-f8cb-0c5b" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="bdc5-b41f-7fdb-9ce9" name="Crew (Aux)" hidden="false" collective="false" import="true">
@@ -1698,7 +1691,7 @@
           <profiles>
             <profile id="8697-ae24-9e2f-5646" name="Lightning Reactions" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
               <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once Per game, when this aicrafts is activated, you may discard Ace Manoeuver that was chosen for it during the Choose Manoeuvre phase and immediately choose another Ace Manoeuver.</characteristic>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, when this aircraft is activated, you may discard the Ace Manoeuvre that was chosen for it during the Choose Manoeuvre phase and immediately choose another Ace Manoeuvre.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1713,7 +1706,7 @@
           <profiles>
             <profile id="20e6-fde6-9c8b-fdcf" name="Expert Gunner" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
               <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, when making a Strafing Run, you may add a +1 modifier for each of the Firepowerdice when rolling to hit.</characteristic>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, when making a Strafing Run, you may add a +1 modifier for each of the Firepower dice when rolling to hit.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1728,7 +1721,7 @@
           <profiles>
             <profile id="5b26-a15f-9dc1-c6fc" name="Master Navigator" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
               <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, after completing its movement, you may move this aircarft  one hex in any direction, effectively allowing you to adjust its final position (but not its facing).</characteristic>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, after completing its movement, you may move this aircraft one hex in any direction, effectively allowing you to adjust its final position (but not its facing).</characteristic>
               </characteristics>
             </profile>
           </profiles>

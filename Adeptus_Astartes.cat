@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9826-b91b-6a9d-ca70" name="Adeptus Astartes" revision="11" battleScribeVersion="2.03" authorName="Fire Raptor" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9826-b91b-6a9d-ca70" name="Adeptus Astartes" revision="12" battleScribeVersion="2.03" authorName="Fire Raptor" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="25d1-4c56-7d01-fd5b" name="Wrath of Angels" publicationDate="2021"/>
   </publications>
@@ -114,7 +114,7 @@
           <modifiers>
             <modifier type="set" field="7ea8-79d5-ed17-1675" value="2.0">
               <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9afb-80ce-dcde-b960" type="equalTo"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5fba-b472-1d0a-7bbb" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -162,7 +162,7 @@
                 <infoLink id="48e9-ebbf-47f2-d074" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f3bf-5c6c-0f7e-7abe" name="Dual Hunter-Killer Missiles" hidden="false" collective="false" import="true" type="upgrade">
@@ -185,7 +185,7 @@
                 <infoLink id="bd90-7f05-6e85-d123" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="3.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -253,16 +253,8 @@
           </constraints>
           <entryLinks>
             <entryLink id="1f31-8916-a728-bd4a" name="Pair of Twin Heavy Bolter Turrets" hidden="false" collective="false" import="true" targetId="13ec-6932-219b-7379" type="selectionEntry"/>
-            <entryLink id="efc9-7d44-5ad2-2bac" name="Pair of Twin Lascannon Turrets" hidden="false" collective="false" import="true" targetId="fdf6-cd6e-5be8-754b" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="points" value="2.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="cd42-f959-7818-54cb" name="Pair of Twin Autocannon Turrets" hidden="false" collective="false" import="true" targetId="aa4c-cc08-d5c0-ca8b" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="points" value="2.0"/>
-              </costs>
-            </entryLink>
+            <entryLink id="efc9-7d44-5ad2-2bac" name="Pair of Twin Lascannon Turrets" hidden="false" collective="false" import="true" targetId="fdf6-cd6e-5be8-754b" type="selectionEntry"/>
+            <entryLink id="cd42-f959-7818-54cb" name="Pair of Twin Autocannon Turrets" hidden="false" collective="false" import="true" targetId="aa4c-cc08-d5c0-ca8b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -392,16 +384,8 @@
           </constraints>
           <entryLinks>
             <entryLink id="c4ca-1aa2-68ca-435b" name="Pair of Twin Heavy Bolter Turrets" hidden="false" collective="false" import="true" targetId="13ec-6932-219b-7379" type="selectionEntry"/>
-            <entryLink id="5809-07d0-4497-29a2" name="Pair of Twin Lascannon Turrets" hidden="false" collective="false" import="true" targetId="fdf6-cd6e-5be8-754b" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="points" value="2.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="98dc-a766-a012-c607" name="Pair of Twin Autocannon Turrets" hidden="false" collective="false" import="true" targetId="aa4c-cc08-d5c0-ca8b" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="points" value="2.0"/>
-              </costs>
-            </entryLink>
+            <entryLink id="5809-07d0-4497-29a2" name="Pair of Twin Lascannon Turrets" hidden="false" collective="false" import="true" targetId="fdf6-cd6e-5be8-754b" type="selectionEntry"/>
+            <entryLink id="98dc-a766-a012-c607" name="Pair of Twin Autocannon Turrets" hidden="false" collective="false" import="true" targetId="aa4c-cc08-d5c0-ca8b" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -621,7 +605,7 @@
                 <infoLink id="7cc3-7691-d85c-bfec" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4be0-b7b1-dd46-0a48" name="Pair of Wing Bombs" hidden="false" collective="false" import="true" type="upgrade">
@@ -644,7 +628,7 @@
                 <infoLink id="222e-0415-3be2-b157" name="Extra Damage (5+)" hidden="false" targetId="45d7-50d9-b6d9-290c" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -844,7 +828,7 @@
         <infoLink id="1d50-dcf6-6568-3ed4" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aa4c-cc08-d5c0-ca8b" name="Pair of Twin Autocannon Turrets" hidden="false" collective="false" import="true" type="upgrade">
@@ -869,7 +853,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

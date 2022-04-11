@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a13a-71d9-db49-a498" name="Necrons" revision="5" battleScribeVersion="2.03" authorName="Necron aircraft upgrades" authorContact="@evanh" authorUrl="" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a13a-71d9-db49-a498" name="Necrons" revision="6" battleScribeVersion="2.03" authorName="Necron aircraft upgrades" authorContact="@evanh" authorUrl="" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="41a0-328f-4c30-b6fa" name="Aeronautica Imperialis – Companion" shortName="Companion" publisher="Aeronautica Imperialis – Companion" publicationDate="2022" publisherUrl="https://www.games-workshop.com/en-CA/aeronautica-imperialis-companion-eng-2022"/>
   </publications>
@@ -261,7 +261,7 @@
           <profiles>
             <profile id="8ec1-6e83-2096-33ff" name="Reinforced Necrodermis" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
               <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">When this aircraft is damaged by a weapon that has the Extra Damage (X+) special rule, the X+ value is reduced by one, to a minimum of 6+ (i.e., when firing at an aircraft with this upgrade, a weapon with the Extra Damage (5+) special rule would instead have the Extra Damage (6+) special rule).</characteristic>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">When this aircraft is damaged by a weapon that has the Extra Damage (X+) special rule, the X+ value is reduced by one, to a maximum of 6+ (i.e., when firing at an aircraft with this upgrade, a weapon with the Extra Damage (5+) special rule would instead have the Extra Damage (6+) special rule).</characteristic>
               </characteristics>
             </profile>
           </profiles>
