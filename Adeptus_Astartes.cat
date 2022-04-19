@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9826-b91b-6a9d-ca70" name="Adeptus Astartes" revision="12" battleScribeVersion="2.03" authorName="Fire Raptor" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="20" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9826-b91b-6a9d-ca70" name="Adeptus Astartes" revision="13" battleScribeVersion="2.03" authorName="Fire Raptor" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="25d1-4c56-7d01-fd5b" name="Wrath of Angels" publicationDate="2021"/>
   </publications>
@@ -60,6 +60,7 @@
         </entryLink>
         <entryLink id="520b-1557-d9fd-80d0" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="323a-9cee-3091-0308" type="selectionEntryGroup"/>
         <entryLink id="b975-4454-ddff-314f" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
+        <entryLink id="8d61-210b-1218-c97f" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="24.0"/>
@@ -200,6 +201,7 @@
         </entryLink>
         <entryLink id="9e1d-bc2c-94c4-b172" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="323a-9cee-3091-0308" type="selectionEntryGroup"/>
         <entryLink id="cd14-c68c-8da5-6a2a" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
+        <entryLink id="314c-bfb1-d9b9-8b38" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="29.0"/>
@@ -404,6 +406,7 @@
         </entryLink>
         <entryLink id="7972-a241-0089-a6e2" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="323a-9cee-3091-0308" type="selectionEntryGroup"/>
         <entryLink id="5d69-f642-6c22-4276" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
+        <entryLink id="78c6-e858-c25c-157d" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="31.0"/>
@@ -637,6 +640,7 @@
       <entryLinks>
         <entryLink id="3736-5dff-a152-a992" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="323a-9cee-3091-0308" type="selectionEntryGroup"/>
         <entryLink id="94d7-f35a-3822-9f8e" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
+        <entryLink id="a03a-07cd-2e94-5502" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="44.0"/>
