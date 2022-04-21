@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="63fd-f1bb-e3ca-e39f" name="Astra Militarum" revision="6" battleScribeVersion="2.03" authorName="Valkyrie Assault Craft" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="63fd-f1bb-e3ca-e39f" name="Astra Militarum" revision="7" battleScribeVersion="2.03" authorName="Valkyrie Assault Craft" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9474-faac-1eb5-889b" name="Valkyrie Assault Craft" hidden="false" collective="false" import="true" type="model">
       <modifiers>
@@ -136,6 +136,7 @@
         <entryLink id="b7b2-4a5f-829b-9f91" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="5c80-073d-0f8c-8dc6" type="selectionEntryGroup"/>
         <entryLink id="4c0e-19ea-a2dd-f376" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
         <entryLink id="d6f4-1383-b0d1-9773" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
+        <entryLink id="4772-019e-0212-d406" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="16.0"/>
@@ -305,6 +306,7 @@
         <entryLink id="4aff-27bb-a50b-192f" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="5c80-073d-0f8c-8dc6" type="selectionEntryGroup"/>
         <entryLink id="5a5e-d33a-79b3-4e2a" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
         <entryLink id="2e9d-5e07-37da-c6e4" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
+        <entryLink id="8172-53cb-055c-9e7c" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a13a-71d9-db49-a498" name="Necrons" revision="7" battleScribeVersion="2.03" authorName="Necron aircraft upgrades" authorContact="@evanh" authorUrl="" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a13a-71d9-db49-a498" name="Necrons" revision="8" battleScribeVersion="2.03" authorName="Necron aircraft upgrades" authorContact="@evanh" authorUrl="" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="41a0-328f-4c30-b6fa" name="Aeronautica Imperialis – Companion" shortName="Companion" publisher="Aeronautica Imperialis – Companion" publicationDate="2022" publisherUrl="https://www.games-workshop.com/en-CA/aeronautica-imperialis-companion-eng-2022"/>
   </publications>
@@ -34,6 +34,7 @@
         <entryLink id="6693-6551-76de-399c" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
         <entryLink id="2bf8-1b90-1e36-81f9" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
         <entryLink id="ab4e-6a73-0599-934d" name="Heavy Death Ray" hidden="false" collective="false" import="true" targetId="5c1e-d563-97ac-f14a" type="selectionEntry"/>
+        <entryLink id="f77e-2791-11ae-6dcf" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="38.0"/>
@@ -93,6 +94,7 @@
         <entryLink id="2136-0bd3-ca46-7e7c" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="7e3a-2d3d-4c63-9157" type="selectionEntryGroup"/>
         <entryLink id="b880-20b6-5d0f-c3b3" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
         <entryLink id="5e70-0001-f694-27ba" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
+        <entryLink id="949d-92cd-d4c2-50d7" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="39.0"/>
@@ -127,6 +129,7 @@
         <entryLink id="a3ac-35f6-6f8b-ea4f" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="7e3a-2d3d-4c63-9157" type="selectionEntryGroup"/>
         <entryLink id="6ac5-6326-0d73-3829" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
         <entryLink id="9726-2f7b-2698-cec2" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
+        <entryLink id="da21-5ea4-56b6-96e0" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="35.0"/>

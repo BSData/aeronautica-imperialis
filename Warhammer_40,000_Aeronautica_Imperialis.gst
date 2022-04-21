@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="df04-c447-f12b-fae8" name="Warhammer 40,000: Aeronautica Imperialis" revision="21" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="df04-c447-f12b-fae8" name="Warhammer 40,000: Aeronautica Imperialis" revision="22" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="7ca4-c4f1-d97e-2820" name="Taros Air War"/>
     <publication id="41a0-328f-4c30-b6fa" name="Aeronautica Imperialis – Companion" publicationDate="2022"/>
@@ -354,246 +354,6 @@
             <cost name="pts" typeId="points" value="1.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e2b5-f949-401d-e3a2" name="Bird of Prey" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4112-9ad7-fac0-5e59" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="4a9e-2474-9df2-224d" name="Bird of Prey" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-              <characteristics>
-                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per round, the pilot&apos;s aircraft may roll one extra dice when firing at Long range. In addition, once per game, the aircraft may choose to re-roll any number of dice from a dice roll when firing at Long range; the player must accept the result of the second roll, even if it is worse. Once this re-roll has been used, the Bird of Prey ability has no effect for the remainder of the game.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="99b5-3c9f-e85c-8516" name="Superior Hunter" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72c7-9cdf-264a-fce0" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="9315-901a-9c74-6a9f" name="Superior Hunter" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-              <characteristics>
-                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per round, the pilot&apos;s aircraft may roll one extra dice when resolving Tailing Fire. In addition, once per game, the aircraft may choose to re-roll any number of dice from a dice roll when resolving Tailing Fire; the player must accept the result of the second roll, even if it is worse. Once this re-roll has been used, the Superior Hunter ability has no effect for the remainder of the game.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ce30-a512-9dbb-5430" name="Dive Bomber" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3204-f738-f727-3b4b" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="d9b6-4353-a3e4-c7df" name="Dive Bomber" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-              <characteristics>
-                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per round, the pilot&apos;s aircraft may roll one extra dice when firing at at a ground target or an aircraft at Altitude 0. In addition, once per game, the aircraft may choose to re-roll any number of dice from a dice roll when firing at a ground target; the player must accept the result of the second roll, even if it is worse. Once this re-roll has been used, the Dive Bomber ability has no effect for the remainder of the game.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c521-7cc8-093d-6ec5" name="Superior Commander" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="504c-1dc1-3e7d-1ce1" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="137e-b632-9ec7-c2b6" name="Superior Commander" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-              <characteristics>
-                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per game, before rolling for initiative, you can choose to win the initiative. The aircraft piloted by a pilot with this ability must be within the Area of Engagement to use this ability. If both forces have an Ace with this ability, the player who did not have initiative last round can declare that they will use this ability first; if they do so, the opposing force cannot use it that round. A force can only use this ability once per game.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8c3c-ae30-6938-3201" name="Steady" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6960-0d79-eed7-e5a2" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="5b6b-ce60-7b5a-18df" name="Steady" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-              <characteristics>
-                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per round, the pilot&apos;s aircraft may roll one extra dice when firing at Medium range. In addition, once per game, the aircraft may choose to re-roll any number of dice from a dice roll when firing at Medium range; the player must accept the result of the second roll, even if it is worse. Once this re-roll has been used, the Steady ability has no effect for the remainder of the game.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="fda4-9c4e-16f7-1d99" name="Aerial Master" publicationId="41a0-328f-4c30-b6fa" page="53-54" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fb4-4f86-9963-861a" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="3193-572b-8230-566f" name="Aerial Master" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-              <characteristics>
-                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per round, when you reveal the Ace Manoeuvre of the pilot&apos;s aircraft, you may exchange it for another Ace Manoeuvre numbered one higher or one lower (e.g. a 3 could become a 2 or a 4). It must be an Ace Manoeuvre that the aircraft can normally perform.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="4fd4-0a32-361c-af8b" name="Watch This!" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc30-65c0-bcbe-eba9" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="d08d-9607-dbe9-dbd2" name="Watch This!" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-              <characteristics>
-                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">If this pilot is included in a force that is victorious, choose one pilot (other than the pilot with this ability) to gain an additional 1 experience or D3 experience if this pilot killed at least one enemy aircraft.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2946-2c3c-7ecf-326d" name="Up Close and Personal" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28e5-a2d4-1439-5aa3" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="93c7-b71b-e9dd-3ff0" name="Up Close and Personal" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-              <characteristics>
-                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per round, the pilot&apos;s aircraft may roll one extra dice when firing at Short range. In addition, once per game, the aircraft may choose to re-roll any number of dice from a dice roll when firing at Short range; the player must accept the result of the second roll, even if it is worse. Once this re-roll has been used, the Up Close and Personal ability has no effect for the remainder of the game.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="47b0-bf09-4866-597e" name="Sky Devil" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a3c-f196-0d8b-a956" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="6bd2-318d-e46d-0ccc" name="Sky Devil" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-              <characteristics>
-                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add +1 to all hit rolls made by this pilot&apos;s aircraft when targeting enemy aircraft at one Altiude below it; this does not apply when targeting ground targets. An aircraft cannot have both this ability and Death from Below.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="84db-a00b-d9e2-8017" name="Death From Below" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f74d-7ce5-4b38-334b" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="0bdd-9477-52b9-8474" name="Death From Below" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-              <characteristics>
-                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add +1 to all hit rolls made by this pilot&apos;s aircraft when targeting enemy aircraft at one Altiude above it. An aircraft cannot have both this ability and Sky Devil.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="eff5-053c-8b09-a0eb" name="Stealthy" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17f2-917d-29f5-758b" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="6b27-b9db-852c-b20e" name="Stealthy" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-              <characteristics>
-                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">When chosen as a target by an emeny aircraft, the controlling player can choose for the pilot&apos;s aircraft to count as one hex further from the firing aircraft than normal (e.g. if the target if four hexes from the firing aircraft, it counts as five and would thus be at Medium range).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="cefc-4d5e-ca67-900d" name="Trigger Happy" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99e4-8e3a-3543-63c7" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="09d4-8d17-d985-2eb7" name="Trigger Happy" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-              <characteristics>
-                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per round, this pilot&apos;s aircraft may fire twice with a weapon. The chosen weapon must have an Ammo characteristic other than UL. This second shot is resolved as normal, expends ammunition, etc. Upgrades with the same name (such as two sets of Skystrike Missiles) count as separate weapons.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="469d-0af5-c6de-aa42" name="Mechanical Genius" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f691-a8dd-3367-64f6" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="b88e-f24b-e263-9f29" name="Mechanical Genius" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-              <characteristics>
-                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per game, this pilot&apos;s aircraft may attempt a repair. During the End phase, roll a D6 for each lost point of Structure. For each roll of a 6+, repair a single point of Structure.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ff76-6ca2-9609-5d00" name="Munitions Expert" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ac8-c464-3d31-6c89" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="7349-2d92-e26f-0ad0" name="Munitions Expert" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-              <characteristics>
-                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">When this pilot&apos;s aircraft is deployed, choose one weapon it is equipped with that has an Ammo characteristic other than UL. For the remainder of the game, increase that weapon&apos;s Damage characteristic by 1 to a maximum of 2+. Upgrades with the same name (such as two sets of Skystrike missiles) count as separate weapons.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="84c1-0ecd-266d-e3c7" name="Lucky" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dab8-00d9-5f75-183f" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="006d-cb4e-0129-9773" name="Lucky" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-              <characteristics>
-                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">If this pilot&apos;s aircraft is shot down in a game during the course of a campaign, the pilot and aircraft survive on a 2+ instead of the usual 5+. On a 1, both the pilot and aircraft are lost.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5c4b-1696-f20f-82d9" name="Fly-by Shooter" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce1f-4d12-5035-fc33" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="5906-60ef-17ad-2673" name="Fly-by Shooter" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
-              <characteristics>
-                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per round, this pilot&apos;s aircraft may fire one weapon after it finishes moving during the Movement phase. It can only fire at a target in the aircraft&apos;s Rear Arc and the target must be within Short range.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -774,6 +534,256 @@
             <profile id="9980-763d-b37a-4cc6" name="Grav Chutes" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
               <characteristics>
                 <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">An aircraft with a Transport characteristic other (--) can purchase this upgrade. The aircraft gains the Jump Troops special rule if it did not already have it.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="005b-c464-c070-94d7" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3367-ce2b-face-f4cb" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="2d03-b5d0-10c3-64f3" name="Bird of Prey" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2721-dd14-a7fe-a78e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6fee-6180-f2f3-43b3" name="Bird of Prey" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per round, the pilot&apos;s aircraft may roll one extra dice when firing at Long range. In addition, once per game, the aircraft may choose to re-roll any number of dice from a dice roll when firing at Long range; the player must accept the result of the second roll, even if it is worse. Once this re-roll has been used, the Bird of Prey ability has no effect for the remainder of the game.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="500b-4b8e-fdd9-9f5d" name="Superior Hunter" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f985-f74c-8675-f41f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="474d-7398-ea6a-fded" name="Superior Hunter" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per round, the pilot&apos;s aircraft may roll one extra dice when resolving Tailing Fire. In addition, once per game, the aircraft may choose to re-roll any number of dice from a dice roll when resolving Tailing Fire; the player must accept the result of the second roll, even if it is worse. Once this re-roll has been used, the Superior Hunter ability has no effect for the remainder of the game.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f6ba-9bc9-4ae4-69d5" name="Dive Bomber" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1765-7735-ffc8-d7d7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="42b3-ee02-95ac-f12a" name="Dive Bomber" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per round, the pilot&apos;s aircraft may roll one extra dice when firing at at a ground target or an aircraft at Altitude 0. In addition, once per game, the aircraft may choose to re-roll any number of dice from a dice roll when firing at a ground target; the player must accept the result of the second roll, even if it is worse. Once this re-roll has been used, the Dive Bomber ability has no effect for the remainder of the game.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2ec3-9261-3907-69c6" name="Superior Commander" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5260-bdc0-7a72-08a3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6798-4c09-23cc-80e6" name="Superior Commander" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per game, before rolling for initiative, you can choose to win the initiative. The aircraft piloted by a pilot with this ability must be within the Area of Engagement to use this ability. If both forces have an Ace with this ability, the player who did not have initiative last round can declare that they will use this ability first; if they do so, the opposing force cannot use it that round. A force can only use this ability once per game.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a2a1-e0e2-88b6-ee95" name="Steady" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c906-7d56-7eab-ce1b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fc54-b48e-65df-df1f" name="Steady" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per round, the pilot&apos;s aircraft may roll one extra dice when firing at Medium range. In addition, once per game, the aircraft may choose to re-roll any number of dice from a dice roll when firing at Medium range; the player must accept the result of the second roll, even if it is worse. Once this re-roll has been used, the Steady ability has no effect for the remainder of the game.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e94e-8da1-549f-5b02" name="Aerial Master" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bea-f42c-3f28-7e16" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="86b1-f2a3-9634-8ad8" name="Aerial Master" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per round, when you reveal the Ace Manoeuvre of the pilot&apos;s aircraft, you may exchange it for another Ace Manoeuvre numbered one higher or one lower (e.g. a 3 could become a 2 or a 4). It must be an Ace Manoeuvre that the aircraft can normally perform.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1c71-1567-4b17-0fa0" name="Watch This!" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2300-9dc6-f12f-6cb7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a026-45ad-167e-f19c" name="Watch This!" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">If this pilot is included in a force that is victorious, choose one pilot (other than the pilot with this ability) to gain an additional 1 experience or D3 experience if this pilot killed at least one enemy aircraft.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2c31-80a6-2fce-a7cf" name="Up Close and Personal" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9300-7aed-252d-3f09" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="825f-bc22-b8e8-f583" name="Up Close and Personal" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per round, the pilot&apos;s aircraft may roll one extra dice when firing at Short range. In addition, once per game, the aircraft may choose to re-roll any number of dice from a dice roll when firing at Short range; the player must accept the result of the second roll, even if it is worse. Once this re-roll has been used, the Up Close and Personal ability has no effect for the remainder of the game.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6dc4-c687-82c6-a60a" name="Sky Devil" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa1a-5ea0-e287-f0a3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d29f-3ea9-3c6f-4041" name="Sky Devil" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add +1 to all hit rolls made by this pilot&apos;s aircraft when targeting enemy aircraft at one Altiude below it; this does not apply when targeting ground targets. An aircraft cannot have both this ability and Death from Below.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cfe1-cf41-a8c9-fc15" name="Death From Below" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1645-5f96-6049-ac9e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e02b-2548-0320-26ac" name="Death From Below" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Add +1 to all hit rolls made by this pilot&apos;s aircraft when targeting enemy aircraft at one Altiude above it. An aircraft cannot have both this ability and Sky Devil.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4b16-bb90-0bea-c0d4" name="Stealthy" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd6e-b3e8-823a-3d0d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="dddc-2d5d-473b-e817" name="Stealthy" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">When chosen as a target by an emeny aircraft, the controlling player can choose for the pilot&apos;s aircraft to count as one hex further from the firing aircraft than normal (e.g. if the target if four hexes from the firing aircraft, it counts as five and would thus be at Medium range).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="abea-042b-192b-adca" name="Trigger Happy" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6605-86a3-e581-abd4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="813a-4fc2-f4a8-7f29" name="Trigger Happy" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per round, this pilot&apos;s aircraft may fire twice with a weapon. The chosen weapon must have an Ammo characteristic other than UL. This second shot is resolved as normal, expends ammunition, etc. Upgrades with the same name (such as two sets of Skystrike Missiles) count as separate weapons.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e57a-e093-6a70-f286" name="Mechanical Genius" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63ef-50dc-0b63-592f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="567e-4aa1-fd83-37e0" name="Mechanical Genius" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per game, this pilot&apos;s aircraft may attempt a repair. During the End phase, roll a D6 for each lost point of Structure. For each roll of a 6+, repair a single point of Structure.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2db7-e45b-a2e0-91ea" name="Munitions Expert" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="102d-903d-ca11-60d8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="40cc-8d03-5c4d-3d1c" name="Munitions Expert" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">When this pilot&apos;s aircraft is deployed, choose one weapon it is equipped with that has an Ammo characteristic other than UL. For the remainder of the game, increase that weapon&apos;s Damage characteristic by 1 to a maximum of 2+. Upgrades with the same name (such as two sets of Skystrike missiles) count as separate weapons.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3c7f-33cc-c6c1-d56c" name="Lucky" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7b5-5f78-7d36-7bac" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="54f5-8a5d-c35c-3911" name="Lucky" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">If this pilot&apos;s aircraft is shot down in a game during the course of a campaign, the pilot and aircraft survive on a 2+ instead of the usual 5+. On a 1, both the pilot and aircraft are lost.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f498-4034-1021-aa94" name="Fly-by Shooter" publicationId="888d-4b7c-acef-d9cb" page="124-126" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d50-18c5-c82d-7235" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1b9e-a5b8-2969-9c2d" name="Fly-by Shooter" hidden="false" typeId="66b0-ed2e-b79e-a16e" typeName="Ace Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="0bfa-7538-cf12-4cbc">Once per round, this pilot&apos;s aircraft may fire one weapon after it finishes moving during the Movement phase. It can only fire at a target in the aircraft&apos;s Rear Arc and the target must be within Short range.</characteristic>
               </characteristics>
             </profile>
           </profiles>
