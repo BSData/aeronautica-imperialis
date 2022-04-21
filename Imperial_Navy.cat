@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5745-5a5f-07b9-7f4f" name="Imperial Navy" revision="27" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5745-5a5f-07b9-7f4f" name="Imperial Navy" revision="28" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="583d-7042-2316-f8b5" name="White Dwarf October 2019"/>
     <publication id="39ba-445a-a65f-2bd6" name="White Dwarf November 2020"/>
@@ -68,6 +68,7 @@
         <entryLink id="2f34-5a54-3085-8855" name="Crew" hidden="false" collective="false" import="true" targetId="ea59-501a-a451-ec37" type="selectionEntryGroup"/>
         <entryLink id="804b-835e-7125-e869" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
         <entryLink id="dda5-edd5-333d-e131" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
+        <entryLink id="4dcf-45dc-0843-cb6a" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="25.0"/>
@@ -136,6 +137,7 @@
         <entryLink id="d5fd-4934-7cf9-07bc" name="Crew" hidden="false" collective="false" import="true" targetId="ea59-501a-a451-ec37" type="selectionEntryGroup"/>
         <entryLink id="0003-a8cd-ed9d-69b8" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
         <entryLink id="e7b7-8847-2fc6-5401" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
+        <entryLink id="6624-43c0-3adf-b16e" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="23.0"/>
@@ -203,6 +205,7 @@
         <entryLink id="a19e-a3c6-eeb9-7f4f" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
         <entryLink id="99f4-f322-2e40-8cca" name="Emperor&apos;s Blessing" hidden="false" collective="false" import="true" targetId="f1c0-2a50-662b-f1b4" type="selectionEntry"/>
         <entryLink id="b704-d5dd-efdc-1ecf" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
+        <entryLink id="924c-3366-0d0f-2a49" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="23.0"/>
@@ -317,6 +320,7 @@
         <entryLink id="f19e-ca4e-54f4-b678" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
         <entryLink id="3932-5571-c9ac-f8a6" name="Emperor&apos;s Blessing" hidden="false" collective="false" import="true" targetId="f1c0-2a50-662b-f1b4" type="selectionEntry"/>
         <entryLink id="33c7-5c0e-aa38-ca1f" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
+        <entryLink id="1ceb-3fc7-7bf7-637c" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="27.0"/>
@@ -648,6 +652,7 @@
         <entryLink id="c487-1d86-ca05-2d39" name="Avenger Bolt Cannon" hidden="false" collective="false" import="true" targetId="9543-aa37-4ab4-90ad" type="selectionEntry"/>
         <entryLink id="0376-61b7-f7bc-24b5" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
         <entryLink id="7899-9b67-e6c2-27c7" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
+        <entryLink id="43c7-9ac5-865c-5d05" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="20.0"/>
@@ -750,6 +755,7 @@
         <entryLink id="7e06-d2b4-0a5d-8035" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="b890-18e0-99ff-65b2" type="selectionEntryGroup"/>
         <entryLink id="3f33-5b82-00d3-9134" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
         <entryLink id="f2dc-0764-0467-0f3c" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
+        <entryLink id="9c1e-a43b-7106-b978" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="19.0"/>
@@ -783,6 +789,7 @@
         <entryLink id="60a3-2ebb-1a8a-bfcf" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="b890-18e0-99ff-65b2" type="selectionEntryGroup"/>
         <entryLink id="9473-df52-deed-d37f" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
         <entryLink id="a5d8-a208-9726-09c4" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
+        <entryLink id="b1c0-68a3-b7fa-8992" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="10.0"/>
@@ -949,6 +956,7 @@
         <entryLink id="b815-d515-35e6-9daf" name="Heavy Bolter Array" hidden="false" collective="false" import="true" targetId="c35c-4da1-1099-b325" type="selectionEntry"/>
         <entryLink id="234d-2f97-3ecb-3d20" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
         <entryLink id="031c-654b-35d9-d32a" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
+        <entryLink id="68f9-687b-6a05-6aab" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="26.0"/>
@@ -1002,6 +1010,7 @@
         <entryLink id="be3e-e330-38d7-e2a5" name="Crew" hidden="false" collective="false" import="true" targetId="ea59-501a-a451-ec37" type="selectionEntryGroup"/>
         <entryLink id="9811-fcc3-a179-50e3" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
         <entryLink id="a6cf-7e44-86fc-0d4a" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
+        <entryLink id="ccef-b475-bf2b-4c5f" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="33.0"/>
