@@ -996,12 +996,27 @@
             <cost name="pts" typeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="667e-bf37-9f7d-e7dd" name="Imperial Fists: Aegis Pilot" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="667e-bf37-9f7d-e7dd" name="Iron Hands: Iron Father" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dc5-c6e8-e1a2-c2b4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="eda5-113b-e3c2-ec5e" name="Aegis Pilot" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+            <profile id="eda5-113b-e3c2-ec5e" name="Iron Father" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft may attempt a repair. During the end phase, roll a D6 for each lost point of Structure. For each roll of 4+, repair a sing	le point of Structure. This replaces the Techmarine upgrade. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2a4a-7aad-cba0-a82d" name="Imperial Fists: Aegis Pilot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b464-2ae2-8865-a9c0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="fc5d-db25-2c17-9453" name="Aegis Pilot" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
               <characteristics>
                 <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Increase the Structure Points of this aircraft by 1.</characteristic>
               </characteristics>
@@ -1009,6 +1024,21 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="05f1-27cf-3c34-0189" name="Blood Angels: Master of the Skies" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ee9-f379-4771-7796" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f730-32a4-bcef-ef0f" name="Master of the Skies" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft can increase or decrease its current Speed by an amount less than or equal to twice its Throttle value.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
