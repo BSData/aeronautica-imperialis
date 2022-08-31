@@ -966,12 +966,27 @@
             <cost name="pts" typeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4902-649b-292e-cd42" name="Dark Angels: Ravenwing Veteran" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4902-649b-292e-cd42" name="Space Wovles: Peerless Hunter" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1870-9cf6-11a9-a7bb" type="max"/>
           </constraints>
           <profiles>
-            <profile id="67fa-041a-fa66-67ac" name="Ravenwing Veteran" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+            <profile id="67fa-041a-fa66-67ac" name="Peerless Hunter" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This aircraft adds 2 to the FPR characteristic of any weapon with an Ammo characteristic of UL when resolving Tailing Fire.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="68f2-809e-e38f-8fcc" name="Dark Angels: Ravenwing Veteran" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcda-2e76-78d0-adea" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8b3b-168e-7bce-0c46" name="Ravenwing Veteran" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
               <characteristics>
                 <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft may choose to re-roll a dice roll. However, all of the dice rolled must be re-rolled and the player must accept the result of the second roll.</characteristic>
               </characteristics>
@@ -979,6 +994,21 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="667e-bf37-9f7d-e7dd" name="Imperial Fists: Aegis Pilot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dc5-c6e8-e1a2-c2b4" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="eda5-113b-e3c2-ec5e" name="Aegis Pilot" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Increase the Structure Points of this aircraft by 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
