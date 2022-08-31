@@ -1026,12 +1026,57 @@
             <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="05f1-27cf-3c34-0189" name="Blood Angels: Master of the Skies" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="05f1-27cf-3c34-0189" name="Ultramarines: Alaris Pilot" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ee9-f379-4771-7796" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f730-32a4-bcef-ef0f" name="Master of the Skies" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+            <profile id="f730-32a4-bcef-ef0f" name="Alaris Pilot" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, when this aircraft is activated during the Movement phase, it may discard its Manoeuvre token and immediately choose another Ace Manoeuvre.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8c86-1a06-7212-c476" name="Salamanders: Tempered Plating" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b981-992f-aaa5-82c6" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="63e5-8307-fa6e-11d3" name="Tempered Plating" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This aircraft counts as having the Ceramite Plating upgrade. In addition, once per game, this aircraft can ignore any Extra Damage	caused by a single enemy weapon. An aircraft with Tempered Plating or Ceramite Plating, not both.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dacc-85f4-52f8-d677" name="Raven Guard: Shadow Bird" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ded1-a297-d386-fa80" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8ec1-b210-fef0-c0b5" name="Shadow Bird" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This aircraft gains the Stealth (-1) special rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5f76-9034-4aec-c49f" name="Blood Angels: Master of the Skies" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6c6-f2da-3946-b838" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="14ee-f239-74fa-6992" name="Master of the Skies" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
               <characteristics>
                 <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft can increase or decrease its current Speed by an amount less than or equal to twice its Throttle value.</characteristic>
               </characteristics>
