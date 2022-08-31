@@ -949,5 +949,39 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup id="3126-1289-d7eb-71f6" name="Legiones Astartes - Legion Specific upgrades" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="9339-6662-b0a3-eb80" name="White Scars: Swift of Wing" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4cd-231c-0ee4-8319" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2810-f5fe-4d6f-6cdb" name="Swift of Wing" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This aircraft gains the Jink special rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4902-649b-292e-cd42" name="Dark Angels: Ravenwing Veteran" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1870-9cf6-11a9-a7bb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="67fa-041a-fa66-67ac" name="Ravenwing Veteran" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft may choose to re-roll a dice roll. However, all of the dice rolled must be re-rolled and the player must accept the result of the second roll.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>
