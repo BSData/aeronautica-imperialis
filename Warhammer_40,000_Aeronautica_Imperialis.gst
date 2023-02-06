@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="df04-c447-f12b-fae8" name="Warhammer 40,000: Aeronautica Imperialis" revision="22" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="df04-c447-f12b-fae8" name="Warhammer 40,000: Aeronautica Imperialis" revision="23" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="7ca4-c4f1-d97e-2820" name="Taros Air War"/>
     <publication id="41a0-328f-4c30-b6fa" name="Aeronautica Imperialis – Companion" publicationDate="2022"/>
@@ -813,6 +813,9 @@ Note, however, that the aircraft may not change its facing, Altitude or Speed af
     </rule>
     <rule id="b340-7f0b-16d2-170b" name="Stealth (-1)" hidden="false">
       <description>Any weapon with the Ground-to-Air fire special rule targeting an aircraft with this special rule must reduce its Effective Altitude (X) by 1.</description>
+    </rule>
+    <rule id="1854-3fbb-319e-781c" name="Stealth (-2)" hidden="false">
+      <description>Any weapon with the Ground-to-Air fire special rule targeting an aircraft with this special rule must reduce its Effective Altitude (X) by 2.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

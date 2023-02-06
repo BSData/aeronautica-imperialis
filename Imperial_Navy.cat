@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5745-5a5f-07b9-7f4f" name="Imperial Navy" revision="28" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5745-5a5f-07b9-7f4f" name="Imperial Navy" revision="29" battleScribeVersion="2.03" authorName="BSDevelopers" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="583d-7042-2316-f8b5" name="White Dwarf October 2019"/>
     <publication id="39ba-445a-a65f-2bd6" name="White Dwarf November 2020"/>
@@ -1035,6 +1035,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="01e5-3423-0543-20e2" name="Stealth (-2)" hidden="false" targetId="1854-3fbb-319e-781c" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="94e1-c07b-8486-437c" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
