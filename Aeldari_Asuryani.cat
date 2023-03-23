@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="80cf-6e69-8bf6-d62e" name="Asuryani" revision="9" battleScribeVersion="2.03" authorName="Updated Companion Stats" authorContact="@evanh" authorUrl="" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="80cf-6e69-8bf6-d62e" name="Asuryani" revision="10" battleScribeVersion="2.03" authorName="Updated Companion Stats" authorContact="@evanh" authorUrl="" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="1d81-06ef-f102-6d15" name="Wrath of Angels"/>
     <publication id="1ef7-1236-3c3d-7e72" name="Aeronautica Imperialis – Companion" shortName="Companion" publisher="Aeronautica Imperialis – Companion" publicationDate="2022" publisherUrl="https://www.games-workshop.com/en-CA/aeronautica-imperialis-companion-eng-2022"/>
@@ -669,6 +669,18 @@
     <selectionEntry id="c791-72a8-996b-5480" name="Vampire Hunter" publicationId="1ef7-1236-3c3d-7e72" page="30" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="900e-cf1f-dfff-2745" name="Vampire Hunter" publicationId="1ef7-1236-3c3d-7e72" page="30" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
+          <modifiers>
+            <modifier type="increment" field="8234-9f67-e172-880a" value="1">
+              <conditions>
+                <condition field="selections" scope="c791-72a8-996b-5480" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f109-42c9-07e1-40dd" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="db83-4ff1-b0cb-a312" value="1">
+              <conditions>
+                <condition field="selections" scope="c791-72a8-996b-5480" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f109-42c9-07e1-40dd" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Structure" typeId="6b68-c1f3-058a-07b2">5</characteristic>
             <characteristic name="Transport" typeId="8ee3-89b8-cd9f-58ba">-</characteristic>
