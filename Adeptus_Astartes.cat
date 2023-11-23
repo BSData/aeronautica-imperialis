@@ -882,6 +882,14 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="0232-b3c0-f792-ae14" name="Ceramite Plating" publicationId="25d1-4c56-7d01-fd5b" page="28" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="decrement" field="428e-119b-4400-5495" value="1.0">
+              <comment>&quot;Ceramite Plating&quot; is incompatible with &quot;Salamanders: Tempered Plating&quot;.</comment>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ec8b-9f30-b051-ee9a" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="428e-119b-4400-5495" type="max"/>
           </constraints>
@@ -927,6 +935,14 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="1fba-22b0-f8e6-6090" name="Techmarine" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="decrement" field="cfb8-1d32-6590-d388" value="1.0">
+              <comment>&quot;Techmarine&quot; is incompatible with &quot;Iron Hands: Iron Father&quot;.</comment>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="11eb-6dae-01d4-3c63" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfb8-1d32-6590-d388" type="max"/>
           </constraints>
@@ -942,6 +958,14 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="795e-a88c-0e59-4030" name="Veteran" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="decrement" field="53ba-02a0-d94c-12ca" value="1.0">
+              <comment>&quot;Veteran&quot; is incompatible with &quot;Dark Angels: Ravenwing Veteran&quot;.</comment>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="a79b-d857-a385-697c" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53ba-02a0-d94c-12ca" type="max"/>
           </constraints>
@@ -972,14 +996,20 @@
       <selectionEntries>
         <selectionEntry id="a79b-d857-a385-697c" name="Dark Angels: Ravenwing Veteran" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
-            <modifier type="set" field="hidden" value="true">
+            <modifier type="decrement" field="0969-8e6d-51b8-5d65" value="1.0">
+              <comment>&quot;Dark Angels: Ravenwing Veteran&quot; is incompatible with &quot;Veteran&quot;.</comment>
               <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80cf-5d9e-a9d9-d90a" type="greaterThan"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="795e-a88c-0e59-4030" type="greaterThan"/>
               </conditions>
               <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80cf-5d9e-a9d9-d90a" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a79b-d857-a385-697c" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="a79b-d857-a385-697c" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -1025,20 +1055,28 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
+            <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ec8b-9f30-b051-ee9a" name="Salamanders: Tempered Plating" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
-            <modifier type="set" field="hidden" value="true">
+            <modifier type="decrement" field="4e50-780b-c39e-4694" value="1.0">
+              <comment>&quot;Salamanders: Tempered Plating&quot; is incompatible with &quot;Ceramite Plating&quot;.</comment>
               <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80cf-5d9e-a9d9-d90a" type="greaterThan"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="0232-b3c0-f792-ae14" type="greaterThan"/>
               </conditions>
               <conditionGroups>
-                <conditionGroup type="and">
+                <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ec8b-9f30-b051-ee9a" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80cf-5d9e-a9d9-d90a" type="greaterThan"/>
                   </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ec8b-9f30-b051-ee9a" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
@@ -1052,9 +1090,14 @@
                 <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This aircraft counts as having the Ceramite Plating upgrade. In addition, once per game, this aircraft can ignore any Extra Damage caused by a single enemy weapon. An aircraft can be upgraded with either Tempered Plating or Ceramite Plating, not both.</characteristic>
               </characteristics>
             </profile>
+            <profile id="ef16-8322-9f54-61a4" name="Ceramite Plating" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">When this aircraft is damaged by a weapon that has the Extra Damage (X+) special rule, the X+ value is reduced by 1 to a maximum of 6+.</characteristic>
+              </characteristics>
+            </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
+            <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9672-41b5-740e-3120" name="Space Wolves: Peerless Hunter" hidden="false" collective="false" import="true" type="upgrade">
@@ -1112,19 +1155,25 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
+            <cost name="pts" typeId="points" value="2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="11eb-6dae-01d4-3c63" name="Iron Hands: Iron Father" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
-            <modifier type="set" field="hidden" value="true">
+            <modifier type="decrement" field="06a1-3ac8-6a98-7672" value="1.0">
+              <comment>&quot;Iron Hands: Iron Father&quot; is incompatible with &quot;Techmarine&quot;.</comment>
               <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80cf-5d9e-a9d9-d90a" type="greaterThan"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1fba-22b0-f8e6-6090" type="greaterThan"/>
               </conditions>
               <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80cf-5d9e-a9d9-d90a" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
                 <conditionGroup type="and">
                   <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="11eb-6dae-01d4-3c63" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="11eb-6dae-01d4-3c63" type="equalTo"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -1170,7 +1219,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
+            <cost name="pts" typeId="points" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ac1c-1c37-7c7e-eab7" name="White Scars: Swift of Wing" hidden="false" collective="false" import="true" type="upgrade">
@@ -1199,7 +1248,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
+            <cost name="pts" typeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="334b-d1f0-ee28-9acb" name="Ultramarines: Alaris Pilot" hidden="false" collective="false" import="true" type="upgrade">
@@ -1228,7 +1277,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
+            <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1271,7 +1320,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
+            <cost name="pts" typeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1381-deb5-302f-a700" name="Night Lords: Anguish Engines" hidden="false" collective="false" import="true" type="upgrade">
@@ -1300,7 +1349,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
+            <cost name="pts" typeId="points" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6861-f378-223e-7356" name="Thousand Sons: Corvidae Initiate" hidden="false" collective="false" import="true" type="upgrade">
@@ -1358,7 +1407,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
+            <cost name="pts" typeId="points" value="4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a19d-30a0-e82c-a5ed" name="Emperor&apos;s Children: Phoenix Pilot" hidden="false" collective="false" import="true" type="upgrade">
@@ -1387,7 +1436,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
+            <cost name="pts" typeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6eb5-8f24-1ff1-9cb2" name="World Eaters: Red Hunter" hidden="false" collective="false" import="true" type="upgrade">
@@ -1416,7 +1465,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
+            <cost name="pts" typeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e710-cd1a-2125-6b5d" name="Death Guard: Shroud of Barbarus" hidden="false" collective="false" import="true" type="upgrade">
@@ -1445,7 +1494,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
+            <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="361d-624e-8395-5d47" name="Alpha Legion: Sacii Pilot" hidden="false" collective="false" import="true" type="upgrade">
@@ -1474,7 +1523,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
+            <cost name="pts" typeId="points" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d0ec-db45-0e25-46e7" name="Sons of Horus: Warmaster&apos;s Chosen" hidden="false" collective="false" import="true" type="upgrade">
@@ -1503,7 +1552,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
+            <cost name="pts" typeId="points" value="3.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
