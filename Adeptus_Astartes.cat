@@ -2,6 +2,7 @@
 <catalogue id="9826-b91b-6a9d-ca70" name="Adeptus Astartes" revision="15" battleScribeVersion="2.03" authorName="Fire Raptor" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="25d1-4c56-7d01-fd5b" name="Wrath of Angels" publicationDate="2021"/>
+    <publication id="b55f-e93a-40fd-e9cb" name="The Horus Heresy - Rulebook" publisher="2022"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="d60f-6e76-fb25-6ee0" name="Xiphon Interceptor" hidden="false" collective="false" import="true" type="model">
@@ -62,6 +63,8 @@
         <entryLink id="b975-4454-ddff-314f" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
         <entryLink id="8d61-210b-1218-c97f" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
         <entryLink id="ca2f-2733-63a2-95db" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
+        <entryLink id="2539-f1d2-761e-91c2" name="Legion-Specific Upgrades: Loyalist Legions" hidden="false" collective="false" import="true" targetId="80cf-5d9e-a9d9-d90a" type="selectionEntryGroup"/>
+        <entryLink id="8d9a-f445-b807-06a4" name="Legion-Specific Upgrades: Traitor Legions" hidden="false" collective="false" import="true" targetId="1338-dfc6-1a06-1dc7" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="24.0"/>
@@ -204,6 +207,8 @@
         <entryLink id="cd14-c68c-8da5-6a2a" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
         <entryLink id="314c-bfb1-d9b9-8b38" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
         <entryLink id="8a72-b8aa-f139-a5d2" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
+        <entryLink id="ddfa-a4de-eac1-ea9b" name="Legion-Specific Upgrades: Traitor Legions" hidden="false" collective="false" import="true" targetId="1338-dfc6-1a06-1dc7" type="selectionEntryGroup"/>
+        <entryLink id="e855-50b6-f043-ef8c" name="Legion-Specific Upgrades: Loyalist Legions" hidden="false" collective="false" import="true" targetId="80cf-5d9e-a9d9-d90a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="29.0"/>
@@ -410,6 +415,8 @@
         <entryLink id="5d69-f642-6c22-4276" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
         <entryLink id="78c6-e858-c25c-157d" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
         <entryLink id="4b7a-4d16-d04f-a40f" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
+        <entryLink id="32f2-5436-a3c8-adbd" name="Legion-Specific Upgrades: Traitor Legions" hidden="false" collective="false" import="true" targetId="1338-dfc6-1a06-1dc7" type="selectionEntryGroup"/>
+        <entryLink id="5d6c-a808-7fbb-95a6" name="Legion-Specific Upgrades: Loyalist Legions" hidden="false" collective="false" import="true" targetId="80cf-5d9e-a9d9-d90a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="31.0"/>
@@ -645,6 +652,8 @@
         <entryLink id="94d7-f35a-3822-9f8e" name="Expanded Ace Abilities" hidden="false" collective="false" import="true" targetId="9212-4467-e7a2-ed52" type="selectionEntry"/>
         <entryLink id="a03a-07cd-2e94-5502" name="Custom Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="fa55-16f8-1abb-3626" type="selectionEntry"/>
         <entryLink id="058d-8718-dc6b-8c51" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
+        <entryLink id="3430-28a3-7886-a883" name="Legion-Specific Upgrades: Traitor Legions" hidden="false" collective="false" import="true" targetId="1338-dfc6-1a06-1dc7" type="selectionEntryGroup"/>
+        <entryLink id="4eb5-8298-298e-4105" name="Legion-Specific Upgrades: Loyalist Legions" hidden="false" collective="false" import="true" targetId="80cf-5d9e-a9d9-d90a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="44.0"/>
@@ -945,6 +954,304 @@
           </profiles>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="80cf-5d9e-a9d9-d90a" name="Legion-Specific Upgrades: Loyalist Legions" publicationId="b55f-e93a-40fd-e9cb" page="79-80" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1338-dfc6-1a06-1dc7" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98f3-8542-9592-dece" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a79b-d857-a385-697c" name="Dark Angels: Ravenwing Veteran" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0969-8e6d-51b8-5d65" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a650-b35b-01a2-4f47" name="Dark Angels: Ravenwing Veteran" publicationId="b55f-e93a-40fd-e9cb" page="79" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft may choose to re-roll a dice roll. However, all of the dice rolled must be re-rolled and the player must accept the result of the second roll, even if it is worse. Ravenwing Veteran replaces the Veteran upgrade and can be purchased by any number of aircraft within a force.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5999-d5b0-8e11-f21d" name="Imperial Fists: Aegis Pilot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5783-1ed2-7e3b-8a4d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ec8e-40a1-d676-188d" name="Imperial Fists: Aegis Pilot" publicationId="b55f-e93a-40fd-e9cb" page="79" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Increase the Structure Points of this aircraft by 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ec8b-9f30-b051-ee9a" name="Salamanders: Tempered Plating" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e50-780b-c39e-4694" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6404-363e-274a-deae" name="Salamanders: Tempered Plating" publicationId="b55f-e93a-40fd-e9cb" page="79" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This aircraft counts as having the Ceramite Plating upgrade. In addition, once per game, this aircraft can ignore any Extra Damage caused by a single enemy weapon. An aircraft can be upgraded with either Tempered Plating or Ceramite Plating, not both.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9672-41b5-740e-3120" name="Space Wolves: Peerless Hunter" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56b1-895d-9ce7-0955" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="db39-140d-df53-6726" name="Space Wolves: Peerless Hunter" publicationId="b55f-e93a-40fd-e9cb" page="79" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This aircraft adds 2 to the FPR characteristic of any weapon with an Ammo characteristic of UL when resolving Tailing Fire.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6b4d-d0c3-c432-cf8a" name="Blood Angels: Master of the Skies" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b9b-d805-08cf-8e6d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="21f9-b09e-a3f5-d854" name="Blood Angels: Master of the Skies" publicationId="b55f-e93a-40fd-e9cb" page="79" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft can increase or decrease its current Speed by an amount less than or equal to twice its Throttle value.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="11eb-6dae-01d4-3c63" name="Iron Hands: Iron Father" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06a1-3ac8-6a98-7672" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9798-9ef0-39bc-7cef" name="Iron Hands: Iron Father" publicationId="b55f-e93a-40fd-e9cb" page="79" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft may attempt a repair. During the End phase, roll a D6 for each lost point of Structure. For each roll of a 4, repair a single point of Structure. This replaces the Techmarine upgrade.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="283c-7cdd-be0b-0274" name="Raven Guard: Shadow Bird" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f91-5723-6029-baaa" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2dd6-3c86-50e7-5400" name="Raven Guard: Shadow Bird" publicationId="b55f-e93a-40fd-e9cb" page="79" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This aircraft gains the Stealth (-1) special rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ac1c-1c37-7c7e-eab7" name="White Scars: Swift of Wing" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6585-8675-ff36-3b04" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="af33-eb4b-688d-1901" name="White Scars: Swift of Wing" publicationId="b55f-e93a-40fd-e9cb" page="79" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This aircraft gaisn the Jink special rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="334b-d1f0-ee28-9acb" name="Ultramarines: Alaris Pilot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b945-cf30-5e0e-e4f0" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a1c2-eb62-61f2-f884" name="Ultramarines: Alaris Pilot" publicationId="b55f-e93a-40fd-e9cb" page="79" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, when this aircraft is activated during the Movement phase, it may discard its Manoeuvre token and immediately choose another Ace Manoeuvre.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1338-dfc6-1a06-1dc7" name="Legion-Specific Upgrades: Traitor Legions" publicationId="b55f-e93a-40fd-e9cb" page="79-80" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80cf-5d9e-a9d9-d90a" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eaa-fb87-7f0f-43e6" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="8ceb-7099-7fc1-b6ee" name="Iron Warriors: Hullbreaker Missiles" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd9c-4c2f-b6b4-fdef" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3da8-f430-9308-3ddb" name="Iron Warriors: Hullbreaker Missiles" publicationId="b55f-e93a-40fd-e9cb" page="80" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">An aircraft with this upgrade improves the Extra Damage (X+) special rule X value of its Krak Missiles, Dual Krak Missiles, Hunter-killer Missiles and Dual Hunter-killer Missiles by 1 (i.e., instead of Extra Damage (6+), the weapons have Extra Damage (5+)).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1381-deb5-302f-a700" name="Night Lords: Anguish Engines" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f030-80ee-179b-d458" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="3d98-83a3-1b71-8abf" name="Night Lords: Anguish Engines" publicationId="b55f-e93a-40fd-e9cb" page="80" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">An aircraft within 3 hexes of one or more enemy aircraft with this upgrade reduces its Handling characteristic by 1 (e.g., a 3+ becomes a 4+).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6861-f378-223e-7356" name="Thousand Sons: Corvidae Initiate" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f1f-e615-7b14-9591" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="bc97-61fc-6dc5-e3a3" name="Thousand Sons: Corvidae Initiate" publicationId="b55f-e93a-40fd-e9cb" page="80" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">If the Night Fighting or Bad Weather rules are in use, this aircraft may fire at Medium range without reducing the number of Firepower dice rolled. In addition, once per game, this aircraft can ignore the -1 modifier to hit rolls when making an attack against an enemy aircraft at an Altitude 1 higher or lower than its own.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="30f3-e8e6-9e86-dc8a" name="Word Bearers: Possessed Pilot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="514d-f2e2-54f5-6b0f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="56b4-c6ad-373a-e625" name="Word Bearers: Possessed Pilot" publicationId="b55f-e93a-40fd-e9cb" page="80" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, during the Firing phase, the pilot may increase the Short and/or Medium range of its weapons by 2 hexes (i.e., the Short range of the aircraft becomes 1-6 hexes and the Medium range becomes 7-9 hexes). The long range does not change.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a19d-30a0-e82c-a5ed" name="Emperor&apos;s Children: Phoenix Pilot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4d45-a117-ae03-8f32" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e39f-a3cd-b424-65fc" name="Emperor&apos;s Children: Phoenix Pilot" publicationId="b55f-e93a-40fd-e9cb" page="80" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This upgrade may only be taken by one aircraft within a force. Once per game, this aircraft may choose to re-roll a dice roll. However, all of the dice rolled must be re-rolled and the player must accept the result of the second roll, even if it is worse. In addition, increase the Ace Manoeuvres characteristic of an aircraft with this upgrade by 1 (e.g., a characteristic of 1-7 would become 1-8).</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6eb5-8f24-1ff1-9cb2" name="World Eaters: Red Hunter" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3d5-d3bc-753d-b91b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="97e7-c558-3462-a8a8" name="World Eaters: Red Hunter" publicationId="b55f-e93a-40fd-e9cb" page="80" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, during the Firing phase, this aircraft may add 1 to the result of all hit rolls it makes when firing at a target within Short range.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e710-cd1a-2125-6b5d" name="Death Guard: Shroud of Barbarus" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b486-25e4-d01b-1d07" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9e8b-f567-66cf-7158" name="Death Guard: Shroud of Barbarus" publicationId="b55f-e93a-40fd-e9cb" page="80" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, after moving this aircraft in the Movement phase, this aircraft may activate its Shroud of Barbarus. Until the end of this round, the aircraft cannot be targeted by enemy aircraft or Ground Defences, nor can this aircraft fire at an enemy aircraft or Ground Defences.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="361d-624e-8395-5d47" name="Alpha Legion: Sacii Pilot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e25-4154-0308-a8c9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b364-db33-74d6-144f" name="Alpha Legion: Sacii Pilot" publicationId="b55f-e93a-40fd-e9cb" page="80" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">After both sides have deployed thier forces, this aircraft may be redeployed, following the deployment rules of the scenario.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d0ec-db45-0e25-46e7" name="Sons of Horus: Warmaster&apos;s Chosen" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bd09-9612-6f84-d9ba" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7c76-e68c-b58c-1d00" name="Sons of Horus: Warmaster&apos;s Chosen" publicationId="b55f-e93a-40fd-e9cb" page="80" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
+              <characteristics>
+                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This upgrade may only be taken by one aircraft within a force. Once per game, a force that contains this aircraft may re-roll the dice when rolling for Initiative.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="6.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
