@@ -12,7 +12,7 @@ jobs:
 
 # Repo code checkout required if `template` is used
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
 # Get current month for issue title
     - name: get-date
