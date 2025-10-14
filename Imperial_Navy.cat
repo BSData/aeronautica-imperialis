@@ -231,7 +231,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ed41-1aaa-ecb4-0311" name="Jump troops" hidden="false" targetId="7406-f5b9-a751-1291" type="rule"/>
+        <infoLink id="ed41-1aaa-ecb4-0311" name="Jump Troops" hidden="false" targetId="7406-f5b9-a751-1291" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bcdb-314b-27c4-afc5" name="Bomber" hidden="false" targetId="8cfa-dfb7-e996-3c7d" primary="true"/>
@@ -782,7 +782,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f692-ed14-d18e-9697" name="Jump troops" hidden="false" targetId="7406-f5b9-a751-1291" type="rule"/>
+        <infoLink id="f692-ed14-d18e-9697" name="Jump Troops" hidden="false" targetId="7406-f5b9-a751-1291" type="rule"/>
         <infoLink id="bd54-7bd4-37b9-01e3" name="Rocket Boosters" hidden="false" targetId="8058-5c8a-b572-48bc" type="rule"/>
         <infoLink id="0a2d-8eb0-ad07-22c3" name="Valuable Cargo" hidden="false" targetId="f383-4351-9a79-e26b" type="rule"/>
       </infoLinks>
