@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="d5a9-0218-a11f-aa87" name="Horus Heresy - Legiones Astartes" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="24" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Adeptus Astartes" id="9788-d602-ea4a-e5af" targetId="9826-b91b-6a9d-ca70" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

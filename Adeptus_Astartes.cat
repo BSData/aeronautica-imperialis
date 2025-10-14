@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9826-b91b-6a9d-ca70" name="Adeptus Astartes" revision="16" battleScribeVersion="2.03" authorName="Fire Raptor" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9826-b91b-6a9d-ca70" name="Adeptus Astartes" revision="16" battleScribeVersion="2.03" authorName="Fire Raptor" authorContact="@Water" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="df04-c447-f12b-fae8" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <publications>
     <publication id="25d1-4c56-7d01-fd5b" name="Wrath of Angels" publicationDate="2021"/>
     <publication id="b55f-e93a-40fd-e9cb" name="The Horus Heresy - Rulebook" publisher="2022"/>
@@ -22,41 +22,41 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="03ff-7841-2d07-1a3e" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+        <categoryLink id="03ff-7841-2d07-1a3e" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="066f-bdb2-6601-e29e" name="Missiles" hidden="false" collective="false" import="true" defaultSelectionEntryId="1e63-ea32-ccd0-16ae">
           <modifiers>
-            <modifier type="set" field="7f57-1ff1-a9df-1171" value="2.0">
+            <modifier type="set" field="7f57-1ff1-a9df-1171" value="2">
               <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9afb-80ce-dcde-b960" type="equalTo"/>
+                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9afb-80ce-dcde-b960" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f57-1ff1-a9df-1171" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f90f-c677-7789-0f0f" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f57-1ff1-a9df-1171" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f90f-c677-7789-0f0f" type="min"/>
           </constraints>
           <entryLinks>
             <entryLink id="1e63-ea32-ccd0-16ae" name="Rotary Frag Missile Launcher" hidden="false" collective="false" import="true" targetId="9afb-80ce-dcde-b960" type="selectionEntry"/>
             <entryLink id="d999-7c61-8273-00f7" name="Hunter-Killer Missiles" hidden="false" collective="false" import="true" targetId="ce0c-61c9-83e9-5bf1" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0493-4e6e-e291-61bc" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0493-4e6e-e291-61bc" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="5e08-278c-da1d-4b72" name="Krak Missiles" hidden="false" collective="false" import="true" targetId="2ad8-e084-80aa-13b1" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bd0-ab85-2249-cc10" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bd0-ab85-2249-cc10" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="d1af-6807-5c21-a705" name="Quad Lascannons" hidden="false" collective="false" import="true" targetId="8b95-c96b-c8fc-68e3" type="selectionEntry">
+        <entryLink id="d1af-6807-5c21-a705" name="Quad Lascannon" hidden="false" collective="false" import="true" targetId="8b95-c96b-c8fc-68e3" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f2d-8611-4f80-4a37" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ad6-e2ff-94f1-1929" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f2d-8611-4f80-4a37" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ad6-e2ff-94f1-1929" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="520b-1557-d9fd-80d0" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="323a-9cee-3091-0308" type="selectionEntryGroup"/>
@@ -65,9 +65,10 @@
         <entryLink id="ca2f-2733-63a2-95db" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
         <entryLink id="2539-f1d2-761e-91c2" name="Legion-Specific Upgrades: Loyalist Legions" hidden="false" collective="false" import="true" targetId="80cf-5d9e-a9d9-d90a" type="selectionEntryGroup"/>
         <entryLink id="8d9a-f445-b807-06a4" name="Legion-Specific Upgrades: Traitor Legions" hidden="false" collective="false" import="true" targetId="1338-dfc6-1a06-1dc7" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Campaign Ace Abilities" hidden="false" id="35ae-9371-70f7-e860" type="selectionEntry" targetId="ac78-2d63-a24d-feb9"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="24.0"/>
+        <cost name="pts" typeId="points" value="24"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="55f0-97af-64ac-7391" name="Storm Eagle Assault Craft" hidden="false" collective="false" import="true" type="model">
@@ -87,16 +88,16 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="5df8-e810-8ff3-fe15" name="Jump troops" hidden="false" targetId="7406-f5b9-a751-1291" type="rule"/>
+        <infoLink id="5df8-e810-8ff3-fe15" name="Jump Troops" hidden="false" targetId="7406-f5b9-a751-1291" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="5291-7447-5fb2-7e8c" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+        <categoryLink id="5291-7447-5fb2-7e8c" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="08b0-ce61-e381-8972" name="Twin Heavy Bolters" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2869-1bf6-e551-ce2e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab7b-1fe0-1a6a-aaa6" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2869-1bf6-e551-ce2e" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab7b-1fe0-1a6a-aaa6" type="min"/>
           </constraints>
           <profiles>
             <profile id="2815-8d91-7bbf-ce8c" name="Twin Heavy Bolters" publicationId="25d1-4c56-7d01-fd5b" page="30" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
@@ -110,27 +111,27 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="c47f-a806-c895-2fab" name="Missiles" hidden="false" collective="false" import="true" defaultSelectionEntryId="5fba-b472-1d0a-7bbb">
           <modifiers>
-            <modifier type="set" field="7ea8-79d5-ed17-1675" value="2.0">
+            <modifier type="set" field="7ea8-79d5-ed17-1675" value="2">
               <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5fba-b472-1d0a-7bbb" type="equalTo"/>
+                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5fba-b472-1d0a-7bbb" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ea8-79d5-ed17-1675" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f22-582f-4680-f645" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ea8-79d5-ed17-1675" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f22-582f-4680-f645" type="min"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="5fba-b472-1d0a-7bbb" name="Dual Frag Missile Pods" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe14-3fc8-c292-a866" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe14-3fc8-c292-a866" type="max"/>
               </constraints>
               <profiles>
                 <profile id="90ea-50ad-f3c9-ae1a" name="Dual Frag Missile Pods" publicationId="25d1-4c56-7d01-fd5b" page="30" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
@@ -144,12 +145,12 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="0.0"/>
+                <cost name="pts" typeId="points" value="0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="aa51-fc1c-777f-f5d2" name="Dual Krak Missiles" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dc2-130b-dcda-b838" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dc2-130b-dcda-b838" type="max"/>
               </constraints>
               <profiles>
                 <profile id="d76c-4094-5cde-c201" name="Dual Krak Missiles" publicationId="25d1-4c56-7d01-fd5b" page="30" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
@@ -167,12 +168,12 @@
                 <infoLink id="48e9-ebbf-47f2-d074" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="3.0"/>
+                <cost name="pts" typeId="points" value="3"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f3bf-5c6c-0f7e-7abe" name="Dual Hunter-Killer Missiles" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a56-3966-14af-2567" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a56-3966-14af-2567" type="max"/>
               </constraints>
               <profiles>
                 <profile id="f3e4-3211-e469-66f4" name="Dual Hunter-Killer Missiles" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
@@ -190,17 +191,17 @@
                 <infoLink id="bd90-7f05-6e85-d123" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="3.0"/>
+                <cost name="pts" typeId="points" value="3"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="53a9-bca8-9692-bc1e" name="Quad Lascannons" hidden="false" collective="false" import="true" targetId="8b95-c96b-c8fc-68e3" type="selectionEntry">
+        <entryLink id="53a9-bca8-9692-bc1e" name="Quad Lascannon" hidden="false" collective="false" import="true" targetId="8b95-c96b-c8fc-68e3" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04be-7ae8-0f5f-4560" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cebe-ea7f-4b67-c2ba" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04be-7ae8-0f5f-4560" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cebe-ea7f-4b67-c2ba" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="9e1d-bc2c-94c4-b172" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="323a-9cee-3091-0308" type="selectionEntryGroup"/>
@@ -209,14 +210,15 @@
         <entryLink id="8a72-b8aa-f139-a5d2" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
         <entryLink id="ddfa-a4de-eac1-ea9b" name="Legion-Specific Upgrades: Traitor Legions" hidden="false" collective="false" import="true" targetId="1338-dfc6-1a06-1dc7" type="selectionEntryGroup"/>
         <entryLink id="e855-50b6-f043-ef8c" name="Legion-Specific Upgrades: Loyalist Legions" hidden="false" collective="false" import="true" targetId="80cf-5d9e-a9d9-d90a" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Campaign Ace Abilities" hidden="false" id="cd21-33ca-b377-3480" type="selectionEntry" targetId="ac78-2d63-a24d-feb9"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="29.0"/>
+        <cost name="pts" typeId="points" value="29"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="564a-00c1-78a5-5f50" name="Dark Fire" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23fd-e5e8-1336-147f" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23fd-e5e8-1336-147f" type="max"/>
       </constraints>
       <profiles>
         <profile id="27db-8830-d85f-08ff" name="Dark Fire" publicationId="25d1-4c56-7d01-fd5b" page="30" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
@@ -234,13 +236,13 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="0cfb-40b6-c3c4-aa30" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+        <categoryLink id="0cfb-40b6-c3c4-aa30" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6409-7b4f-133a-d3a1" name="Argan Fal&apos;Shan" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bbe-532f-8edd-8514" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82b1-fb6c-34fc-df4c" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bbe-532f-8edd-8514" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82b1-fb6c-34fc-df4c" type="min"/>
           </constraints>
           <profiles>
             <profile id="183f-c6dc-4891-8611" name="Argan Fal&apos;Shan" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
@@ -250,15 +252,15 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="cabd-fb3f-df91-da71" name="Turrets" hidden="false" collective="false" import="true" defaultSelectionEntryId="1f31-8916-a728-bd4a">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb1c-f223-a88c-a470" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94e3-a11b-755c-b97a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb1c-f223-a88c-a470" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94e3-a11b-755c-b97a" type="min"/>
           </constraints>
           <entryLinks>
             <entryLink id="1f31-8916-a728-bd4a" name="Pair of Twin Heavy Bolter Turrets" hidden="false" collective="false" import="true" targetId="13ec-6932-219b-7379" type="selectionEntry"/>
@@ -270,24 +272,31 @@
       <entryLinks>
         <entryLink id="7974-7489-52ce-17cc" name="Avenger Bolt Cannon" hidden="false" collective="false" import="true" targetId="2754-d0c5-ce3c-00e3" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be29-f038-f653-3a19" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c689-4514-379b-5bac" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be29-f038-f653-3a19" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c689-4514-379b-5bac" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="bf2e-b048-074b-4833" name="Hellstrike Missile Launchers" hidden="false" collective="false" import="true" targetId="c6af-72c5-add2-cf10" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e32-dc7b-c0be-7d29" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eff8-ce58-0c92-48b2" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e32-dc7b-c0be-7d29" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eff8-ce58-0c92-48b2" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="36.0"/>
+        <cost name="pts" typeId="points" value="36"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="9826-b91b-6a9d-ca70" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="7ab2-ebf5-7028-82d2" name="The Unkillable Phantom" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f5a-7a3f-fa26-b3d2" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f5a-7a3f-fa26-b3d2" type="max"/>
       </constraints>
       <profiles>
         <profile id="8edf-01c4-7d50-eed0" name="The Unkillable Phantom" hidden="false" typeId="d311-f402-9b2b-75cf" typeName="Unit">
@@ -305,13 +314,13 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="6a57-a844-8950-4f12" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+        <categoryLink id="6a57-a844-8950-4f12" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="aa61-1566-c470-72f3" name="Athor Vae" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df1e-407d-c0ac-6e08" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00f3-d350-b50a-b403" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df1e-407d-c0ac-6e08" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00f3-d350-b50a-b403" type="max"/>
           </constraints>
           <profiles>
             <profile id="150e-f35b-695b-575f" name="Athor Vae" hidden="false" typeId="de1e-e160-29f8-7a0c" typeName="Aces">
@@ -321,33 +330,33 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="53a6-0fe0-fc97-ecd9" name="Missiles" hidden="false" collective="false" import="true">
           <modifiers>
-            <modifier type="set" field="cfe9-cd98-f09b-d0f2" value="2.0">
+            <modifier type="set" field="cfe9-cd98-f09b-d0f2" value="2">
               <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9afb-80ce-dcde-b960" type="equalTo"/>
+                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9afb-80ce-dcde-b960" type="equalTo"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfe9-cd98-f09b-d0f2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4f0f-6b86-a9d4-2468" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfe9-cd98-f09b-d0f2" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4f0f-6b86-a9d4-2468" type="min"/>
           </constraints>
           <entryLinks>
             <entryLink id="f9f3-f2f9-c8ee-54ea" name="Rotary Frag Missile Launcher" hidden="false" collective="false" import="true" targetId="9afb-80ce-dcde-b960" type="selectionEntry"/>
             <entryLink id="e689-985b-ec76-7958" name="Hunter-Killer Missiles" hidden="false" collective="false" import="true" targetId="ce0c-61c9-83e9-5bf1" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa85-a431-9729-dd30" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa85-a431-9729-dd30" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="3237-1685-2c92-9fd1" name="Krak Missiles" hidden="false" collective="false" import="true" targetId="2ad8-e084-80aa-13b1" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa37-cd96-48c2-48d9" type="max"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa37-cd96-48c2-48d9" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -356,15 +365,22 @@
       <entryLinks>
         <entryLink id="3d41-2e2e-ea15-55cf" name="Quad Lascannon" hidden="false" collective="false" import="true" targetId="8b95-c96b-c8fc-68e3" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2763-c32a-2cd1-0d07" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e66d-14d1-4520-1e36" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2763-c32a-2cd1-0d07" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e66d-14d1-4520-1e36" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="de33-4247-d105-eae4" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="323a-9cee-3091-0308" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="29.0"/>
+        <cost name="pts" typeId="points" value="29"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="notInstanceOf" value="1" field="selections" scope="primary-catalogue" childId="9826-b91b-6a9d-ca70" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="6d38-32e2-3c6e-b8ef" name="Fire Raptor Gunship" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -383,13 +399,13 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="46f3-ce0b-403e-f7e2" name="New CategoryLink" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
+        <categoryLink id="46f3-ce0b-403e-f7e2" name="Fighter" hidden="false" targetId="eea0-ed0b-e00c-b07c" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="791d-26b3-74dd-71ca" name="Turrets" hidden="false" collective="false" import="true" defaultSelectionEntryId="c4ca-1aa2-68ca-435b">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="831d-a80c-a4a4-436d" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6cb-d6d0-646d-3f9a" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="831d-a80c-a4a4-436d" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6cb-d6d0-646d-3f9a" type="min"/>
           </constraints>
           <entryLinks>
             <entryLink id="c4ca-1aa2-68ca-435b" name="Pair of Twin Heavy Bolter Turrets" hidden="false" collective="false" import="true" targetId="13ec-6932-219b-7379" type="selectionEntry"/>
@@ -401,14 +417,14 @@
       <entryLinks>
         <entryLink id="d38d-5077-f16d-c1b7" name="Avenger Bolt Cannon" hidden="false" collective="false" import="true" targetId="2754-d0c5-ce3c-00e3" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cfa-7654-bddd-6fa4" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02fa-25ee-c60b-ab7f" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cfa-7654-bddd-6fa4" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02fa-25ee-c60b-ab7f" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="5de7-008f-562b-2a4a" name="Hellstrike Missile Launchers" hidden="false" collective="false" import="true" targetId="c6af-72c5-add2-cf10" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffd4-8fd9-d517-eb79" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7222-a8e2-3711-0905" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffd4-8fd9-d517-eb79" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7222-a8e2-3711-0905" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="7972-a241-0089-a6e2" name="Aircraft Upgrades" hidden="false" collective="false" import="true" targetId="323a-9cee-3091-0308" type="selectionEntryGroup"/>
@@ -417,9 +433,10 @@
         <entryLink id="4b7a-4d16-d04f-a40f" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
         <entryLink id="32f2-5436-a3c8-adbd" name="Legion-Specific Upgrades: Traitor Legions" hidden="false" collective="false" import="true" targetId="1338-dfc6-1a06-1dc7" type="selectionEntryGroup"/>
         <entryLink id="5d6c-a808-7fbb-95a6" name="Legion-Specific Upgrades: Loyalist Legions" hidden="false" collective="false" import="true" targetId="80cf-5d9e-a9d9-d90a" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Campaign Ace Abilities" hidden="false" id="d654-791d-0d13-9819" type="selectionEntry" targetId="ac78-2d63-a24d-feb9"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="31.0"/>
+        <cost name="pts" typeId="points" value="31"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2580-457d-648b-7834" name="Icarus Stormcannon Array" hidden="false" collective="false" import="true" type="model">
@@ -438,10 +455,10 @@
         <infoLink id="4116-85bd-b48e-0155" name="Effective Altitude (3)" hidden="false" targetId="db8e-cfe1-901e-c0b3" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8631-e086-43cb-2a92" name="New CategoryLink" hidden="false" targetId="4ccd-3c3f-80d3-f2fb" primary="true"/>
+        <categoryLink id="8631-e086-43cb-2a92" name="Ground Asset" hidden="false" targetId="4ccd-3c3f-80d3-f2fb" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="9.0"/>
+        <cost name="pts" typeId="points" value="9"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0440-4e66-c73d-82ac" name="Skyspear Missile Launcher" hidden="false" collective="false" import="true" type="model">
@@ -461,10 +478,10 @@
         <infoLink id="cd09-cf61-4c39-3e67" name="Ground-to-Air Fire" hidden="false" targetId="297a-5ea8-7f8e-4621" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="96af-89e1-d36a-48a0" name="New CategoryLink" hidden="false" targetId="4ccd-3c3f-80d3-f2fb" primary="true"/>
+        <categoryLink id="96af-89e1-d36a-48a0" name="Ground Asset" hidden="false" targetId="4ccd-3c3f-80d3-f2fb" primary="true"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="7.0"/>
+        <cost name="pts" typeId="points" value="7"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8362-c302-dd47-1cbf" name="Thunderhawk Gunship" hidden="false" collective="false" import="true" type="model">
@@ -484,13 +501,13 @@
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="7ddd-c41c-2a96-224f" name="New CategoryLink" hidden="false" targetId="8cfa-dfb7-e996-3c7d" primary="true"/>
+        <categoryLink id="7ddd-c41c-2a96-224f" name="Bomber" hidden="false" targetId="8cfa-dfb7-e996-3c7d" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b721-93e5-88c8-73e0" name="Turbo Laser Destructor" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af6e-b4a1-5fe7-7d93" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35bb-3291-7454-a788" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af6e-b4a1-5fe7-7d93" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35bb-3291-7454-a788" type="max"/>
           </constraints>
           <profiles>
             <profile id="6375-3085-5714-1a29" name="Turbo Laser Destructor" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
@@ -507,13 +524,13 @@
             <infoLink id="4155-cce1-e0e3-997f" name="Extra Damage (4+)" hidden="false" targetId="6cd3-39d8-bedc-56e6" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e547-d1cc-9c6e-a949" name="Pair of Heavy Bolter turrets" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93d2-07fb-43ab-1c2f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09fc-0f22-199a-dea9" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93d2-07fb-43ab-1c2f" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09fc-0f22-199a-dea9" type="max"/>
           </constraints>
           <profiles>
             <profile id="3b63-8a2b-978b-3c2b" name="Heavy Bolter Turret - Port" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
@@ -536,13 +553,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4d3c-5494-a73f-753a" name="Pair of Wing Heavy Bolters" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3e9-de98-f92a-253e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66b9-66d2-1175-4c56" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3e9-de98-f92a-253e" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66b9-66d2-1175-4c56" type="max"/>
           </constraints>
           <profiles>
             <profile id="cb42-349a-c134-5161" name="Wing Heavy Bolters - Port" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
@@ -565,13 +582,13 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0e6a-c6a8-f29c-8125" name="Twin Lascannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e99-e712-5a9c-f7cf" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f431-91b9-75d4-ea37" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e99-e712-5a9c-f7cf" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f431-91b9-75d4-ea37" type="min"/>
           </constraints>
           <profiles>
             <profile id="8819-3b25-b02c-a49f" name="Twin Lascannon" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
@@ -588,19 +605,19 @@
             <infoLink id="ece4-f5bd-c3f9-0a5f" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="pts" typeId="points" value="0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="518b-def7-2b6a-7ec3" name="Additional Weaponry" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d992-9c0b-7dc8-b6f6" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d992-9c0b-7dc8-b6f6" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="bb83-9670-c746-879b" name="Pair of Hellstrike Missiles" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baf8-5bf2-2dc3-1de9" type="max"/>
+                <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baf8-5bf2-2dc3-1de9" type="max"/>
               </constraints>
               <profiles>
                 <profile id="95ec-a562-cd86-b207" name="Pair of Hellstrike Missiles" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
@@ -618,12 +635,12 @@
                 <infoLink id="7cc3-7691-d85c-bfec" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="2.0"/>
+                <cost name="pts" typeId="points" value="2"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4be0-b7b1-dd46-0a48" name="Pair of Wing Bombs" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60a9-7ee2-3abd-e313" type="max"/>
+                <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60a9-7ee2-3abd-e313" type="max"/>
               </constraints>
               <profiles>
                 <profile id="f134-0ba7-7992-1b7a" name="Pair of Wing Bombs" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
@@ -641,7 +658,7 @@
                 <infoLink id="222e-0415-3be2-b157" name="Extra Damage (5+)" hidden="false" targetId="45d7-50d9-b6d9-290c" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="2.0"/>
+                <cost name="pts" typeId="points" value="2"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -654,16 +671,17 @@
         <entryLink id="058d-8718-dc6b-8c51" name="Campaign Ace Abilities" hidden="false" collective="false" import="true" targetId="005b-c464-c070-94d7" type="selectionEntry"/>
         <entryLink id="3430-28a3-7886-a883" name="Legion-Specific Upgrades: Traitor Legions" hidden="false" collective="false" import="true" targetId="1338-dfc6-1a06-1dc7" type="selectionEntryGroup"/>
         <entryLink id="4eb5-8298-298e-4105" name="Legion-Specific Upgrades: Loyalist Legions" hidden="false" collective="false" import="true" targetId="80cf-5d9e-a9d9-d90a" type="selectionEntryGroup"/>
+        <entryLink import="true" name="Campaign Ace Abilities" hidden="false" id="6be5-ff76-a43e-2275" type="selectionEntry" targetId="ac78-2d63-a24d-feb9"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="44.0"/>
+        <cost name="pts" typeId="points" value="44"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="8b95-c96b-c8fc-68e3" name="Quad Lascannon" publicationId="25d1-4c56-7d01-fd5b" page="29" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ac3-5d64-df67-796b" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ac3-5d64-df67-796b" type="max"/>
       </constraints>
       <profiles>
         <profile id="b16b-8ca4-35fe-118f" name="Quad Lascannon" publicationId="25d1-4c56-7d01-fd5b" page="29" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
@@ -680,12 +698,12 @@
         <infoLink id="2a6c-d6c2-677a-91f8" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9afb-80ce-dcde-b960" name="Rotary Frag Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cfc-346f-10a4-6844" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cfc-346f-10a4-6844" type="max"/>
       </constraints>
       <profiles>
         <profile id="0f2f-4a7a-fab3-1c3a" name="Rotary Frag Missile Launcher" publicationId="25d1-4c56-7d01-fd5b" page="29" hidden="false" typeId="a0a8-9aaa-cb92-0e1e" typeName="Weapon">
@@ -699,7 +717,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2ad8-e084-80aa-13b1" name="Krak Missiles" hidden="false" collective="false" import="true" type="upgrade">
@@ -719,7 +737,7 @@
         <infoLink id="ead3-434d-a879-a3be" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="2.0"/>
+        <cost name="pts" typeId="points" value="2"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ce0c-61c9-83e9-5bf1" name="Hunter-Killer Missiles" publicationId="25d1-4c56-7d01-fd5b" page="29" hidden="false" collective="false" import="true" type="upgrade">
@@ -739,7 +757,7 @@
         <infoLink id="8afc-8ddc-4b2f-90e5" name="Aerial Attack" hidden="false" targetId="0d22-4d01-ff7f-b254" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="2.0"/>
+        <cost name="pts" typeId="points" value="2"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2754-d0c5-ce3c-00e3" name="Avenger Bolt Cannon" publicationId="25d1-4c56-7d01-fd5b" page="31" hidden="false" collective="false" import="true" type="upgrade">
@@ -758,7 +776,7 @@
         <infoLink id="8c9e-73d9-2353-89c6" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c6af-72c5-add2-cf10" name="Hellstrike Missile Launchers" publicationId="25d1-4c56-7d01-fd5b" page="31" hidden="false" collective="false" import="true" type="upgrade">
@@ -778,7 +796,7 @@
         <infoLink id="250a-6b82-e500-8ddc" name="Ground Attack" hidden="false" targetId="434d-a81a-c5e1-5f52" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="13ec-6932-219b-7379" name="Pair of Twin Heavy Bolter Turrets" hidden="false" collective="false" import="true" type="upgrade">
@@ -803,7 +821,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fdf6-cd6e-5be8-754b" name="Pair of Twin Lascannon Turrets" hidden="false" collective="false" import="true" type="upgrade">
@@ -831,7 +849,7 @@
         <infoLink id="1d50-dcf6-6568-3ed4" name="Extra Damage (6+)" hidden="false" targetId="2e4d-1b50-12f0-759f" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="2.0"/>
+        <cost name="pts" typeId="points" value="2"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aa4c-cc08-d5c0-ca8b" name="Pair of Twin Autocannon Turrets" hidden="false" collective="false" import="true" type="upgrade">
@@ -856,706 +874,8 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="2.0"/>
+        <cost name="pts" typeId="points" value="2"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
-  <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="323a-9cee-3091-0308" name="Aircraft Upgrades" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58bc-2675-8c6a-dfc5" type="max"/>
-      </constraints>
-      <selectionEntries>
-        <selectionEntry id="560e-9dbc-d4c5-9d8c" name="Armoured Cockpit" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2133-1b0d-4907-aae4" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="9825-0886-5748-8518" name="Armored Cockpit" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">When this aircraft suffers a damaging hit from enemy fire, roll a D6. On a 6, the damage is ignored and the Structure points(s) that would have been lost as a result of the damage dice are not lost.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0232-b3c0-f792-ae14" name="Ceramite Plating" publicationId="25d1-4c56-7d01-fd5b" page="28" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="decrement" field="428e-119b-4400-5495" value="1.0">
-              <comment>&quot;Ceramite Plating&quot; is incompatible with &quot;Salamanders: Tempered Plating&quot;.</comment>
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ec8b-9f30-b051-ee9a" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="428e-119b-4400-5495" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="aeba-754f-5866-6eb1" name="Ceramite Plating" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">When this aircraft is damaged by a weapon that has the Extra Damage (X+) special rule, the X+ value is reduced by 1 to a maximum of 6+.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f79b-6e8e-27b1-ee21" name="Infernum Halo Launcher" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64d3-4485-eda7-e2e7" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="23f6-30b8-2def-374a" name="Infernum Halo Launcher" publicationId="25d1-4c56-7d01-fd5b" page="28" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, roll a D6 for each hit the aircraft suffers from a weapon with an Ammo characteristic of 1, 2 or 3. For each roll of a 6, that hit becomes a miss.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c7f1-268a-654b-8df6" name="Infra-red Targeting" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f88-40f0-f8fd-6030" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="cfd3-a9ab-27c3-3b2b" name="Infra-red Targeting" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">If the Night Fighting or Bad Weather rule are in use, this aircraft may fire at Medium range without reducing the number of Firepower dice rolled.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1fba-22b0-f8e6-6090" name="Techmarine" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="decrement" field="cfb8-1d32-6590-d388" value="1.0">
-              <comment>&quot;Techmarine&quot; is incompatible with &quot;Iron Hands: Iron Father&quot;.</comment>
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="11eb-6dae-01d4-3c63" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfb8-1d32-6590-d388" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="5bdb-3098-589f-417a" name="Techmarine" publicationId="25d1-4c56-7d01-fd5b" page="28" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft may attempt a repair. During the End Phase, roll a D6 for each lost point of Structure. For each roll of a 5+, repair a single point of Structure.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="795e-a88c-0e59-4030" name="Veteran" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="decrement" field="53ba-02a0-d94c-12ca" value="1.0">
-              <comment>&quot;Veteran&quot; is incompatible with &quot;Dark Angels: Ravenwing Veteran&quot;.</comment>
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="a79b-d857-a385-697c" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53ba-02a0-d94c-12ca" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="0265-7403-311e-d7a3" name="Veteran" publicationId="25d1-4c56-7d01-fd5b" page="28" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft may choose to re-roll a dice roll. However, all dice rilled must be re-rolled and the player must accept the result of the second roll, even if it is worse.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="80cf-5d9e-a9d9-d90a" name="Legion-Specific Upgrades: Loyalist Legions" publicationId="b55f-e93a-40fd-e9cb" page="79-80" hidden="false" collective="false" import="true">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1338-dfc6-1a06-1dc7" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98f3-8542-9592-dece" type="max"/>
-      </constraints>
-      <selectionEntries>
-        <selectionEntry id="a79b-d857-a385-697c" name="Dark Angels: Ravenwing Veteran" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="decrement" field="0969-8e6d-51b8-5d65" value="1.0">
-              <comment>&quot;Dark Angels: Ravenwing Veteran&quot; is incompatible with &quot;Veteran&quot;.</comment>
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="795e-a88c-0e59-4030" type="greaterThan"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80cf-5d9e-a9d9-d90a" type="greaterThan"/>
-                  </conditions>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="a79b-d857-a385-697c" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0969-8e6d-51b8-5d65" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="a650-b35b-01a2-4f47" name="Dark Angels: Ravenwing Veteran" publicationId="b55f-e93a-40fd-e9cb" page="79" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft may choose to re-roll a dice roll. However, all of the dice rolled must be re-rolled and the player must accept the result of the second roll, even if it is worse. Ravenwing Veteran replaces the Veteran upgrade and can be purchased by any number of aircraft within a force.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="5999-d5b0-8e11-f21d" name="Imperial Fists: Aegis Pilot" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80cf-5d9e-a9d9-d90a" type="greaterThan"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5999-d5b0-8e11-f21d" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5783-1ed2-7e3b-8a4d" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="ec8e-40a1-d676-188d" name="Imperial Fists: Aegis Pilot" publicationId="b55f-e93a-40fd-e9cb" page="79" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Increase the Structure Points of this aircraft by 1.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ec8b-9f30-b051-ee9a" name="Salamanders: Tempered Plating" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="decrement" field="4e50-780b-c39e-4694" value="1.0">
-              <comment>&quot;Salamanders: Tempered Plating&quot; is incompatible with &quot;Ceramite Plating&quot;.</comment>
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="0232-b3c0-f792-ae14" type="greaterThan"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80cf-5d9e-a9d9-d90a" type="greaterThan"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ec8b-9f30-b051-ee9a" type="equalTo"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e50-780b-c39e-4694" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="6404-363e-274a-deae" name="Salamanders: Tempered Plating" publicationId="b55f-e93a-40fd-e9cb" page="79" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This aircraft counts as having the Ceramite Plating upgrade. In addition, once per game, this aircraft can ignore any Extra Damage caused by a single enemy weapon. An aircraft can be upgraded with either Tempered Plating or Ceramite Plating, not both.</characteristic>
-              </characteristics>
-            </profile>
-            <profile id="ef16-8322-9f54-61a4" name="Ceramite Plating" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">When this aircraft is damaged by a weapon that has the Extra Damage (X+) special rule, the X+ value is reduced by 1 to a maximum of 6+.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9672-41b5-740e-3120" name="Space Wolves: Peerless Hunter" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80cf-5d9e-a9d9-d90a" type="greaterThan"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9672-41b5-740e-3120" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56b1-895d-9ce7-0955" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="db39-140d-df53-6726" name="Space Wolves: Peerless Hunter" publicationId="b55f-e93a-40fd-e9cb" page="79" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This aircraft adds 2 to the FPR characteristic of any weapon with an Ammo characteristic of UL when resolving Tailing Fire.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6b4d-d0c3-c432-cf8a" name="Blood Angels: Master of the Skies" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80cf-5d9e-a9d9-d90a" type="greaterThan"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6b4d-d0c3-c432-cf8a" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b9b-d805-08cf-8e6d" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="21f9-b09e-a3f5-d854" name="Blood Angels: Master of the Skies" publicationId="b55f-e93a-40fd-e9cb" page="79" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft can increase or decrease its current Speed by an amount less than or equal to twice its Throttle value.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="2.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="11eb-6dae-01d4-3c63" name="Iron Hands: Iron Father" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="decrement" field="06a1-3ac8-6a98-7672" value="1.0">
-              <comment>&quot;Iron Hands: Iron Father&quot; is incompatible with &quot;Techmarine&quot;.</comment>
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1fba-22b0-f8e6-6090" type="greaterThan"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80cf-5d9e-a9d9-d90a" type="greaterThan"/>
-                  </conditions>
-                </conditionGroup>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" childId="11eb-6dae-01d4-3c63" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06a1-3ac8-6a98-7672" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="9798-9ef0-39bc-7cef" name="Iron Hands: Iron Father" publicationId="b55f-e93a-40fd-e9cb" page="79" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, this aircraft may attempt a repair. During the End phase, roll a D6 for each lost point of Structure. For each roll of a 4, repair a single point of Structure. This replaces the Techmarine upgrade.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="283c-7cdd-be0b-0274" name="Raven Guard: Shadow Bird" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80cf-5d9e-a9d9-d90a" type="greaterThan"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="283c-7cdd-be0b-0274" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f91-5723-6029-baaa" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="2dd6-3c86-50e7-5400" name="Raven Guard: Shadow Bird" publicationId="b55f-e93a-40fd-e9cb" page="79" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This aircraft gains the Stealth (-1) special rule.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ac1c-1c37-7c7e-eab7" name="White Scars: Swift of Wing" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80cf-5d9e-a9d9-d90a" type="greaterThan"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ac1c-1c37-7c7e-eab7" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6585-8675-ff36-3b04" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="af33-eb4b-688d-1901" name="White Scars: Swift of Wing" publicationId="b55f-e93a-40fd-e9cb" page="79" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This aircraft gaisn the Jink special rule.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="334b-d1f0-ee28-9acb" name="Ultramarines: Alaris Pilot" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80cf-5d9e-a9d9-d90a" type="greaterThan"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="334b-d1f0-ee28-9acb" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b945-cf30-5e0e-e4f0" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="a1c2-eb62-61f2-f884" name="Ultramarines: Alaris Pilot" publicationId="b55f-e93a-40fd-e9cb" page="79" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, when this aircraft is activated during the Movement phase, it may discard its Manoeuvre token and immediately choose another Ace Manoeuvre.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="1338-dfc6-1a06-1dc7" name="Legion-Specific Upgrades: Traitor Legions" publicationId="b55f-e93a-40fd-e9cb" page="79-80" hidden="false" collective="false" import="true">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80cf-5d9e-a9d9-d90a" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eaa-fb87-7f0f-43e6" type="max"/>
-      </constraints>
-      <selectionEntries>
-        <selectionEntry id="8ceb-7099-7fc1-b6ee" name="Iron Warriors: Hullbreaker Missiles" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1338-dfc6-1a06-1dc7" type="greaterThan"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8ceb-7099-7fc1-b6ee" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd9c-4c2f-b6b4-fdef" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="3da8-f430-9308-3ddb" name="Iron Warriors: Hullbreaker Missiles" publicationId="b55f-e93a-40fd-e9cb" page="80" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">An aircraft with this upgrade improves the Extra Damage (X+) special rule X value of its Krak Missiles, Dual Krak Missiles, Hunter-killer Missiles and Dual Hunter-killer Missiles by 1 (i.e., instead of Extra Damage (6+), the weapons have Extra Damage (5+)).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="1381-deb5-302f-a700" name="Night Lords: Anguish Engines" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1338-dfc6-1a06-1dc7" type="greaterThan"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1381-deb5-302f-a700" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f030-80ee-179b-d458" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="3d98-83a3-1b71-8abf" name="Night Lords: Anguish Engines" publicationId="b55f-e93a-40fd-e9cb" page="80" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">An aircraft within 3 hexes of one or more enemy aircraft with this upgrade reduces its Handling characteristic by 1 (e.g., a 3+ becomes a 4+).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6861-f378-223e-7356" name="Thousand Sons: Corvidae Initiate" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1338-dfc6-1a06-1dc7" type="greaterThan"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6861-f378-223e-7356" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f1f-e615-7b14-9591" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="bc97-61fc-6dc5-e3a3" name="Thousand Sons: Corvidae Initiate" publicationId="b55f-e93a-40fd-e9cb" page="80" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">If the Night Fighting or Bad Weather rules are in use, this aircraft may fire at Medium range without reducing the number of Firepower dice rolled. In addition, once per game, this aircraft can ignore the -1 modifier to hit rolls when making an attack against an enemy aircraft at an Altitude 1 higher or lower than its own.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="30f3-e8e6-9e86-dc8a" name="Word Bearers: Possessed Pilot" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1338-dfc6-1a06-1dc7" type="greaterThan"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="30f3-e8e6-9e86-dc8a" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="514d-f2e2-54f5-6b0f" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="56b4-c6ad-373a-e625" name="Word Bearers: Possessed Pilot" publicationId="b55f-e93a-40fd-e9cb" page="80" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, during the Firing phase, the pilot may increase the Short and/or Medium range of its weapons by 2 hexes (i.e., the Short range of the aircraft becomes 1-6 hexes and the Medium range becomes 7-9 hexes). The long range does not change.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="a19d-30a0-e82c-a5ed" name="Emperor&apos;s Children: Phoenix Pilot" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1338-dfc6-1a06-1dc7" type="greaterThan"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a19d-30a0-e82c-a5ed" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4d45-a117-ae03-8f32" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="e39f-a3cd-b424-65fc" name="Emperor&apos;s Children: Phoenix Pilot" publicationId="b55f-e93a-40fd-e9cb" page="80" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This upgrade may only be taken by one aircraft within a force. Once per game, this aircraft may choose to re-roll a dice roll. However, all of the dice rolled must be re-rolled and the player must accept the result of the second roll, even if it is worse. In addition, increase the Ace Manoeuvres characteristic of an aircraft with this upgrade by 1 (e.g., a characteristic of 1-7 would become 1-8).</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="6eb5-8f24-1ff1-9cb2" name="World Eaters: Red Hunter" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1338-dfc6-1a06-1dc7" type="greaterThan"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6eb5-8f24-1ff1-9cb2" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3d5-d3bc-753d-b91b" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="97e7-c558-3462-a8a8" name="World Eaters: Red Hunter" publicationId="b55f-e93a-40fd-e9cb" page="80" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, during the Firing phase, this aircraft may add 1 to the result of all hit rolls it makes when firing at a target within Short range.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e710-cd1a-2125-6b5d" name="Death Guard: Shroud of Barbarus" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1338-dfc6-1a06-1dc7" type="greaterThan"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e710-cd1a-2125-6b5d" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b486-25e4-d01b-1d07" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="9e8b-f567-66cf-7158" name="Death Guard: Shroud of Barbarus" publicationId="b55f-e93a-40fd-e9cb" page="80" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">Once per game, after moving this aircraft in the Movement phase, this aircraft may activate its Shroud of Barbarus. Until the end of this round, the aircraft cannot be targeted by enemy aircraft or Ground Defences, nor can this aircraft fire at an enemy aircraft or Ground Defences.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="361d-624e-8395-5d47" name="Alpha Legion: Sacii Pilot" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1338-dfc6-1a06-1dc7" type="greaterThan"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="361d-624e-8395-5d47" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e25-4154-0308-a8c9" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="b364-db33-74d6-144f" name="Alpha Legion: Sacii Pilot" publicationId="b55f-e93a-40fd-e9cb" page="80" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">After both sides have deployed thier forces, this aircraft may be redeployed, following the deployment rules of the scenario.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="1.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d0ec-db45-0e25-46e7" name="Sons of Horus: Warmaster&apos;s Chosen" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1338-dfc6-1a06-1dc7" type="greaterThan"/>
-              </conditions>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d0ec-db45-0e25-46e7" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bd09-9612-6f84-d9ba" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="7c76-e68c-b58c-1d00" name="Sons of Horus: Warmaster&apos;s Chosen" publicationId="b55f-e93a-40fd-e9cb" page="80" hidden="false" typeId="9f87-657f-61ed-3e6b" typeName="Aircraft Upgrade">
-              <characteristics>
-                <characteristic name="Ability" typeId="f27e-c1a3-3770-bf93">This upgrade may only be taken by one aircraft within a force. Once per game, a force that contains this aircraft may re-roll the dice when rolling for Initiative.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="3.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-    </selectionEntryGroup>
-  </sharedSelectionEntryGroups>
 </catalogue>
